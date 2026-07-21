@@ -12,7 +12,7 @@ from dataclasses import dataclass
 
 from . import filter as flt
 from .cost import build_cost_model
-from .models import Plan, ReasonCode, VERDICT_TEMPLATES
+from .models import Plan, ReasonCode, SLUG_BY_TDU, VERDICT_TEMPLATES
 from .recommend import rank, top_pick
 from .validate import is_usable, validate_plan
 
@@ -105,19 +105,31 @@ def run(plans: list[Plan], tdu: str, generated_at: str,
             ],
         }
 
-    # Autopsy list: every rejected plan with its reason codes + verdicts.
+    # Autopsy list: every rejected plan with its reason codes, verdicts, and the
+    # pricing needed to render a shareable "why this is a gimmick" page (incl. the
+    # three avg-rate points, whose non-flat shape is the visible tell).
     autopsies = []
     for p, reasons in rejected:
+        model = build_cost_model(p)
         autopsies.append({
             "plan_id": p.plan_id,
             "rep": p.rep,
             "product": p.product,
             "reason_codes": [r.value for r in reasons],
             "verdicts": [VERDICT_TEMPLATES[r] for r in reasons],
+            "rates": {"500": p.rate500, "1000": p.rate1000, "2000": p.rate2000},
+            "bills": {"500": p.bill500, "1000": p.bill1000, "2000": p.bill2000},
+            "term_months": p.term_months,
+            "cancel_fee": p.cancel_fee,
+            "renewable": p.renewable,
+            "rate_type": p.rate_type,
+            "efl_url": p.efl_url,
+            "is_linear": model.is_linear if model else None,
         })
 
     data = {
         "tdu": tdu,
+        "slug": SLUG_BY_TDU.get(tdu, tdu.lower()),
         "generated_at": generated_at,
         "disclaimer": "Free, no-affiliate. Always verify the plan's EFL before enrolling.",
         "counts": {

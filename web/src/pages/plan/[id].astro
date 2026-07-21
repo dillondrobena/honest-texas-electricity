@@ -1,0 +1,140 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import type { RegionData, Autopsy } from "../../lib/types";
+
+interface RegionMeta { slug: string; label: string; cities: string }
+
+export async function getStaticPaths() {
+  const files = import.meta.glob<RegionData>("../../data/*.json", { eager: true });
+  const manifest = (await import("../../data/regions.json")).default as {
+    regions: RegionMeta[];
+  };
+  const metaBySlug = new Map(manifest.regions.map((r) => [r.slug, r]));
+
+  const paths: any[] = [];
+  const seen = new Set<string>();
+  for (const mod of Object.values(files)) {
+    const data = mod as unknown as RegionData;
+    if (!data || !data.autopsies) continue; // skip regions.json
+    const topId = data.rankings?.["1000"]?.top_pick_id ?? null;
+    const topPlan = topId ? data.honest_plans[topId] : null;
+    const topBill =
+      data.rankings?.["1000"]?.plans.find((p) => p.plan_id === topId)?.monthly_bill ?? null;
+    for (const a of data.autopsies) {
+      if (seen.has(a.plan_id)) continue;
+      seen.add(a.plan_id);
+      paths.push({
+        params: { id: a.plan_id },
+        props: {
+          autopsy: a,
+          region: metaBySlug.get(data.slug) ?? { slug: data.slug, label: data.tdu, cities: "" },
+          honest: topPlan ? { rep: topPlan.rep, product: topPlan.product, bill: topBill, id: topId } : null,
+          generatedAt: data.generated_at,
+        },
+      });
+    }
+  }
+  return paths;
+}
+
+const { autopsy, region, honest, generatedAt } = Astro.props as {
+  autopsy: Autopsy;
+  region: RegionMeta;
+  honest: { rep: string; product: string; bill: number | null; id: string } | null;
+  generatedAt: string;
+};
+
+const base = import.meta.env.BASE_URL;
+const updated = new Date(generatedAt).toLocaleDateString("en-US", {
+  year: "numeric", month: "short", day: "numeric",
+});
+const cents = (r: number | null | undefined) => (r == null ? null : (r * 100));
+
+// Cost-curve SVG: avg ¢/kWh at 500 / 1000 / 2000. A flat line = honest; a bend
+// (dip or spike) = the gimmick. Compute point coordinates in a 320×140 box.
+const pts = [
+  { kwh: 500, c: cents(autopsy.rates?.["500"]) },
+  { kwh: 1000, c: cents(autopsy.rates?.["1000"]) },
+  { kwh: 2000, c: cents(autopsy.rates?.["2000"]) },
+].filter((p) => p.c != null) as { kwh: number; c: number }[];
+
+const W = 320, H = 140, PAD = 28;
+const maxC = Math.max(...pts.map((p) => p.c), 1) * 1.15;
+const xs = [PAD, W / 2, W - PAD];
+const xy = pts.map((p, i) => ({
+  x: xs[i],
+  y: H - PAD - (p.c / maxC) * (H - 2 * PAD),
+  c: p.c,
+  kwh: p.kwh,
+}));
+const poly = xy.map((p) => `${p.x},${p.y}`).join(" ");
+
+const money = (n: number | null) => (n == null ? "—" : `$${n.toFixed(0)}`);
+const title = `Is ${autopsy.rep} — ${autopsy.product} a good electricity plan? (No — here's why)`;
+---
+
+<Layout title={title} description={autopsy.verdicts.join(" ")} updated={updated}>
+  <p class="crumb"><a href={base}>← Honest Texas Electricity</a> · {region.label}</p>
+
+  <h1 class="autopsy-h1">{autopsy.rep} — {autopsy.product}</h1>
+  <p class="autopsy-verdict-lead">
+    <span class="stamp">Rejected</span>
+    We left this plan off our honest list. Here's exactly why.
+  </p>
+
+  <section class="autopsy-reasons">
+    {autopsy.verdicts.map((v, i) => (
+      <div class="autopsy-reason">
+        <span class="code">{autopsy.reason_codes[i]?.replace(/_/g, " ")}</span>
+        <p>{v}</p>
+      </div>
+    ))}
+  </section>
+
+  {pts.length >= 2 && (
+    <section class="curve">
+      <h2>What it actually costs at different usage</h2>
+      <p class="curve-note">
+        Average price per kWh at three usage levels. An honest fixed plan is nearly
+        flat. {autopsy.is_linear === false ? "This one bends — the advertised rate only shows up in a narrow usage window." : "Watch how the effective rate moves."}
+      </p>
+      <svg viewBox={`0 0 ${W} ${H}`} class="curve-svg" role="img"
+           aria-label="Average cents per kWh at 500, 1000 and 2000 kWh">
+        <line x1={PAD} y1={H - PAD} x2={W - PAD} y2={H - PAD} class="axis" />
+        <polyline points={poly} class="curve-line" fill="none" />
+        {xy.map((p) => (
+          <g>
+            <circle cx={p.x} cy={p.y} r="4" class="curve-dot" />
+            <text x={p.x} y={p.y - 9} class="curve-val" text-anchor="middle">{p.c.toFixed(1)}¢</text>
+            <text x={p.x} y={H - PAD + 16} class="curve-x" text-anchor="middle">{p.kwh.toLocaleString()} kWh</text>
+          </g>
+        ))}
+      </svg>
+    </section>
+  )}
+
+  <section class="autopsy-facts">
+    <div><b>{autopsy.rate_type ?? "—"}</b><span>rate type</span></div>
+    <div><b>{autopsy.term_months ?? "—"} mo</b><span>term</span></div>
+    <div><b>{money(autopsy.cancel_fee ?? null)}</b><span>cancel fee</span></div>
+    <div><b>{autopsy.renewable != null ? `${autopsy.renewable}%` : "—"}</b><span>renewable</span></div>
+  </section>
+
+  {honest && (
+    <section class="honest-alt">
+      <h2>What we'd pick instead</h2>
+      <p>
+        In {region.label}, the honest cheapest plan at a typical 1,000 kWh is
+        <strong> {honest.rep} — {honest.product}</strong>
+        {honest.bill != null ? <> (about {money(honest.bill)}/mo)</> : null}.
+        <a href={base}> Check it for your usage →</a>
+      </p>
+    </section>
+  )}
+
+  {autopsy.efl_url && (
+    <p class="efl-link">
+      Don't take our word for it — <a href={autopsy.efl_url} rel="nofollow noopener" target="_blank">read this plan's official EFL</a>.
+    </p>
+  )}
+</Layout>

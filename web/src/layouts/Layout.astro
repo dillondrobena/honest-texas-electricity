@@ -1,0 +1,48 @@
+---
+import "@fontsource-variable/newsreader";
+import "@fontsource/ibm-plex-mono/400.css";
+import "@fontsource/ibm-plex-mono/600.css";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  updated?: string;
+}
+const { title, description, updated } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="masthead">
+        <a href={base} class="brand-link">
+          <span class="brand">Honest <em>Texas</em> Electricity</span>
+        </a>
+      </header>
+      <div class="trustline">
+        <span>
+          <strong>No affiliate links. No provider pays us. Ever.</strong>
+          We rank the genuinely cheapest honest plan — even when it earns us nothing.
+        </span>
+        {updated && <span class="updated">Updated {updated}</span>}
+      </div>
+
+      <slot />
+
+      <footer class="site-footer">
+        A free public-interest tool. Data from the state's PowerToChoose. Always verify a
+        plan's official EFL before you enroll. We are not affiliated with any electricity
+        provider and earn no referral fees.
+      </footer>
+    </div>
+  </body>
+</html>

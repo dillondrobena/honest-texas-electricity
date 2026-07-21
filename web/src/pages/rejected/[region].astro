@@ -1,0 +1,54 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import type { RegionData } from "../../lib/types";
+
+interface RegionMeta { slug: string; label: string; cities: string }
+
+export async function getStaticPaths() {
+  const files = import.meta.glob<RegionData>("../../data/*.json", { eager: true });
+  const manifest = (await import("../../data/regions.json")).default as {
+    regions: RegionMeta[];
+  };
+  const metaBySlug = new Map(manifest.regions.map((r) => [r.slug, r]));
+
+  const paths: any[] = [];
+  for (const mod of Object.values(files)) {
+    const data = mod as unknown as RegionData;
+    if (!data || !data.autopsies) continue; // skip regions.json
+    paths.push({
+      params: { region: data.slug },
+      props: { data, meta: metaBySlug.get(data.slug) ?? { slug: data.slug, label: data.tdu, cities: "" } },
+    });
+  }
+  return paths;
+}
+
+const { data, meta } = Astro.props as { data: RegionData; meta: RegionMeta };
+const base = import.meta.env.BASE_URL;
+const updated = new Date(data.generated_at).toLocaleDateString("en-US", {
+  year: "numeric", month: "short", day: "numeric",
+});
+const title = `Every ${meta.label} electricity plan we threw out — and why`;
+---
+
+<Layout title={title} description={`The ${data.counts.rejected} ${meta.label} plans we filtered out as gimmicks, each with the reason.`} updated={updated}>
+  <p class="crumb"><a href={base}>← Honest Texas Electricity</a> · {meta.label}</p>
+
+  <h1 class="autopsy-h1">Plans we threw out — {meta.label}</h1>
+  <p class="autopsy-verdict-lead">
+    Of {data.counts.total} plans in {meta.label} ({meta.cities}), we filtered out
+    <strong> {data.counts.rejected}</strong> as gimmicks and kept
+    <strong> {data.counts.honest}</strong> honest ones.
+    <a href={base}> Find your honest cheapest plan →</a>
+  </p>
+
+  <section class="rejected">
+    {data.autopsies.map((a) => (
+      <div class="rej">
+        <span class="x" aria-label="excluded">✕</span>
+        <a class="pname pname-link" href={`${base}plan/${a.plan_id}`}>{a.rep} — {a.product}</a>
+        <span class="reason">{a.verdicts[0]}</span>
+      </div>
+    ))}
+  </section>
+</Layout>

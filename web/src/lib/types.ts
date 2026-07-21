@@ -30,6 +30,15 @@ export interface Autopsy {
   product: string;
   reason_codes: string[];
   verdicts: string[];
+  // Enriched fields (present in pipeline output; used by autopsy pages).
+  rates?: { "500": number | null; "1000": number | null; "2000": number | null };
+  bills?: { "500": number | null; "1000": number | null; "2000": number | null };
+  term_months?: number | null;
+  cancel_fee?: number | null;
+  renewable?: number | null;
+  rate_type?: string | null;
+  efl_url?: string | null;
+  is_linear?: boolean | null;
 }
 
 export interface RankedEntry {

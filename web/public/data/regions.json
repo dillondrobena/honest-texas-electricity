@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T01:05:59Z",
+  "generated_at": "2026-07-21T01:38:52Z",
   "regions": [
     {
       "slug": "oncor",
@@ -12,7 +12,7 @@
         "honest": 130,
         "rejected": 41
       },
-      "generated_at": "2026-07-21T01:05:59Z"
+      "generated_at": "2026-07-21T01:38:52Z"
     },
     {
       "slug": "centerpoint",
@@ -25,7 +25,7 @@
         "honest": 122,
         "rejected": 56
       },
-      "generated_at": "2026-07-21T01:05:59Z"
+      "generated_at": "2026-07-21T01:38:52Z"
     },
     {
       "slug": "aep-central",
@@ -38,7 +38,7 @@
         "honest": 127,
         "rejected": 41
       },
-      "generated_at": "2026-07-21T01:05:59Z"
+      "generated_at": "2026-07-21T01:38:52Z"
     },
     {
       "slug": "aep-north",
@@ -51,7 +51,7 @@
         "honest": 128,
         "rejected": 40
       },
-      "generated_at": "2026-07-21T01:05:59Z"
+      "generated_at": "2026-07-21T01:38:52Z"
     },
     {
       "slug": "tnmp",
@@ -64,7 +64,7 @@
         "honest": 122,
         "rejected": 41
       },
-      "generated_at": "2026-07-21T01:05:59Z"
+      "generated_at": "2026-07-21T01:38:52Z"
     },
     {
       "slug": "lubbock",
@@ -77,7 +77,7 @@
         "honest": 75,
         "rejected": 21
       },
-      "generated_at": "2026-07-21T01:05:59Z"
+      "generated_at": "2026-07-21T01:38:52Z"
     }
   ]
 }

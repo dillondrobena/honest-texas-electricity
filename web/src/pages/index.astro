@@ -25,6 +25,7 @@ const updated = new Date(manifest.generated_at).toLocaleDateString("en-US", {
 });
 const oncorMeta = manifest.regions.find((r) => r.slug === "oncor")!;
 
+const base = import.meta.env.BASE_URL;
 const money = (n: number) => `$${n.toFixed(0)}`;
 const centsAt = (bill: number, usage: number) => ((bill / usage) * 100).toFixed(1);
 const shownAutopsies = data.autopsies.slice(0, 12);
@@ -125,15 +126,15 @@ const shownAutopsies = data.autopsies.slice(0, 12);
           {shownAutopsies.map((a) => (
             <div class="rej">
               <span class="x" aria-label="excluded">✕</span>
-              <span class="pname">{a.rep} — {a.product}</span>
+              <a class="pname pname-link" href={`${base}plan/${a.plan_id}`}>{a.rep} — {a.product}</a>
               <span class="reason">{a.verdicts[0]}</span>
             </div>
           ))}
           {data.counts.rejected > shownAutopsies.length && (
             <div class="rej">
               <span class="x">✕</span>
-              <span class="pname">…and {data.counts.rejected - shownAutopsies.length} more</span>
-              <span class="reason">every rejected plan and why (coming soon)</span>
+              <a class="pname pname-link" id="rej-more" href={`${base}rejected/${data.slug}`}>…and {data.counts.rejected - shownAutopsies.length} more</a>
+              <span class="reason">see every rejected plan and why →</span>
             </div>
           )}
         </div>
@@ -210,6 +211,8 @@ const shownAutopsies = data.autopsies.slice(0, 12);
           </div>`;
       }
 
+      const base = import.meta.env.BASE_URL;
+
       function renderRejected() {
         rejCount.textContent = String(data.counts.rejected);
         const shown = data.autopsies.slice(0, 12);
@@ -217,14 +220,15 @@ const shownAutopsies = data.autopsies.slice(0, 12);
           .map(
             (a) =>
               `<div class="rej"><span class="x" aria-label="excluded">✕</span>` +
-              `<span class="pname">${esc(a.rep)} — ${esc(a.product)}</span>` +
+              `<a class="pname pname-link" href="${base}plan/${encodeURIComponent(a.plan_id)}">${esc(a.rep)} — ${esc(a.product)}</a>` +
               `<span class="reason">${esc(a.verdicts[0] ?? "")}</span></div>`,
           )
           .join("");
         const extra = data.counts.rejected - shown.length;
         if (extra > 0) {
-          html += `<div class="rej"><span class="x">✕</span><span class="pname">…and ${extra} more</span>` +
-            `<span class="reason">every rejected plan and why (coming soon)</span></div>`;
+          html += `<div class="rej"><span class="x">✕</span>` +
+            `<a class="pname pname-link" href="${base}rejected/${data.slug}">…and ${extra} more</a>` +
+            `<span class="reason">see every rejected plan and why →</span></div>`;
         }
         rejList.innerHTML = html;
       }

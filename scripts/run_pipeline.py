@@ -52,11 +52,12 @@ def main() -> None:
     for region in REGION_META:
         result = pipeline.run(plans, region["tdu"], generated_at=now)
         out = result.to_json()
+        # public/data -> client fetch (region switching); src/data -> build-time
+        # imports (home SSR + autopsy static pages).
         with open(os.path.join(PUBLIC_DIR, f"{region['slug']}.json"), "w", encoding="utf-8") as fh:
             fh.write(out)
-        if region["slug"] == DEFAULT_SLUG:  # default region is imported for SSR
-            with open(os.path.join(SRC_DIR, "oncor.json"), "w", encoding="utf-8") as fh:
-                fh.write(out)
+        with open(os.path.join(SRC_DIR, f"{region['slug']}.json"), "w", encoding="utf-8") as fh:
+            fh.write(out)
         c = result.data["counts"]
         manifest.append({
             "slug": region["slug"], "tdu": region["tdu"],

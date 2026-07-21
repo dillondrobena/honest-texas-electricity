@@ -156,8 +156,54 @@ a:visited { color: color-mix(in srgb, var(--info) 80%, var(--ink)); }
 
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
+.pname-link { color: var(--ink); text-decoration: none; }
+.pname-link:hover { text-decoration: underline; text-decoration-color: var(--accent); }
+
+/* ── Autopsy + rejected-list pages ── */
+.brand-link { text-decoration: none; color: inherit; }
+.crumb { font-family: var(--font-sans); font-size: 13px; margin: var(--s-lg) 0 0; }
+.crumb a { color: var(--muted); }
+.autopsy-h1 { font-size: 30px; font-weight: 700; margin: var(--s-md) 0 var(--s-xs); letter-spacing: -0.01em; }
+.autopsy-verdict-lead { font-size: 18px; color: var(--muted); margin: 0 0 var(--s-lg); }
+.stamp {
+  display: inline-block; font-family: var(--font-sans); font-size: 11px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.08em; color: var(--surface);
+  background: var(--strike); padding: 2px var(--s-xs); border-radius: var(--radius-sm);
+  margin-right: var(--s-xs); vertical-align: middle;
+}
+.autopsy-reasons { margin: var(--s-lg) 0; }
+.autopsy-reason { border-left: 3px solid var(--strike); padding: 0 0 0 var(--s-md); margin: var(--s-md) 0; }
+.autopsy-reason .code {
+  font-family: var(--font-sans); font-size: 11px; text-transform: lowercase;
+  letter-spacing: 0.04em; color: var(--strike); font-weight: 600;
+}
+.autopsy-reason p { margin: var(--s-2xs) 0 0; }
+
+.curve { margin: var(--s-xl) 0; }
+.curve h2, .honest-alt h2 { font-size: 20px; font-weight: 600; margin: 0 0 var(--s-xs); }
+.curve-note { font-family: var(--font-sans); font-size: 14px; color: var(--muted); margin: 0 0 var(--s-md); }
+.curve-svg { width: 100%; max-width: 420px; height: auto; background: var(--surface); border: 1px solid var(--rule); }
+.curve .axis { stroke: var(--rule); stroke-width: 1; }
+.curve-line { stroke: var(--strike); stroke-width: 2.5; }
+.curve-dot { fill: var(--strike); }
+.curve-val { font-family: var(--font-mono); font-size: 11px; fill: var(--ink); }
+.curve-x { font-family: var(--font-sans); font-size: 10px; fill: var(--muted); }
+
+.autopsy-facts {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s-md) var(--s-lg);
+  padding: var(--s-md) 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  font-family: var(--font-sans); margin: var(--s-lg) 0;
+}
+.autopsy-facts b { display: block; font-size: 18px; font-family: var(--font-mono); }
+.autopsy-facts span { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+.honest-alt { background: var(--surface); border: 1px solid var(--accent); padding: var(--s-md) var(--s-lg); margin: var(--s-lg) 0; }
+.honest-alt p { margin: 0; }
+.honest-alt a, .efl-link a { color: var(--accent); }
+.efl-link { font-family: var(--font-sans); font-size: 14px; color: var(--muted); }
+
 @media (max-width: 480px) {
-  .facts { grid-template-columns: repeat(2, 1fr); }
+  .facts, .autopsy-facts { grid-template-columns: repeat(2, 1fr); }
   .rej { flex-wrap: wrap; }
   .rej .pname { min-width: 0; }
 }
