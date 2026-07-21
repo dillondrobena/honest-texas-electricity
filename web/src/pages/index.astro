@@ -274,14 +274,16 @@ const shownAutopsies = data.autopsies.slice(0, 12);
         honestCount.textContent = String(data.counts.honest);
       }
 
-      function setRegionNote(source: "zip-match" | "zip-unknown" | "manual", zipVal = "") {
+      function setRegionNote(source: "zip-match" | "zip-unknown" | "zip-none" | "manual", zipVal = "") {
         const m = metaFor(currentSlug);
         const label = m ? m.label : currentSlug;
         const cities = m ? m.cities : "";
         if (source === "zip-match") {
           regionNote.innerHTML = `ZIP <strong>${esc(zipVal)}</strong> → showing <strong>${esc(label)}</strong> (${esc(cities)}).`;
+        } else if (source === "zip-none") {
+          regionNote.innerHTML = `ZIP <strong>${esc(zipVal)}</strong> isn't in a deregulated market — that area is served by a municipal utility or co-op (like Austin Energy, CPS Energy, or El Paso Electric), so there's no retail plan to shop. We cover Oncor, CenterPoint, AEP, TNMP, and Lubbock.`;
         } else if (source === "zip-unknown") {
-          regionNote.innerHTML = `We don't have ZIP <strong>${esc(zipVal)}</strong> mapped yet — showing <strong>${esc(label)}</strong> (${esc(cities)}). Pick your utility area above to be sure it's yours.`;
+          regionNote.innerHTML = `We don't recognize ZIP <strong>${esc(zipVal)}</strong> as a Texas ZIP — showing <strong>${esc(label)}</strong> (${esc(cities)}). Pick your utility area above to be sure.`;
         } else {
           regionNote.innerHTML = `Showing <strong>${esc(label)}</strong> (${esc(cities)}) — chosen by area.`;
         }
@@ -326,12 +328,14 @@ const shownAutopsies = data.autopsies.slice(0, 12);
       zip.addEventListener("input", async () => {
         const v = zip.value.trim();
         if (v.length < 5) return;
-        const slug = zipToSlug(v);
-        if (slug) {
-          await loadRegion(slug);
-          setRegionNote("zip-match", v);
-        } else {
+        const r = zipToSlug(v);
+        if (r === null) {
           setRegionNote("zip-unknown", v);
+        } else if (r === "none") {
+          setRegionNote("zip-none", v);
+        } else {
+          await loadRegion(r);
+          setRegionNote("zip-match", v);
         }
       });
     </script>
