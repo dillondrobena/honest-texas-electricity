@@ -61,35 +61,38 @@ def main() -> None:
 
     manifest = []
     for region in REGION_META:
-        result = pipeline.run(plans, region["tdu"], generated_at=now, efl_cache=efl_cache)
-        out = result.to_json()
-
-        # Monthly price archive: avg / median / cheapest honest ¢/kWh at 1,000 kWh,
-        # plus a per-plan cents map so month-over-month diffs are possible later.
-        ranked = result.data["rankings"]["1000"]["plans"]
-        cents = sorted(round(r["monthly_bill"] / 1000 * 100, 2) for r in ranked)
-        if cents:
-            history_month[region["slug"]] = {
-                "avg": round(statistics.fmean(cents), 2),
-                "median": round(statistics.median(cents), 2),
-                "cheapest": cents[0],
-                "honest": len(cents),
-                "plans": {r["plan_id"]: round(r["monthly_bill"] / 1000 * 100, 2) for r in ranked},
-            }
-        # public/data -> client fetch (region switching); src/data -> build-time
-        # imports (home SSR + autopsy static pages).
-        with open(os.path.join(PUBLIC_DIR, f"{region['slug']}.json"), "w", encoding="utf-8") as fh:
-            fh.write(out)
-        with open(os.path.join(SRC_DIR, f"{region['slug']}.json"), "w", encoding="utf-8") as fh:
-            fh.write(out)
-        c = result.data["counts"]
-        manifest.append({
-            "slug": region["slug"], "tdu": region["tdu"],
-            "label": region["label"], "cities": region["cities"],
-            "counts": c, "generated_at": now,
-        })
-        print(f"  {region['label']:24s} {c['honest']:3d} honest / {c['rejected']:3d} rejected "
-              f"({c['total']} total, {c['dropped_invalid']} dropped)")
+        # Two languages: English is canonical (drives the manifest + history);
+        # Spanish is written alongside as <slug>.es.json for the Spanish site.
+        for language, suffix in (("English", ""), ("Spanish", ".es")):
+            result = pipeline.run(plans, region["tdu"], generated_at=now,
+                                  efl_cache=efl_cache, language=language)
+            out = result.to_json()
+            fname = f"{region['slug']}{suffix}.json"
+            # public/data -> client fetch (region switching); src/data -> build-time
+            # imports (home SSR + autopsy static pages).
+            with open(os.path.join(PUBLIC_DIR, fname), "w", encoding="utf-8") as fh:
+                fh.write(out)
+            with open(os.path.join(SRC_DIR, fname), "w", encoding="utf-8") as fh:
+                fh.write(out)
+            c = result.data["counts"]
+            if language == "English":
+                # Monthly price archive uses the canonical (English) list.
+                ranked = result.data["rankings"]["1000"]["plans"]
+                cents = sorted(round(r["monthly_bill"] / 1000 * 100, 2) for r in ranked)
+                if cents:
+                    history_month[region["slug"]] = {
+                        "avg": round(statistics.fmean(cents), 2),
+                        "median": round(statistics.median(cents), 2),
+                        "cheapest": cents[0],
+                        "honest": len(cents),
+                        "plans": {r["plan_id"]: round(r["monthly_bill"] / 1000 * 100, 2) for r in ranked},
+                    }
+                manifest.append({
+                    "slug": region["slug"], "tdu": region["tdu"],
+                    "label": region["label"], "cities": region["cities"],
+                    "counts": c, "generated_at": now,
+                })
+            print(f"  {region['label']:20s} [{language[:2]}] {c['honest']:3d} honest / {c['rejected']:3d} rejected")
 
     manifest_json = json.dumps({"generated_at": now, "regions": manifest}, indent=2)
     for d in (PUBLIC_DIR, SRC_DIR):

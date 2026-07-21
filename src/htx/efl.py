@@ -55,6 +55,7 @@ class EflResult:
     status: EflStatus
     efl_avg: tuple[float, float, float] | None = None  # ¢/kWh at 500/1000/2000
     detail: str = ""
+    flags: dict | None = None  # editorial gotchas read from the EFL text
 
     @property
     def verified(self) -> bool:
@@ -170,6 +171,43 @@ def contains_triple(text: str, feed_avg: tuple[float, float, float], tolerance: 
     return False
 
 
+# Editorial gotchas the curator reads out of each EFL. Deliberately conservative
+# (require fee/require context) — a false exclusion of an honest plan is worse
+# than missing a rare fee, and the big one (base charge) is caught precisely by
+# the cost-engine line fit, not here.
+_EFL_BASE = re.compile(r"base\s*charge[^$A-Za-z]{0,12}\$\s*(\d+(?:\.\d+)?)", re.I)
+_EFL_SETUP = re.compile(r"(enrollment|set[\s-]?up|activation)\s*fee", re.I)
+_EFL_BUNDLE = re.compile(r"(bundle|membership|subscription)\s*(?:fee|charge|cost)", re.I)
+_EFL_CC = re.compile(
+    r"credit\s*card[^.]{0,30}(?:fee|surcharge|processing)|processing\s*fee|convenience\s*fee",
+    re.I,
+)
+_EFL_DEVICE = re.compile(
+    r"(?:thermostat|smart\s*device)[^.]{0,40}(?:requir|must|connect|enroll)"
+    r"|(?:requir|must)[^.]{0,40}(?:thermostat|smart\s*device)",
+    re.I,
+)
+
+
+def extract_flags(text: str) -> dict:
+    """Editorial gotcha flags from EFL text (all conservative keyword scans).
+    `base_charge` is the REP's flat monthly fee if the EFL states one."""
+    base = None
+    m = _EFL_BASE.search(text)
+    if m:
+        try:
+            base = float(m.group(1))
+        except ValueError:
+            base = None
+    return {
+        "base_charge": base,
+        "setup_fee": bool(_EFL_SETUP.search(text)),
+        "bundle_fee": bool(_EFL_BUNDLE.search(text)),
+        "cc_fee": bool(_EFL_CC.search(text)),
+        "device_required": bool(_EFL_DEVICE.search(text)),
+    }
+
+
 def reconcile(
     efl_avg: tuple[float, float, float],
     feed_avg: tuple[float, float, float],
@@ -193,11 +231,15 @@ def verify(url: str | None, feed_avg: tuple[float, float, float]) -> EflResult:
     # result wins — a MISMATCH is a real finding, not something to "fix" with a
     # second extractor.
     extractors = (_pypdf_text, _pdfplumber_text) if kind == "pdf" else (lambda b: _strip_html(b),)
+    flags = None
     for extract in extractors:
         text = extract(body)
         if not text:
             continue
+        if flags is None:
+            flags = extract_flags(text)  # editorial gotchas from whatever text we got
         result = _classify(text, feed_avg)
         if result is not None:
+            result.flags = flags
             return result
-    return EflResult(EflStatus.UNPARSEABLE, detail="avg-price figures not found")
+    return EflResult(EflStatus.UNPARSEABLE, detail="avg-price figures not found", flags=flags)

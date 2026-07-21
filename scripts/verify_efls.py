@@ -55,12 +55,18 @@ def main() -> None:
     if os.path.exists(OUT_PATH):
         cache = json.load(open(OUT_PATH))
     urls = cache["urls"]
-    todo = [(u, avg) for u, avg in jobs.items() if u not in urls]
+    # Re-check anything not cached OR cached before we captured editorial flags.
+    todo = [(u, avg) for u, avg in jobs.items()
+            if u not in urls or "flags" not in urls[u]]
     print(f"{len(jobs)} honest EFLs · {len(urls)} cached · {len(todo)} to verify")
 
     def work(url, avg):
         r = efl.verify(url, avg)
-        return url, {"status": r.status.value, "avg": list(r.efl_avg) if r.efl_avg else None}
+        return url, {
+            "status": r.status.value,
+            "avg": list(r.efl_avg) if r.efl_avg else None,
+            "flags": r.flags,
+        }
 
     processed = 0
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:

@@ -29,6 +29,28 @@ def test_every_region_tdu_is_canonical():
         assert normalize_tdu(region["tdu"]) == region["tdu"]
 
 
+def test_base_charge_and_editorial_filters_apply(all_plans):
+    # The curator filters plans with a monthly base charge; our line-fit catches
+    # them. They should show up in the autopsy list with the BASE_CHARGE reason,
+    # and no honest plan should carry one.
+    result = pipeline.run(all_plans, "ONCOR", generated_at="t")
+    reasons = {r for _a in result.data["autopsies"] for r in _a["reason_codes"]}
+    assert "BASE_CHARGE" in reasons
+    base_autopsies = [a for a in result.data["autopsies"] if "BASE_CHARGE" in a["reason_codes"]]
+    assert len(base_autopsies) > 10  # base charges are common
+
+
+def test_language_partition(all_plans):
+    en = pipeline.run(all_plans, "ONCOR", generated_at="t", language="English")
+    es = pipeline.run(all_plans, "ONCOR", generated_at="t", language="Spanish")
+    assert en.data["language"] == "English"
+    assert es.data["language"] == "Spanish"
+    assert es.data["counts"]["honest"] > 0
+    # The two lists differ (Spanish is a separate set), so the English list is
+    # not just the union with Spanish duplicates.
+    assert set(en.data["honest_plans"]) != set(es.data["honest_plans"])
+
+
 def test_regions_partition_the_plans_without_overlap(all_plans):
     # No plan should count toward two regions (tdu is exclusive).
     seen = set()

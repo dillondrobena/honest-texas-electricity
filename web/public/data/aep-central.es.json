@@ -1,77 +1,17 @@
 {
   "tdu": "AEP TEXAS CENTRAL",
   "slug": "aep-central",
-  "language": "English",
+  "language": "Spanish",
   "generated_at": "2026-07-21T19:30:43Z",
   "disclaimer": "Free, no-affiliate. Always verify the plan's EFL before enrolling.",
   "counts": {
-    "total": 156,
+    "total": 135,
     "dropped_invalid": 0,
-    "honest": 63,
-    "rejected": 93,
-    "verified": 44
+    "honest": 53,
+    "rejected": 82,
+    "verified": 36
   },
   "honest_plans": {
-    "budget-power-no-gimmicks-11-aep-texas-central-11-0": {
-      "plan_id": "budget-power-no-gimmicks-11-aep-texas-central-11-0",
-      "rep": "Budget Power",
-      "product": "No Gimmicks 11",
-      "rate_type": "Fixed",
-      "term_months": 11.0,
-      "cancel_fee": 100.0,
-      "renewable": 24.0,
-      "rating": 1.0,
-      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34818&Promo=",
-      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN11000059&Promo=PTC",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 3.0,
-        "rate_per_kwh": 0.11343,
-        "is_linear": true,
-        "max_residual": 0.429
-      }
-    },
-    "true-power-true-value-24-aep-texas-central-24-0": {
-      "plan_id": "true-power-true-value-24-aep-texas-central-24-0",
-      "rep": "TRUE POWER",
-      "product": "True Value 24",
-      "rate_type": "Fixed",
-      "term_months": 24.0,
-      "cancel_fee": 300.0,
-      "renewable": 15.0,
-      "rating": 1.0,
-      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/569771061E37FCFCE06382F2000AE3E1/view",
-      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 2.5,
-        "rate_per_kwh": 0.11871,
-        "is_linear": true,
-        "max_residual": 0.214
-      }
-    },
-    "true-power-true-value-36-aep-texas-central-36-0": {
-      "plan_id": "true-power-true-value-36-aep-texas-central-36-0",
-      "rep": "TRUE POWER",
-      "product": "True Value 36",
-      "rate_type": "Fixed",
-      "term_months": 36.0,
-      "cancel_fee": 300.0,
-      "renewable": 15.0,
-      "rating": 1.0,
-      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/569775E214851BB5E06382F2000A0DB2/view",
-      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 3.0,
-        "rate_per_kwh": 0.12043,
-        "is_linear": true,
-        "max_residual": 0.429
-      }
-    },
     "veteran-energy-basic-12-aep-texas-central-12-0": {
       "plan_id": "veteran-energy-basic-12-aep-texas-central-12-0",
       "rep": "Veteran Energy",
@@ -81,7 +21,7 @@
       "cancel_fee": 20.0,
       "renewable": 3.0,
       "rating": 3.0,
-      "efl_url": "https://shopping.veteranenergyusa.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCVTBASICAC12AB&tdsp=AEPTCC&lang=en&custClass=Residential",
+      "efl_url": "https://shopping.veteranenergyusa.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCVTBASICAC12AB&tdsp=AEPTCC&lang=es&custClass=Residential",
       "enroll_url": "https://shopping.veteranenergyusa.com/path2plans?prom=VTWPTC&vendorid=72318331&utm_source=PTC&utm_medium=affiliate&utm_campaign=affiliate&customerclassification=residential&cint=4&dwel=02",
       "efl_verified": false,
       "efl_status": "unparseable",
@@ -92,16 +32,36 @@
         "max_residual": 0.214
       }
     },
-    "base-power-base-energy-36-aep-texas-central-36-0": {
-      "plan_id": "base-power-base-energy-36-aep-texas-central-36-0",
+    "express-energy-speedy-12-aep-texas-central-12-0": {
+      "plan_id": "express-energy-speedy-12-aep-texas-central-12-0",
+      "rep": "Express Energy",
+      "product": "Speedy 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 20.0,
+      "renewable": 3.0,
+      "rating": 3.0,
+      "efl_url": "https://shopping.myexpressenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCEXSPDYVBC12AD&tdsp=AEPTCC&lang=es&custClass=Residential",
+      "enroll_url": "https://shopping.myexpressenergy.com/path2plans?prom=EXWPTC&vendorid=72318331&utm_source=PTC&utm_medium=affiliate&utm_campaign=affiliate&customerclassification=residential&cint=4&dwel=02",
+      "efl_verified": false,
+      "efl_status": "unparseable",
+      "cost": {
+        "base_charge": 3.5,
+        "rate_per_kwh": 0.11129,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "base-power-base-energia-36-aep-texas-central-36-0": {
+      "plan_id": "base-power-base-energia-36-aep-texas-central-36-0",
       "rep": "Base Power",
-      "product": "Base Energy 36",
+      "product": "Base Energia 36",
       "rate_type": "Fixed",
       "term_months": 36.0,
       "cancel_fee": 20.0,
       "renewable": 100.0,
       "rating": 2.0,
-      "efl_url": "https://bpc-web-static-files.s3.us-east-2.amazonaws.com/efl/english-aep_central-efl-energy36.pdf",
+      "efl_url": "https://bpc-web-static-files.s3.us-east-2.amazonaws.com/efl/espanol-aep_central-efl-energy36.pdf",
       "enroll_url": "https://www.basepowercompany.com/energy?utm_source=powertochoose",
       "efl_verified": true,
       "efl_status": "verified",
@@ -110,26 +70,6 @@
         "rate_per_kwh": 0.13529,
         "is_linear": true,
         "max_residual": 0.214
-      }
-    },
-    "true-power-true-value-12-aep-texas-central-12-0": {
-      "plan_id": "true-power-true-value-12-aep-texas-central-12-0",
-      "rep": "TRUE POWER",
-      "product": "True Value 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 300.0,
-      "renewable": 15.0,
-      "rating": 1.0,
-      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/570F9BF04900E56FE063E0F8000AB1DC/view",
-      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 3.0,
-        "rate_per_kwh": 0.11143,
-        "is_linear": true,
-        "max_residual": 0.429
       }
     },
     "energy-texas-no-bull-36-aep-texas-central-36-0": {
@@ -141,8 +81,8 @@
       "cancel_fee": 20.0,
       "renewable": 100.0,
       "rating": 3.0,
-      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/12905/?locale=en",
-      "enroll_url": "https://www.energytexas.com/?rcid=power-to-choose&utm_source=powertochoose&utm_content=aep-central&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=NB36",
+      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/12905/?locale=es",
+      "enroll_url": "https://www.energytexas.com/es?rcid=power-to-choose&utm_source=powertochoose&utm_content=aep-central&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=NB36",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
@@ -161,8 +101,8 @@
       "cancel_fee": 20.0,
       "renewable": 100.0,
       "rating": 3.0,
-      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/18809/?locale=en",
-      "enroll_url": "https://www.energytexas.com/?rcid=power-to-choose&utm_source=powertochoose&utm_content=aep-central&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=NB24",
+      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/18809/?locale=es",
+      "enroll_url": "https://www.energytexas.com/es?rcid=power-to-choose&utm_source=powertochoose&utm_content=aep-central&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=NB24",
       "efl_verified": false,
       "efl_status": "mismatch",
       "cost": {
@@ -170,66 +110,6 @@
         "rate_per_kwh": 0.12871,
         "is_linear": true,
         "max_residual": 0.214
-      }
-    },
-    "budget-power-no-gimmicks-12-aep-texas-central-12-0": {
-      "plan_id": "budget-power-no-gimmicks-12-aep-texas-central-12-0",
-      "rep": "Budget Power",
-      "product": "No Gimmicks 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 100.0,
-      "renewable": 24.0,
-      "rating": 1.0,
-      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34815&Promo=",
-      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN12000083&Promo=PTC",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 3.0,
-        "rate_per_kwh": 0.11443,
-        "is_linear": true,
-        "max_residual": 0.429
-      }
-    },
-    "budget-power-no-gimmicks-24-aep-texas-central-24-0": {
-      "plan_id": "budget-power-no-gimmicks-24-aep-texas-central-24-0",
-      "rep": "Budget Power",
-      "product": "No Gimmicks 24",
-      "rate_type": "Fixed",
-      "term_months": 24.0,
-      "cancel_fee": 175.0,
-      "renewable": 24.0,
-      "rating": 1.0,
-      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34816&Promo=",
-      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN24000133&Promo=PTC",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 3.0,
-        "rate_per_kwh": 0.11943,
-        "is_linear": true,
-        "max_residual": 0.429
-      }
-    },
-    "budget-power-no-gimmicks-36-aep-texas-central-36-0": {
-      "plan_id": "budget-power-no-gimmicks-36-aep-texas-central-36-0",
-      "rep": "Budget Power",
-      "product": "No Gimmicks 36",
-      "rate_type": "Fixed",
-      "term_months": 36.0,
-      "cancel_fee": 250.0,
-      "renewable": 24.0,
-      "rating": 1.0,
-      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34817&Promo=",
-      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN36000086&Promo=PTC",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 3.0,
-        "rate_per_kwh": 0.12143,
-        "is_linear": true,
-        "max_residual": 0.429
       }
     },
     "rhythm-digital-choice-12-aep-texas-central-12-0": {
@@ -241,33 +121,13 @@
       "cancel_fee": 20.0,
       "renewable": 100.0,
       "rating": 3.0,
-      "efl_url": "https://api.gotrhythm.com/api/pricing/offers/latest-offers-efl/16283/?locale=en",
-      "enroll_url": "https://www.gotrhythm.com/?rcid=power-to-choose&utm_source=powertochoose&utm_content=aep-central&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=DC12",
+      "efl_url": "https://api.gotrhythm.com/api/pricing/offers/latest-offers-efl/16283/?locale=es",
+      "enroll_url": "https://www.gotrhythm.com/es?rcid=power-to-choose&utm_source=powertochoose&utm_content=aep-central&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=DC12",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
         "base_charge": -1.5,
         "rate_per_kwh": 0.11771,
-        "is_linear": true,
-        "max_residual": 0.214
-      }
-    },
-    "sfe-energy-texas-inc-sfe-rewardsplus-12-aep-texas-central-12-0": {
-      "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-aep-texas-central-12-0",
-      "rep": "SFE ENERGY TEXAS INC",
-      "product": "SFE RewardsPlus - 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 175.0,
-      "renewable": 35.0,
-      "rating": 1.0,
-      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_12MTH_AEPC_12_2516194962476516699_EFL_SFE Residential Fixed AEPC 12English.pdf",
-      "enroll_url": "https://www.sfeenergy.com/texas/",
-      "efl_verified": false,
-      "efl_status": "unparseable",
-      "cost": {
-        "base_charge": 2.5,
-        "rate_per_kwh": 0.12571,
         "is_linear": true,
         "max_residual": 0.214
       }
@@ -281,7 +141,7 @@
       "cancel_fee": 20.0,
       "renewable": 23.0,
       "rating": 3.0,
-      "efl_url": "https://enroll.aetexasco.com/EmailHTML/efl.aspx?RateID=8465&BrandID=1&PromoCodeID=114",
+      "efl_url": "https://enroll.aetexasco.com/EmailHTML/efl_SPA.aspx?RateID=8465&BrandID=1&PromoCodeID=114",
       "enroll_url": "https://enroll.aetexasco.com/Enrollment/Default.aspx?&promoCode=AETXPTC1",
       "efl_verified": true,
       "efl_status": "verified",
@@ -301,8 +161,8 @@
       "cancel_fee": 200.0,
       "renewable": 100.0,
       "rating": 3.0,
-      "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-14-AEP_TCC-LZ_SOUTH-202607091030",
-      "enroll_url": "https://octopusenergy.com/affiliate/ptc",
+      "efl_url": "https://octopusenergy.com/es/efl/OCTO-SIMPLE-14-AEP_TCC-LZ_SOUTH-202607091030",
+      "enroll_url": "https://octopusenergy.com/es/affiliate/ptc",
       "efl_verified": false,
       "efl_status": "unparseable",
       "cost": {
@@ -321,8 +181,8 @@
       "cancel_fee": 250.0,
       "renewable": 100.0,
       "rating": 3.0,
-      "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-24-AEP_TCC-LZ_SOUTH-202607141200",
-      "enroll_url": "https://octopusenergy.com/affiliate/ptc",
+      "efl_url": "https://octopusenergy.com/es/efl/OCTO-SIMPLE-24-AEP_TCC-LZ_SOUTH-202607141200",
+      "enroll_url": "https://octopusenergy.com/es/affiliate/ptc",
       "efl_verified": false,
       "efl_status": "unparseable",
       "cost": {
@@ -341,10 +201,10 @@
       "cancel_fee": 150.0,
       "renewable": 30.0,
       "rating": 2.0,
-      "efl_url": "https://eflviewer.companionenergy.com/eflviewer.aspx?lang=EN&prodcode=CEPERK12&tdspcode=AEP_CENT",
+      "efl_url": "https://eflviewer.companionenergy.com/eflviewer.aspx?lang=SP&prodcode=CEPERK12&tdspcode=AEP_CENT",
       "enroll_url": "https://newenroll.companionenergy.com/?refid=PTCPERKS12&ul=1000&tdsp=AEP_CENT&utm_source=power_to_choose&utm_medium=referral&utm_campaign=PTC-PTCPERKS12&utm_content=AEP_CENT&utm_term=additional_info",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.11443,
@@ -361,8 +221,8 @@
       "cancel_fee": 20.0,
       "renewable": 100.0,
       "rating": 3.0,
-      "efl_url": "https://api.gotrhythm.com/api/pricing/offers/latest-offers-efl/18856/?locale=en",
-      "enroll_url": "https://www.gotrhythm.com/?rcid=power-to-choose&utm_source=powertochoose&utm_content=aep-central&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=DC24",
+      "efl_url": "https://api.gotrhythm.com/api/pricing/offers/latest-offers-efl/18856/?locale=es",
+      "enroll_url": "https://www.gotrhythm.com/es?rcid=power-to-choose&utm_source=powertochoose&utm_content=aep-central&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=DC24",
       "efl_verified": false,
       "efl_status": "mismatch",
       "cost": {
@@ -381,8 +241,8 @@
       "cancel_fee": 200.0,
       "renewable": 100.0,
       "rating": 3.0,
-      "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-18-AEP_TCC-LZ_SOUTH-202607091030",
-      "enroll_url": "https://www.octopusenergy.com/affiliate/ptc",
+      "efl_url": "https://octopusenergy.com/es/efl/OCTO-SIMPLE-18-AEP_TCC-LZ_SOUTH-202607091030",
+      "enroll_url": "https://octopusenergy.com/es/affiliate/ptc",
       "efl_verified": false,
       "efl_status": "unparseable",
       "cost": {
@@ -401,8 +261,8 @@
       "cancel_fee": 20.0,
       "renewable": 100.0,
       "rating": 3.0,
-      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/18903/?locale=en",
-      "enroll_url": "https://www.gotrhythm.com/?rcid=power-to-choose&utm_source=powertochoose&utm_content=aep-central&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=DC36",
+      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/18903/?locale=es",
+      "enroll_url": "https://www.gotrhythm.com/es?rcid=power-to-choose&utm_source=powertochoose&utm_content=aep-central&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=DC36",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
@@ -421,7 +281,7 @@
       "cancel_fee": 100.0,
       "renewable": 37.0,
       "rating": null,
-      "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153807&type=EFL&title=153807_EFL&language=english",
+      "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153807&type=EFL&title=153807_EFL&language=spanish",
       "enroll_url": "https://signup.texanschoicepower.com/?PromoCode=PTC",
       "efl_verified": false,
       "efl_status": "unparseable",
@@ -441,30 +301,10 @@
       "cancel_fee": 100.0,
       "renewable": 37.0,
       "rating": null,
-      "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153837&type=EFL&title=153837_EFL&language=english",
+      "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153837&type=EFL&title=153837_EFL&language=spanish",
       "enroll_url": "https://signup.texanschoicepower.com/?PromoCode=PTC",
       "efl_verified": false,
       "efl_status": "unparseable",
-      "cost": {
-        "base_charge": 3.0,
-        "rate_per_kwh": 0.11543,
-        "is_linear": true,
-        "max_residual": 0.429
-      }
-    },
-    "budget-power-no-gimmicks-green-12-aep-texas-central-12-0": {
-      "plan_id": "budget-power-no-gimmicks-green-12-aep-texas-central-12-0",
-      "rep": "Budget Power",
-      "product": "No Gimmicks Green 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 100.0,
-      "renewable": 100.0,
-      "rating": 1.0,
-      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34798&Promo=",
-      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN12000949&Promo=PTC",
-      "efl_verified": true,
-      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.11543,
@@ -481,7 +321,7 @@
       "cancel_fee": 20.0,
       "renewable": 23.0,
       "rating": 3.0,
-      "efl_url": "https://enroll.atlantexpower.com/EmailHTML/efl.aspx?RateID=8387&BrandID=3&PromoCodeID=14",
+      "efl_url": "https://enroll.atlantexpower.com/EmailHTML/efl_SPA.aspx?RateID=8387&BrandID=3&PromoCodeID=14",
       "enroll_url": "https://enroll.atlantexpower.com/Enrollment/Default.aspx?promoCode=ATLPTC1",
       "efl_verified": true,
       "efl_status": "verified",
@@ -501,7 +341,7 @@
       "cancel_fee": 20.0,
       "renewable": 23.0,
       "rating": 3.0,
-      "efl_url": "https://enroll.atlantexpower.com/EmailHTML/efl.aspx?RateID=3341&BrandID=3&PromoCodeID=115",
+      "efl_url": "https://enroll.atlantexpower.com/EmailHTML/efl_SPA.aspx?RateID=3341&BrandID=3&PromoCodeID=115",
       "enroll_url": "https://enroll.atlantexpower.com/Enrollment/Default.aspx?promoCode=ATLPTC1",
       "efl_verified": true,
       "efl_status": "verified",
@@ -510,66 +350,6 @@
         "rate_per_kwh": 0.14343,
         "is_linear": true,
         "max_residual": 0.429
-      }
-    },
-    "cirro-energy-smart-simple-36-aep-texas-central-36-0": {
-      "plan_id": "cirro-energy-smart-simple-36-aep-texas-central-36-0",
-      "rep": "CIRRO ENERGY",
-      "product": "Smart Simple 36",
-      "rate_type": "Fixed",
-      "term_months": 36.0,
-      "cancel_fee": 395.0,
-      "renewable": 24.0,
-      "rating": 2.0,
-      "efl_url": "https://www.cirroenergy.com/defl/M1F00184870977C.pdf",
-      "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0004&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 3.0,
-        "rate_per_kwh": 0.14343,
-        "is_linear": true,
-        "max_residual": 0.429
-      }
-    },
-    "cirro-energy-smart-simple-12-aep-texas-central-12-0": {
-      "plan_id": "cirro-energy-smart-simple-12-aep-texas-central-12-0",
-      "rep": "CIRRO ENERGY",
-      "product": "Smart Simple 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 150.0,
-      "renewable": 24.0,
-      "rating": 2.0,
-      "efl_url": "https://www.cirroenergy.com/defl/M1F00184870930B.pdf",
-      "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0004&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 3.0,
-        "rate_per_kwh": 0.13743,
-        "is_linear": true,
-        "max_residual": 0.429
-      }
-    },
-    "constellation-newenergy-inc-simple-switch-6-aep-texas-central-6-0": {
-      "plan_id": "constellation-newenergy-inc-simple-switch-6-aep-texas-central-6-0",
-      "rep": "CONSTELLATION NEWENERGY INC",
-      "product": "Simple Switch 6",
-      "rate_type": "Fixed",
-      "term_months": 6.0,
-      "cancel_fee": 50.0,
-      "renewable": 24.0,
-      "rating": 4.0,
-      "efl_url": "https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=4988481",
-      "enroll_url": "https://www.constellation.com/content/constellation/en/campaigns/powertochoose.html?UTM_source=powertochoose.org&UTM_medium=referral",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 3.5,
-        "rate_per_kwh": 0.11529,
-        "is_linear": true,
-        "max_residual": 0.214
       }
     },
     "champion-energy-services-llc-champ-saver-12-aep-texas-central-12-0": {
@@ -581,7 +361,7 @@
       "cancel_fee": 150.0,
       "renewable": 25.0,
       "rating": 5.0,
-      "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN2413&state=TX&language=EN",
+      "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN2413&state=TX&language=ES",
       "enroll_url": "https://www.championenergyservices.com/Residential/Sign-Up?promo=powertochoose",
       "efl_verified": true,
       "efl_status": "verified",
@@ -601,7 +381,7 @@
       "cancel_fee": 250.0,
       "renewable": 25.0,
       "rating": 5.0,
-      "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN2418&state=TX&language=EN",
+      "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN2418&state=TX&language=ES",
       "enroll_url": "https://www.championenergyservices.com/Residential/Sign-Up?promo=powertochoose",
       "efl_verified": true,
       "efl_status": "verified",
@@ -612,22 +392,22 @@
         "max_residual": 0.214
       }
     },
-    "discount-power-saver-12-aep-texas-central-12-0": {
-      "plan_id": "discount-power-saver-12-aep-texas-central-12-0",
-      "rep": "Discount Power",
-      "product": "Saver 12",
+    "cirro-energy-smart-simple-12-aep-texas-central-12-0": {
+      "plan_id": "cirro-energy-smart-simple-12-aep-texas-central-12-0",
+      "rep": "CIRRO ENERGY",
+      "product": "Smart Simple 12",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 150.0,
       "renewable": 24.0,
       "rating": 2.0,
-      "efl_url": "https://www.discountpowertx.com/defl/M1F00184818153B.pdf",
-      "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0004&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_url": "https://www.cirroenergy.com/defl/M1F00184870932B.pdf",
+      "enroll_url": "https://www.cirroenergy.com/espanol?txtPromocode=WA198B&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
-        "rate_per_kwh": 0.13643,
+        "rate_per_kwh": 0.13743,
         "is_linear": true,
         "max_residual": 0.429
       }
@@ -641,8 +421,8 @@
       "cancel_fee": 295.0,
       "renewable": 24.0,
       "rating": 2.0,
-      "efl_url": "https://www.cirroenergy.com/defl/M1F00184870961C.pdf",
-      "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0004&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_url": "https://www.cirroenergy.com/defl/M1F00184870962C.pdf",
+      "enroll_url": "https://www.cirroenergy.com/espanol?txtPromocode=WA198B&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
@@ -652,42 +432,22 @@
         "max_residual": 0.429
       }
     },
-    "express-energy-speedy-12-aep-texas-central-12-0": {
-      "plan_id": "express-energy-speedy-12-aep-texas-central-12-0",
-      "rep": "Express Energy",
-      "product": "Speedy 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 20.0,
-      "renewable": 3.0,
-      "rating": 3.0,
-      "efl_url": "https://shopping.myexpressenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCEXSPDYVBC12AD&tdsp=AEPTCC&lang=en&custClass=Residential",
-      "enroll_url": "https://shopping.myexpressenergy.com/path2plans?prom=EXWPTC&vendorid=72318331&utm_source=PTC&utm_medium=affiliate&utm_campaign=affiliate&customerclassification=residential&cint=4&dwel=02",
-      "efl_verified": false,
-      "efl_status": "unparseable",
-      "cost": {
-        "base_charge": 3.5,
-        "rate_per_kwh": 0.11129,
-        "is_linear": true,
-        "max_residual": 0.214
-      }
-    },
-    "discount-power-saver-36-aep-texas-central-36-0": {
-      "plan_id": "discount-power-saver-36-aep-texas-central-36-0",
-      "rep": "Discount Power",
-      "product": "Saver 36",
+    "cirro-energy-smart-simple-36-aep-texas-central-36-0": {
+      "plan_id": "cirro-energy-smart-simple-36-aep-texas-central-36-0",
+      "rep": "CIRRO ENERGY",
+      "product": "Smart Simple 36",
       "rate_type": "Fixed",
       "term_months": 36.0,
       "cancel_fee": 395.0,
-      "renewable": 22.0,
+      "renewable": 24.0,
       "rating": 2.0,
-      "efl_url": "https://www.discountpowertx.com/defl/M1F00184818192C.pdf",
-      "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0004&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_url": "https://www.cirroenergy.com/defl/M1F00184870978C.pdf",
+      "enroll_url": "https://www.cirroenergy.com/espanol?txtPromocode=WA198B&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
-        "rate_per_kwh": 0.14143,
+        "rate_per_kwh": 0.14343,
         "is_linear": true,
         "max_residual": 0.429
       }
@@ -699,10 +459,10 @@
       "rate_type": "Fixed",
       "term_months": 24.0,
       "cancel_fee": 295.0,
-      "renewable": 22.0,
+      "renewable": 24.0,
       "rating": 2.0,
-      "efl_url": "https://www.discountpowertx.com/defl/M1F00184818176C.pdf",
-      "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0004&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_url": "https://www.discountpowertx.com/defl/M1F00184818178C.pdf",
+      "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0004&language=es&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
@@ -710,6 +470,66 @@
         "rate_per_kwh": 0.14043,
         "is_linear": true,
         "max_residual": 0.429
+      }
+    },
+    "discount-power-saver-36-aep-texas-central-36-0": {
+      "plan_id": "discount-power-saver-36-aep-texas-central-36-0",
+      "rep": "Discount Power",
+      "product": "Saver 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 395.0,
+      "renewable": 24.0,
+      "rating": 2.0,
+      "efl_url": "https://www.discountpowertx.com/defl/M1F00184818193C.pdf",
+      "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0004&language=es&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 3.0,
+        "rate_per_kwh": 0.14143,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "discount-power-saver-12-aep-texas-central-12-0": {
+      "plan_id": "discount-power-saver-12-aep-texas-central-12-0",
+      "rep": "Discount Power",
+      "product": "Saver 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 24.0,
+      "rating": 2.0,
+      "efl_url": "https://www.discountpowertx.com/defl/M1F00184818154B.pdf",
+      "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0004&language=es&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 3.0,
+        "rate_per_kwh": 0.13643,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "tara-energy-basics-ptc-36-aep-texas-central-36-0": {
+      "plan_id": "tara-energy-basics-ptc-36-aep-texas-central-36-0",
+      "rep": "TARA ENERGY",
+      "product": "Basics PTC - 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rating": 4.0,
+      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=z53lHZPGRUg=&RCID=cacW2cvK/I0=&L=jfm4E/YMcQk=",
+      "enroll_url": "https://taraenergy.com/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
+      "efl_verified": false,
+      "efl_status": "unparseable",
+      "cost": {
+        "base_charge": 3.5,
+        "rate_per_kwh": 0.15129,
+        "is_linear": true,
+        "max_residual": 0.214
       }
     },
     "amigo-energy-basics-ptc-36-aep-texas-central-36-0": {
@@ -721,13 +541,33 @@
       "cancel_fee": 175.0,
       "renewable": 31.0,
       "rating": 3.0,
-      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=CKis5l54v4Q=&RCID=rv5fvOkFHh4=&L=6f+Ch9flI7k=",
+      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=CKis5l54v4Q=&RCID=rv5fvOkFHh4=&L=jfm4E/YMcQk=",
       "enroll_url": "https://amigoenergy.com/lp/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
       "efl_verified": false,
       "efl_status": "unparseable",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.15129,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "constellation-newenergy-inc-simple-switch-6-aep-texas-central-6-0": {
+      "plan_id": "constellation-newenergy-inc-simple-switch-6-aep-texas-central-6-0",
+      "rep": "CONSTELLATION NEWENERGY INC",
+      "product": "Simple Switch 6",
+      "rate_type": "Fixed",
+      "term_months": 6.0,
+      "cancel_fee": 50.0,
+      "renewable": 24.0,
+      "rating": 4.0,
+      "efl_url": "https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=4988482",
+      "enroll_url": "https://www.constellation.com/content/constellation/en/campaigns/powertochoose.html?UTM_source=powertochoose.org&UTM_medium=referral",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 3.5,
+        "rate_per_kwh": 0.11529,
         "is_linear": true,
         "max_residual": 0.214
       }
@@ -741,35 +581,15 @@
       "cancel_fee": 150.0,
       "renewable": 100.0,
       "rating": 4.0,
-      "efl_url": "https://eflviewer.gexaenergy.com/eflviewer.aspx?lang=EN&prodcode=GXAECOCHI12&tdspcode=AEP_CENT",
-      "enroll_url": "https://newenroll.gexaenergy.com/?refid=PTC_EcoChoice12&ul=1000&tdsp=AEP_CENT",
-      "efl_verified": true,
-      "efl_status": "verified",
+      "efl_url": "https://eflviewer.gexaenergy.com/eflviewer.aspx?lang=SP&prodcode=GXAECOCHI12&tdspcode=AEP_CENT",
+      "enroll_url": "https://www.gexaenergy.com/P2CSP/",
+      "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.11443,
         "is_linear": true,
         "max_residual": 0.429
-      }
-    },
-    "octopus-energy-octo-simple-12-aep-texas-central-12-0": {
-      "plan_id": "octopus-energy-octo-simple-12-aep-texas-central-12-0",
-      "rep": "Octopus Energy",
-      "product": "Octo Simple 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 150.0,
-      "renewable": 100.0,
-      "rating": 3.0,
-      "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-12-AEP_TCC-LZ_SOUTH-202607151300",
-      "enroll_url": "https://octopusenergy.com/affiliate/ptc",
-      "efl_verified": false,
-      "efl_status": "unparseable",
-      "cost": {
-        "base_charge": 3.5,
-        "rate_per_kwh": 0.13729,
-        "is_linear": true,
-        "max_residual": 0.214
       }
     },
     "spark-energy-llc-choose-12-aep-texas-central-12-0": {
@@ -781,7 +601,7 @@
       "cancel_fee": 100.0,
       "renewable": 37.0,
       "rating": 4.0,
-      "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=148467&type=EFL&title=Electricity+Facts+Label&language=english",
+      "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=148467&type=EFL&title=Electricity+Facts+Label&language=spanish",
       "enroll_url": "https://www.sparkenergy.com/products-and-services/?PromotionCode=PTC",
       "efl_verified": false,
       "efl_status": "unparseable",
@@ -801,7 +621,7 @@
       "cancel_fee": 100.0,
       "renewable": 37.0,
       "rating": 4.0,
-      "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=148472&type=EFL&title=Electricity+Facts+Label&language=english",
+      "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=148472&type=EFL&title=Electricity+Facts+Label&language=spanish",
       "enroll_url": "https://www.sparkenergy.com/products-and-services/?PromotionCode=PTC",
       "efl_verified": false,
       "efl_status": "unparseable",
@@ -852,22 +672,22 @@
         "max_residual": 0.214
       }
     },
-    "tara-energy-basics-ptc-36-aep-texas-central-36-0": {
-      "plan_id": "tara-energy-basics-ptc-36-aep-texas-central-36-0",
-      "rep": "TARA ENERGY",
-      "product": "Basics PTC - 36",
+    "octopus-energy-octo-simple-12-aep-texas-central-12-0": {
+      "plan_id": "octopus-energy-octo-simple-12-aep-texas-central-12-0",
+      "rep": "Octopus Energy",
+      "product": "Octo Simple 12",
       "rate_type": "Fixed",
-      "term_months": 36.0,
-      "cancel_fee": 175.0,
-      "renewable": 31.0,
-      "rating": 4.0,
-      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=z53lHZPGRUg=&RCID=cacW2cvK/I0=&L=6f+Ch9flI7k=",
-      "enroll_url": "https://taraenergy.com/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://octopusenergy.com/es/efl/OCTO-SIMPLE-12-AEP_TCC-LZ_SOUTH-202607151300",
+      "enroll_url": "https://octopusenergy.com/es/affiliate/ptc",
       "efl_verified": false,
       "efl_status": "unparseable",
       "cost": {
         "base_charge": 3.5,
-        "rate_per_kwh": 0.15129,
+        "rate_per_kwh": 0.13729,
         "is_linear": true,
         "max_residual": 0.214
       }
@@ -901,10 +721,10 @@
       "cancel_fee": 150.0,
       "renewable": 30.0,
       "rating": 2.0,
-      "efl_url": "https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=EN&prodcode=FPOWSVR12&tdspcode=AEP_CENT",
+      "efl_url": "https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=SP&prodcode=FPOWSVR12&tdspcode=AEP_CENT",
       "enroll_url": "https://newenroll.frontierutilities.com/?refid=PTCFPS12&ul=1000&tdsp=AEP_CENT",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.11443,
@@ -921,7 +741,7 @@
       "cancel_fee": 100.0,
       "renewable": 37.0,
       "rating": 4.0,
-      "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=150854&type=EFL&title=Electricity+Facts+Label&language=english",
+      "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=150854&type=EFL&title=Electricity+Facts+Label&language=spanish",
       "enroll_url": "https://www.sparkenergy.com/products-and-services/?PromotionCode=PTC",
       "efl_verified": true,
       "efl_status": "verified",
@@ -932,17 +752,17 @@
         "max_residual": 0.429
       }
     },
-    "southern-federal-power-llc-sofed-free-energy-lunch-12-aep-texas-central-12-0": {
-      "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-aep-texas-central-12-0",
+    "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-aep-texas-central-12-0": {
+      "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-aep-texas-central-12-0",
       "rep": "SOUTHERN FEDERAL POWER LLC",
-      "product": "SoFed Free Energy Lunch - 12",
+      "product": "Almuerzo De Energ\u00eda Gratis - 12",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 99.0,
       "renewable": 6.0,
       "rating": 5.0,
-      "efl_url": "https://bit.ly/4yglLjz",
-      "enroll_url": "http://southernfederal.com",
+      "efl_url": "https://bit.ly/4plRnQG",
+      "enroll_url": "http://www.southernfederal.com",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
@@ -961,7 +781,7 @@
       "cancel_fee": 20.0,
       "renewable": 29.0,
       "rating": 5.0,
-      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001201&promo=&term=24",
+      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001201&term=24&ver=spanish",
       "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
       "efl_verified": true,
       "efl_status": "verified",
@@ -981,7 +801,7 @@
       "cancel_fee": 20.0,
       "renewable": 100.0,
       "rating": 5.0,
-      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001202&promo=&term=12",
+      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001202&term=12&ver=spanish",
       "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
       "efl_verified": true,
       "efl_status": "verified",
@@ -1001,7 +821,7 @@
       "cancel_fee": 20.0,
       "renewable": 29.0,
       "rating": 5.0,
-      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001203&promo=&term=12",
+      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001203&term=12&ver=spanish",
       "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
       "efl_verified": true,
       "efl_status": "verified",
@@ -1021,7 +841,7 @@
       "cancel_fee": 175.0,
       "renewable": 31.0,
       "rating": 2.0,
-      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=QG8KHv864bs=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=",
+      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=QG8KHv864bs=&RCID=gNASPlhlupI=&L=jfm4E/YMcQk=",
       "enroll_url": "https://justenergy.com/affiliatepartner/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
       "efl_verified": true,
       "efl_status": "verified",
@@ -1041,7 +861,7 @@
       "cancel_fee": 175.0,
       "renewable": 31.0,
       "rating": 3.0,
-      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=P/8RJayq+FA=&RCID=rv5fvOkFHh4=&L=6f+Ch9flI7k=",
+      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=P/8RJayq+FA=&RCID=rv5fvOkFHh4=&L=jfm4E/YMcQk=",
       "enroll_url": "https://amigoenergy.com/lp/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
       "efl_verified": false,
       "efl_status": "unparseable",
@@ -1061,13 +881,33 @@
       "cancel_fee": 175.0,
       "renewable": 31.0,
       "rating": 4.0,
-      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=ik4SlTGPA6o=&RCID=cacW2cvK/I0=&L=6f+Ch9flI7k=",
+      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=ik4SlTGPA6o=&RCID=cacW2cvK/I0=&L=jfm4E/YMcQk=",
       "enroll_url": "https://taraenergy.com/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
       "efl_verified": false,
       "efl_status": "unparseable",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.15129,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "ap-gas-electric-tx-llc-trueclassic-36-aep-texas-central-36-0": {
+      "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-aep-texas-central-36-0",
+      "rep": "AP GAS & ELECTRIC (TX) LLC",
+      "product": "TrueClassic 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 350.0,
+      "renewable": 6.0,
+      "rating": 1.0,
+      "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=74&offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T36_NEW",
+      "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T36_NEW&deploymentName=TX%20State%20Rate%20Board&language=spanish",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 3.5,
+        "rate_per_kwh": 0.12729,
         "is_linear": true,
         "max_residual": 0.214
       }
@@ -1081,8 +921,8 @@
       "cancel_fee": 150.0,
       "renewable": 6.0,
       "rating": 1.0,
-      "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T12_NEW",
-      "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T12_NEW&deploymentName=TX%20State%20Rate%20Board",
+      "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=74&offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T12_NEW",
+      "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T12_NEW&deploymentName=TX%20State%20Rate%20Board&language=spanish",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
@@ -1101,33 +941,13 @@
       "cancel_fee": 250.0,
       "renewable": 6.0,
       "rating": 1.0,
-      "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T24_NEW",
-      "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T24_NEW&deploymentName=TX%20State%20Rate%20Board",
+      "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=74&offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T24_NEW",
+      "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T24_NEW&deploymentName=TX%20State%20Rate%20Board&language=spanish",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.12229,
-        "is_linear": true,
-        "max_residual": 0.214
-      }
-    },
-    "ap-gas-electric-tx-llc-trueclassic-36-aep-texas-central-36-0": {
-      "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-aep-texas-central-36-0",
-      "rep": "AP GAS & ELECTRIC (TX) LLC",
-      "product": "TrueClassic 36",
-      "rate_type": "Fixed",
-      "term_months": 36.0,
-      "cancel_fee": 350.0,
-      "renewable": 6.0,
-      "rating": 1.0,
-      "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T36_NEW",
-      "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T36_NEW&deploymentName=TX%20State%20Rate%20Board",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 3.5,
-        "rate_per_kwh": 0.12729,
         "is_linear": true,
         "max_residual": 0.214
       }
@@ -1141,33 +961,13 @@
       "cancel_fee": 150.0,
       "renewable": 6.0,
       "rating": 1.0,
-      "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T11_NEW",
-      "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T11_NEW&deploymentName=TX%20State%20Rate%20Board",
+      "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=74&offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T11_NEW",
+      "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T11_NEW&deploymentName=TX%20State%20Rate%20Board&language=spanish",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.11629,
-        "is_linear": true,
-        "max_residual": 0.214
-      }
-    },
-    "abundance-energy-confident-renter-12-aep-texas-central-12-0": {
-      "plan_id": "abundance-energy-confident-renter-12-aep-texas-central-12-0",
-      "rep": "Abundance Energy",
-      "product": "Confident Renter 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 200.0,
-      "renewable": 25.0,
-      "rating": 4.0,
-      "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=confidentrenter.fixed&tdsp_id=4&doc_type=EFL&term=12&promo_code=PTC",
-      "enroll_url": "https://join.abundanceenergy.com/?promoCode=PTC",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 3.5,
-        "rate_per_kwh": 0.12129,
         "is_linear": true,
         "max_residual": 0.214
       }
@@ -1181,7 +981,7 @@
       "cancel_fee": 175.0,
       "renewable": 31.0,
       "rating": 2.0,
-      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=2kdhHey2mEs=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=",
+      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=2kdhHey2mEs=&RCID=gNASPlhlupI=&L=jfm4E/YMcQk=",
       "enroll_url": "https://justenergy.com/affiliatepartner/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
       "efl_verified": true,
       "efl_status": "verified",
@@ -1201,7 +1001,7 @@
       "cancel_fee": 20.0,
       "renewable": 23.0,
       "rating": 3.0,
-      "efl_url": "https://enroll.aetexasco.com/EmailHTML/efl.aspx?RateID=3744&BrandID=1&PromoCodeID=114",
+      "efl_url": "https://enroll.aetexasco.com/EmailHTML/efl_SPA.aspx?RateID=3744&BrandID=1&PromoCodeID=114",
       "enroll_url": "https://enroll.aetexasco.com/Enrollment/Default.aspx?&promoCode=AETXPTC1",
       "efl_verified": true,
       "efl_status": "verified",
@@ -1221,7 +1021,7 @@
       "cancel_fee": 20.0,
       "renewable": 29.0,
       "rating": 5.0,
-      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00013528&term=13",
+      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00013528&term=13&ver=spanish",
       "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
       "efl_verified": true,
       "efl_status": "verified",
@@ -1241,7 +1041,7 @@
       "cancel_fee": 20.0,
       "renewable": 29.0,
       "rating": 5.0,
-      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00027080&promo=&term=11",
+      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00027080&promo=&term=11&ver=spanish",
       "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
       "efl_verified": true,
       "efl_status": "verified",
@@ -1261,8 +1061,8 @@
       "cancel_fee": 20.0,
       "renewable": 100.0,
       "rating": 3.0,
-      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/12673/?locale=en",
-      "enroll_url": "https://www.energytexas.com/?rcid=power-to-choose&utm_source=powertochoose&utm_content=AEP-CENTRAL&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=NB12",
+      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/12673/?locale=es",
+      "enroll_url": "https://www.energytexas.com/es?rcid=power-to-choose&utm_source=powertochoose&utm_content=AEP-CENTRAL&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=NB12",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
@@ -1288,11 +1088,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "true-power-true-value-12-aep-texas-central-12-0",
-          "monthly_bill": 58.71,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "veteran-energy-basic-12-aep-texas-central-12-0",
           "monthly_bill": 59.14,
           "trustworthy_price": true
@@ -1300,16 +1095,6 @@
         {
           "plan_id": "express-energy-speedy-12-aep-texas-central-12-0",
           "monthly_bill": 59.14,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-11-aep-texas-central-11-0",
-          "monthly_bill": 59.71,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-12-aep-texas-central-12-0",
-          "monthly_bill": 60.21,
           "trustworthy_price": true
         },
         {
@@ -1325,11 +1110,6 @@
         {
           "plan_id": "frontier-utilities-frontier-power-saver-12-aep-texas-central-12-0",
           "monthly_bill": 60.21,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-green-12-aep-texas-central-12-0",
-          "monthly_bill": 60.71,
           "trustworthy_price": true
         },
         {
@@ -1353,11 +1133,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "true-power-true-value-24-aep-texas-central-24-0",
-          "monthly_bill": 61.86,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-aep-texas-central-12-0",
           "monthly_bill": 62.14,
           "trustworthy_price": true
@@ -1368,11 +1143,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "budget-power-no-gimmicks-24-aep-texas-central-24-0",
-          "monthly_bill": 62.71,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "energy-texas-no-bull-24-aep-texas-central-24-0",
           "monthly_bill": 62.86,
           "trustworthy_price": true
@@ -1380,21 +1150,6 @@
         {
           "plan_id": "rhythm-digital-choice-24-aep-texas-central-24-0",
           "monthly_bill": 62.86,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "true-power-true-value-36-aep-texas-central-36-0",
-          "monthly_bill": 63.21,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-36-aep-texas-central-36-0",
-          "monthly_bill": 63.71,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "abundance-energy-confident-renter-12-aep-texas-central-12-0",
-          "monthly_bill": 64.14,
           "trustworthy_price": true
         },
         {
@@ -1415,11 +1170,6 @@
         {
           "plan_id": "spark-energy-llc-choose-12-aep-texas-central-12-0",
           "monthly_bill": 64.71,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-aep-texas-central-12-0",
-          "monthly_bill": 65.36,
           "trustworthy_price": true
         },
         {
@@ -1453,7 +1203,7 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-aep-texas-central-12-0",
+          "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-aep-texas-central-12-0",
           "monthly_bill": 67.14,
           "trustworthy_price": true
         },
@@ -1493,7 +1243,7 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "base-power-base-energy-36-aep-texas-central-36-0",
+          "plan_id": "base-power-base-energia-36-aep-texas-central-36-0",
           "monthly_bill": 71.14,
           "trustworthy_price": true
         },
@@ -1595,13 +1345,8 @@
       ]
     },
     "1000": {
-      "top_pick_id": "true-power-true-value-12-aep-texas-central-12-0",
+      "top_pick_id": "rhythm-digital-choice-12-aep-texas-central-12-0",
       "plans": [
-        {
-          "plan_id": "true-power-true-value-12-aep-texas-central-12-0",
-          "monthly_bill": 114.43,
-          "trustworthy_price": true
-        },
         {
           "plan_id": "veteran-energy-basic-12-aep-texas-central-12-0",
           "monthly_bill": 114.79,
@@ -1623,16 +1368,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "budget-power-no-gimmicks-11-aep-texas-central-11-0",
-          "monthly_bill": 116.43,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-12-aep-texas-central-12-0",
-          "monthly_bill": 117.43,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "gexa-energy-gexa-eco-choice-12-aep-texas-central-12-0",
           "monthly_bill": 117.43,
           "trustworthy_price": true
@@ -1645,11 +1380,6 @@
         {
           "plan_id": "frontier-utilities-frontier-power-saver-12-aep-texas-central-12-0",
           "monthly_bill": 117.43,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-green-12-aep-texas-central-12-0",
-          "monthly_bill": 118.43,
           "trustworthy_price": true
         },
         {
@@ -1678,33 +1408,8 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "true-power-true-value-24-aep-texas-central-24-0",
-          "monthly_bill": 121.21,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ae-texas-smart-secure-10-aep-texas-central-10-0",
           "monthly_bill": 121.43,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-24-aep-texas-central-24-0",
-          "monthly_bill": 122.43,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "true-power-true-value-36-aep-texas-central-36-0",
-          "monthly_bill": 123.43,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-36-aep-texas-central-36-0",
-          "monthly_bill": 124.43,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "abundance-energy-confident-renter-12-aep-texas-central-12-0",
-          "monthly_bill": 124.79,
           "trustworthy_price": true
         },
         {
@@ -1743,11 +1448,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-aep-texas-central-12-0",
-          "monthly_bill": 128.21,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "bkv-energy-daisy-12-aep-texas-central-12-0",
           "monthly_bill": 129.79,
           "trustworthy_price": true
@@ -1763,7 +1463,7 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-aep-texas-central-12-0",
+          "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-aep-texas-central-12-0",
           "monthly_bill": 130.79,
           "trustworthy_price": true
         },
@@ -1813,7 +1513,7 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "base-power-base-energy-36-aep-texas-central-36-0",
+          "plan_id": "base-power-base-energia-36-aep-texas-central-36-0",
           "monthly_bill": 138.79,
           "trustworthy_price": true
         },
@@ -1915,13 +1615,8 @@
       ]
     },
     "1500": {
-      "top_pick_id": "true-power-true-value-12-aep-texas-central-12-0",
+      "top_pick_id": "companion-energy-companion-perks-12-aep-texas-central-12-0",
       "plans": [
-        {
-          "plan_id": "true-power-true-value-12-aep-texas-central-12-0",
-          "monthly_bill": 170.14,
-          "trustworthy_price": true
-        },
         {
           "plan_id": "veteran-energy-basic-12-aep-texas-central-12-0",
           "monthly_bill": 170.43,
@@ -1930,16 +1625,6 @@
         {
           "plan_id": "express-energy-speedy-12-aep-texas-central-12-0",
           "monthly_bill": 170.43,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-11-aep-texas-central-11-0",
-          "monthly_bill": 173.14,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-12-aep-texas-central-12-0",
-          "monthly_bill": 174.64,
           "trustworthy_price": true
         },
         {
@@ -1968,11 +1653,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "budget-power-no-gimmicks-green-12-aep-texas-central-12-0",
-          "monthly_bill": 176.14,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "texans-choice-power-llc-choose-6-aep-texas-central-6-0",
           "monthly_bill": 176.14,
           "trustworthy_price": true
@@ -1998,33 +1678,8 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "true-power-true-value-24-aep-texas-central-24-0",
-          "monthly_bill": 180.57,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ae-texas-smart-secure-10-aep-texas-central-10-0",
           "monthly_bill": 180.64,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-24-aep-texas-central-24-0",
-          "monthly_bill": 182.14,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "true-power-true-value-36-aep-texas-central-36-0",
-          "monthly_bill": 183.64,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-36-aep-texas-central-36-0",
-          "monthly_bill": 185.14,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "abundance-energy-confident-renter-12-aep-texas-central-12-0",
-          "monthly_bill": 185.43,
           "trustworthy_price": true
         },
         {
@@ -2053,11 +1708,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-aep-texas-central-12-0",
-          "monthly_bill": 191.07,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "energy-texas-no-bull-24-aep-texas-central-24-0",
           "monthly_bill": 191.57,
           "trustworthy_price": true
@@ -2083,7 +1733,7 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-aep-texas-central-12-0",
+          "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-aep-texas-central-12-0",
           "monthly_bill": 194.43,
           "trustworthy_price": true
         },
@@ -2133,7 +1783,7 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "base-power-base-energy-36-aep-texas-central-36-0",
+          "plan_id": "base-power-base-energia-36-aep-texas-central-36-0",
           "monthly_bill": 206.43,
           "trustworthy_price": true
         },
@@ -2235,13 +1885,8 @@
       ]
     },
     "2000": {
-      "top_pick_id": "true-power-true-value-12-aep-texas-central-12-0",
+      "top_pick_id": "companion-energy-companion-perks-12-aep-texas-central-12-0",
       "plans": [
-        {
-          "plan_id": "true-power-true-value-12-aep-texas-central-12-0",
-          "monthly_bill": 225.86,
-          "trustworthy_price": true
-        },
         {
           "plan_id": "veteran-energy-basic-12-aep-texas-central-12-0",
           "monthly_bill": 226.07,
@@ -2250,16 +1895,6 @@
         {
           "plan_id": "express-energy-speedy-12-aep-texas-central-12-0",
           "monthly_bill": 226.07,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-11-aep-texas-central-11-0",
-          "monthly_bill": 229.86,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-12-aep-texas-central-12-0",
-          "monthly_bill": 231.86,
           "trustworthy_price": true
         },
         {
@@ -2275,11 +1910,6 @@
         {
           "plan_id": "frontier-utilities-frontier-power-saver-12-aep-texas-central-12-0",
           "monthly_bill": 231.86,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-green-12-aep-texas-central-12-0",
-          "monthly_bill": 233.86,
           "trustworthy_price": true
         },
         {
@@ -2323,31 +1953,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "true-power-true-value-24-aep-texas-central-24-0",
-          "monthly_bill": 239.93,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-24-aep-texas-central-24-0",
-          "monthly_bill": 241.86,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "true-power-true-value-36-aep-texas-central-36-0",
-          "monthly_bill": 243.86,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "budget-power-no-gimmicks-36-aep-texas-central-36-0",
-          "monthly_bill": 245.86,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "abundance-energy-confident-renter-12-aep-texas-central-12-0",
-          "monthly_bill": 246.07,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-aep-texas-central-24-0",
           "monthly_bill": 248.07,
           "trustworthy_price": true
@@ -2370,11 +1975,6 @@
         {
           "plan_id": "champion-energy-services-llc-champ-saver-12-aep-texas-central-12-0",
           "monthly_bill": 252.07,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-aep-texas-central-12-0",
-          "monthly_bill": 253.93,
           "trustworthy_price": true
         },
         {
@@ -2403,7 +2003,7 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-aep-texas-central-12-0",
+          "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-aep-texas-central-12-0",
           "monthly_bill": 258.07,
           "trustworthy_price": true
         },
@@ -2453,7 +2053,7 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "base-power-base-energy-36-aep-texas-central-36-0",
+          "plan_id": "base-power-base-energia-36-aep-texas-central-36-0",
           "monthly_bill": 274.07,
           "trustworthy_price": true
         },
@@ -2557,33 +2157,31 @@
   },
   "autopsies": [
     {
-      "plan_id": "pronto-power-pronto-flex-30-aep-texas-central-1-0",
-      "rep": "PRONTO POWER",
-      "product": "Pronto Flex 30",
+      "plan_id": "express-energy-flash-value-12-aep-texas-central-12-0",
+      "rep": "Express Energy",
+      "product": "Flash Value 12",
       "reason_codes": [
-        "VARIABLE_RATE",
-        "PREPAID"
+        "BILL_CREDIT"
       ],
       "verdicts": [
-        "Variable rate \u2014 the price can change month to month with no cap.",
-        "Prepaid plan \u2014 pay-as-you-go with its own fees, not a straight rate."
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
       ],
       "rates": {
-        "500": 0.189,
-        "1000": 0.186,
-        "2000": 0.184
+        "500": 0.198,
+        "1000": 0.069,
+        "2000": 0.13
       },
       "bills": {
-        "500": 94.5,
-        "1000": 186.0,
-        "2000": 368.0
+        "500": 99.0,
+        "1000": 69.0,
+        "2000": 260.0
       },
-      "term_months": 1.0,
-      "cancel_fee": 25.0,
-      "renewable": 25.0,
-      "rate_type": "Variable",
-      "efl_url": "https://pronto-gridlink.smartgridcis.net/Documents/Download.aspx?ProductDocumentID=844",
-      "is_linear": true
+      "term_months": 12.0,
+      "cancel_fee": 20.0,
+      "renewable": 3.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://shopping.myexpressenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCEXFLASHCC12IL&tdsp=AEPTCC&lang=es&custClass=Residential",
+      "is_linear": false
     },
     {
       "plan_id": "energy-texas-the-lone-saver-plus-12-aep-texas-central-12-0",
@@ -2609,37 +2207,8 @@
       "cancel_fee": 20.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/23936/?locale=en",
+      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/23936/?locale=es",
       "is_linear": false
-    },
-    {
-      "plan_id": "pronto-power-summer-2026-aep-texas-central-3-0",
-      "rep": "PRONTO POWER",
-      "product": "Summer 2026",
-      "reason_codes": [
-        "PREPAID",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Prepaid plan \u2014 pay-as-you-go with its own fees, not a straight rate.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.15,
-        "1000": 0.145,
-        "2000": 0.142
-      },
-      "bills": {
-        "500": 75.0,
-        "1000": 145.0,
-        "2000": 284.0
-      },
-      "term_months": 3.0,
-      "cancel_fee": 50.0,
-      "renewable": 26.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://pronto-gridlink.smartgridcis.net//Documents/Download.aspx?ProductDocumentID=1166",
-      "is_linear": true
     },
     {
       "plan_id": "txu-energy-smart-1000-select-12-aep-texas-central-12-0",
@@ -2667,116 +2236,8 @@
       "cancel_fee": 150.0,
       "renewable": 3.0,
       "rate_type": "Fixed",
-      "efl_url": "https://residential.txu.com/Handlers/PDFGenerator.ashx?comProdId=TCXSMSL1KD12AA&lang=en&formType=EnergyFactsLabel&custClass=3&tdsp=AEPTCC",
+      "efl_url": "https://residential.txu.com/Handlers/PDFGenerator.ashx?comProdId=TCXSMSL1KD12AA&lang=es&formType=EnergyFactsLabel&custClass=3&tdsp=AEPTCC",
       "is_linear": false
-    },
-    {
-      "plan_id": "express-energy-flash-value-12-aep-texas-central-12-0",
-      "rep": "Express Energy",
-      "product": "Flash Value 12",
-      "reason_codes": [
-        "BILL_CREDIT"
-      ],
-      "verdicts": [
-        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
-      ],
-      "rates": {
-        "500": 0.198,
-        "1000": 0.069,
-        "2000": 0.13
-      },
-      "bills": {
-        "500": 99.0,
-        "1000": 69.0,
-        "2000": 260.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 20.0,
-      "renewable": 3.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://shopping.myexpressenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCEXFLASHCC12IL&tdsp=AEPTCC&lang=en&custClass=Residential",
-      "is_linear": false
-    },
-    {
-      "plan_id": "heritage-power-llc-bright-start-36-25-credit-on-your-first-bill-aep-texas-central-36-0",
-      "rep": "HERITAGE POWER LLC",
-      "product": "Bright Start 36 - $25 credit on your first bill!",
-      "reason_codes": [
-        "CC_FEE"
-      ],
-      "verdicts": [
-        "Adds a credit-card or processing fee \u2014 you pay extra just to pay your bill."
-      ],
-      "rates": {
-        "500": 0.147,
-        "1000": 0.144,
-        "2000": 0.142
-      },
-      "bills": {
-        "500": 73.5,
-        "1000": 144.0,
-        "2000": 284.0
-      },
-      "term_months": 36.0,
-      "cancel_fee": 75.0,
-      "renewable": 24.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://signup.heritagepower.com/Home/EFl?productId=6342",
-      "is_linear": true
-    },
-    {
-      "plan_id": "heritage-power-llc-bright-start-48-75-credit-on-your-first-bill-aep-texas-central-48-0",
-      "rep": "HERITAGE POWER LLC",
-      "product": "Bright Start 48 - $75 credit on your first bill!",
-      "reason_codes": [
-        "CC_FEE"
-      ],
-      "verdicts": [
-        "Adds a credit-card or processing fee \u2014 you pay extra just to pay your bill."
-      ],
-      "rates": {
-        "500": 0.157,
-        "1000": 0.154,
-        "2000": 0.152
-      },
-      "bills": {
-        "500": 78.5,
-        "1000": 154.0,
-        "2000": 304.0
-      },
-      "term_months": 48.0,
-      "cancel_fee": 75.0,
-      "renewable": 24.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://signup.heritagepower.com/Home/EFl?productId=6341",
-      "is_linear": true
-    },
-    {
-      "plan_id": "heritage-power-llc-bright-start-60-75-credit-on-your-first-bill-aep-texas-central-60-0",
-      "rep": "HERITAGE POWER LLC",
-      "product": "Bright Start 60 - $75 credit on your first bill!",
-      "reason_codes": [
-        "CC_FEE"
-      ],
-      "verdicts": [
-        "Adds a credit-card or processing fee \u2014 you pay extra just to pay your bill."
-      ],
-      "rates": {
-        "500": 0.167,
-        "1000": 0.164,
-        "2000": 0.162
-      },
-      "bills": {
-        "500": 83.5,
-        "1000": 164.0,
-        "2000": 324.0
-      },
-      "term_months": 60.0,
-      "cancel_fee": 75.0,
-      "renewable": 24.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://signup.heritagepower.com/Home/EFl?productId=6340",
-      "is_linear": true
     },
     {
       "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-14-aep-texas-central-14-0",
@@ -2802,7 +2263,7 @@
       "cancel_fee": 175.0,
       "renewable": 35.0,
       "rate_type": "Fixed",
-      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_14MTH_AEPC_14_2516194962508547877_EFL_SFE Residential Fixed AEPC 14English.pdf",
+      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_14MTH_AEPC_14_2516194962493079162_EFL_SFE Residential Fixed AEPC 14Spanish.pdf",
       "is_linear": true
     },
     {
@@ -2829,8 +2290,62 @@
       "cancel_fee": 20.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/23634/?locale=en",
+      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/23634/?locale=es",
       "is_linear": false
+    },
+    {
+      "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-aep-texas-central-12-0",
+      "rep": "SFE ENERGY TEXAS INC",
+      "product": "SFE RewardsPlus - 12",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.145,
+        "1000": 0.136,
+        "2000": 0.132
+      },
+      "bills": {
+        "500": 72.5,
+        "1000": 136.0,
+        "2000": 264.0
+      },
+      "term_months": 12.0,
+      "cancel_fee": 175.0,
+      "renewable": 35.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_12MTH_AEPC_12_2516194962460891739_EFL_SFE Residential Fixed AEPC 12Spanish.pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-24-aep-texas-central-24-0",
+      "rep": "SFE ENERGY TEXAS INC",
+      "product": "SFE RewardsPlus - 24",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.15,
+        "1000": 0.141,
+        "2000": 0.137
+      },
+      "bills": {
+        "500": 75.0,
+        "1000": 141.0,
+        "2000": 274.0
+      },
+      "term_months": 24.0,
+      "cancel_fee": 175.0,
+      "renewable": 35.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_24MTH_AEPC_24_2516194962322754025_EFL_SFE Residential Fixed AEPC 24Spanish.pdf",
+      "is_linear": true
     },
     {
       "plan_id": "octopus-energy-octopusflex-aep-texas-central-12-0",
@@ -2856,34 +2371,7 @@
       "cancel_fee": 150.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://octopusenergy.com/efl/OCTOPUS-FLEX-AEP_TCC-LZ_SOUTH-202607091030",
-      "is_linear": true
-    },
-    {
-      "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-24-aep-texas-central-24-0",
-      "rep": "SFE ENERGY TEXAS INC",
-      "product": "SFE RewardsPlus - 24",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.145,
-        "1000": 0.136,
-        "2000": 0.132
-      },
-      "bills": {
-        "500": 72.5,
-        "1000": 136.0,
-        "2000": 264.0
-      },
-      "term_months": 24.0,
-      "cancel_fee": 175.0,
-      "renewable": 35.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_24MTH_AEPC_24_2516194962340566474_EFL_SFE Residential Fixed AEPC 24English.pdf",
+      "efl_url": "https://octopusenergy.com/es/efl/OCTOPUS-FLEX-AEP_TCC-LZ_SOUTH-202607091030",
       "is_linear": true
     },
     {
@@ -2912,34 +2400,7 @@
       "cancel_fee": 15.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=42649",
-      "is_linear": true
-    },
-    {
-      "plan_id": "abundance-energy-clean-energy-12-aep-texas-central-12-0",
-      "rep": "Abundance Energy",
-      "product": "Clean Energy 12",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.139,
-        "1000": 0.131,
-        "2000": 0.127
-      },
-      "bills": {
-        "500": 69.5,
-        "1000": 131.0,
-        "2000": 254.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 200.0,
-      "renewable": 100.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=cleanenergy.fixed&tdsp_id=4&doc_type=EFL&term=12&promo_code=PTC",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=42649&ver=spanish",
       "is_linear": true
     },
     {
@@ -2966,7 +2427,7 @@
       "cancel_fee": 150.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://octopusenergy.com/efl/OCTOLITE-12M-AEP_TCC-LZ_SOUTH-202606021130",
+      "efl_url": "https://octopusenergy.com/es/efl/OCTOLITE-12M-AEP_TCC-LZ_SOUTH-202606021130",
       "is_linear": false
     },
     {
@@ -2995,7 +2456,7 @@
       "cancel_fee": 200.0,
       "renewable": 37.0,
       "rate_type": "Fixed",
-      "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153827&type=EFL_TIEREDPRICING&title=153827_EFL_TIEREDPRICING&language=english",
+      "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153827&type=EFL_TIEREDPRICING&title=153827_EFL_TIEREDPRICING&language=spanish",
       "is_linear": false
     },
     {
@@ -3022,61 +2483,7 @@
       "cancel_fee": 200.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.noap.fixed.thermostat&tdsp_id=4&doc_type=EFL&term=24&promo_code=default",
-      "is_linear": true
-    },
-    {
-      "plan_id": "heritage-power-llc-bright-start-12-25-credit-on-your-first-bill-aep-texas-central-12-0",
-      "rep": "HERITAGE POWER LLC",
-      "product": "Bright Start 12 - $25 credit on your first bill!",
-      "reason_codes": [
-        "CC_FEE"
-      ],
-      "verdicts": [
-        "Adds a credit-card or processing fee \u2014 you pay extra just to pay your bill."
-      ],
-      "rates": {
-        "500": 0.139,
-        "1000": 0.135,
-        "2000": 0.134
-      },
-      "bills": {
-        "500": 69.5,
-        "1000": 135.0,
-        "2000": 268.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 75.0,
-      "renewable": 24.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://signup.heritagepower.com/Home/EFl?productId=6344",
-      "is_linear": true
-    },
-    {
-      "plan_id": "heritage-power-llc-bright-start-24-25-credit-on-your-first-bill-aep-texas-central-24-0",
-      "rep": "HERITAGE POWER LLC",
-      "product": "Bright Start 24 - $25 credit on your first bill!",
-      "reason_codes": [
-        "CC_FEE"
-      ],
-      "verdicts": [
-        "Adds a credit-card or processing fee \u2014 you pay extra just to pay your bill."
-      ],
-      "rates": {
-        "500": 0.145,
-        "1000": 0.141,
-        "2000": 0.14
-      },
-      "bills": {
-        "500": 72.5,
-        "1000": 141.0,
-        "2000": 280.0
-      },
-      "term_months": 24.0,
-      "cancel_fee": 75.0,
-      "renewable": 24.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://signup.heritagepower.com/Home/EFl?productId=6343",
+      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=es&product_code=tx.thinkclean.noap.fixed.thermostat&tdsp_id=4&doc_type=EFL&term=24&promo_code=default",
       "is_linear": true
     },
     {
@@ -3103,7 +2510,144 @@
       "cancel_fee": 15.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46350",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46350&ver=spanish",
+      "is_linear": false
+    },
+    {
+      "plan_id": "champion-energy-services-llc-free-weekends-24-aep-texas-central-24-0",
+      "rep": "CHAMPION ENERGY SERVICES LLC",
+      "product": "Free Weekends-24",
+      "reason_codes": [
+        "TIME_OF_USE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more."
+      ],
+      "rates": {
+        "500": 0.136,
+        "1000": 0.133,
+        "2000": 0.131
+      },
+      "bills": {
+        "500": 68.0,
+        "1000": 133.0,
+        "2000": 262.0
+      },
+      "term_months": 24.0,
+      "cancel_fee": 250.0,
+      "renewable": 25.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN2415&state=TX&language=ES",
+      "is_linear": true
+    },
+    {
+      "plan_id": "payless-power-ptc-6-month-prepaid-aep-texas-central-6-0",
+      "rep": "PAYLESS POWER",
+      "product": "PTC 6 Month - Prepaid",
+      "reason_codes": [
+        "PREPAID"
+      ],
+      "verdicts": [
+        "Prepaid plan \u2014 pay-as-you-go with its own fees, not a straight rate."
+      ],
+      "rates": {
+        "500": 0.176,
+        "1000": 0.173,
+        "2000": 0.171
+      },
+      "bills": {
+        "500": 88.0,
+        "1000": 173.0,
+        "2000": 342.0
+      },
+      "term_months": 6.0,
+      "cancel_fee": 49.0,
+      "renewable": 26.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://api.paylesspower.com/common/api/document/aec/ERPP87/efl/es/487447",
+      "is_linear": true
+    },
+    {
+      "plan_id": "payless-power-ptc-12-month-prepaid-aep-texas-central-12-0",
+      "rep": "PAYLESS POWER",
+      "product": "PTC 12 Month - Prepaid",
+      "reason_codes": [
+        "PREPAID"
+      ],
+      "verdicts": [
+        "Prepaid plan \u2014 pay-as-you-go with its own fees, not a straight rate."
+      ],
+      "rates": {
+        "500": 0.174,
+        "1000": 0.171,
+        "2000": 0.169
+      },
+      "bills": {
+        "500": 87.0,
+        "1000": 171.0,
+        "2000": 338.0
+      },
+      "term_months": 12.0,
+      "cancel_fee": 49.0,
+      "renewable": 26.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://api.paylesspower.com/common/api/document/aec/ERPP86/efl/es/487447",
+      "is_linear": true
+    },
+    {
+      "plan_id": "constellation-newenergy-inc-12-month-usage-bill-credit-aep-texas-central-12-0",
+      "rep": "CONSTELLATION NEWENERGY INC",
+      "product": "12 Month Usage Bill Credit",
+      "reason_codes": [
+        "BILL_CREDIT",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.154,
+        "1000": 0.116,
+        "2000": 0.124
+      },
+      "bills": {
+        "500": 77.0,
+        "1000": 116.0,
+        "2000": 248.0
+      },
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 24.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=4988400",
+      "is_linear": false
+    },
+    {
+      "plan_id": "ap-gas-electric-tx-llc-simplesaver-12-aep-texas-central-12-0",
+      "rep": "AP GAS & ELECTRIC (TX) LLC",
+      "product": "SimpleSaver 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ],
+      "rates": {
+        "500": 0.195,
+        "1000": 0.067,
+        "2000": 0.128
+      },
+      "bills": {
+        "500": 97.5,
+        "1000": 67.0,
+        "2000": 256.0
+      },
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 6.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=74&offerCode=SRBBUC_AEC_NA_NA_RES_F125M_SD0_T12_NEW",
       "is_linear": false
     },
     {
@@ -3136,170 +2680,58 @@
       "is_linear": true
     },
     {
-      "plan_id": "constellation-newenergy-inc-12-month-usage-bill-credit-aep-texas-central-12-0",
-      "rep": "CONSTELLATION NEWENERGY INC",
-      "product": "12 Month Usage Bill Credit",
+      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-24-choice-aep-texas-central-24-0",
+      "rep": "GREEN MOUNTAIN ENERGY COMPANY",
+      "product": "Pollution Free e-Plus 24 Choice",
       "reason_codes": [
-        "BILL_CREDIT",
         "BASE_CHARGE"
       ],
       "verdicts": [
-        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it.",
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.154,
-        "1000": 0.116,
-        "2000": 0.124
+        "500": 0.166,
+        "1000": 0.158,
+        "2000": 0.154
       },
       "bills": {
-        "500": 77.0,
-        "1000": 116.0,
-        "2000": 248.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 150.0,
-      "renewable": 24.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=4988399",
-      "is_linear": false
-    },
-    {
-      "plan_id": "champion-energy-services-llc-free-weekends-24-aep-texas-central-24-0",
-      "rep": "CHAMPION ENERGY SERVICES LLC",
-      "product": "Free Weekends-24",
-      "reason_codes": [
-        "TIME_OF_USE"
-      ],
-      "verdicts": [
-        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more."
-      ],
-      "rates": {
-        "500": 0.136,
-        "1000": 0.133,
-        "2000": 0.131
-      },
-      "bills": {
-        "500": 68.0,
-        "1000": 133.0,
-        "2000": 262.0
+        "500": 83.0,
+        "1000": 158.0,
+        "2000": 308.0
       },
       "term_months": 24.0,
-      "cancel_fee": 250.0,
-      "renewable": 25.0,
+      "cancel_fee": 295.0,
+      "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN2415&state=TX&language=EN",
+      "efl_url": "https://signup.greenmountainenergy.com/defl/G1F00184870416B.pdf",
       "is_linear": true
     },
     {
-      "plan_id": "payless-power-ptc-6-month-prepaid-aep-texas-central-6-0",
-      "rep": "PAYLESS POWER",
-      "product": "PTC 6 Month - Prepaid",
+      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-12-choice-aep-texas-central-12-0",
+      "rep": "GREEN MOUNTAIN ENERGY COMPANY",
+      "product": "Pollution Free e-Plus 12 Choice",
       "reason_codes": [
-        "PREPAID"
-      ],
-      "verdicts": [
-        "Prepaid plan \u2014 pay-as-you-go with its own fees, not a straight rate."
-      ],
-      "rates": {
-        "500": 0.176,
-        "1000": 0.173,
-        "2000": 0.171
-      },
-      "bills": {
-        "500": 88.0,
-        "1000": 173.0,
-        "2000": 342.0
-      },
-      "term_months": 6.0,
-      "cancel_fee": 49.0,
-      "renewable": 26.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://api.paylesspower.com/common/api/document/aec/ERPP87/efl/en/487447",
-      "is_linear": true
-    },
-    {
-      "plan_id": "payless-power-ptc-12-month-prepaid-aep-texas-central-12-0",
-      "rep": "PAYLESS POWER",
-      "product": "PTC 12 Month - Prepaid",
-      "reason_codes": [
-        "PREPAID"
-      ],
-      "verdicts": [
-        "Prepaid plan \u2014 pay-as-you-go with its own fees, not a straight rate."
-      ],
-      "rates": {
-        "500": 0.174,
-        "1000": 0.171,
-        "2000": 0.169
-      },
-      "bills": {
-        "500": 87.0,
-        "1000": 171.0,
-        "2000": 338.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 49.0,
-      "renewable": 26.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://api.paylesspower.com/common/api/document/aec/ERPP86/efl/en/487447",
-      "is_linear": true
-    },
-    {
-      "plan_id": "reliant-reliant-power-on-flex-plan-aep-texas-central-0-0",
-      "rep": "RELIANT",
-      "product": "Reliant Power On Flex plan",
-      "reason_codes": [
-        "VARIABLE_RATE",
         "BASE_CHARGE"
       ],
       "verdicts": [
-        "Variable rate \u2014 the price can change month to month with no cap.",
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.187,
-        "1000": 0.179,
-        "2000": 0.175
+        "500": 0.162,
+        "1000": 0.154,
+        "2000": 0.15
       },
       "bills": {
-        "500": 93.5,
-        "1000": 179.0,
-        "2000": 350.0
-      },
-      "term_months": 0.0,
-      "cancel_fee": 0.0,
-      "renewable": 24.0,
-      "rate_type": "Variable",
-      "efl_url": "https://www.reliant.com/defl/R1F00184802687C.pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "ap-gas-electric-tx-llc-simplesaver-12-aep-texas-central-12-0",
-      "rep": "AP GAS & ELECTRIC (TX) LLC",
-      "product": "SimpleSaver 12",
-      "reason_codes": [
-        "BILL_CREDIT"
-      ],
-      "verdicts": [
-        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
-      ],
-      "rates": {
-        "500": 0.195,
-        "1000": 0.067,
-        "2000": 0.128
-      },
-      "bills": {
-        "500": 97.5,
-        "1000": 67.0,
-        "2000": 256.0
+        "500": 81.0,
+        "1000": 154.0,
+        "2000": 300.0
       },
       "term_months": 12.0,
       "cancel_fee": 150.0,
-      "renewable": 6.0,
+      "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBBUC_AEC_NA_NA_RES_F125M_SD0_T12_NEW",
-      "is_linear": false
+      "efl_url": "https://signup.greenmountainenergy.com/defl/G1F00184870580C.pdf",
+      "is_linear": true
     },
     {
       "plan_id": "amigo-energy-sustainable-simply-days-5-aep-texas-central-5-0",
@@ -3327,7 +2759,7 @@
       "cancel_fee": 175.0,
       "renewable": 31.0,
       "rate_type": "Fixed",
-      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=s7SNIsXygos=&RCID=rv5fvOkFHh4=&L=6f+Ch9flI7k=",
+      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=s7SNIsXygos=&RCID=rv5fvOkFHh4=&L=jfm4E/YMcQk=",
       "is_linear": true
     },
     {
@@ -3356,7 +2788,7 @@
       "cancel_fee": 175.0,
       "renewable": 31.0,
       "rate_type": "Fixed",
-      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=bFltdU8M4Y4=&RCID=cacW2cvK/I0=&L=6f+Ch9flI7k=",
+      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=bFltdU8M4Y4=&RCID=cacW2cvK/I0=&L=jfm4E/YMcQk=",
       "is_linear": true
     },
     {
@@ -3383,8 +2815,35 @@
       "cancel_fee": 175.0,
       "renewable": 31.0,
       "rate_type": "Fixed",
-      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=QRLBPobT0uM=&RCID=cacW2cvK/I0=&L=6f+Ch9flI7k=",
+      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=QRLBPobT0uM=&RCID=cacW2cvK/I0=&L=jfm4E/YMcQk=",
       "is_linear": true
+    },
+    {
+      "plan_id": "tara-energy-value-choice-12-aep-texas-central-12-0",
+      "rep": "TARA ENERGY",
+      "product": "Value Choice - 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ],
+      "rates": {
+        "500": 0.225,
+        "1000": 0.097,
+        "2000": 0.157
+      },
+      "bills": {
+        "500": 112.5,
+        "1000": 97.0,
+        "2000": 314.0
+      },
+      "term_months": 12.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=BHXcf9ee7oA=&RCID=cacW2cvK/I0=&L=jfm4E/YMcQk=",
+      "is_linear": false
     },
     {
       "plan_id": "amigo-energy-sustainable-lifestyle-5-aep-texas-central-5-0",
@@ -3410,7 +2869,63 @@
       "cancel_fee": 175.0,
       "renewable": 31.0,
       "rate_type": "Fixed",
-      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=kq/3qdIbPo0=&RCID=rv5fvOkFHh4=&L=6f+Ch9flI7k=",
+      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=kq/3qdIbPo0=&RCID=rv5fvOkFHh4=&L=jfm4E/YMcQk=",
+      "is_linear": true
+    },
+    {
+      "plan_id": "reliant-reliant-power-on-flex-plan-aep-texas-central-0-0",
+      "rep": "RELIANT",
+      "product": "Reliant Power On Flex Plan",
+      "reason_codes": [
+        "VARIABLE_RATE",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.187,
+        "1000": 0.179,
+        "2000": 0.175
+      },
+      "bills": {
+        "500": 93.5,
+        "1000": 179.0,
+        "2000": 350.0
+      },
+      "term_months": 0.0,
+      "cancel_fee": 0.0,
+      "renewable": 24.0,
+      "rate_type": "Variable",
+      "efl_url": "https://www.reliant.com/defl/R1F00184802688C.pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "reliant-reliant-power-on-12-plan-aep-texas-central-12-0",
+      "rep": "RELIANT",
+      "product": "Reliant Power On 12 Plan",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.158,
+        "1000": 0.15,
+        "2000": 0.146
+      },
+      "bills": {
+        "500": 79.0,
+        "1000": 150.0,
+        "2000": 292.0
+      },
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 24.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://www.reliant.com/defl/R1F00184802654C.pdf",
       "is_linear": true
     },
     {
@@ -3437,101 +2952,18 @@
       "cancel_fee": 175.0,
       "renewable": 31.0,
       "rate_type": "Fixed",
-      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=sgF65r4YM3I=&RCID=rv5fvOkFHh4=&L=6f+Ch9flI7k=",
+      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=sgF65r4YM3I=&RCID=rv5fvOkFHh4=&L=jfm4E/YMcQk=",
       "is_linear": false
-    },
-    {
-      "plan_id": "tara-energy-value-choice-12-aep-texas-central-12-0",
-      "rep": "TARA ENERGY",
-      "product": "Value Choice - 12",
-      "reason_codes": [
-        "BILL_CREDIT"
-      ],
-      "verdicts": [
-        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
-      ],
-      "rates": {
-        "500": 0.225,
-        "1000": 0.097,
-        "2000": 0.157
-      },
-      "bills": {
-        "500": 112.5,
-        "1000": 97.0,
-        "2000": 314.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 175.0,
-      "renewable": 31.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=BHXcf9ee7oA=&RCID=cacW2cvK/I0=&L=6f+Ch9flI7k=",
-      "is_linear": false
-    },
-    {
-      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-24-choice-aep-texas-central-24-0",
-      "rep": "GREEN MOUNTAIN ENERGY COMPANY",
-      "product": "Pollution Free e-Plus 24 Choice",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.166,
-        "1000": 0.158,
-        "2000": 0.154
-      },
-      "bills": {
-        "500": 83.0,
-        "1000": 158.0,
-        "2000": 308.0
-      },
-      "term_months": 24.0,
-      "cancel_fee": 295.0,
-      "renewable": 100.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://signup.greenmountainenergy.com/defl/G1F00184870415B.pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-12-choice-aep-texas-central-12-0",
-      "rep": "GREEN MOUNTAIN ENERGY COMPANY",
-      "product": "Pollution Free e-Plus 12 Choice",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.162,
-        "1000": 0.154,
-        "2000": 0.15
-      },
-      "bills": {
-        "500": 81.0,
-        "1000": 154.0,
-        "2000": 300.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 150.0,
-      "renewable": 100.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://signup.greenmountainenergy.com/defl/G1F00184870579C.pdf",
-      "is_linear": true
     },
     {
       "plan_id": "just-energy-sustainable-living-bundle-5-aep-texas-central-5-0",
       "rep": "JUST ENERGY",
       "product": "Sustainable Living Bundle - 5",
       "reason_codes": [
-        "BASE_CHARGE",
-        "SETUP_FEE"
+        "BASE_CHARGE"
       ],
       "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest.",
-        "Has an enrollment or setup fee \u2014 an upfront cost the advertised rate hides."
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
         "500": 0.121,
@@ -3547,7 +2979,7 @@
       "cancel_fee": 175.0,
       "renewable": 31.0,
       "rate_type": "Fixed",
-      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=IIijz2p7pCo=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=",
+      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=IIijz2p7pCo=&RCID=gNASPlhlupI=&L=jfm4E/YMcQk=",
       "is_linear": true
     },
     {
@@ -3576,7 +3008,7 @@
       "cancel_fee": 175.0,
       "renewable": 31.0,
       "rate_type": "Fixed",
-      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=jHoLIjv/QSg=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=",
+      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=jHoLIjv/QSg=&RCID=gNASPlhlupI=&L=jfm4E/YMcQk=",
       "is_linear": true
     },
     {
@@ -3603,35 +3035,8 @@
       "cancel_fee": 175.0,
       "renewable": 31.0,
       "rate_type": "Fixed",
-      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=zGBBqBsStak=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=",
+      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=zGBBqBsStak=&RCID=gNASPlhlupI=&L=jfm4E/YMcQk=",
       "is_linear": false
-    },
-    {
-      "plan_id": "reliant-reliant-power-on-12-plan-aep-texas-central-12-0",
-      "rep": "RELIANT",
-      "product": "Reliant Power On 12 Plan",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.158,
-        "1000": 0.15,
-        "2000": 0.146
-      },
-      "bills": {
-        "500": 79.0,
-        "1000": 150.0,
-        "2000": 292.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 150.0,
-      "renewable": 24.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://www.reliant.com/defl/R1F00184802652C.pdf",
-      "is_linear": true
     },
     {
       "plan_id": "reliant-reliant-power-on-24-plan-aep-texas-central-24-0",
@@ -3657,61 +3062,7 @@
       "cancel_fee": 295.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://www.reliant.com/defl/R1F00184802707C.pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "chariot-energy-chariot-freedom-aep-texas-central-0-0",
-      "rep": "CHARIOT ENERGY",
-      "product": "Chariot Freedom",
-      "reason_codes": [
-        "VARIABLE_RATE"
-      ],
-      "verdicts": [
-        "Variable rate \u2014 the price can change month to month with no cap."
-      ],
-      "rates": {
-        "500": 0.143,
-        "1000": 0.139,
-        "2000": 0.138
-      },
-      "bills": {
-        "500": 71.5,
-        "1000": 139.0,
-        "2000": 276.0
-      },
-      "term_months": 0.0,
-      "cancel_fee": 0.0,
-      "renewable": 100.0,
-      "rate_type": "Variable",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46213",
-      "is_linear": true
-    },
-    {
-      "plan_id": "reliant-reliant-power-on-36-plan-aep-texas-central-36-0",
-      "rep": "RELIANT",
-      "product": "Reliant Power on 36 Plan",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.164,
-        "1000": 0.156,
-        "2000": 0.152
-      },
-      "bills": {
-        "500": 82.0,
-        "1000": 156.0,
-        "2000": 304.0
-      },
-      "term_months": 36.0,
-      "cancel_fee": 395.0,
-      "renewable": 24.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://www.reliant.com/defl/R1F00184802737C.pdf",
+      "efl_url": "https://www.reliant.com/defl/R1F00184802708C.pdf",
       "is_linear": true
     },
     {
@@ -3738,7 +3089,7 @@
       "cancel_fee": 295.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00184798409A.pdf",
+      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00184798410A.pdf",
       "is_linear": true
     },
     {
@@ -3765,7 +3116,34 @@
       "cancel_fee": 395.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00184798417A.pdf",
+      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00184798418A.pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "reliant-reliant-power-on-36-plan-aep-texas-central-36-0",
+      "rep": "RELIANT",
+      "product": "Reliant Power on 36 Plan",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.164,
+        "1000": 0.156,
+        "2000": 0.152
+      },
+      "bills": {
+        "500": 82.0,
+        "1000": 156.0,
+        "2000": 304.0
+      },
+      "term_months": 36.0,
+      "cancel_fee": 395.0,
+      "renewable": 24.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://www.reliant.com/defl/R1F00184802739C.pdf",
       "is_linear": true
     },
     {
@@ -3792,7 +3170,7 @@
       "cancel_fee": 395.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://signup.greenmountainenergy.com/defl/G1F00184870507B.pdf",
+      "efl_url": "https://signup.greenmountainenergy.com/defl/G1F00184870508B.pdf",
       "is_linear": true
     },
     {
@@ -3819,7 +3197,7 @@
       "cancel_fee": 150.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00184798393A.pdf",
+      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00184798394A.pdf",
       "is_linear": true
     },
     {
@@ -3846,7 +3224,7 @@
       "cancel_fee": 180.0,
       "renewable": 15.0,
       "rate_type": "Fixed",
-      "efl_url": "https://www.reliant.com/defl/R1F00190183733A.pdf",
+      "efl_url": "https://www.reliant.com/defl/R1F00190183734A.pdf",
       "is_linear": true
     },
     {
@@ -3873,7 +3251,7 @@
       "cancel_fee": 180.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://signup.greenmountain.com/defl/G1F00190243347A.pdf",
+      "efl_url": "https://signup.greenmountain.com/defl/G1F00190243348A.pdf",
       "is_linear": true
     },
     {
@@ -3900,7 +3278,7 @@
       "cancel_fee": 20.0,
       "renewable": 25.0,
       "rate_type": "Fixed",
-      "efl_url": "https://api.goodcharlie.com/products/2047/EFL/AEP_Central/latest/en",
+      "efl_url": "https://api.goodcharlie.com/products/2047/EFL/AEP_Central/latest/es",
       "is_linear": true
     },
     {
@@ -3927,7 +3305,7 @@
       "cancel_fee": 20.0,
       "renewable": 25.0,
       "rate_type": "Fixed",
-      "efl_url": "https://api.goodcharlie.com/products/2046/EFL/AEP_Central/latest/en",
+      "efl_url": "https://api.goodcharlie.com/products/2046/EFL/AEP_Central/latest/es",
       "is_linear": true
     },
     {
@@ -3954,13 +3332,13 @@
       "cancel_fee": 20.0,
       "renewable": 25.0,
       "rate_type": "Fixed",
-      "efl_url": "https://api.goodcharlie.com/products/2048/EFL/AEP_Central/latest/en",
+      "efl_url": "https://api.goodcharlie.com/products/2048/EFL/AEP_Central/latest/es",
       "is_linear": true
     },
     {
-      "plan_id": "ranchero-power-ranchero-fixed-prime-48-aep-texas-central-48-0",
+      "plan_id": "ranchero-power-ranchero-prima-fija-48-aep-texas-central-48-0",
       "rep": "Ranchero Power",
-      "product": "Ranchero Fixed Prime - 48",
+      "product": "Ranchero Prima Fija - 48",
       "reason_codes": [
         "BASE_CHARGE"
       ],
@@ -3981,94 +3359,13 @@
       "cancel_fee": 0.0,
       "renewable": 6.0,
       "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/4vbSyU5",
+      "efl_url": "https://bit.ly/3RfyQc5",
       "is_linear": true
     },
     {
-      "plan_id": "ranchero-power-ranchero-smart-fixed-11-aep-texas-central-11-0",
+      "plan_id": "ranchero-power-tarifa-fija-y-inteligente-36-aep-texas-central-36-0",
       "rep": "Ranchero Power",
-      "product": "Ranchero Smart & Fixed - 11",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.129,
-        "1000": 0.12,
-        "2000": 0.116
-      },
-      "bills": {
-        "500": 64.5,
-        "1000": 120.0,
-        "2000": 232.0
-      },
-      "term_months": 11.0,
-      "cancel_fee": 179.0,
-      "renewable": 6.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/4yiAXwz",
-      "is_linear": true
-    },
-    {
-      "plan_id": "ranchero-power-ranchero-smart-fixed-5-aep-texas-central-5-0",
-      "rep": "Ranchero Power",
-      "product": "Ranchero Smart & Fixed - 5",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.13,
-        "1000": 0.121,
-        "2000": 0.117
-      },
-      "bills": {
-        "500": 65.0,
-        "1000": 121.0,
-        "2000": 234.0
-      },
-      "term_months": 5.0,
-      "cancel_fee": 179.0,
-      "renewable": 6.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/4yj4eqH",
-      "is_linear": true
-    },
-    {
-      "plan_id": "ranchero-power-ranchero-smart-fixed-12-aep-texas-central-12-0",
-      "rep": "Ranchero Power",
-      "product": "Ranchero Smart & Fixed - 12",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.142,
-        "1000": 0.133,
-        "2000": 0.129
-      },
-      "bills": {
-        "500": 71.0,
-        "1000": 133.0,
-        "2000": 258.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 179.0,
-      "renewable": 6.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/4ylftyU",
-      "is_linear": true
-    },
-    {
-      "plan_id": "ranchero-power-smart-fixed-36-aep-texas-central-36-0",
-      "rep": "Ranchero Power",
-      "product": "Smart & Fixed - 36",
+      "product": "Tarifa Fija y Inteligente \u2013 36",
       "reason_codes": [
         "BASE_CHARGE"
       ],
@@ -4089,13 +3386,94 @@
       "cancel_fee": 179.0,
       "renewable": 6.0,
       "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/4wY1D5b",
+      "efl_url": "https://bit.ly/4uJYHHJ",
       "is_linear": true
     },
     {
-      "plan_id": "ranchero-power-no-contract-advantage-aep-texas-central-1-0",
+      "plan_id": "ranchero-power-ranchero-tarifa-fija-y-inteligente-5-aep-texas-central-5-0",
       "rep": "Ranchero Power",
-      "product": "No Contract Advantage",
+      "product": "Ranchero Tarifa Fija y Inteligente - 5",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.13,
+        "1000": 0.121,
+        "2000": 0.117
+      },
+      "bills": {
+        "500": 65.0,
+        "1000": 121.0,
+        "2000": 234.0
+      },
+      "term_months": 5.0,
+      "cancel_fee": 179.0,
+      "renewable": 6.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://bit.ly/4w0JtyB",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ranchero-power-ranchero-tarifa-fija-y-inteligente-12-aep-texas-central-12-0",
+      "rep": "Ranchero Power",
+      "product": "Ranchero Tarifa Fija y Inteligente -12",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.142,
+        "1000": 0.133,
+        "2000": 0.129
+      },
+      "bills": {
+        "500": 71.0,
+        "1000": 133.0,
+        "2000": 258.0
+      },
+      "term_months": 12.0,
+      "cancel_fee": 0.0,
+      "renewable": 6.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://bit.ly/44YjDzl",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ranchero-power-ranchero-fija-y-inteligente-11-aep-texas-central-11-0",
+      "rep": "Ranchero Power",
+      "product": "Ranchero Fija y Inteligente - 11",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.129,
+        "1000": 0.12,
+        "2000": 0.116
+      },
+      "bills": {
+        "500": 64.5,
+        "1000": 120.0,
+        "2000": 232.0
+      },
+      "term_months": 11.0,
+      "cancel_fee": 179.0,
+      "renewable": 6.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://bit.ly/4bjmXss",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ranchero-power-introducci-n-de-tarifa-variable-aep-texas-central-1-0",
+      "rep": "Ranchero Power",
+      "product": "Introducci\u00f3n de Tarifa Variable",
       "reason_codes": [
         "VARIABLE_RATE",
         "BASE_CHARGE"
@@ -4118,67 +3496,13 @@
       "cancel_fee": 0.0,
       "renewable": 6.0,
       "rate_type": "Variable",
-      "efl_url": "https://bit.ly/4vga7Ct",
+      "efl_url": "https://bit.ly/4vgaaOF",
       "is_linear": true
     },
     {
-      "plan_id": "southern-federal-power-llc-sofed-better-rate-5-aep-texas-central-6-0",
+      "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-11-aep-texas-central-11-0",
       "rep": "SOUTHERN FEDERAL POWER LLC",
-      "product": "SoFed Better Rate - 5",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.129,
-        "1000": 0.12,
-        "2000": 0.116
-      },
-      "bills": {
-        "500": 64.5,
-        "1000": 120.0,
-        "2000": 232.0
-      },
-      "term_months": 6.0,
-      "cancel_fee": 249.0,
-      "renewable": 6.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/4fxPBsj",
-      "is_linear": true
-    },
-    {
-      "plan_id": "southern-federal-power-llc-sofed-better-rate-36-aep-texas-central-36-0",
-      "rep": "SOUTHERN FEDERAL POWER LLC",
-      "product": "SoFed Better Rate - 36",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.148,
-        "1000": 0.139,
-        "2000": 0.135
-      },
-      "bills": {
-        "500": 74.0,
-        "1000": 139.0,
-        "2000": 270.0
-      },
-      "term_months": 36.0,
-      "cancel_fee": 249.0,
-      "renewable": 6.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/4flfkEL",
-      "is_linear": true
-    },
-    {
-      "plan_id": "southern-federal-power-llc-sofed-better-rate-11-aep-texas-central-11-0",
-      "rep": "SOUTHERN FEDERAL POWER LLC",
-      "product": "SoFed Better Rate - 11",
+      "product": "SoFed Mejor Tarifa \u2013 11",
       "reason_codes": [
         "BASE_CHARGE"
       ],
@@ -4199,13 +3523,40 @@
       "cancel_fee": 249.0,
       "renewable": 6.0,
       "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/4gB3vLs",
+      "efl_url": "https://bit.ly/4vsEJki",
       "is_linear": true
     },
     {
-      "plan_id": "southern-federal-power-llc-variable-advantage-aep-texas-central-1-0",
+      "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-5-aep-texas-central-6-0",
       "rep": "SOUTHERN FEDERAL POWER LLC",
-      "product": "Variable Advantage",
+      "product": "SoFed Mejor Tarifa \u2013 5",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.129,
+        "1000": 0.12,
+        "2000": 0.116
+      },
+      "bills": {
+        "500": 64.5,
+        "1000": 120.0,
+        "2000": 232.0
+      },
+      "term_months": 6.0,
+      "cancel_fee": 249.0,
+      "renewable": 6.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://bit.ly/3SO9Lpj",
+      "is_linear": true
+    },
+    {
+      "plan_id": "southern-federal-power-llc-introducci-n-de-tarifa-variable-aep-texas-central-1-0",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "Introducci\u00f3n de Tarifa Variable",
       "reason_codes": [
         "VARIABLE_RATE",
         "BASE_CHARGE"
@@ -4228,7 +3579,7 @@
       "cancel_fee": 0.0,
       "renewable": 6.0,
       "rate_type": "Variable",
-      "efl_url": "https://bit.ly/4eI7KU7",
+      "efl_url": "https://bit.ly/4v7Emve",
       "is_linear": true
     },
     {
@@ -4257,8 +3608,35 @@
       "cancel_fee": 20.0,
       "renewable": 3.0,
       "rate_type": "Fixed",
-      "efl_url": "https://shopping.trieagleenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCXTESRVALC36AA&tdsp=AEPTCC&lang=en&custClass=Residential",
+      "efl_url": "https://shopping.trieagleenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCXTESRVALC36AA&tdsp=AEPTCC&lang=es&custClass=Residential",
       "is_linear": false
+    },
+    {
+      "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-36-aep-texas-central-36-0",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "SoFed Mejor Tarifa \u2013 36",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.148,
+        "1000": 0.139,
+        "2000": 0.135
+      },
+      "bills": {
+        "500": 74.0,
+        "1000": 139.0,
+        "2000": 270.0
+      },
+      "term_months": 36.0,
+      "cancel_fee": 249.0,
+      "renewable": 6.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://bit.ly/4dRIMzL",
+      "is_linear": true
     },
     {
       "plan_id": "revolution-energy-llc-stars-and-stripes-flex-aep-texas-central-1-0",
@@ -4286,7 +3664,7 @@
       "cancel_fee": 0.0,
       "renewable": 24.0,
       "rate_type": "Variable",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260707-180100-AEPS-Stars and Stripes Flex (English).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260707-180100-AEPS-Stars and Stripes Flex (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4315,7 +3693,7 @@
       "cancel_fee": 0.0,
       "renewable": 100.0,
       "rate_type": "Variable",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260707-180100-AEPS-Stars and Stripes Green Flex (English).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260707-180100-AEPS-Stars and Stripes Green Flex (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4342,7 +3720,7 @@
       "cancel_fee": 175.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260714-130800-AEPS-Stars and Stripes 9 (English).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260714-130800-AEPS-Stars and Stripes 9 (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4369,7 +3747,7 @@
       "cancel_fee": 200.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260710-101400-AEPS-Stars and Stripes 12 (English).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260710-101400-AEPS-Stars and Stripes 12 (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4396,7 +3774,7 @@
       "cancel_fee": 250.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260714-130800-AEPS-Stars and Stripes 18 (English).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260714-130800-AEPS-Stars and Stripes 18 (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4423,7 +3801,7 @@
       "cancel_fee": 300.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260710-101400-AEPS-Stars and Stripes 24 (English).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260710-101400-AEPS-Stars and Stripes 24 (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4450,7 +3828,7 @@
       "cancel_fee": 375.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260710-101400-AEPS-Stars and Stripes 36 (English).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260710-101400-AEPS-Stars and Stripes 36 (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4479,7 +3857,7 @@
       "cancel_fee": 0.0,
       "renewable": 24.0,
       "rate_type": "Variable",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260707-180100-AEPS-Liberty Bell Flex (English).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260707-180100-AEPS-Liberty Bell Flex (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4508,7 +3886,34 @@
       "cancel_fee": 0.0,
       "renewable": 100.0,
       "rate_type": "Variable",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260707-180100-AEPS-Liberty Bell Green Flex (English).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260707-180100-AEPS-Liberty Bell Green Flex (Spanish).pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "chariot-energy-chariot-freedom-aep-texas-central-0-0",
+      "rep": "CHARIOT ENERGY",
+      "product": "Chariot Freedom",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ],
+      "rates": {
+        "500": 0.143,
+        "1000": 0.139,
+        "2000": 0.138
+      },
+      "bills": {
+        "500": 71.5,
+        "1000": 139.0,
+        "2000": 276.0
+      },
+      "term_months": 0.0,
+      "cancel_fee": 0.0,
+      "renewable": 100.0,
+      "rate_type": "Variable",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46213&ver=spanish",
       "is_linear": true
     },
     {
@@ -4535,7 +3940,7 @@
       "cancel_fee": 20.0,
       "renewable": 3.0,
       "rate_type": "Fixed",
-      "efl_url": "https://shopping.trieagleenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCXTESMSAVC36AA&tdsp=AEPTCC&lang=en&custClass=Residential",
+      "efl_url": "https://shopping.trieagleenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCXTESMSAVC36AA&tdsp=AEPTCC&lang=es&custClass=Residential",
       "is_linear": true
     },
     {
@@ -4562,7 +3967,7 @@
       "cancel_fee": 20.0,
       "renewable": 3.0,
       "rate_type": "Fixed",
-      "efl_url": "https://shopping.trieagleenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCXTESMSAVC12AA&tdsp=AEPTCC&lang=en&custClass=Residential",
+      "efl_url": "https://shopping.trieagleenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCXTESMSAVC12AA&tdsp=AEPTCC&lang=es&custClass=Residential",
       "is_linear": true
     },
     {
@@ -4589,88 +3994,7 @@
       "cancel_fee": 20.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://shopping.trieagleenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCXTESMGRNC12AA&tdsp=AEPTCC&lang=en&custClass=Residential",
-      "is_linear": true
-    },
-    {
-      "plan_id": "abundance-energy-straight-forward-12-aep-texas-central-12-0",
-      "rep": "Abundance Energy",
-      "product": "Straight Forward 12",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.134,
-        "1000": 0.126,
-        "2000": 0.122
-      },
-      "bills": {
-        "500": 67.0,
-        "1000": 126.0,
-        "2000": 244.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 200.0,
-      "renewable": 25.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=straightforward.fixed&tdsp_id=4&doc_type=EFL&term=12&promo_code=PTC",
-      "is_linear": true
-    },
-    {
-      "plan_id": "smartenergy-holdings-llc-smartgreen-24-200-bill-credit-aep-texas-central-24-0",
-      "rep": "SMARTENERGY HOLDINGS LLC",
-      "product": "SmartGreen 24 $200 Bill Credit",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.152,
-        "1000": 0.143,
-        "2000": 0.139
-      },
-      "bills": {
-        "500": 76.0,
-        "1000": 143.0,
-        "2000": 278.0
-      },
-      "term_months": 24.0,
-      "cancel_fee": 20.0,
-      "renewable": 100.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://texas.smartenergy.com/docs/efls/output/20260702_F_AEPC_SG24-1MNTHBC_M2001.pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "smartenergy-holdings-llc-smartgreen-12-200-bill-credit-aep-texas-central-12-0",
-      "rep": "SMARTENERGY HOLDINGS LLC",
-      "product": "SmartGreen 12 $200 Bill Credit",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.143,
-        "1000": 0.134,
-        "2000": 0.13
-      },
-      "bills": {
-        "500": 71.5,
-        "1000": 134.0,
-        "2000": 260.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 20.0,
-      "renewable": 100.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://texas.smartenergy.com/docs/efls/output/20260702_F_AEPC_SG12-1MNTHBC_M2001.pdf",
+      "efl_url": "https://shopping.trieagleenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCXTESMGRNC12AA&tdsp=AEPTCC&lang=es&custClass=Residential",
       "is_linear": true
     },
     {
@@ -4699,7 +4023,7 @@
       "cancel_fee": 0.0,
       "renewable": 24.0,
       "rate_type": "Variable",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260707-183100-AEPS-Essential Infusion Flex (English).pdf",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260707-183100-AEPS-Essential Infusion Flex (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4728,7 +4052,7 @@
       "cancel_fee": 0.0,
       "renewable": 100.0,
       "rate_type": "Variable",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260707-183100-AEPS-Essential Infusion Green Flex (English).pdf",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260707-183100-AEPS-Essential Infusion Green Flex (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4757,7 +4081,7 @@
       "cancel_fee": 0.0,
       "renewable": 100.0,
       "rate_type": "Variable",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260707-183100-AEPS-PTC Green Infusion Flex (English).pdf",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260707-183100-AEPS-PTC Green Infusion Flex (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4786,7 +4110,7 @@
       "cancel_fee": 0.0,
       "renewable": 24.0,
       "rate_type": "Variable",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260707-183100-AEPS-PTC Infusion Flex (English).pdf",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260707-183100-AEPS-PTC Infusion Flex (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4813,7 +4137,7 @@
       "cancel_fee": 100.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260714-132700-AEPS-Essential Infusion 3 (English).pdf",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260714-132700-AEPS-Essential Infusion 3 (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4840,7 +4164,7 @@
       "cancel_fee": 150.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260714-153400-AEPS-Essential Infusion 6 (English).pdf",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260714-153400-AEPS-Essential Infusion 6 (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4867,7 +4191,7 @@
       "cancel_fee": 200.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260710-093000-AEPS-Essential Infusion 12 (English).pdf",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260710-093000-AEPS-Essential Infusion 12 (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4894,7 +4218,7 @@
       "cancel_fee": 300.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260710-093000-AEPS-Essential Infusion 24 (English).pdf",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260710-093000-AEPS-Essential Infusion 24 (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4921,7 +4245,7 @@
       "cancel_fee": 375.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260710-093000-AEPS-Essential Infusion 36 (English).pdf",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260710-093000-AEPS-Essential Infusion 36 (Spanish).pdf",
       "is_linear": true
     },
     {
@@ -4948,7 +4272,7 @@
       "cancel_fee": 200.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.noap.fixed&tdsp_id=4&doc_type=EFL&term=12&promo_code=default",
+      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=es&product_code=tx.thinkclean.noap.fixed&tdsp_id=4&doc_type=EFL&term=12&promo_code=default",
       "is_linear": true
     },
     {
@@ -4975,34 +4299,7 @@
       "cancel_fee": 200.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.ap.fixed&tdsp_id=4&doc_type=EFL&term=24&promo_code=default",
-      "is_linear": true
-    },
-    {
-      "plan_id": "smartenergy-holdings-llc-smartgreen-9-200-bill-credit-aep-texas-central-9-0",
-      "rep": "SMARTENERGY HOLDINGS LLC",
-      "product": "SmartGreen 9 $200 Bill Credit",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.148,
-        "1000": 0.139,
-        "2000": 0.135
-      },
-      "bills": {
-        "500": 74.0,
-        "1000": 139.0,
-        "2000": 270.0
-      },
-      "term_months": 9.0,
-      "cancel_fee": 20.0,
-      "renewable": 100.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://texas.smartenergy.com/docs/efls/output/20260702_F_AEPC_SG9-1MNTHBC_M2001.pdf",
+      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=es&product_code=tx.thinkclean.ap.fixed&tdsp_id=4&doc_type=EFL&term=24&promo_code=default",
       "is_linear": true
     },
     {
@@ -5029,7 +4326,7 @@
       "cancel_fee": 200.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.noap.fixed.thermostat&tdsp_id=4&doc_type=EFL&term=12&promo_code=default",
+      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=es&product_code=tx.thinkclean.noap.fixed.thermostat&tdsp_id=4&doc_type=EFL&term=12&promo_code=default",
       "is_linear": true
     },
     {
@@ -5058,7 +4355,7 @@
       "cancel_fee": 15.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46475",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46475&ver=spanish",
       "is_linear": true
     },
     {
@@ -5087,7 +4384,7 @@
       "cancel_fee": 15.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46303",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46303&ver=spanish",
       "is_linear": true
     },
     {
@@ -5116,7 +4413,7 @@
       "cancel_fee": 15.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46304",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46304&ver=spanish",
       "is_linear": true
     }
   ]

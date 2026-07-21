@@ -82,6 +82,14 @@ class ReasonCode(str, Enum):
     TIME_OF_USE = "TIME_OF_USE"          # rate depends on time of day
     NONLINEAR_RATE = "NONLINEAR_RATE"    # price doesn't scale cleanly with usage
                                          # (caught by the cost engine, not a flag)
+    # Editorial filters from the r/TexasEnergyShopping curator's methodology,
+    # read from each plan's EFL (base charge from the feed's line fit; the rest
+    # from EFL text).
+    BASE_CHARGE = "BASE_CHARGE"          # flat monthly base/service charge
+    SETUP_FEE = "SETUP_FEE"              # enrollment / setup / activation fee
+    BUNDLE_FEE = "BUNDLE_FEE"            # bundle / membership / subscription add-on
+    CC_FEE = "CC_FEE"                    # credit-card / processing / convenience fee
+    DEVICE_REQUIRED = "DEVICE_REQUIRED"  # requires a smart thermostat / device
 
 
 # Plain-English verdict templates, keyed by reason code. The UI fills these in.
@@ -97,6 +105,17 @@ VERDICT_TEMPLATES = {
         "Time-of-use — the rate spikes during certain hours; most homes pay more.",
     ReasonCode.NONLINEAR_RATE:
         "The bill doesn't scale cleanly with usage — a hidden tier or credit kink.",
+    ReasonCode.BASE_CHARGE:
+        "Charges a flat monthly base fee on top of the rate — it quietly raises "
+        "your real cost, and hits low-usage months hardest.",
+    ReasonCode.SETUP_FEE:
+        "Has an enrollment or setup fee — an upfront cost the advertised rate hides.",
+    ReasonCode.BUNDLE_FEE:
+        "Bundles a membership, subscription, or 'perk' with its own recurring cost.",
+    ReasonCode.CC_FEE:
+        "Adds a credit-card or processing fee — you pay extra just to pay your bill.",
+    ReasonCode.DEVICE_REQUIRED:
+        "Requires connecting a smart thermostat or device to get the rate.",
 }
 
 
