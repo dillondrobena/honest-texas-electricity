@@ -1,9 +1,10 @@
 name: Refresh plan data
 
 # Pulls the current PowerToChoose data monthly, regenerates the per-region JSON
-# and price history, and commits it. The commit touches web/** which triggers
-# the deploy workflow. If PowerToChoose is unreachable, the job fails and the
-# last-good committed data stays live — never a broken or blank site.
+# and price history, and commits it. The push triggers Cloudflare Pages to
+# rebuild and redeploy automatically (Git integration). If PowerToChoose is
+# unreachable, the job fails and the last-good committed data stays live —
+# never a broken or blank site.
 on:
   schedule:
     - cron: "0 9 1 * *" # 09:00 UTC on the 1st of each month
