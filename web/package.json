@@ -6,12 +6,18 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "check": "astro check"
+    "preview": "npm run build && wrangler dev",
+    "check": "astro check",
+    "deploy": "npm run build && wrangler deploy",
+    "cf-typegen": "wrangler types"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "11",
     "@fontsource-variable/newsreader": "^5.1.0",
     "@fontsource/ibm-plex-mono": "^5.1.0",
     "astro": "^4.16.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.112.0"
   }
 }
