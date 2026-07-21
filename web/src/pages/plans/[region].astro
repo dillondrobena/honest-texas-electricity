@@ -88,7 +88,7 @@ const title = `All ${meta.label} honest electricity plans, sortable | Honest Tex
             <td class="td-num mono">{p.cancel_fee != null ? money(p.cancel_fee) : "—"}</td>
             <td class="td-num mono">{p.renewable != null ? `${p.renewable}%` : "—"}</td>
             <td class="td-num mono">{p.rating != null ? p.rating.toFixed(0) : "—"}</td>
-            <td class="td-num">{p.efl_verified ? <span class="vok" title="Price matches the legal EFL">✓</span> : <span class="vno" title="Not EFL-verified — feed estimate">—</span>}</td>
+            <td class="td-num">{p.efl_verified ? <span class="vok" title="Price matches the legal EFL">verified</span> : <span class="vno" title="Not EFL-verified — feed estimate">feed est.</span>}</td>
             <td class="td-num">{p.efl_url ? <a href={p.efl_url} rel="nofollow noopener" target="_blank">EFL ↗</a> : "—"}</td>
           </tr>
         ))}
