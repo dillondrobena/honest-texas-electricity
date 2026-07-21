@@ -38,6 +38,26 @@ _TDU_ALIASES = [
 ]
 
 
+# Region metadata for the frontend: canonical TDU code, a short label, and the
+# major cities people recognize (from the spreadsheet's "Find Your Region" tab).
+REGION_META = [
+    {"slug": "oncor", "tdu": TDU_ONCOR, "label": "Oncor",
+     "cities": "Dallas–Fort Worth, Waco, Midland, Odessa, Round Rock"},
+    {"slug": "centerpoint", "tdu": "CENTERPOINT", "label": "CenterPoint",
+     "cities": "Houston and the Gulf Coast"},
+    {"slug": "aep-central", "tdu": "AEP TEXAS CENTRAL", "label": "AEP Texas Central",
+     "cities": "Corpus Christi, McAllen, Laredo, Victoria, Harlingen"},
+    {"slug": "aep-north", "tdu": "AEP TEXAS NORTH", "label": "AEP Texas North",
+     "cities": "Abilene, San Angelo, Vernon"},
+    {"slug": "tnmp", "tdu": "TEXAS-NEW MEXICO POWER", "label": "Texas-New Mexico Power",
+     "cities": "League City, Angleton, Pecos, Glen Rose"},
+    {"slug": "lubbock", "tdu": "LUBBOCK POWER & LIGHT", "label": "Lubbock Power & Light",
+     "cities": "Lubbock"},
+]
+
+SLUG_BY_TDU = {r["tdu"]: r["slug"] for r in REGION_META}
+
+
 def normalize_tdu(name) -> str:
     """Map any TDU spelling onto a canonical code. NTU / NUECES are separate
     NTP / co-op markets (not standard TDUs) and are left unmapped so they fall

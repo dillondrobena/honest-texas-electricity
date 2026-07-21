@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-07-21T01:05:59Z",
+  "regions": [
+    {
+      "slug": "oncor",
+      "tdu": "ONCOR",
+      "label": "Oncor",
+      "cities": "Dallas\u2013Fort Worth, Waco, Midland, Odessa, Round Rock",
+      "counts": {
+        "total": 171,
+        "dropped_invalid": 0,
+        "honest": 130,
+        "rejected": 41
+      },
+      "generated_at": "2026-07-21T01:05:59Z"
+    },
+    {
+      "slug": "centerpoint",
+      "tdu": "CENTERPOINT",
+      "label": "CenterPoint",
+      "cities": "Houston and the Gulf Coast",
+      "counts": {
+        "total": 178,
+        "dropped_invalid": 0,
+        "honest": 122,
+        "rejected": 56
+      },
+      "generated_at": "2026-07-21T01:05:59Z"
+    },
+    {
+      "slug": "aep-central",
+      "tdu": "AEP TEXAS CENTRAL",
+      "label": "AEP Texas Central",
+      "cities": "Corpus Christi, McAllen, Laredo, Victoria, Harlingen",
+      "counts": {
+        "total": 168,
+        "dropped_invalid": 0,
+        "honest": 127,
+        "rejected": 41
+      },
+      "generated_at": "2026-07-21T01:05:59Z"
+    },
+    {
+      "slug": "aep-north",
+      "tdu": "AEP TEXAS NORTH",
+      "label": "AEP Texas North",
+      "cities": "Abilene, San Angelo, Vernon",
+      "counts": {
+        "total": 168,
+        "dropped_invalid": 0,
+        "honest": 128,
+        "rejected": 40
+      },
+      "generated_at": "2026-07-21T01:05:59Z"
+    },
+    {
+      "slug": "tnmp",
+      "tdu": "TEXAS-NEW MEXICO POWER",
+      "label": "Texas-New Mexico Power",
+      "cities": "League City, Angleton, Pecos, Glen Rose",
+      "counts": {
+        "total": 163,
+        "dropped_invalid": 0,
+        "honest": 122,
+        "rejected": 41
+      },
+      "generated_at": "2026-07-21T01:05:59Z"
+    },
+    {
+      "slug": "lubbock",
+      "tdu": "LUBBOCK POWER & LIGHT",
+      "label": "Lubbock Power & Light",
+      "cities": "Lubbock",
+      "counts": {
+        "total": 96,
+        "dropped_invalid": 0,
+        "honest": 75,
+        "rejected": 21
+      },
+      "generated_at": "2026-07-21T01:05:59Z"
+    }
+  ]
+}

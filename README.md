@@ -12,9 +12,9 @@ See `DESIGN.md` for the visual system and
 `~/.gstack/projects/Untitled-Power-Project/` for the full design doc and
 milestone plan.
 
-## Milestone 1 (this code): the Oncor trust engine
+## The trust engine (this code)
 
-The pipeline that turns raw plan data into an honest, ranked answer:
+The pipeline that turns raw plan data into an honest, ranked answer, per region:
 
 ```
 ingest ─▶ validate ─▶ filter ─▶ cost ─▶ recommend ─▶ per-region JSON
@@ -31,12 +31,18 @@ ingest ─▶ validate ─▶ filter ─▶ cost ─▶ recommend ─▶ per-reg
 - **`src/htx/validate.py`** — drops only truly unusable records; non-monotonic
   bills are kept and exposed as gimmicks, never hidden.
 
-### What's NOT in Milestone 1 (by design)
+### Shipped since M1
+- **All six TDU regions** (Oncor, CenterPoint, AEP Central/North, TNMP, Lubbock).
+  The pipeline loops every region; the frontend has a region selector + ZIP
+  auto-mapping. See `scripts/run_pipeline.py` and `web/`.
+
+### What's still NOT done (by design)
 - EFL PDF parsing / verification (every plan is `efl_verified = False` for now;
-  the EFL-verified #1 gate turns on when that milestone lands).
-- The other five TDU regions (Oncor only for now).
-- ZIP→TDU precision beyond a seed map (`zip_tdu.py`).
-- The web frontend (this is the data brain it will read).
+  the "feed estimate — verify EFL" badge flips to "EFL-verified" and the
+  verified-#1 gate turns on when that milestone lands).
+- ZIP→TDU precision beyond a seed map (the region selector is the reliable path;
+  full address/ESI-ID lookup is a deferred item in `TODOS.md`).
+- Per-plan autopsy detail pages ("every rejected plan and why").
 
 ## Run it
 

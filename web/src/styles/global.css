@@ -87,7 +87,12 @@ body {
   border: 1px solid var(--ink); background: var(--surface); color: var(--ink);
   width: 150px; border-radius: var(--radius-md);
 }
-.field--usage { flex: 1; min-width: 260px; }
+.field--region select {
+  font: inherit; font-size: 16px; padding: 10px 12px;
+  border: 1px solid var(--ink); background: var(--surface); color: var(--ink);
+  border-radius: var(--radius-md); max-width: 260px;
+}
+.field--usage { flex: 1; min-width: 240px; }
 .field--usage input[type="range"] { width: 100%; accent-color: var(--accent); height: 44px; }
 .usage-readout { font-family: var(--font-sans); font-size: 13px; color: var(--muted); }
 .usage-readout b { color: var(--ink); font-family: var(--font-mono); }

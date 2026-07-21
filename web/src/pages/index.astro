@@ -5,23 +5,28 @@ import "@fontsource/ibm-plex-mono/600.css";
 import "../styles/global.css";
 import type { RegionData, HonestPlan } from "../lib/types";
 import { rankHonest, topPick } from "../lib/recommend";
-import raw from "../data/oncor.json";
+import oncorRaw from "../data/oncor.json";
+import manifestRaw from "../data/regions.json";
 
-const data = raw as unknown as RegionData;
+interface RegionMeta {
+  slug: string; label: string; cities: string;
+  counts: { total: number; honest: number; rejected: number };
+}
+const manifest = manifestRaw as unknown as { generated_at: string; regions: RegionMeta[] };
+const data = oncorRaw as unknown as RegionData;
 
 const DEFAULT_USAGE = 1000;
 const ranked = rankHonest(data, DEFAULT_USAGE);
 const pick = topPick(ranked);
 const pickPlan: HonestPlan | null = pick ? pick.plan : null;
 
-const updated = new Date(data.generated_at).toLocaleDateString("en-US", {
+const updated = new Date(manifest.generated_at).toLocaleDateString("en-US", {
   year: "numeric", month: "short", day: "numeric",
 });
+const oncorMeta = manifest.regions.find((r) => r.slug === "oncor")!;
 
 const money = (n: number) => `$${n.toFixed(0)}`;
 const centsAt = (bill: number, usage: number) => ((bill / usage) * 100).toFixed(1);
-
-// Show the rejected plans, worst-offenders first is fine; cap the visible list.
 const shownAutopsies = data.autopsies.slice(0, 12);
 ---
 
@@ -57,6 +62,14 @@ const shownAutopsies = data.autopsies.slice(0, 12);
             <label for="zip">Your ZIP code</label>
             <input id="zip" inputmode="numeric" maxlength="5" value="75201" aria-describedby="region-note" />
           </div>
+          <div class="field field--region">
+            <label for="region">Your area</label>
+            <select id="region" aria-describedby="region-note">
+              {manifest.regions.map((r) => (
+                <option value={r.slug} selected={r.slug === "oncor"}>{r.label} — {r.cities.split(",")[0]}</option>
+              ))}
+            </select>
+          </div>
           <div class="field field--usage">
             <label for="usage">About how much power do you use?</label>
             <input
@@ -64,14 +77,13 @@ const shownAutopsies = data.autopsies.slice(0, 12);
               aria-label="Monthly usage in kilowatt-hours"
             />
             <p class="usage-readout">
-              <b id="usage-val">{DEFAULT_USAGE.toLocaleString()}</b> kWh / month
-              · a typical Texas home
+              <b id="usage-val">{DEFAULT_USAGE.toLocaleString()}</b> kWh / month · a typical Texas home
             </p>
           </div>
         </div>
         <p id="region-note" class="usage-readout" style="margin-top:8px">
-          Showing the <strong>Oncor</strong> region (Dallas–Fort Worth, Waco, Midland,
-          Odessa, Round Rock). More regions coming soon.
+          Showing <strong id="region-label">{oncorMeta.label}</strong> —
+          <span id="region-cities">{oncorMeta.cities}</span>.
         </p>
       </section>
 
@@ -81,28 +93,25 @@ const shownAutopsies = data.autopsies.slice(0, 12);
           <div class="plan-card">
             <div class="plan-card__top">
               <div class="plan-card__name">
-                <span id="pick-name">{pickPlan.rep} — {pickPlan.product}</span>
+                <span>{pickPlan.rep} — {pickPlan.product}</span>
                 {pickPlan.efl_verified ? (
                   <span class="badge badge--verified">EFL-verified</span>
                 ) : (
-                  <span class="badge badge--estimate" id="pick-badge">feed estimate — verify EFL</span>
+                  <span class="badge badge--estimate">feed estimate — verify EFL</span>
                 )}
               </div>
-              <div class="plan-card__rate">
-                <span id="pick-rate">{centsAt(pick.monthlyBill, DEFAULT_USAGE)}</span>&cent;
-                <small>/ kWh</small>
-              </div>
+              <div class="plan-card__rate">{centsAt(pick.monthlyBill, DEFAULT_USAGE)}&cent;<small>/ kWh</small></div>
             </div>
             <div class="facts">
-              <div class="fact"><b id="pick-bill">{money(pick.monthlyBill)}</b><span>est. bill</span></div>
+              <div class="fact"><b>{money(pick.monthlyBill)}</b><span>est. bill</span></div>
               <div class="fact"><b>{pickPlan.rate_type} · {pickPlan.term_months ?? "—"} mo</b><span>rate &amp; term</span></div>
               <div class="fact"><b>{pickPlan.cancel_fee != null ? money(pickPlan.cancel_fee) : "—"}</b><span>cancel fee</span></div>
               <div class="fact"><b>{pickPlan.renewable != null ? `${pickPlan.renewable}%` : "—"}</b><span>renewable</span></div>
             </div>
             <p class="why">
               <strong>Why this won:</strong> lowest true cost at your usage, no bill
-              credit, no minimum-usage fee, and a flat rate that holds across usage
-              levels.{pickPlan.efl_url ? (<> <a href={pickPlan.efl_url} rel="nofollow noopener" target="_blank">See the official EFL →</a></>) : null}
+              credit, no minimum-usage fee, and a flat rate that holds across usage levels.
+              {pickPlan.efl_url ? (<> <a href={pickPlan.efl_url} rel="nofollow noopener" target="_blank">See the official EFL →</a></>) : null}
             </p>
           </div>
         ) : (
@@ -111,21 +120,23 @@ const shownAutopsies = data.autopsies.slice(0, 12);
       </div>
 
       <section class="rejected">
-        <h2>Plans we threw out for you ({data.counts.rejected})</h2>
-        {shownAutopsies.map((a) => (
-          <div class="rej">
-            <span class="x" aria-label="excluded">✕</span>
-            <span class="pname">{a.rep} — {a.product}</span>
-            <span class="reason">{a.verdicts[0]}</span>
-          </div>
-        ))}
-        {data.counts.rejected > shownAutopsies.length && (
-          <div class="rej">
-            <span class="x">✕</span>
-            <span class="pname">…and {data.counts.rejected - shownAutopsies.length} more</span>
-            <span class="reason">every rejected plan and why (coming soon)</span>
-          </div>
-        )}
+        <h2>Plans we threw out for you (<span id="rej-count">{data.counts.rejected}</span>)</h2>
+        <div id="rej-list">
+          {shownAutopsies.map((a) => (
+            <div class="rej">
+              <span class="x" aria-label="excluded">✕</span>
+              <span class="pname">{a.rep} — {a.product}</span>
+              <span class="reason">{a.verdicts[0]}</span>
+            </div>
+          ))}
+          {data.counts.rejected > shownAutopsies.length && (
+            <div class="rej">
+              <span class="x">✕</span>
+              <span class="pname">…and {data.counts.rejected - shownAutopsies.length} more</span>
+              <span class="reason">every rejected plan and why (coming soon)</span>
+            </div>
+          )}
+        </div>
       </section>
 
       <footer class="site-footer">
@@ -136,28 +147,43 @@ const shownAutopsies = data.autopsies.slice(0, 12);
     </div>
 
     <script type="application/json" id="region-data" set:html={JSON.stringify(data)}></script>
+    <script type="application/json" id="region-manifest" set:html={JSON.stringify(manifest.regions)}></script>
     <script>
       import { rankHonest, topPick } from "../lib/recommend";
+      import { zipToSlug } from "../lib/zipRegion";
       import type { RegionData } from "../lib/types";
 
-      const data = JSON.parse(
+      type Meta = { slug: string; label: string; cities: string };
+
+      const regions = JSON.parse(
+        document.getElementById("region-manifest")!.textContent!,
+      ) as Meta[];
+      let data = JSON.parse(
         document.getElementById("region-data")!.textContent!,
       ) as RegionData;
+      let currentSlug = "oncor";
+      const cache: Record<string, RegionData> = { oncor: data };
 
       const usage = document.getElementById("usage") as HTMLInputElement;
       const usageVal = document.getElementById("usage-val")!;
+      const zip = document.getElementById("zip") as HTMLInputElement;
+      const region = document.getElementById("region") as HTMLSelectElement;
       const result = document.getElementById("result")!;
+      const rejCount = document.getElementById("rej-count")!;
+      const rejList = document.getElementById("rej-list")!;
+      const regionLabel = document.getElementById("region-label")!;
+      const regionCities = document.getElementById("region-cities")!;
 
       const money = (n: number) => `$${n.toFixed(0)}`;
       const centsAt = (bill: number, u: number) => ((bill / u) * 100).toFixed(1);
+      const esc = (s: string) =>
+        s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 
-      function render(u: number) {
+      function renderResult(u: number) {
         usageVal.textContent = u.toLocaleString();
-        const ranked = rankHonest(data, u);
-        const pick = topPick(ranked);
+        const pick = topPick(rankHonest(data, u));
         if (!pick) {
-          result.innerHTML =
-            '<div class="empty">No honest plan is available for this usage right now.</div>';
+          result.innerHTML = '<div class="empty">No honest plan is available for this usage right now.</div>';
           return;
         }
         const p = pick.plan;
@@ -165,27 +191,77 @@ const shownAutopsies = data.autopsies.slice(0, 12);
           ? '<span class="badge badge--verified">EFL-verified</span>'
           : '<span class="badge badge--estimate">feed estimate — verify EFL</span>';
         const efl = p.efl_url
-          ? ` <a href="${p.efl_url}" rel="nofollow noopener" target="_blank">See the official EFL →</a>`
+          ? ` <a href="${esc(p.efl_url)}" rel="nofollow noopener" target="_blank">See the official EFL →</a>`
           : "";
         result.innerHTML = `
           <div class="plan-card">
             <div class="plan-card__top">
-              <div class="plan-card__name"><span>${p.rep} — ${p.product}</span>${badge}</div>
+              <div class="plan-card__name"><span>${esc(p.rep)} — ${esc(p.product)}</span>${badge}</div>
               <div class="plan-card__rate">${centsAt(pick.monthlyBill, u)}&cent;<small>/ kWh</small></div>
             </div>
             <div class="facts">
               <div class="fact"><b>${money(pick.monthlyBill)}</b><span>est. bill</span></div>
-              <div class="fact"><b>${p.rate_type ?? "—"} · ${p.term_months ?? "—"} mo</b><span>rate &amp; term</span></div>
+              <div class="fact"><b>${esc(p.rate_type ?? "—")} · ${p.term_months ?? "—"} mo</b><span>rate &amp; term</span></div>
               <div class="fact"><b>${p.cancel_fee != null ? money(p.cancel_fee) : "—"}</b><span>cancel fee</span></div>
               <div class="fact"><b>${p.renewable != null ? p.renewable + "%" : "—"}</b><span>renewable</span></div>
             </div>
             <p class="why"><strong>Why this won:</strong> lowest true cost at your usage,
-            no bill credit, no minimum-usage fee, and a flat rate that holds across usage
-            levels.${efl}</p>
+            no bill credit, no minimum-usage fee, and a flat rate that holds across usage levels.${efl}</p>
           </div>`;
       }
 
-      usage.addEventListener("input", () => render(Number(usage.value)));
+      function renderRejected() {
+        rejCount.textContent = String(data.counts.rejected);
+        const shown = data.autopsies.slice(0, 12);
+        let html = shown
+          .map(
+            (a) =>
+              `<div class="rej"><span class="x" aria-label="excluded">✕</span>` +
+              `<span class="pname">${esc(a.rep)} — ${esc(a.product)}</span>` +
+              `<span class="reason">${esc(a.verdicts[0] ?? "")}</span></div>`,
+          )
+          .join("");
+        const extra = data.counts.rejected - shown.length;
+        if (extra > 0) {
+          html += `<div class="rej"><span class="x">✕</span><span class="pname">…and ${extra} more</span>` +
+            `<span class="reason">every rejected plan and why (coming soon)</span></div>`;
+        }
+        rejList.innerHTML = html;
+      }
+
+      function renderRegionNote() {
+        const meta = regions.find((r) => r.slug === currentSlug);
+        if (meta) {
+          regionLabel.textContent = meta.label;
+          regionCities.textContent = meta.cities;
+        }
+      }
+
+      async function loadRegion(slug: string) {
+        if (slug === currentSlug) return;
+        if (!cache[slug]) {
+          try {
+            const res = await fetch(`${import.meta.env.BASE_URL}data/${slug}.json`);
+            if (!res.ok) throw new Error(String(res.status));
+            cache[slug] = (await res.json()) as RegionData;
+          } catch {
+            return; // keep the current region rather than showing a broken state
+          }
+        }
+        currentSlug = slug;
+        data = cache[slug];
+        region.value = slug;
+        renderRegionNote();
+        renderResult(Number(usage.value));
+        renderRejected();
+      }
+
+      usage.addEventListener("input", () => renderResult(Number(usage.value)));
+      region.addEventListener("change", () => loadRegion(region.value));
+      zip.addEventListener("input", () => {
+        const slug = zipToSlug(zip.value);
+        if (slug) loadRegion(slug);
+      });
     </script>
   </body>
 </html>

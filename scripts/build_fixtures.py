@@ -44,6 +44,8 @@ def main() -> None:
     wb = openpyxl.load_workbook(src, data_only=True)
 
     os.makedirs(FIXTURES, exist_ok=True)
+
+    # Oncor-only fixtures drive the golden-file fidelity test.
     for sheet, out_name in (("All", "oncor_all.json"), ("Filtered", "oncor_filtered.json")):
         records = _sheet_records(wb[sheet])
         plans = [from_ptc_record(r) for r in records]
@@ -52,6 +54,13 @@ def main() -> None:
         with open(path, "w", encoding="utf-8") as fh:
             json.dump(oncor, fh, indent=0)
         print(f"  {sheet}: wrote {len(oncor)} Oncor plans -> {out_name}")
+
+    # All-regions fixture drives the offline multi-region pipeline (and its tests).
+    all_plans = [from_ptc_record(r) for r in _sheet_records(wb["All"])]
+    all_dicts = [p.to_dict() for p in all_plans]
+    with open(os.path.join(FIXTURES, "all_plans.json"), "w", encoding="utf-8") as fh:
+        json.dump(all_dicts, fh, indent=0)
+    print(f"  All: wrote {len(all_dicts)} plans (all regions) -> all_plans.json")
 
 
 if __name__ == "__main__":

@@ -23,3 +23,9 @@ def oncor_all() -> list[Plan]:
 def oncor_filtered() -> list[Plan]:
     """The 60 Oncor plans the curator kept."""
     return _load("oncor_filtered.json")
+
+
+@pytest.fixture(scope="session")
+def all_plans() -> list[Plan]:
+    """All 1,652 plans across every region from the July snapshot."""
+    return _load("all_plans.json")
