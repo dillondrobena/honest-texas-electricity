@@ -1,0 +1,13 @@
+# gstack local state (never commit)
+.gstack/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Pipeline output (generated, not source)
+/data/out/

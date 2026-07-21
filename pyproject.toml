@@ -1,0 +1,18 @@
+[project]
+name = "honest-texas-electricity"
+version = "0.1.0"
+description = "Free, no-affiliate tool that finds the honest cheapest Texas electricity plan."
+requires-python = ">=3.10"
+# Runtime is stdlib-only by design (near-zero-cost static pipeline).
+dependencies = []
+
+[project.optional-dependencies]
+# openpyxl is only needed to (re)build test fixtures from the source spreadsheet.
+dev = ["pytest>=8", "openpyxl>=3"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
