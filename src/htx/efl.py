@@ -61,28 +61,85 @@ class EflResult:
         return self.status == EflStatus.VERIFIED
 
 
-def fetch_pdf(url: str, timeout: float = 25.0) -> bytes | None:
-    """Download an EFL. Returns the bytes only if it's actually a PDF."""
-    # Some feed URLs contain stray whitespace/control chars — reject cleanly.
-    if not url or any(ord(c) < 32 for c in url):
+def _sanitize_url(url: str) -> str:
+    """Some feed URLs carry stray whitespace/newlines. Strip control chars
+    rather than reject, so an otherwise-valid EFL link still resolves."""
+    return "".join(c for c in url.strip() if ord(c) >= 32)
+
+
+def fetch(url: str, timeout: float = 25.0) -> tuple[str, bytes] | None:
+    """Download an EFL. Returns (kind, body) where kind is 'pdf' or 'html'."""
+    url = _sanitize_url(url)
+    if not url:
         return None
     try:
         req = urllib.request.Request(url, headers={"User-Agent": _UA})
         with urllib.request.urlopen(req, timeout=timeout) as resp:
+            ctype = (resp.headers.get("Content-Type") or "").lower()
             body = resp.read()
     except Exception:  # noqa: BLE001 - non-blocking by contract
         return None
-    return body if body[:4] == b"%PDF" else None
+    if body[:4] == b"%PDF":
+        return ("pdf", body)
+    # Everything else we treat as HTML and strip tags — many providers serve the
+    # EFL as an HTML page rather than a PDF.
+    return ("html", body)
 
 
-def extract_text(pdf_bytes: bytes) -> str | None:
+_TAG_RE = re.compile(r"(?s)<[^>]+>")
+_SCRIPT_RE = re.compile(r"(?is)<(script|style)\b.*?</\1>")
+
+
+def _strip_html(body: bytes) -> str:
+    text = body.decode("utf-8", errors="replace")
+    text = _SCRIPT_RE.sub(" ", text)
+    text = _TAG_RE.sub(" ", text)
+    text = (text.replace("&cent;", "¢").replace("&nbsp;", " ")
+                .replace("&amp;", "&").replace("&#162;", "¢"))
+    return re.sub(r"\s+", " ", text)
+
+
+def _pypdf_text(body: bytes) -> str | None:
     try:
         import pypdf
 
-        reader = pypdf.PdfReader(io.BytesIO(pdf_bytes))
+        reader = pypdf.PdfReader(io.BytesIO(body))
         return " ".join((page.extract_text() or "") for page in reader.pages)
     except Exception:  # noqa: BLE001
         return None
+
+
+def _pdfplumber_text(body: bytes) -> str | None:
+    """Stronger (slower) PDF extractor, used only when pypdf's text doesn't
+    parse. Recovers many tabular EFLs pypdf scrambles. Optional dependency."""
+    try:
+        import pdfplumber
+
+        with pdfplumber.open(io.BytesIO(body)) as pdf:
+            return " ".join((page.extract_text() or "") for page in pdf.pages)
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def extract_text(kind: str, body: bytes) -> str | None:
+    """Primary text for a document (pypdf for PDFs, tag-strip for HTML)."""
+    return _pypdf_text(body) if kind == "pdf" else _strip_html(body)
+
+
+def _classify(text: str, feed_avg: tuple[float, float, float]) -> EflResult | None:
+    """Parse+reconcile one text blob. Returns a verified/mismatch result, or
+    None if this text yielded nothing (so a caller can try another extractor)."""
+    labeled = extract_avg_prices(text)
+    if labeled is not None:
+        if reconcile(labeled, feed_avg):
+            return EflResult(EflStatus.VERIFIED, efl_avg=labeled)
+        return EflResult(
+            EflStatus.MISMATCH, efl_avg=labeled,
+            detail=f"EFL {labeled} vs feed {tuple(round(f, 1) for f in feed_avg)}",
+        )
+    if contains_triple(text, feed_avg, MATCH_TOLERANCE_CENTS):
+        return EflResult(EflStatus.VERIFIED, efl_avg=feed_avg)
+    return None
 
 
 def _plausible(vals: tuple[float, float, float]) -> bool:
@@ -126,27 +183,21 @@ def verify(url: str | None, feed_avg: tuple[float, float, float]) -> EflResult:
     """Full per-plan verification. Never raises."""
     if not url:
         return EflResult(EflStatus.NO_EFL, detail="no EFL URL")
-    pdf = fetch_pdf(url)
-    if pdf is None:
-        return EflResult(EflStatus.UNPARSEABLE, detail="download failed or not a PDF")
-    text = extract_text(pdf)
-    if not text:
-        return EflResult(EflStatus.UNPARSEABLE, detail="no extractable text")
+    fetched = fetch(url)
+    if fetched is None:
+        return EflResult(EflStatus.UNPARSEABLE, detail="download failed")
+    kind, body = fetched
 
-    # Primary: the labeled avg-price row. Lets us detect a real MISMATCH — the
-    # exact case (feed disagrees with the legal doc) we most need to catch.
-    efl_avg = extract_avg_prices(text)
-    if efl_avg is not None:
-        if reconcile(efl_avg, feed_avg):
-            return EflResult(EflStatus.VERIFIED, efl_avg=efl_avg)
-        return EflResult(
-            EflStatus.MISMATCH,
-            efl_avg=efl_avg,
-            detail=f"EFL {efl_avg} vs feed {tuple(round(f, 1) for f in feed_avg)}",
-        )
-
-    # Fallback: the label didn't parse (odd layout/language), but if our three
-    # numbers are present in order, the doc backs the price.
-    if contains_triple(text, feed_avg, MATCH_TOLERANCE_CENTS):
-        return EflResult(EflStatus.VERIFIED, efl_avg=feed_avg)
+    # Try each available extractor in turn (pypdf, then the stronger pdfplumber
+    # for PDFs; tag-strip for HTML). The first that yields a verified/mismatch
+    # result wins — a MISMATCH is a real finding, not something to "fix" with a
+    # second extractor.
+    extractors = (_pypdf_text, _pdfplumber_text) if kind == "pdf" else (lambda b: _strip_html(b),)
+    for extract in extractors:
+        text = extract(body)
+        if not text:
+            continue
+        result = _classify(text, feed_avg)
+        if result is not None:
+            return result
     return EflResult(EflStatus.UNPARSEABLE, detail="avg-price figures not found")

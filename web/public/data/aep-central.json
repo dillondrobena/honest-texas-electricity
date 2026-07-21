@@ -1,14 +1,14 @@
 {
   "tdu": "AEP TEXAS CENTRAL",
   "slug": "aep-central",
-  "generated_at": "2026-07-21T16:49:16Z",
+  "generated_at": "2026-07-21T17:26:44Z",
   "disclaimer": "Free, no-affiliate. Always verify the plan's EFL before enrolling.",
   "counts": {
     "total": 168,
     "dropped_invalid": 0,
     "honest": 127,
     "rejected": 41,
-    "verified": 73
+    "verified": 80
   },
   "honest_plans": {
     "budget-power-no-gimmicks-11-aep-texas-central-11-0": {
@@ -502,8 +502,8 @@
       "rating": 2.0,
       "efl_url": "https://eflviewer.companionenergy.com/eflviewer.aspx?lang=EN&prodcode=CEPERK12&tdspcode=AEP_CENT",
       "enroll_url": "https://newenroll.companionenergy.com/?refid=PTCPERKS12&ul=1000&tdsp=AEP_CENT&utm_source=power_to_choose&utm_medium=referral&utm_campaign=PTC-PTCPERKS12&utm_content=AEP_CENT&utm_term=additional_info",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.11443,
@@ -1082,8 +1082,8 @@
       "rating": 4.0,
       "efl_url": "https://www.reliant.com/defl/R1F00184802707C.pdf",
       "enroll_url": "https://shop.reliant.com/plans-for-you/?tdspCodeCCS=D0004&fromLP=ptc&txtPromocode=WF3713&sid=APTC_1686089562&utm_source=None&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 8.0,
         "rate_per_kwh": 0.145,
@@ -1382,8 +1382,8 @@
       "rating": 2.0,
       "efl_url": "https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=EN&prodcode=FPOWSVR12&tdspcode=AEP_CENT",
       "enroll_url": "https://newenroll.frontierutilities.com/?refid=PTCFPS12&ul=1000&tdsp=AEP_CENT",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.11443,
@@ -2142,8 +2142,8 @@
       "rating": 1.0,
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=74&offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T36_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T36_NEW&deploymentName=TX%20State%20Rate%20Board&language=spanish",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.12729,
@@ -2182,8 +2182,8 @@
       "rating": 1.0,
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T12_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T12_NEW&deploymentName=TX%20State%20Rate%20Board",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.11729,
@@ -2202,8 +2202,8 @@
       "rating": 1.0,
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T24_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T24_NEW&deploymentName=TX%20State%20Rate%20Board",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.12229,
@@ -2242,8 +2242,8 @@
       "rating": 1.0,
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T11_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEC_NA_NA_RES_FPR_SD0_T11_NEW&deploymentName=TX%20State%20Rate%20Board",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.11629,

@@ -1,14 +1,14 @@
 {
   "tdu": "TEXAS-NEW MEXICO POWER",
   "slug": "tnmp",
-  "generated_at": "2026-07-21T16:49:16Z",
+  "generated_at": "2026-07-21T17:26:44Z",
   "disclaimer": "Free, no-affiliate. Always verify the plan's EFL before enrolling.",
   "counts": {
     "total": 163,
     "dropped_invalid": 0,
     "honest": 122,
     "rejected": 41,
-    "verified": 67
+    "verified": 71
   },
   "honest_plans": {
     "budget-power-no-gimmicks-11-texas-new-mexico-power-11-0": {
@@ -762,8 +762,8 @@
       "rating": 2.0,
       "efl_url": "https://www.discountpowertx.com/defl/M1F00184721144B.pdf",
       "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0003&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 8.0,
         "rate_per_kwh": 0.146,
@@ -822,8 +822,8 @@
       "rating": 1.0,
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_TNM_NA_NA_RES_FPR_SD0_T36_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_TNM_NA_NA_RES_FPR_SD0_T36_NEW&deploymentName=TX%20State%20Rate%20Board",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 8.0,
         "rate_per_kwh": 0.136,
@@ -1182,8 +1182,8 @@
       "rating": 4.0,
       "efl_url": "https://www.reliant.com/defl/R1F00183546030B.pdf",
       "enroll_url": "https://shop.reliant.com/plans-for-you/?tdspCodeCCS=D0003&fromLP=ptc&txtPromocode=WF3713&sid=APTC_1686089562&utm_source=None&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 13.5,
         "rate_per_kwh": 0.15729,
@@ -2103,7 +2103,7 @@
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_TNM_NA_NA_RES_FPR_SD0_T12_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_TNM_NA_NA_RES_FPR_SD0_T12_NEW&deploymentName=TX%20State%20Rate%20Board",
       "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_status": "mismatch",
       "cost": {
         "base_charge": 8.0,
         "rate_per_kwh": 0.127,
@@ -2122,8 +2122,8 @@
       "rating": 1.0,
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_TNM_NA_NA_RES_FPR_SD0_T24_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_TNM_NA_NA_RES_FPR_SD0_T24_NEW&deploymentName=TX%20State%20Rate%20Board",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 8.5,
         "rate_per_kwh": 0.13171,
@@ -2143,7 +2143,7 @@
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_TNM_NA_NA_RES_FPR_SD0_T11_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_TNM_NA_NA_RES_FPR_SD0_T11_NEW&deploymentName=TX%20State%20Rate%20Board",
       "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_status": "mismatch",
       "cost": {
         "base_charge": 8.0,
         "rate_per_kwh": 0.126,

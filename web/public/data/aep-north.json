@@ -1,14 +1,14 @@
 {
   "tdu": "AEP TEXAS NORTH",
   "slug": "aep-north",
-  "generated_at": "2026-07-21T16:49:16Z",
+  "generated_at": "2026-07-21T17:26:44Z",
   "disclaimer": "Free, no-affiliate. Always verify the plan's EFL before enrolling.",
   "counts": {
     "total": 168,
     "dropped_invalid": 0,
     "honest": 128,
     "rejected": 40,
-    "verified": 72
+    "verified": 84
   },
   "honest_plans": {
     "energy-texas-no-bull-12-aep-texas-north-12-0": {
@@ -402,8 +402,8 @@
       "rating": 1.0,
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_AEN_NA_NA_RES_FPR_SD0_T11_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEN_NA_NA_RES_FPR_SD0_T11_NEW&deploymentName=TX%20State%20Rate%20Board",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.11629,
@@ -442,8 +442,8 @@
       "rating": 1.0,
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_AEN_NA_NA_RES_FPR_SD0_T24_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEN_NA_NA_RES_FPR_SD0_T24_NEW&deploymentName=TX%20State%20Rate%20Board",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.12529,
@@ -482,8 +482,8 @@
       "rating": 1.0,
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_AEN_NA_NA_RES_FPR_SD0_T12_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEN_NA_NA_RES_FPR_SD0_T12_NEW&deploymentName=TX%20State%20Rate%20Board",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.11729,
@@ -1362,8 +1362,8 @@
       "rating": 3.0,
       "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00184798397A.pdf",
       "enroll_url": "https://shop.directenergy.com/tx/product-chart-tabs?tdspCode=D0005&promo_code=WHPGCD&sid=APTC_1726591058&utm_campaign=PTC&utm_medium=PTC_&utm_source=PowerToChoose",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 9.0,
         "rate_per_kwh": 0.15957,
@@ -1382,8 +1382,8 @@
       "rating": 2.0,
       "efl_url": "https://signup.greenmountain.com/defl/G1F00184870435A.pdf",
       "enroll_url": "https://shop.greenmountainenergy.com/texas/home-energy-solutions/products/?tdspCodeCCS=D0005&fromLP=ptc&txtPromocode=WA0TEZ&sid=APTC_1726590650&utm_campaign=PTC&utm_medium=PTC_&utm_source=PowerToChoose",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 9.0,
         "rate_per_kwh": 0.17257,
@@ -1402,8 +1402,8 @@
       "rating": 4.0,
       "efl_url": "https://www.reliant.com/defl/R1F00184802753A.pdf",
       "enroll_url": "https://shop.reliant.com/plans-for-you/?tdspCodeCCS=D0005&fromLP=ptc&txtPromocode=WF3713&sid=APTC_1686089562&utm_source=None&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 9.0,
         "rate_per_kwh": 0.16757,
@@ -1622,8 +1622,8 @@
       "rating": 2.0,
       "efl_url": "https://signup.greenmountain.com/defl/G1F00184870627A.pdf",
       "enroll_url": "https://shop.greenmountainenergy.com/texas/home-energy-solutions/products/?tdspCodeCCS=D0005&fromLP=ptc&txtPromocode=WA0TEZ&sid=APTC_1726590650&utm_campaign=PTC&utm_medium=PTC_&utm_source=PowerToChoose",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 9.0,
         "rate_per_kwh": 0.16857,
@@ -1702,8 +1702,8 @@
       "rating": 2.0,
       "efl_url": "https://www.discountpowertx.com/defl/M1F00184818185A.pdf",
       "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0005&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.15929,
@@ -1722,8 +1722,8 @@
       "rating": 2.0,
       "efl_url": "https://www.discountpowertx.com/defl/M1F00184818158A.pdf",
       "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0005&language=es&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.15429,
@@ -1762,8 +1762,8 @@
       "rating": 1.0,
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=74&offerCode=SRBTX_AEN_NA_NA_RES_FPR_SD0_T36_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_AEN_NA_NA_RES_FPR_SD0_T36_NEW&deploymentName=TX%20State%20Rate%20Board&language=spanish",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.13229,
@@ -1822,8 +1822,8 @@
       "rating": 2.0,
       "efl_url": "https://www.cirroenergy.com/defl/M1F00184870939A.pdf",
       "enroll_url": "https://www.cirroenergy.com/espanol?txtPromocode=WA198B&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.15529,
@@ -2042,8 +2042,8 @@
       "rating": 2.0,
       "efl_url": "https://eflviewer.companionenergy.com/eflviewer.aspx?lang=EN&prodcode=CEPERK12&tdspcode=AEP_NORTH",
       "enroll_url": "https://newenroll.companionenergy.com/?refid=PTCPERKS12&ul=1000&tdsp=AEP_NORTH&utm_source=power_to_choose&utm_medium=referral&utm_campaign=PTC-PTCPERKS12&utm_content=AEP_NORTH&utm_term=additional_info",
-      "efl_verified": false,
-      "efl_status": "unparseable",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.12143,

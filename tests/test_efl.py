@@ -3,6 +3,7 @@ from htx.efl import (
     EflStatus,
     contains_triple,
     extract_avg_prices,
+    extract_text,
     reconcile,
     verify,
 )
@@ -43,6 +44,19 @@ def test_contains_triple_is_layout_independent():
 def test_verify_no_url_is_no_efl():
     r = verify(None, (12.0, 11.0, 10.0))
     assert r.status == EflStatus.NO_EFL
+
+
+def test_html_efl_text_extraction_and_parse():
+    # Providers that serve the EFL as HTML: tags stripped, entities decoded,
+    # then the same avg-price parsing applies.
+    html = (
+        b"<html><body><script>ignore()</script><table>"
+        b"<tr><td>Average price per kWh</td>"
+        b"<td>13.3&cent;</td><td>12.9&cent;</td><td>12.7&cent;</td></tr>"
+        b"</table></body></html>"
+    )
+    text = extract_text("html", html)
+    assert extract_avg_prices(text) == (13.3, 12.9, 12.7)
 
 
 def test_extract_rejects_implausible_values():

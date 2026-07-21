@@ -22,8 +22,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install PDF parser (for EFL verification)
-        run: pip install pypdf
+      - name: Install PDF parsers (for EFL verification)
+        run: pip install pypdf pdfplumber
 
       - name: Verify EFLs (resumable; non-blocking)
         run: python scripts/verify_efls.py --live
