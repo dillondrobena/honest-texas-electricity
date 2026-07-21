@@ -246,6 +246,24 @@ table.plans td.td-name { min-width: 220px; }
 table.plans tbody tr:hover { background: var(--surface); }
 table.plans tbody tr:first-child { background: color-mix(in srgb, var(--accent) 8%, transparent); }
 
+/* ── "Am I overpaying?" verdict ── */
+.op-verdict:empty { display: none; }
+.op-verdict { margin-top: var(--s-lg); padding: var(--s-lg); border: 1px solid var(--ink); background: var(--surface); }
+.op-yes { border-color: var(--accent); }
+.op-headline { font-size: 22px; margin: 0 0 var(--s-md); line-height: 1.35; }
+.op-headline b { color: var(--accent); }
+.op-good .op-headline b { color: var(--ink); }
+.op-compare { display: flex; align-items: center; gap: var(--s-lg); flex-wrap: wrap; margin: var(--s-md) 0; }
+.op-col { display: flex; flex-direction: column; }
+.op-col span { font-family: var(--font-sans); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+.op-col b { font-family: var(--font-mono); font-size: 26px; }
+.op-col small { font-family: var(--font-mono); font-size: 13px; color: var(--muted); }
+.op-col-win b { color: var(--accent); }
+.op-arrow { font-size: 24px; color: var(--muted); }
+.op-plan { font-family: var(--font-sans); font-size: 15px; border-top: 1px solid var(--rule); padding-top: var(--s-md); margin: var(--s-md) 0 0; }
+.op-plan a { color: var(--accent); }
+.op-fine { font-family: var(--font-sans); font-size: 12px; color: var(--muted); margin: var(--s-xs) 0 0; }
+
 /* ── Trends: bar chart + line chart ── */
 .bars { margin: var(--s-md) 0; }
 .bar-row { display: grid; grid-template-columns: 190px 1fr 56px; align-items: center; gap: var(--s-md); padding: var(--s-2xs) 0; }

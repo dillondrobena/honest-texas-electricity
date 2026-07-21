@@ -1,0 +1,181 @@
+---
+import Layout from "../layouts/Layout.astro";
+import type { RegionData } from "../lib/types";
+import oncorRaw from "../data/oncor.json";
+import manifestRaw from "../data/regions.json";
+
+interface RegionMeta { slug: string; label: string; cities: string }
+const manifest = manifestRaw as unknown as { generated_at: string; regions: RegionMeta[] };
+const data = oncorRaw as unknown as RegionData;
+
+const updated = new Date(manifest.generated_at).toLocaleDateString("en-US", {
+  year: "numeric", month: "short", day: "numeric",
+});
+const oncorMeta = manifest.regions.find((r) => r.slug === "oncor")!;
+
+const DEFAULT_USAGE = 1000;
+const DEFAULT_BILL = 150;
+---
+
+<Layout
+  title="Am I overpaying for electricity in Texas? | Honest Texas Electricity"
+  description="Enter your current electricity bill and see instantly how much you could save by switching to the honest cheapest plan in your area. Free, no affiliate links."
+  updated={updated}
+>
+  <p class="crumb"><a href={import.meta.env.BASE_URL}>← Honest Texas Electricity</a> · Am I overpaying?</p>
+  <h1 class="autopsy-h1">Am I overpaying for electricity?</h1>
+  <p class="autopsy-verdict-lead">
+    Tell us what you pay now. We'll compare it to the honest cheapest plan in your
+    area — the one whose price we've verified against its legal EFL — and show your
+    savings. No affiliate links; we don't earn a cent if you switch.
+  </p>
+
+  <section class="ask">
+    <div class="fields">
+      <div class="field field--zip">
+        <label for="zip">Your ZIP code</label>
+        <input id="zip" inputmode="numeric" maxlength="5" value="75201" aria-describedby="region-note" />
+      </div>
+      <div class="field field--region">
+        <label for="region">Your utility area</label>
+        <select id="region" aria-describedby="region-note">
+          {manifest.regions.map((r) => (
+            <option value={r.slug} selected={r.slug === "oncor"}>{r.label} — {r.cities.split(",")[0]}</option>
+          ))}
+        </select>
+      </div>
+    </div>
+    <div class="fields" style="margin-top:16px">
+      <div class="field field--zip">
+        <label for="bill">Your current monthly bill ($)</label>
+        <input id="bill" inputmode="decimal" value={DEFAULT_BILL} aria-describedby="op-help" />
+      </div>
+      <div class="field field--usage">
+        <label for="usage">…for about this much power</label>
+        <input id="usage" type="range" min="200" max="3000" step="50" value={DEFAULT_USAGE}
+               aria-label="Monthly usage in kilowatt-hours" />
+        <p class="usage-readout"><b id="usage-val">{DEFAULT_USAGE.toLocaleString()}</b> kWh / month</p>
+      </div>
+    </div>
+    <p id="op-help" class="usage-readout" style="margin-top:8px">
+      Both numbers are on your bill (the total charged and the kWh used). Not sure of
+      your usage? 1,000 kWh is a typical Texas home.
+    </p>
+    <p id="region-note" class="usage-readout" style="margin-top:4px">
+      ZIP <strong>75201</strong> → comparing against <strong id="region-label">{oncorMeta.label}</strong>.
+    </p>
+  </section>
+
+  <div id="verdict" class="op-verdict"></div>
+
+  <p class="see-all" style="margin-top:24px">
+    <a href={import.meta.env.BASE_URL}>Find your honest cheapest plan →</a>
+    &nbsp;·&nbsp;
+    <a href={`${import.meta.env.BASE_URL}trends`}>See price trends →</a>
+  </p>
+
+  <script>
+    import { pickByPreference } from "../lib/recommend";
+    import { zipToSlug } from "../lib/zipRegion";
+    import type { RegionData } from "../lib/types";
+
+    type Meta = { slug: string; label: string; cities: string };
+    const regions = (JSON.parse(document.getElementById("mani")!.textContent!)) as Meta[];
+    let data = JSON.parse(document.getElementById("rdata")!.textContent!) as RegionData;
+    let currentSlug = "oncor";
+    const cache: Record<string, RegionData> = { oncor: data };
+    const base = import.meta.env.BASE_URL;
+
+    const zip = document.getElementById("zip") as HTMLInputElement;
+    const region = document.getElementById("region") as HTMLSelectElement;
+    const bill = document.getElementById("bill") as HTMLInputElement;
+    const usage = document.getElementById("usage") as HTMLInputElement;
+    const usageVal = document.getElementById("usage-val")!;
+    const note = document.getElementById("region-note")!;
+    const verdict = document.getElementById("verdict")!;
+
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]!));
+    const money = (n: number) => `$${n.toFixed(0)}`;
+    const metaFor = (s: string) => regions.find((r) => r.slug === s);
+
+    function setNote(kind: "match" | "none" | "unknown" | "manual", z = "") {
+      const m = metaFor(currentSlug);
+      const label = m ? m.label : currentSlug;
+      if (kind === "none") note.innerHTML = `ZIP <strong>${esc(z)}</strong> isn't a deregulated area — there's no plan to switch to there (municipal utility or co-op).`;
+      else if (kind === "unknown") note.innerHTML = `We don't recognize ZIP <strong>${esc(z)}</strong> — comparing against <strong>${esc(label)}</strong>; pick your area to be sure.`;
+      else if (kind === "match") note.innerHTML = `ZIP <strong>${esc(z)}</strong> → comparing against <strong>${esc(label)}</strong>.`;
+      else note.innerHTML = `Comparing against <strong>${esc(label)}</strong>.`;
+    }
+
+    function render() {
+      const u = Number(usage.value);
+      usageVal.textContent = u.toLocaleString();
+      const current = Number(bill.value);
+      const chosen = pickByPreference(data, u, "cheapest");
+      if (!chosen || !isFinite(current) || current <= 0) {
+        verdict.innerHTML = "";
+        return;
+      }
+      const p = chosen.pick.plan;
+      const honestBill = chosen.pick.monthlyBill;
+      const curCents = ((current / u) * 100).toFixed(1);
+      const honCents = ((honestBill / u) * 100).toFixed(1);
+      const saveMo = current - honestBill;
+      const badge = p.efl_verified
+        ? '<span class="badge badge--verified">EFL-verified</span>'
+        : '<span class="badge badge--estimate">feed estimate</span>';
+
+      if (saveMo > 1) {
+        verdict.className = "op-verdict op-yes";
+        verdict.innerHTML = `
+          <p class="op-headline">You could save about <b>${money(saveMo)}/month</b> — roughly <b>${money(saveMo * 12)}/year</b>.</p>
+          <div class="op-compare">
+            <div class="op-col"><span>You pay now</span><b>${money(current)}/mo</b><small>${curCents}¢/kWh</small></div>
+            <div class="op-arrow">→</div>
+            <div class="op-col op-col-win"><span>Honest cheapest</span><b>${money(honestBill)}/mo</b><small>${honCents}¢/kWh</small></div>
+          </div>
+          <p class="op-plan">${esc(p.rep)} — ${esc(p.product)} ${badge}${p.efl_url ? ` · <a href="${esc(p.efl_url)}" rel="nofollow noopener" target="_blank">see its EFL →</a>` : ""}</p>
+          <p class="op-fine">Based on ${u.toLocaleString()} kWh/month. We earn nothing if you switch — verify the EFL before you enroll.</p>`;
+      } else if (saveMo < -1) {
+        verdict.className = "op-verdict op-good";
+        verdict.innerHTML = `<p class="op-headline">You're paying <b>less</b> than our cheapest honest plan (${honCents}¢/kWh). Either you've got a great deal or your usage differs — double-check your bill's kWh.</p>`;
+      } else {
+        verdict.className = "op-verdict op-good";
+        verdict.innerHTML = `<p class="op-headline">You're already right around the honest cheapest (${honCents}¢/kWh). You're not overpaying — nice.</p>`;
+      }
+    }
+
+    async function loadRegion(slug: string) {
+      if (slug !== currentSlug) {
+        if (!cache[slug]) {
+          try {
+            const res = await fetch(`${base}data/${slug}.json`);
+            if (!res.ok) throw new Error();
+            cache[slug] = (await res.json()) as RegionData;
+          } catch { return; }
+        }
+        currentSlug = slug;
+        data = cache[slug];
+        region.value = slug;
+      }
+      render();
+    }
+
+    bill.addEventListener("input", render);
+    usage.addEventListener("input", render);
+    region.addEventListener("change", async () => { zip.value = ""; await loadRegion(region.value); setNote("manual"); });
+    zip.addEventListener("input", async () => {
+      const v = zip.value.trim();
+      if (v.length < 5) return;
+      const r = zipToSlug(v);
+      if (r === null) setNote("unknown", v);
+      else if (r === "none") setNote("none", v);
+      else { await loadRegion(r); setNote("match", v); }
+    });
+
+    render();
+  </script>
+
+  <script type="application/json" id="rdata" set:html={JSON.stringify(data)}></script>
+  <script type="application/json" id="mani" set:html={JSON.stringify(manifest.regions)}></script>
+</Layout>
