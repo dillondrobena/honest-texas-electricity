@@ -202,6 +202,33 @@ a:visited { color: color-mix(in srgb, var(--info) 80%, var(--ink)); }
 .honest-alt a, .efl-link a { color: var(--accent); }
 .efl-link { font-family: var(--font-sans); font-size: 14px; color: var(--muted); }
 
+.mono { font-family: var(--font-mono); }
+
+/* transparency link on the home page */
+.see-all { font-family: var(--font-sans); font-size: 14px; margin: var(--s-md) 0 0; }
+.see-all a { color: var(--accent); }
+
+/* ── All-plans sortable table ── */
+.table-controls { font-family: var(--font-sans); font-size: 14px; color: var(--muted); margin: var(--s-lg) 0 var(--s-sm); }
+.table-controls input[type="range"] { vertical-align: middle; accent-color: var(--accent); max-width: 200px; }
+.table-controls b { color: var(--ink); }
+.table-scroll { overflow-x: auto; border: 1px solid var(--rule); }
+table.plans { border-collapse: collapse; width: 100%; font-family: var(--font-sans); font-size: 14px; }
+table.plans th {
+  text-align: left; padding: var(--s-sm) var(--s-md); border-bottom: 2px solid var(--ink);
+  font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted);
+  cursor: pointer; white-space: nowrap; user-select: none; background: var(--surface);
+}
+table.plans th.th-num { text-align: right; }
+table.plans th:hover { color: var(--ink); }
+table.plans th.sort-asc::after { content: " ▲"; color: var(--accent); }
+table.plans th.sort-desc::after { content: " ▼"; color: var(--accent); }
+table.plans td { padding: var(--s-xs) var(--s-md); border-bottom: 1px solid var(--rule); }
+table.plans td.td-num { text-align: right; white-space: nowrap; }
+table.plans td.td-name { min-width: 220px; }
+table.plans tbody tr:hover { background: var(--surface); }
+table.plans tbody tr:first-child { background: color-mix(in srgb, var(--accent) 8%, transparent); }
+
 @media (max-width: 480px) {
   .facts, .autopsy-facts { grid-template-columns: repeat(2, 1fr); }
   .rej { flex-wrap: wrap; }

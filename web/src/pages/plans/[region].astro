@@ -1,0 +1,154 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import type { RegionData, HonestPlan } from "../../lib/types";
+import { rankHonest } from "../../lib/recommend";
+
+interface RegionMeta { slug: string; label: string; cities: string }
+
+export async function getStaticPaths() {
+  const files = import.meta.glob<RegionData>("../../data/*.json", { eager: true });
+  const manifest = (await import("../../data/regions.json")).default as { regions: RegionMeta[] };
+  const metaBySlug = new Map(manifest.regions.map((r) => [r.slug, r]));
+  const paths: any[] = [];
+  for (const mod of Object.values(files)) {
+    const data = mod as unknown as RegionData;
+    if (!data || !data.honest_plans) continue;
+    paths.push({
+      params: { region: data.slug },
+      props: { data, meta: metaBySlug.get(data.slug) ?? { slug: data.slug, label: data.tdu, cities: "" } },
+    });
+  }
+  return paths;
+}
+
+const { data, meta } = Astro.props as { data: RegionData; meta: RegionMeta };
+const base = import.meta.env.BASE_URL;
+const DEFAULT_USAGE = 1000;
+const updated = new Date(data.generated_at).toLocaleDateString("en-US", {
+  year: "numeric", month: "short", day: "numeric",
+});
+
+// Server-render rows sorted cheapest-first at the default usage.
+const ranked = rankHonest(data, DEFAULT_USAGE);
+const rows = ranked.map((r) => ({ p: r.plan as HonestPlan, bill: r.monthlyBill }));
+const money = (n: number | null) => (n == null ? "—" : `$${n.toFixed(0)}`);
+const cents = (bill: number, u: number) => ((bill / u) * 100).toFixed(1);
+const title = `All ${meta.label} honest electricity plans, sortable | Honest Texas Electricity`;
+---
+
+<Layout title={title} description={`Every honest fixed-rate plan in ${meta.label}, sortable by price, term, cancel fee, and renewable.`} updated={updated}>
+  <p class="crumb"><a href={base}>← Honest Texas Electricity</a> · {meta.label}</p>
+  <h1 class="autopsy-h1">All honest plans — {meta.label}</h1>
+  <p class="autopsy-verdict-lead">
+    Full transparency: all <strong>{data.counts.honest}</strong> plans that passed our
+    honest filter. Bill-credit gimmicks, prepaid, variable, and time-of-use plans are
+    <a href={`${base}rejected/${meta.slug}`}> excluded (and explained)</a>.
+    Sort by any column; drag usage to reprice.
+  </p>
+
+  <div class="table-controls">
+    <label for="usage">Usage:
+      <input id="usage" type="range" min="200" max="3000" step="50" value={DEFAULT_USAGE}
+             aria-label="Monthly usage in kilowatt-hours" />
+      <b id="usage-val" class="mono">{DEFAULT_USAGE.toLocaleString()}</b> kWh/mo
+    </label>
+  </div>
+
+  <div class="table-scroll">
+    <table class="plans" id="plans">
+      <thead>
+        <tr>
+          <th data-key="name" class="th-text">Provider &amp; plan</th>
+          <th data-key="rate" class="th-num sort-asc">¢/kWh</th>
+          <th data-key="bill" class="th-num">Est. bill</th>
+          <th data-key="term" class="th-num">Term</th>
+          <th data-key="cancel" class="th-num">Cancel</th>
+          <th data-key="renew" class="th-num">Renew</th>
+          <th data-key="rating" class="th-num">Rating</th>
+          <th class="th-text">EFL</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map(({ p, bill }) => (
+          <tr
+            data-name={`${p.rep} ${p.product}`}
+            data-base={p.cost?.base_charge ?? 0}
+            data-rate-coef={p.cost?.rate_per_kwh ?? 0}
+            data-term={p.term_months ?? 999}
+            data-cancel={p.cancel_fee ?? 99999}
+            data-renew={p.renewable ?? -1}
+            data-rating={p.rating ?? -1}
+          >
+            <td class="td-name">{p.rep} — {p.product}</td>
+            <td class="td-num mono cell-rate">{cents(bill, DEFAULT_USAGE)}</td>
+            <td class="td-num mono cell-bill">{money(bill)}</td>
+            <td class="td-num mono">{p.term_months ?? "—"}</td>
+            <td class="td-num mono">{p.cancel_fee != null ? money(p.cancel_fee) : "—"}</td>
+            <td class="td-num mono">{p.renewable != null ? `${p.renewable}%` : "—"}</td>
+            <td class="td-num mono">{p.rating != null ? p.rating.toFixed(0) : "—"}</td>
+            <td class="td-num">{p.efl_url ? <a href={p.efl_url} rel="nofollow noopener" target="_blank">EFL ↗</a> : "—"}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    const table = document.getElementById("plans") as HTMLTableElement;
+    const tbody = table.tBodies[0];
+    const usage = document.getElementById("usage") as HTMLInputElement;
+    const usageVal = document.getElementById("usage-val")!;
+    let sortKey = "rate";
+    let sortDir = 1; // 1 asc, -1 desc
+
+    const num = (el: Element, attr: string) => Number((el as HTMLElement).dataset[attr]);
+
+    function billOf(row: Element, u: number): number {
+      return num(row, "base") + num(row, "rateCoef") * u;
+    }
+
+    function reprice(u: number) {
+      usageVal.textContent = u.toLocaleString();
+      for (const row of Array.from(tbody.rows)) {
+        const bill = billOf(row, u);
+        (row.querySelector(".cell-rate") as HTMLElement).textContent = ((bill / u) * 100).toFixed(1);
+        (row.querySelector(".cell-bill") as HTMLElement).textContent = `$${bill.toFixed(0)}`;
+      }
+    }
+
+    function valueFor(row: Element, key: string, u: number): number | string {
+      if (key === "name") return (row as HTMLElement).dataset.name!.toLowerCase();
+      if (key === "rate" || key === "bill") return billOf(row, u); // both track cost
+      return num(row, key === "renew" ? "renew" : key);
+    }
+
+    function sort() {
+      const u = Number(usage.value);
+      const rows = Array.from(tbody.rows);
+      rows.sort((a, b) => {
+        const va = valueFor(a, sortKey, u);
+        const vb = valueFor(b, sortKey, u);
+        if (va < vb) return -1 * sortDir;
+        if (va > vb) return 1 * sortDir;
+        return 0;
+      });
+      rows.forEach((r) => tbody.appendChild(r));
+    }
+
+    table.querySelectorAll("th[data-key]").forEach((th) => {
+      th.addEventListener("click", () => {
+        const key = (th as HTMLElement).dataset.key!;
+        sortDir = key === sortKey ? -sortDir : 1;
+        sortKey = key;
+        table.querySelectorAll("th").forEach((h) => h.classList.remove("sort-asc", "sort-desc"));
+        th.classList.add(sortDir === 1 ? "sort-asc" : "sort-desc");
+        sort();
+      });
+    });
+
+    usage.addEventListener("input", () => {
+      reprice(Number(usage.value));
+      if (sortKey === "rate" || sortKey === "bill") sort();
+    });
+  </script>
+</Layout>

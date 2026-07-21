@@ -120,6 +120,12 @@ const shownAutopsies = data.autopsies.slice(0, 12);
         )}
       </div>
 
+      <p class="see-all">
+        <a id="see-all-link" href={`${base}plans/${data.slug}`}>
+          See all <span id="honest-count">{data.counts.honest}</span> honest plans, sortable →
+        </a>
+      </p>
+
       <section class="rejected">
         <h2>Plans we threw out for you (<span id="rej-count">{data.counts.rejected}</span>)</h2>
         <div id="rej-list">
@@ -233,12 +239,17 @@ const shownAutopsies = data.autopsies.slice(0, 12);
         rejList.innerHTML = html;
       }
 
+      const seeAll = document.getElementById("see-all-link") as HTMLAnchorElement;
+      const honestCount = document.getElementById("honest-count")!;
+
       function renderRegionNote() {
         const meta = regions.find((r) => r.slug === currentSlug);
         if (meta) {
           regionLabel.textContent = meta.label;
           regionCities.textContent = meta.cities;
         }
+        seeAll.href = `${base}plans/${currentSlug}`;
+        honestCount.textContent = String(data.counts.honest);
       }
 
       async function loadRegion(slug: string) {
