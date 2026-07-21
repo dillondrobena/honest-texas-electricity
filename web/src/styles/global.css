@@ -218,6 +218,8 @@ a:visited { color: color-mix(in srgb, var(--info) 80%, var(--ink)); }
 .efl-link { font-family: var(--font-sans); font-size: 14px; color: var(--muted); }
 
 .mono { font-family: var(--font-mono); }
+.vok { color: var(--accent); font-weight: 700; }
+.vno { color: var(--muted); }
 
 /* transparency link on the home page */
 .see-all { font-family: var(--font-sans); font-size: 14px; margin: var(--s-md) 0 0; }

@@ -65,6 +65,7 @@ const title = `All ${meta.label} honest electricity plans, sortable | Honest Tex
           <th data-key="cancel" class="th-num">Cancel</th>
           <th data-key="renew" class="th-num">Renew</th>
           <th data-key="rating" class="th-num">Rating</th>
+          <th data-key="verified" class="th-num" title="EFL-verified: our price matches the plan's legal Electricity Facts Label">Verified</th>
           <th class="th-text">EFL</th>
         </tr>
       </thead>
@@ -78,6 +79,7 @@ const title = `All ${meta.label} honest electricity plans, sortable | Honest Tex
             data-cancel={p.cancel_fee ?? 99999}
             data-renew={p.renewable ?? -1}
             data-rating={p.rating ?? -1}
+            data-verified={p.efl_verified ? 1 : 0}
           >
             <td class="td-name">{p.rep} — {p.product}</td>
             <td class="td-num mono cell-rate">{cents(bill, DEFAULT_USAGE)}</td>
@@ -86,6 +88,7 @@ const title = `All ${meta.label} honest electricity plans, sortable | Honest Tex
             <td class="td-num mono">{p.cancel_fee != null ? money(p.cancel_fee) : "—"}</td>
             <td class="td-num mono">{p.renewable != null ? `${p.renewable}%` : "—"}</td>
             <td class="td-num mono">{p.rating != null ? p.rating.toFixed(0) : "—"}</td>
+            <td class="td-num">{p.efl_verified ? <span class="vok" title="Price matches the legal EFL">✓</span> : <span class="vno" title="Not EFL-verified — feed estimate">—</span>}</td>
             <td class="td-num">{p.efl_url ? <a href={p.efl_url} rel="nofollow noopener" target="_blank">EFL ↗</a> : "—"}</td>
           </tr>
         ))}

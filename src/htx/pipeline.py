@@ -35,7 +35,7 @@ class RegionResult:
         return json.dumps(self.data, indent=indent)
 
 
-def _plan_public(p: Plan) -> dict:
+def _plan_public(p: Plan, efl_status: str = "no_efl") -> dict:
     """The plan fields the frontend needs, plus precomputed cost coefficients."""
     model = build_cost_model(p)
     out = {
@@ -50,6 +50,7 @@ def _plan_public(p: Plan) -> dict:
         "efl_url": p.efl_url,
         "enroll_url": p.enroll_url,
         "efl_verified": p.efl_verified,
+        "efl_status": efl_status,
     }
     if model is not None:
         out["cost"] = {
@@ -62,8 +63,13 @@ def _plan_public(p: Plan) -> dict:
 
 
 def run(plans: list[Plan], tdu: str, generated_at: str,
-        usage_levels=DEFAULT_USAGE_LEVELS) -> RegionResult:
-    """Build the region result. `plans` should already be the region's plans."""
+        usage_levels=DEFAULT_USAGE_LEVELS, efl_cache: dict | None = None) -> RegionResult:
+    """Build the region result. `plans` should already be the region's plans.
+
+    `efl_cache` is the {url: {status,...}} map from verify_efls; when present, a
+    plan whose EFL was reconciled against the feed is marked efl_verified and
+    becomes eligible to be the #1 recommendation (decision T1A)."""
+    efl_urls = (efl_cache or {}).get("urls", {})
     # The source feed contains literal duplicate rows (same plan listed twice).
     # Dedup by plan_id, keeping the first occurrence, so a plan never appears
     # twice in the rankings. (Fuller provider/plan identity normalization is a
@@ -90,11 +96,21 @@ def run(plans: list[Plan], tdu: str, generated_at: str,
 
     honest, rejected = flt.partition(valid)
 
-    # Rankings per usage level.
+    # Annotate each honest plan with its EFL verification status from the cache.
+    efl_status: dict[str, str] = {}
+    for p in honest:
+        rec = efl_urls.get(p.efl_url or "")
+        status = rec["status"] if rec else "no_efl"
+        efl_status[p.plan_id] = status
+        p.efl_verified = status == "verified"
+
+    # Rankings per usage level. The #1 pick must be EFL-verified when any verified
+    # plan exists (T1A); otherwise fall back to cheapest, honestly badged as a
+    # feed estimate, so a region is never left without an answer.
     rankings = {}
     for u in usage_levels:
         ranked = rank(honest, u)
-        pick = top_pick(ranked)  # require_verified=False in M1 (no EFL yet)
+        pick = top_pick(ranked, require_verified=True) or top_pick(ranked, require_verified=False)
         rankings[str(u)] = {
             "top_pick_id": pick.plan.plan_id if pick else None,
             "plans": [
@@ -137,8 +153,9 @@ def run(plans: list[Plan], tdu: str, generated_at: str,
             "dropped_invalid": dropped,
             "honest": len(honest),
             "rejected": len(rejected),
+            "verified": sum(1 for s in efl_status.values() if s == "verified"),
         },
-        "honest_plans": {p.plan_id: _plan_public(p) for p in honest},
+        "honest_plans": {p.plan_id: _plan_public(p, efl_status.get(p.plan_id, "no_efl")) for p in honest},
         "rankings": rankings,
         "autopsies": autopsies,
     }

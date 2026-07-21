@@ -49,12 +49,19 @@ def main() -> None:
     os.makedirs(PUBLIC_DIR, exist_ok=True)
     os.makedirs(SRC_DIR, exist_ok=True)
 
+    # EFL verification cache (from scripts/verify_efls.py), if present.
+    efl_cache = None
+    efl_path = os.path.join(SRC_DIR, "efl-cache.json")
+    if os.path.exists(efl_path):
+        efl_cache = json.load(open(efl_path, encoding="utf-8"))
+        print(f"Loaded EFL cache: {len(efl_cache.get('urls', {}))} verified/checked EFLs")
+
     month = now[:7]  # YYYY-MM
     history_month = {}  # per-region price summary for this run's month
 
     manifest = []
     for region in REGION_META:
-        result = pipeline.run(plans, region["tdu"], generated_at=now)
+        result = pipeline.run(plans, region["tdu"], generated_at=now, efl_cache=efl_cache)
         out = result.to_json()
 
         # Monthly price archive: avg / median / cheapest honest ¢/kWh at 1,000 kWh,

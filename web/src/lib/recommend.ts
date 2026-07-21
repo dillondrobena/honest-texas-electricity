@@ -80,47 +80,50 @@ export function pickByPreference(
   const byCost = (a: Priced, b: Priced) => a.monthlyBill - b.monthlyBill;
   const cents = (r: Priced) => ((r.monthlyBill / usageKwh) * 100).toFixed(1);
 
+  // Build the plan list ordered by the chosen preference (cost breaks ties).
+  let sorted = trustworthy;
+  let note: string | undefined;
   if (pref === "renewable") {
     const green = trustworthy.filter((r) => (r.plan.renewable ?? 0) >= 100).sort(byCost);
     if (green.length) {
-      return { pick: green[0], why: `100% renewable and the cheapest green plan at your usage (${cents(green[0])}¢/kWh).` };
+      sorted = green;
+    } else {
+      sorted = [...trustworthy].sort((a, b) => (b.plan.renewable ?? -1) - (a.plan.renewable ?? -1) || byCost(a, b));
+      note = "No 100%-renewable plan passed our honest filter here, so this is the greenest one that did.";
     }
-    const greenest = [...trustworthy].sort(
-      (a, b) => (b.plan.renewable ?? -1) - (a.plan.renewable ?? -1) || byCost(a, b),
-    )[0];
-    return {
-      pick: greenest,
-      why: `The greenest honest plan available (${greenest.plan.renewable ?? 0}% renewable) at ${cents(greenest)}¢/kWh.`,
-      note: "No 100%-renewable plan passed our honest filter here, so this is the greenest one that did.",
-    };
+  } else if (pref === "shortest") {
+    sorted = [...trustworthy].sort((a, b) => (a.plan.term_months ?? 999) - (b.plan.term_months ?? 999) || byCost(a, b));
+  } else if (pref === "lowcancel") {
+    sorted = [...trustworthy].sort((a, b) => (a.plan.cancel_fee ?? Infinity) - (b.plan.cancel_fee ?? Infinity) || byCost(a, b));
+  } else if (pref === "rating") {
+    sorted = [...trustworthy].sort((a, b) => (b.plan.rating ?? -1) - (a.plan.rating ?? -1) || byCost(a, b));
   }
 
-  if (pref === "shortest") {
-    const p = [...trustworthy].sort(
-      (a, b) => (a.plan.term_months ?? 999) - (b.plan.term_months ?? 999) || byCost(a, b),
-    )[0];
-    return { pick: p, why: `Shortest honest commitment (${p.plan.term_months ?? "—"} months) at ${cents(p)}¢/kWh.` };
+  // Verified-#1 gate (T1A): the top pick must be EFL-verified when any verified
+  // plan qualifies. Only fall back to an unverified plan (honestly badged "feed
+  // estimate") when nothing verified is available, so there's always an answer.
+  const anyVerified = trustworthy.some((r) => r.plan.efl_verified);
+  const pick = sorted.find((r) => r.plan.efl_verified) ?? sorted[0];
+  if (anyVerified && !pick.plan.efl_verified) {
+    note = (note ? note + " " : "") +
+      "No EFL-verified plan fit this preference, so this one is a feed estimate — verify its EFL.";
   }
 
-  if (pref === "lowcancel") {
-    const p = [...trustworthy].sort(
-      (a, b) => (a.plan.cancel_fee ?? Infinity) - (b.plan.cancel_fee ?? Infinity) || byCost(a, b),
-    )[0];
-    const fee = p.plan.cancel_fee;
-    return { pick: p, why: `Lowest early-exit cost (${fee != null ? money(fee) : "—"} cancel fee) among honest plans, at ${cents(p)}¢/kWh.` };
+  const p = pick.plan;
+  let why: string;
+  if (pref === "renewable") {
+    why = (p.renewable ?? 0) >= 100
+      ? `100% renewable and the cheapest green plan at your usage (${cents(pick)}¢/kWh).`
+      : `The greenest honest plan available (${p.renewable ?? 0}% renewable) at ${cents(pick)}¢/kWh.`;
+  } else if (pref === "shortest") {
+    why = `Shortest honest commitment (${p.term_months ?? "—"} months) at ${cents(pick)}¢/kWh.`;
+  } else if (pref === "lowcancel") {
+    why = `Lowest early-exit cost (${p.cancel_fee != null ? money(p.cancel_fee) : "—"} cancel fee) among honest plans, at ${cents(pick)}¢/kWh.`;
+  } else if (pref === "rating") {
+    why = `Best-rated honest provider (${p.rating ?? "—"}/5) at ${cents(pick)}¢/kWh.`;
+  } else {
+    why = `Lowest true cost at your usage, no bill credit, no minimum-usage fee, and a flat rate that holds across usage levels.`;
   }
 
-  if (pref === "rating") {
-    const p = [...trustworthy].sort(
-      (a, b) => (b.plan.rating ?? -1) - (a.plan.rating ?? -1) || byCost(a, b),
-    )[0];
-    return { pick: p, why: `Best-rated honest provider (${p.plan.rating ?? "—"}/5) at ${cents(p)}¢/kWh.` };
-  }
-
-  // cheapest (default)
-  const p = trustworthy[0];
-  return {
-    pick: p,
-    why: `Lowest true cost at your usage, no bill credit, no minimum-usage fee, and a flat rate that holds across usage levels.`,
-  };
+  return { pick, why, note };
 }

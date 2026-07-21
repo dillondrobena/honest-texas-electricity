@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T01:46:46Z",
+  "generated_at": "2026-07-21T16:49:16Z",
   "regions": [
     {
       "slug": "oncor",
@@ -10,9 +10,10 @@
         "total": 171,
         "dropped_invalid": 0,
         "honest": 130,
-        "rejected": 41
+        "rejected": 41,
+        "verified": 88
       },
-      "generated_at": "2026-07-21T01:46:46Z"
+      "generated_at": "2026-07-21T16:49:16Z"
     },
     {
       "slug": "centerpoint",
@@ -23,9 +24,10 @@
         "total": 178,
         "dropped_invalid": 0,
         "honest": 122,
-        "rejected": 56
+        "rejected": 56,
+        "verified": 75
       },
-      "generated_at": "2026-07-21T01:46:46Z"
+      "generated_at": "2026-07-21T16:49:16Z"
     },
     {
       "slug": "aep-central",
@@ -36,9 +38,10 @@
         "total": 168,
         "dropped_invalid": 0,
         "honest": 127,
-        "rejected": 41
+        "rejected": 41,
+        "verified": 73
       },
-      "generated_at": "2026-07-21T01:46:46Z"
+      "generated_at": "2026-07-21T16:49:16Z"
     },
     {
       "slug": "aep-north",
@@ -49,9 +52,10 @@
         "total": 168,
         "dropped_invalid": 0,
         "honest": 128,
-        "rejected": 40
+        "rejected": 40,
+        "verified": 72
       },
-      "generated_at": "2026-07-21T01:46:46Z"
+      "generated_at": "2026-07-21T16:49:16Z"
     },
     {
       "slug": "tnmp",
@@ -62,9 +66,10 @@
         "total": 163,
         "dropped_invalid": 0,
         "honest": 122,
-        "rejected": 41
+        "rejected": 41,
+        "verified": 67
       },
-      "generated_at": "2026-07-21T01:46:46Z"
+      "generated_at": "2026-07-21T16:49:16Z"
     },
     {
       "slug": "lubbock",
@@ -75,9 +80,10 @@
         "total": 96,
         "dropped_invalid": 0,
         "honest": 75,
-        "rejected": 21
+        "rejected": 21,
+        "verified": 39
       },
-      "generated_at": "2026-07-21T01:46:46Z"
+      "generated_at": "2026-07-21T16:49:16Z"
     }
   ]
 }

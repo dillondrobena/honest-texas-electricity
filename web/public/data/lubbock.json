@@ -1,13 +1,14 @@
 {
   "tdu": "LUBBOCK POWER & LIGHT",
   "slug": "lubbock",
-  "generated_at": "2026-07-21T01:46:46Z",
+  "generated_at": "2026-07-21T16:49:16Z",
   "disclaimer": "Free, no-affiliate. Always verify the plan's EFL before enrolling.",
   "counts": {
     "total": 96,
     "dropped_invalid": 0,
     "honest": 75,
-    "rejected": 21
+    "rejected": 21,
+    "verified": 39
   },
   "honest_plans": {
     "ambit-energy-lone-star-classic-12-lubbock-power-light-12-0": {
@@ -22,6 +23,7 @@
       "efl_url": "https://shopping.ambitenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=LPAMLSCLSC12AA&tdsp=LUBBOCK&lang=en&custClass=Residential",
       "enroll_url": "http://www.ambitenergy.com",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": 10.0,
         "rate_per_kwh": 0.176,
@@ -40,7 +42,8 @@
       "rating": 2.0,
       "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=V3ihOvIFqgY=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=",
       "enroll_url": "https://justenergy.com/affiliatepartner/ptcsl/?utm_source=powertochoose&utm_medium=referral&utm_campaign=ST",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 4.0,
         "rate_per_kwh": 0.117,
@@ -60,6 +63,7 @@
       "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=S8UvhovVo/k=&RCID=rv5fvOkFHh4=&L=jfm4E/YMcQk=",
       "enroll_url": "https://amigoenergy.com/lp/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.165,
@@ -79,6 +83,7 @@
       "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=px8nNPR0SyU=&RCID=cacW2cvK/I0=&L=jfm4E/YMcQk=",
       "enroll_url": "https://taraenergy.com/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.165,
@@ -98,6 +103,7 @@
       "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=gEiPdnrqT7c=&RCID=cacW2cvK/I0=&L=jfm4E/YMcQk=",
       "enroll_url": "https://taraenergy.com/ptcsl/?utm_source=powertochoose&utm_medium=referral&utm_campaign=ST",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": 4.0,
         "rate_per_kwh": 0.117,
@@ -117,6 +123,7 @@
       "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=W2yy+RxZeV0=&RCID=rv5fvOkFHh4=&L=6f+Ch9flI7k=",
       "enroll_url": "https://amigoenergy.com/lp/ptcsl/?utm_source=powertochoose&utm_medium=referral&utm_campaign=ST",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": 4.0,
         "rate_per_kwh": 0.117,
@@ -135,7 +142,8 @@
       "rating": 5.0,
       "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00027077&promo=&term=11&ver=spanish",
       "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.135,
@@ -154,7 +162,8 @@
       "rating": 5.0,
       "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00013527&term=13",
       "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.139,
@@ -173,7 +182,8 @@
       "rating": 4.0,
       "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=confidentrenter.fixed&tdsp_id=9&doc_type=EFL&term=12&promo_code=PTC",
       "enroll_url": "https://join.abundanceenergy.com/?promoCode=PTC",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 0.0,
         "rate_per_kwh": 0.134,
@@ -192,7 +202,8 @@
       "rating": 2.0,
       "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.noap.fixed.thermostat&tdsp_id=9&doc_type=EFL&term=12&promo_code=default",
       "enroll_url": "https://www.thinkenergy.com/?utm_source=rateboard&utm_medium=referral&utm_campaign=texas",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -5.5,
         "rate_per_kwh": 0.14371,
@@ -211,7 +222,8 @@
       "rating": 3.0,
       "efl_url": "https://enroll.aetexasco.com/EmailHTML/efl.aspx?RateID=3749&BrandID=1&PromoCodeID=114",
       "enroll_url": "https://enroll.aetexasco.com/Enrollment/Default.aspx?&promoCode=AETXPTC1",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.149,
@@ -230,7 +242,8 @@
       "rating": 4.0,
       "efl_url": "https://www.reliant.com/defl/R1F00183448945A.pdf",
       "enroll_url": "https://shop.reliant.com/plans-for-you/?tdspCodeCCS=D0011&fromLP=ptc&txtPromocode=WF3713&sid=APTC_1686089562&language_code=es_US&utm_source=None&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.172,
@@ -250,6 +263,7 @@
       "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00183197330A.pdf",
       "enroll_url": "https://shop.directenergy.com/tx/product-chart-tabs?tdspCode=D0011&promo_code=WHPGCD&sid=APTC_1726591058&utm_campaign=PTC&utm_medium=PTC_&utm_source=PowerToChoose",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.179,
@@ -268,7 +282,8 @@
       "rating": 2.0,
       "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=es&product_code=tx.thinkclean.ap.fixed&tdsp_id=9&doc_type=EFL&term=24&promo_code=default",
       "enroll_url": "https://www.thinkenergy.com/?utm_source=rateboard&utm_medium=referral&utm_campaign=texas",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 4.5,
         "rate_per_kwh": 0.14971,
@@ -287,7 +302,8 @@
       "rating": 2.0,
       "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=es&product_code=tx.thinkclean.noap.fixed&tdsp_id=9&doc_type=EFL&term=12&promo_code=default",
       "enroll_url": "https://www.thinkenergy.com/?utm_source=rateboard&utm_medium=referral&utm_campaign=texas",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 4.5,
         "rate_per_kwh": 0.14371,
@@ -307,6 +323,7 @@
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_LPL_NA_NA_RES_FPR_SD0_T11_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_LPL_NA_NA_RES_FPR_SD0_T11_NEW&deploymentName=TX%20State%20Rate%20Board",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.124,
@@ -325,7 +342,8 @@
       "rating": 2.0,
       "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=kJlJrIjrmJI=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=",
       "enroll_url": "https://justenergy.com/affiliatepartner/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.165,
@@ -344,7 +362,8 @@
       "rating": 4.0,
       "efl_url": "https://residential.txu.com/Handlers/PDFGenerator.ashx?comProdId=LPXSIMVL1212AQ&lang=en&formType=EnergyFactsLabel&custClass=3&tdsp=LUBBOCK",
       "enroll_url": "https://www.txu.com/ptc/simplevalue12",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 10.0,
         "rate_per_kwh": 0.174,
@@ -364,6 +383,7 @@
       "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=9go1u2iCjqo=&RCID=cacW2cvK/I0=&L=jfm4E/YMcQk=",
       "enroll_url": "https://taraenergy.com/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.165,
@@ -383,6 +403,7 @@
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_LPL_NA_NA_RES_FPR_SD0_T36_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_LPL_NA_NA_RES_FPR_SD0_T36_NEW&deploymentName=TX%20State%20Rate%20Board",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.14,
@@ -401,7 +422,8 @@
       "rating": 5.0,
       "efl_url": "https://bit.ly/44wwPLI",
       "enroll_url": "https://southernfederal.com",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 4.5,
         "rate_per_kwh": 0.11771,
@@ -421,6 +443,7 @@
       "efl_url": "https://www.discountpowertx.com/defl/M1F00183207002A.pdf",
       "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0011&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.17,
@@ -440,6 +463,7 @@
       "efl_url": "https://www.discountpowertx.com/defl/M1F00183207014A.pdf",
       "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0011&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.165,
@@ -458,7 +482,8 @@
       "rating": 2.0,
       "efl_url": "https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=EN&prodcode=FPOWSVR12&tdspcode=LPL",
       "enroll_url": "https://newenroll.frontierutilities.com/?refid=PTC_LPL&ul=1000&tdsp=LPL",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.127,
@@ -478,6 +503,7 @@
       "efl_url": "https://eflviewer.gexaenergy.com/eflviewer.aspx?lang=EN&prodcode=GXAECOCHI12&tdspcode=LPL",
       "enroll_url": "https://newenroll.gexaenergy.com/?refid=PTC_LPL&ul=1000&tdsp=LPL",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.127,
@@ -497,6 +523,7 @@
       "efl_url": "https://signup.greenmountain.com/defl/G1F00183202970A.pdf",
       "enroll_url": "https://www.greenmountainenergy.com/gmec-lnd-tx-ptc/?txtPromocode=WA0TEZ&sid=APTC_1686090168&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.179,
@@ -516,6 +543,7 @@
       "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00183197311A.pdf",
       "enroll_url": "https://shop.directenergy.com/tx/product-chart-tabs?tdspCode=D0011&promo_code=WHPGCD&sid=APTC_1726591058&utm_campaign=PTC&utm_medium=PTC_&utm_source=PowerToChoose",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.175,
@@ -535,6 +563,7 @@
       "efl_url": "https://www.cirroenergy.com/defl/M1F00183205073A.pdf",
       "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0011&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.165,
@@ -554,6 +583,7 @@
       "efl_url": "https://www.discountpowertx.com/defl/M1F00183207015A.pdf",
       "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0011&language=es&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.165,
@@ -573,6 +603,7 @@
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_LPL_NA_NA_RES_FPR_SD0_T12_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_LPL_NA_NA_RES_FPR_SD0_T12_NEW&deploymentName=TX%20State%20Rate%20Board",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": 0.0,
         "rate_per_kwh": 0.125,
@@ -592,6 +623,7 @@
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_LPL_NA_NA_RES_FPR_SD0_T24_NEW",
       "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_LPL_NA_NA_RES_FPR_SD0_T24_NEW&deploymentName=TX%20State%20Rate%20Board",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.133,
@@ -610,7 +642,8 @@
       "rating": 5.0,
       "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN6179&state=TX&language=EN",
       "enroll_url": "https://www.championenergyservices.com/Residential/Sign-Up?promo=powertochoose",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.135,
@@ -629,7 +662,8 @@
       "rating": 5.0,
       "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN6174&state=TX&language=ES",
       "enroll_url": "https://www.championenergyservices.com/Residential/Sign-Up?promo=powertochoose",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.13,
@@ -649,6 +683,7 @@
       "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-12-LPL-LZ_WEST-202607151300",
       "enroll_url": "https://octopusenergy.com/affiliate/ptc",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.159,
@@ -667,7 +702,8 @@
       "rating": 5.0,
       "efl_url": "https://bit.ly/3R70Vm0",
       "enroll_url": null,
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.132,
@@ -686,7 +722,8 @@
       "rating": 5.0,
       "efl_url": "https://bit.ly/4h5sPcw",
       "enroll_url": "https://southernfederal.com/",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 4.5,
         "rate_per_kwh": 0.12071,
@@ -705,7 +742,8 @@
       "rating": 5.0,
       "efl_url": "https://bit.ly/3NQEMpW",
       "enroll_url": "https://southernfederal.com",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 4.5,
         "rate_per_kwh": 0.15071,
@@ -724,7 +762,8 @@
       "rating": 5.0,
       "efl_url": "https://bit.ly/3QVfHfz",
       "enroll_url": "https://southernfederal.com/",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 4.5,
         "rate_per_kwh": 0.11771,
@@ -743,7 +782,8 @@
       "rating": 5.0,
       "efl_url": "https://bit.ly/4yoL0jK",
       "enroll_url": "https://southernfederal.com/",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.132,
@@ -762,7 +802,8 @@
       "rating": 5.0,
       "efl_url": "https://rates.titangasandpower.com/Frontend/DownloadDoc?path=4de51f18-b8df-4b6d-bee7-7317b0aa87dd.html&id_plan=601800",
       "enroll_url": "https://signup.cleanskyenergy.com/rates?utility_id=121&promocode=PTCHOOSETX",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.151,
@@ -781,7 +822,8 @@
       "rating": 5.0,
       "efl_url": "https://rates.titangasandpower.com/Frontend/DownloadDoc?path=4de51f18-b8df-4b6d-bee7-7317b0aa87dd.html&id_plan=601803",
       "enroll_url": "https://signup.cleanskyenergy.com/rates?utility_id=121&promocode=PTCHOOSETX",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.152,
@@ -800,7 +842,8 @@
       "rating": 5.0,
       "efl_url": "https://bit.ly/4h5sRRG",
       "enroll_url": null,
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 4.5,
         "rate_per_kwh": 0.12071,
@@ -820,6 +863,7 @@
       "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=FmU1axfKZP4=&RCID=rv5fvOkFHh4=&L=jfm4E/YMcQk=",
       "enroll_url": "https://amigoenergy.com/lp/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.165,
@@ -838,7 +882,8 @@
       "rating": 5.0,
       "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001835&term=12",
       "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.135,
@@ -857,7 +902,8 @@
       "rating": 5.0,
       "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001836&term=24",
       "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.145,
@@ -876,7 +922,8 @@
       "rating": 5.0,
       "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001834&term=12",
       "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.137,
@@ -895,7 +942,8 @@
       "rating": 3.0,
       "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00183197346A.pdf",
       "enroll_url": "https://shop.directenergy.com/tx/product-chart-tabs?tdspCode=D0011&promo_code=WHPGCD&sid=APTC_1726591058&utm_campaign=PTC&utm_medium=PTC_&utm_source=PowerToChoose",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.185,
@@ -914,7 +962,8 @@
       "rating": 4.0,
       "efl_url": "https://www.reliant.com/defl/R1F00183448876A.pdf",
       "enroll_url": "https://shop.reliant.com/plans-for-you/?tdspCodeCCS=D0011&fromLP=ptc&txtPromocode=WF3713&sid=APTC_1686089562&utm_source=None&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.174,
@@ -934,6 +983,7 @@
       "efl_url": "https://www.reliant.com/defl/R1F00183448906A.pdf",
       "enroll_url": "https://shop.reliant.com/plans-for-you/?tdspCodeCCS=D0011&fromLP=ptc&txtPromocode=WF3713&sid=APTC_1686089562&utm_source=None&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.179,
@@ -953,6 +1003,7 @@
       "efl_url": "https://www.cirroenergy.com/defl/M1F00183205102A.pdf",
       "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0011&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.17,
@@ -972,6 +1023,7 @@
       "efl_url": "https://www.cirroenergy.com/defl/M1F00182612006A.pdf",
       "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0011&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.175,
@@ -990,7 +1042,8 @@
       "rating": 2.0,
       "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=ffiZbWf+Qi8=&RCID=gNASPlhlupI=&L=jfm4E/YMcQk=",
       "enroll_url": "https://justenergy.com/affiliatepartner/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.165,
@@ -1009,7 +1062,8 @@
       "rating": 4.0,
       "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=straightforward.fixed&tdsp_id=9&doc_type=EFL&term=12&promo_code=PTC",
       "enroll_url": "https://join.abundanceenergy.com/?promoCode=PTC",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 4.5,
         "rate_per_kwh": 0.13071,
@@ -1029,6 +1083,7 @@
       "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153966&type=EFL&title=153966_EFL&language=english",
       "enroll_url": "https://signup.texanschoicepower.com/?PromoCode=PTC",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.132,
@@ -1048,6 +1103,7 @@
       "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153967&type=EFL&title=153967_EFL&language=english",
       "enroll_url": "https://signup.texanschoicepower.com/?PromoCode=PTC",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.131,
@@ -1067,6 +1123,7 @@
       "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=153953&type=EFL&title=Electricity+Facts+Label&language=english",
       "enroll_url": "https://www.sparkenergy.com/products-and-services/?PromotionCode=PTC",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.138,
@@ -1086,6 +1143,7 @@
       "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=153954&type=EFL&title=Electricity+Facts+Label&language=english",
       "enroll_url": "https://www.sparkenergy.com/products-and-services/?PromotionCode=PTC",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.144,
@@ -1105,6 +1163,7 @@
       "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=153955&type=EFL&title=Electricity+Facts+Label&language=english",
       "enroll_url": "https://www.sparkenergy.com/products-and-services/?PromotionCode=PTC",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.137,
@@ -1124,6 +1183,7 @@
       "efl_url": "https://www.reliant.com/defl/R1F00190183745A.pdf",
       "enroll_url": "http://www.reliant.com/public/startOEProcess.htm?tdspCodeCCS=D0011&fromLP=ptc&txtPromocode=WF3713&sid=A3P_1562314131",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.169,
@@ -1142,7 +1202,8 @@
       "rating": 2.0,
       "efl_url": "https://signup.greenmountain.com/defl/G1F00183201882A.pdf",
       "enroll_url": "https://www.greenmountainenergy.com/gmec-lnd-tx-ptc/?txtPromocode=WA0TEZ&sid=APTC_1686090168&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.179,
@@ -1161,7 +1222,8 @@
       "rating": 3.0,
       "efl_url": "https://enroll.atlantexpower.com/EmailHTML/efl_SPA.aspx?RateID=3346&BrandID=3&PromoCodeID=115",
       "enroll_url": "https://enroll.atlantexpower.com/Enrollment/Default.aspx?promoCode=ATLPTC1",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.169,
@@ -1181,6 +1243,7 @@
       "efl_url": "https://enroll.atlantexpower.com/EmailHTML/ef_SPAl.aspx?RateID=8392&BrandID=3&PromoCodeID=14",
       "enroll_url": "https://enroll.atlantexpower.com/Enrollment/Default.aspx?promoCode=ATLPTC1",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.162,
@@ -1199,7 +1262,8 @@
       "rating": 2.0,
       "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.noap.fixed.thermostat&tdsp_id=9&doc_type=EFL&term=24&promo_code=default",
       "enroll_url": "https://www.thinkenergy.com/",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -5.5,
         "rate_per_kwh": 0.14971,
@@ -1219,6 +1283,7 @@
       "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-18-LPL-LZ_WEST-202607091030",
       "enroll_url": "https://www.octopusenergy.com/affiliate/ptc",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.164,
@@ -1238,6 +1303,7 @@
       "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-24-LPL-LZ_WEST-202607141200",
       "enroll_url": "https://www.octopusenergy.com/affiliate/ptc",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.165,
@@ -1257,6 +1323,7 @@
       "efl_url": "https://octopusenergy.com/es/efl/OCTO-SIMPLE-14-LPL-LZ_WEST-202607091030",
       "enroll_url": "https://octopusenergy.com/es/affiliate/ptc",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.166,
@@ -1275,7 +1342,8 @@
       "rating": 2.0,
       "efl_url": "https://eflviewer.companionenergy.com/eflviewer.aspx?lang=EN&prodcode=CEPERK12&tdspcode=LPL",
       "enroll_url": "https://newenroll.companionenergy.com/?refid=PTCPERKS12&ul=1000&tdsp=LPL&utm_source=power_to_choose&utm_medium=referral&utm_campaign=PTC-PTCPERKS12&utm_content=LPL&utm_term=additional_info",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.127,
@@ -1294,7 +1362,8 @@
       "rating": 4.0,
       "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=cleanenergy.fixed&tdsp_id=9&doc_type=EFL&term=12&promo_code=PTC",
       "enroll_url": "https://join.abundanceenergy.com/?promoCode=PTC",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 4.5,
         "rate_per_kwh": 0.13571,
@@ -1313,7 +1382,8 @@
       "rating": 3.0,
       "efl_url": "https://enroll.aetexasco.com/EmailHTML/efl.aspx?RateID=8470&BrandID=1&PromoCodeID=114",
       "enroll_url": "https://enroll.aetexasco.com/Enrollment/Default.aspx?&promoCode=AETXPTC1",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.142,
@@ -1333,6 +1403,7 @@
       "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_12MTH_LPL_12_2516194962670122367_EFL_SFE Residential Fixed LPL 12Spanish.pdf",
       "enroll_url": "https://www.sfeenergy.com/texas/",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": 0.0,
         "rate_per_kwh": 0.134,
@@ -1352,6 +1423,7 @@
       "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_14MTH_LPL_14_2516194962392910067_EFL_SFE Residential Fixed LPL 14Spanish.pdf",
       "enroll_url": "https://www.sfeenergy.com/texas/",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": 6.0,
         "rate_per_kwh": 0.132,
@@ -1371,6 +1443,7 @@
       "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_24MTH_LPL_24_2516194962704340951_EFL_SFE Residential Fixed LPL 24Spanish.pdf",
       "enroll_url": "https://www.sfeenergy.com/texas/",
       "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": 6.0,
         "rate_per_kwh": 0.137,
@@ -1389,7 +1462,8 @@
       "rating": 1.0,
       "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/5685191CD3E9726CE06382F2000A3173/view",
       "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.132,
@@ -1408,7 +1482,8 @@
       "rating": 1.0,
       "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/5685191CD3E6726CE06382F2000A3173/view",
       "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.139,
@@ -1427,7 +1502,8 @@
       "rating": 1.0,
       "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/570F6516F26D38FAE063E0F8000A92D0/view",
       "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": false,
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
         "rate_per_kwh": 0.124,
@@ -1438,7 +1514,7 @@
   },
   "rankings": {
     "500": {
-      "top_pick_id": "ap-gas-electric-tx-llc-trueclassic-11-lubbock-power-light-11-0",
+      "top_pick_id": "true-power-true-value-12-lubbock-power-light-12-0",
       "plans": [
         {
           "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-lubbock-power-light-11-0",
@@ -1818,7 +1894,7 @@
       ]
     },
     "1000": {
-      "top_pick_id": "tara-energy-sustainable-home-bundle-5-lubbock-power-light-5-0",
+      "top_pick_id": "just-energy-sustainable-living-bundle-5-lubbock-power-light-5-0",
       "plans": [
         {
           "plan_id": "tara-energy-sustainable-home-bundle-5-lubbock-power-light-5-0",
@@ -2198,7 +2274,7 @@
       ]
     },
     "1500": {
-      "top_pick_id": "tara-energy-sustainable-home-bundle-5-lubbock-power-light-5-0",
+      "top_pick_id": "just-energy-sustainable-living-bundle-5-lubbock-power-light-5-0",
       "plans": [
         {
           "plan_id": "tara-energy-sustainable-home-bundle-5-lubbock-power-light-5-0",
@@ -2578,7 +2654,7 @@
       ]
     },
     "2000": {
-      "top_pick_id": "tara-energy-sustainable-home-bundle-5-lubbock-power-light-5-0",
+      "top_pick_id": "just-energy-sustainable-living-bundle-5-lubbock-power-light-5-0",
       "plans": [
         {
           "plan_id": "tara-energy-sustainable-home-bundle-5-lubbock-power-light-5-0",
