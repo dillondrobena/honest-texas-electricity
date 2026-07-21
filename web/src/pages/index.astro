@@ -1,0 +1,191 @@
+---
+import "@fontsource-variable/newsreader";
+import "@fontsource/ibm-plex-mono/400.css";
+import "@fontsource/ibm-plex-mono/600.css";
+import "../styles/global.css";
+import type { RegionData, HonestPlan } from "../lib/types";
+import { rankHonest, topPick } from "../lib/recommend";
+import raw from "../data/oncor.json";
+
+const data = raw as unknown as RegionData;
+
+const DEFAULT_USAGE = 1000;
+const ranked = rankHonest(data, DEFAULT_USAGE);
+const pick = topPick(ranked);
+const pickPlan: HonestPlan | null = pick ? pick.plan : null;
+
+const updated = new Date(data.generated_at).toLocaleDateString("en-US", {
+  year: "numeric", month: "short", day: "numeric",
+});
+
+const money = (n: number) => `$${n.toFixed(0)}`;
+const centsAt = (bill: number, usage: number) => ((bill / usage) * 100).toFixed(1);
+
+// Show the rejected plans, worst-offenders first is fine; cap the visible list.
+const shownAutopsies = data.autopsies.slice(0, 12);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Honest Texas Electricity — the honest cheapest plan, no affiliate links</title>
+    <meta
+      name="description"
+      content="A free, no-affiliate tool that finds the honest cheapest Texas electricity plan. No provider pays us. We filter out bill-credit gimmicks and rank by your real cost."
+    />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="masthead">
+        <h1 class="brand">Honest <em>Texas</em> Electricity</h1>
+      </header>
+
+      <div class="trustline">
+        <span>
+          <strong>No affiliate links. No provider pays us. Ever.</strong>
+          We rank the genuinely cheapest honest plan — even when it earns us nothing.
+        </span>
+        <span class="updated">Updated {updated}</span>
+      </div>
+
+      <section class="ask">
+        <h2 class="ask-heading">Find your honest cheapest plan.</h2>
+        <div class="fields">
+          <div class="field field--zip">
+            <label for="zip">Your ZIP code</label>
+            <input id="zip" inputmode="numeric" maxlength="5" value="75201" aria-describedby="region-note" />
+          </div>
+          <div class="field field--usage">
+            <label for="usage">About how much power do you use?</label>
+            <input
+              id="usage" type="range" min="200" max="3000" step="50" value={DEFAULT_USAGE}
+              aria-label="Monthly usage in kilowatt-hours"
+            />
+            <p class="usage-readout">
+              <b id="usage-val">{DEFAULT_USAGE.toLocaleString()}</b> kWh / month
+              · a typical Texas home
+            </p>
+          </div>
+        </div>
+        <p id="region-note" class="usage-readout" style="margin-top:8px">
+          Showing the <strong>Oncor</strong> region (Dallas–Fort Worth, Waco, Midland,
+          Odessa, Round Rock). More regions coming soon.
+        </p>
+      </section>
+
+      <p class="result-kicker">Your honest cheapest plan</p>
+      <div id="result">
+        {pickPlan && pick ? (
+          <div class="plan-card">
+            <div class="plan-card__top">
+              <div class="plan-card__name">
+                <span id="pick-name">{pickPlan.rep} — {pickPlan.product}</span>
+                {pickPlan.efl_verified ? (
+                  <span class="badge badge--verified">EFL-verified</span>
+                ) : (
+                  <span class="badge badge--estimate" id="pick-badge">feed estimate — verify EFL</span>
+                )}
+              </div>
+              <div class="plan-card__rate">
+                <span id="pick-rate">{centsAt(pick.monthlyBill, DEFAULT_USAGE)}</span>&cent;
+                <small>/ kWh</small>
+              </div>
+            </div>
+            <div class="facts">
+              <div class="fact"><b id="pick-bill">{money(pick.monthlyBill)}</b><span>est. bill</span></div>
+              <div class="fact"><b>{pickPlan.rate_type} · {pickPlan.term_months ?? "—"} mo</b><span>rate &amp; term</span></div>
+              <div class="fact"><b>{pickPlan.cancel_fee != null ? money(pickPlan.cancel_fee) : "—"}</b><span>cancel fee</span></div>
+              <div class="fact"><b>{pickPlan.renewable != null ? `${pickPlan.renewable}%` : "—"}</b><span>renewable</span></div>
+            </div>
+            <p class="why">
+              <strong>Why this won:</strong> lowest true cost at your usage, no bill
+              credit, no minimum-usage fee, and a flat rate that holds across usage
+              levels.{pickPlan.efl_url ? (<> <a href={pickPlan.efl_url} rel="nofollow noopener" target="_blank">See the official EFL →</a></>) : null}
+            </p>
+          </div>
+        ) : (
+          <div class="empty">No honest plan is available for this usage right now.</div>
+        )}
+      </div>
+
+      <section class="rejected">
+        <h2>Plans we threw out for you ({data.counts.rejected})</h2>
+        {shownAutopsies.map((a) => (
+          <div class="rej">
+            <span class="x" aria-label="excluded">✕</span>
+            <span class="pname">{a.rep} — {a.product}</span>
+            <span class="reason">{a.verdicts[0]}</span>
+          </div>
+        ))}
+        {data.counts.rejected > shownAutopsies.length && (
+          <div class="rej">
+            <span class="x">✕</span>
+            <span class="pname">…and {data.counts.rejected - shownAutopsies.length} more</span>
+            <span class="reason">every rejected plan and why (coming soon)</span>
+          </div>
+        )}
+      </section>
+
+      <footer class="site-footer">
+        A free public-interest tool. Data from the state's PowerToChoose, updated {updated}.
+        Always verify a plan's official EFL before you enroll. We are not affiliated with
+        any electricity provider and earn no referral fees.
+      </footer>
+    </div>
+
+    <script type="application/json" id="region-data" set:html={JSON.stringify(data)}></script>
+    <script>
+      import { rankHonest, topPick } from "../lib/recommend";
+      import type { RegionData } from "../lib/types";
+
+      const data = JSON.parse(
+        document.getElementById("region-data")!.textContent!,
+      ) as RegionData;
+
+      const usage = document.getElementById("usage") as HTMLInputElement;
+      const usageVal = document.getElementById("usage-val")!;
+      const result = document.getElementById("result")!;
+
+      const money = (n: number) => `$${n.toFixed(0)}`;
+      const centsAt = (bill: number, u: number) => ((bill / u) * 100).toFixed(1);
+
+      function render(u: number) {
+        usageVal.textContent = u.toLocaleString();
+        const ranked = rankHonest(data, u);
+        const pick = topPick(ranked);
+        if (!pick) {
+          result.innerHTML =
+            '<div class="empty">No honest plan is available for this usage right now.</div>';
+          return;
+        }
+        const p = pick.plan;
+        const badge = p.efl_verified
+          ? '<span class="badge badge--verified">EFL-verified</span>'
+          : '<span class="badge badge--estimate">feed estimate — verify EFL</span>';
+        const efl = p.efl_url
+          ? ` <a href="${p.efl_url}" rel="nofollow noopener" target="_blank">See the official EFL →</a>`
+          : "";
+        result.innerHTML = `
+          <div class="plan-card">
+            <div class="plan-card__top">
+              <div class="plan-card__name"><span>${p.rep} — ${p.product}</span>${badge}</div>
+              <div class="plan-card__rate">${centsAt(pick.monthlyBill, u)}&cent;<small>/ kWh</small></div>
+            </div>
+            <div class="facts">
+              <div class="fact"><b>${money(pick.monthlyBill)}</b><span>est. bill</span></div>
+              <div class="fact"><b>${p.rate_type ?? "—"} · ${p.term_months ?? "—"} mo</b><span>rate &amp; term</span></div>
+              <div class="fact"><b>${p.cancel_fee != null ? money(p.cancel_fee) : "—"}</b><span>cancel fee</span></div>
+              <div class="fact"><b>${p.renewable != null ? p.renewable + "%" : "—"}</b><span>renewable</span></div>
+            </div>
+            <p class="why"><strong>Why this won:</strong> lowest true cost at your usage,
+            no bill credit, no minimum-usage fee, and a flat rate that holds across usage
+            levels.${efl}</p>
+          </div>`;
+      }
+
+      usage.addEventListener("input", () => render(Number(usage.value)));
+    </script>
+  </body>
+</html>

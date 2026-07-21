@@ -1,0 +1,5560 @@
+{
+  "tdu": "ONCOR",
+  "generated_at": "2026-07-21T00:59:55Z",
+  "disclaimer": "Free, no-affiliate. Always verify the plan's EFL before enrolling.",
+  "counts": {
+    "total": 171,
+    "dropped_invalid": 0,
+    "honest": 130,
+    "rejected": 41
+  },
+  "honest_plans": {
+    "energy-texas-no-bull-12-oncor-12-0": {
+      "plan_id": "energy-texas-no-bull-12-oncor-12-0",
+      "rep": "Energy Texas",
+      "product": "No Bull 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/12711/?locale=en",
+      "enroll_url": "https://www.energytexas.com/?rcid=power-to-choose&utm_source=powertochoose&utm_content=ONCOR&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=NB12",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": -1.0,
+        "rate_per_kwh": 0.12143,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "bkv-energy-daisy-11-oncor-11-0": {
+      "plan_id": "bkv-energy-daisy-11-oncor-11-0",
+      "rep": "BKV Energy",
+      "product": "Daisy 11",
+      "rate_type": "Fixed",
+      "term_months": 11.0,
+      "cancel_fee": 20.0,
+      "renewable": 29.0,
+      "rating": 5.0,
+      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00027078&promo=&term=11&ver=spanish",
+      "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.131,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "abundance-energy-confident-renter-12-oncor-12-0": {
+      "plan_id": "abundance-energy-confident-renter-12-oncor-12-0",
+      "rep": "Abundance Energy",
+      "product": "Confident Renter 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 200.0,
+      "renewable": 25.0,
+      "rating": 4.0,
+      "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=confidentrenter.fixed&tdsp_id=3&doc_type=EFL&term=12&promo_code=PTC",
+      "enroll_url": "https://join.abundanceenergy.com/?promoCode=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.12271,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "think-energy-think-clean-12-with-smart-thermostat-connected-oncor-12-0": {
+      "plan_id": "think-energy-think-clean-12-with-smart-thermostat-connected-oncor-12-0",
+      "rep": "Think Energy",
+      "product": "Think Clean 12 with Smart Thermostat Connected",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 200.0,
+      "renewable": 100.0,
+      "rating": 2.0,
+      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.noap.fixed.thermostat&tdsp_id=3&doc_type=EFL&term=12&promo_code=default",
+      "enroll_url": "https://www.thinkenergy.com/?utm_source=rateboard&utm_medium=referral&utm_campaign=texas",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": -1.5,
+        "rate_per_kwh": 0.13971,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "bkv-energy-daisy-13-oncor-13-0": {
+      "plan_id": "bkv-energy-daisy-13-oncor-13-0",
+      "rep": "BKV Energy",
+      "product": "Daisy 13",
+      "rate_type": "Fixed",
+      "term_months": 13.0,
+      "cancel_fee": 20.0,
+      "renewable": 29.0,
+      "rating": 5.0,
+      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00013531&term=13",
+      "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.133,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ae-texas-smart-secure-36-oncor-36-0": {
+      "plan_id": "ae-texas-smart-secure-36-oncor-36-0",
+      "rep": "AE TEXAS",
+      "product": "Smart Secure 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 20.0,
+      "renewable": 23.0,
+      "rating": 3.0,
+      "efl_url": "https://enroll.aetexasco.com/EmailHTML/efl_SPA.aspx?RateID=3750&BrandID=1&PromoCodeID=114",
+      "enroll_url": "https://enroll.aetexasco.com/Enrollment/Default.aspx?&promoCode=AETXPTC1",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.12571,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "think-energy-think-clean-24-oncor-24-0": {
+      "plan_id": "think-energy-think-clean-24-oncor-24-0",
+      "rep": "Think Energy",
+      "product": "Think Clean 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 200.0,
+      "renewable": 100.0,
+      "rating": 2.0,
+      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.ap.fixed&tdsp_id=3&doc_type=EFL&term=24&promo_code=default",
+      "enroll_url": "https://www.thinkenergy.com/?utm_source=rateboard&utm_medium=referral&utm_campaign=texas",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.5,
+        "rate_per_kwh": 0.14571,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "think-energy-think-clean-12-oncor-12-0": {
+      "plan_id": "think-energy-think-clean-12-oncor-12-0",
+      "rep": "Think Energy",
+      "product": "Think Clean 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 200.0,
+      "renewable": 100.0,
+      "rating": 2.0,
+      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=es&product_code=tx.thinkclean.noap.fixed&tdsp_id=3&doc_type=EFL&term=12&promo_code=default",
+      "enroll_url": "https://www.thinkenergy.com/?utm_source=rateboard&utm_medium=referral&utm_campaign=texas",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.5,
+        "rate_per_kwh": 0.13971,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "infuse-energy-essential-infusion-36-oncor-36-0": {
+      "plan_id": "infuse-energy-essential-infusion-36-oncor-36-0",
+      "rep": "INFUSE ENERGY",
+      "product": "Essential Infusion 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 375.0,
+      "renewable": 24.0,
+      "rating": 5.0,
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260710-093000-ONCORD-Essential Infusion 36 (Spanish).pdf",
+      "enroll_url": "https://www.infuseenergy.com/signup/signup-step1/?id=1664487&promotion=NONE&valid=N&referral=&landingpage=ptc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 6.0,
+        "rate_per_kwh": 0.131,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "trieagle-energy-lp-simple-savings-28-oncor-28-0": {
+      "plan_id": "trieagle-energy-lp-simple-savings-28-oncor-28-0",
+      "rep": "TRIEAGLE ENERGY LP",
+      "product": "Simple Savings 28",
+      "rate_type": "Fixed",
+      "term_months": 28.0,
+      "cancel_fee": 20.0,
+      "renewable": 3.0,
+      "rating": 4.0,
+      "efl_url": "https://shopping.trieagleenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=ONXTESMSAVC28AA&tdsp=ONCOR&lang=en&custClass=Residential",
+      "enroll_url": "https://www.trieagleenergy.com/PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 5.5,
+        "rate_per_kwh": 0.14229,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "infuse-energy-essential-infusion-24-oncor-24-0": {
+      "plan_id": "infuse-energy-essential-infusion-24-oncor-24-0",
+      "rep": "INFUSE ENERGY",
+      "product": "Essential Infusion 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 300.0,
+      "renewable": 24.0,
+      "rating": 5.0,
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260710-093000-ONCORD-Essential Infusion 24 (Spanish).pdf",
+      "enroll_url": "https://www.infuseenergy.com/signup/signup-step1/?id=1664482&promotion=NONE&valid=N&referral=&landingpage=ptc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 6.0,
+        "rate_per_kwh": 0.128,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "infuse-energy-essential-infusion-12-oncor-12-0": {
+      "plan_id": "infuse-energy-essential-infusion-12-oncor-12-0",
+      "rep": "INFUSE ENERGY",
+      "product": "Essential Infusion 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 200.0,
+      "renewable": 24.0,
+      "rating": 5.0,
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260710-093000-ONCORD-Essential Infusion 12 (Spanish).pdf",
+      "enroll_url": "https://www.infuseenergy.com/signup/signup-step1/?id=1664472&promotion=NONE&valid=N&referral=&landingpage=ptc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 6.0,
+        "rate_per_kwh": 0.122,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "budget-power-no-gimmicks-36-oncor-36-0": {
+      "plan_id": "budget-power-no-gimmicks-36-oncor-36-0",
+      "rep": "Budget Power",
+      "product": "No Gimmicks 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 250.0,
+      "renewable": 24.0,
+      "rating": 1.0,
+      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34801&Promo=",
+      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN36000004&Promo=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.125,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "budget-power-no-gimmicks-24-oncor-24-0": {
+      "plan_id": "budget-power-no-gimmicks-24-oncor-24-0",
+      "rep": "Budget Power",
+      "product": "No Gimmicks 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 175.0,
+      "renewable": 24.0,
+      "rating": 1.0,
+      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34810&Promo=",
+      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN24000004&Promo=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.123,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "budget-power-no-gimmicks-12-oncor-12-0": {
+      "plan_id": "budget-power-no-gimmicks-12-oncor-12-0",
+      "rep": "Budget Power",
+      "product": "No Gimmicks 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 100.0,
+      "renewable": 24.0,
+      "rating": 1.0,
+      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34809&Promo=",
+      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN12000005&Promo=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.116,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "infuse-energy-essential-infusion-6-oncor-6-0": {
+      "plan_id": "infuse-energy-essential-infusion-6-oncor-6-0",
+      "rep": "INFUSE ENERGY",
+      "product": "Essential Infusion 6",
+      "rate_type": "Fixed",
+      "term_months": 6.0,
+      "cancel_fee": 150.0,
+      "renewable": 24.0,
+      "rating": 5.0,
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260714-153400-ONCORD-Essential Infusion 6 (Spanish).pdf",
+      "enroll_url": "https://www.infuseenergy.com/signup/signup-step1/?id=1666872&promotion=NONE&valid=N&referral=&landingpage=ptc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 6.0,
+        "rate_per_kwh": 0.123,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "infuse-energy-essential-infusion-3-oncor-3-0": {
+      "plan_id": "infuse-energy-essential-infusion-3-oncor-3-0",
+      "rep": "INFUSE ENERGY",
+      "product": "Essential Infusion 3",
+      "rate_type": "Fixed",
+      "term_months": 3.0,
+      "cancel_fee": 100.0,
+      "renewable": 24.0,
+      "rating": 5.0,
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260714-132700-ONCORD-Essential Infusion 3 (Spanish).pdf",
+      "enroll_url": "https://www.infuseenergy.com/signup/signup-step1/?id=1666831&promotion=NONE&valid=N&referral=&landingpage=ptc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 6.5,
+        "rate_per_kwh": 0.13071,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "ap-gas-electric-tx-llc-trueclassic-11-oncor-11-0": {
+      "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-oncor-11-0",
+      "rep": "AP GAS & ELECTRIC (TX) LLC",
+      "product": "TrueClassic 11",
+      "rate_type": "Fixed",
+      "term_months": 11.0,
+      "cancel_fee": 150.0,
+      "renewable": 6.0,
+      "rating": 1.0,
+      "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_ONC_NA_NA_RES_FPR_SD0_T11_NEW",
+      "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_ONC_NA_NA_RES_FPR_SD0_T11_NEW&deploymentName=TX%20State%20Rate%20Board",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.122,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "just-energy-basics-ptc-24-oncor-24-0": {
+      "plan_id": "just-energy-basics-ptc-24-oncor-24-0",
+      "rep": "JUST ENERGY",
+      "product": "Basics PTC - 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rating": 2.0,
+      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=Vy73faZEbCI=&RCID=gNASPlhlupI=&L=jfm4E/YMcQk=",
+      "enroll_url": "https://justenergy.com/affiliatepartner/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.155,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ap-gas-electric-tx-llc-trueclassic-36-oncor-36-0": {
+      "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-oncor-36-0",
+      "rep": "AP GAS & ELECTRIC (TX) LLC",
+      "product": "TrueClassic 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 350.0,
+      "renewable": 6.0,
+      "rating": 1.0,
+      "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_ONC_NA_NA_RES_FPR_SD0_T36_NEW",
+      "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_ONC_NA_NA_RES_FPR_SD0_T36_NEW&deploymentName=TX%20State%20Rate%20Board",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.133,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ap-gas-electric-tx-llc-trueclassic-12-oncor-12-0": {
+      "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-oncor-12-0",
+      "rep": "AP GAS & ELECTRIC (TX) LLC",
+      "product": "TrueClassic 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 6.0,
+      "rating": 1.0,
+      "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_ONC_NA_NA_RES_FPR_SD0_T12_NEW",
+      "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_ONC_NA_NA_RES_FPR_SD0_T12_NEW&deploymentName=TX%20State%20Rate%20Board",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.123,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ap-gas-electric-tx-llc-trueclassic-24-oncor-24-0": {
+      "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-oncor-24-0",
+      "rep": "AP GAS & ELECTRIC (TX) LLC",
+      "product": "TrueClassic 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 250.0,
+      "renewable": 6.0,
+      "rating": 1.0,
+      "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_ONC_NA_NA_RES_FPR_SD0_T24_NEW",
+      "enroll_url": "https://www.apge.com/enroll#/offer?offerCode=SRBTX_ONC_NA_NA_RES_FPR_SD0_T24_NEW&deploymentName=TX%20State%20Rate%20Board",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.129,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "tara-energy-basics-ptc-24-oncor-24-0": {
+      "plan_id": "tara-energy-basics-ptc-24-oncor-24-0",
+      "rep": "TARA ENERGY",
+      "product": "Basics PTC - 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rating": 4.0,
+      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=jbDVWLK5VfU=&RCID=cacW2cvK/I0=&L=jfm4E/YMcQk=",
+      "enroll_url": "https://taraenergy.com/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.155,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "amigo-energy-basics-ptc-24-oncor-24-0": {
+      "plan_id": "amigo-energy-basics-ptc-24-oncor-24-0",
+      "rep": "AMIGO ENERGY",
+      "product": "Basics PTC - 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rating": 3.0,
+      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=X+DerimDMy8=&RCID=rv5fvOkFHh4=&L=jfm4E/YMcQk=",
+      "enroll_url": "https://amigoenergy.com/lp/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.155,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "abundance-energy-straight-forward-12-oncor-12-0": {
+      "plan_id": "abundance-energy-straight-forward-12-oncor-12-0",
+      "rep": "Abundance Energy",
+      "product": "Straight Forward 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 200.0,
+      "renewable": 25.0,
+      "rating": 4.0,
+      "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=straightforward.fixed&tdsp_id=3&doc_type=EFL&term=12&promo_code=PTC",
+      "enroll_url": "https://join.abundanceenergy.com/?promoCode=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.11943,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "just-energy-basics-ptc-60-oncor-60-0": {
+      "plan_id": "just-energy-basics-ptc-60-oncor-60-0",
+      "rep": "JUST ENERGY",
+      "product": "Basics PTC - 60",
+      "rate_type": "Fixed",
+      "term_months": 60.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rating": 2.0,
+      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=1pgisBt1Zfg=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=",
+      "enroll_url": "https://justenergy.com/affiliatepartner/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.155,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "trieagle-energy-lp-simple-savings-12-oncor-12-0": {
+      "plan_id": "trieagle-energy-lp-simple-savings-12-oncor-12-0",
+      "rep": "TRIEAGLE ENERGY LP",
+      "product": "Simple Savings 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 20.0,
+      "renewable": 3.0,
+      "rating": 4.0,
+      "efl_url": "https://shopping.trieagleenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=ONXTESMSAVC12AA&tdsp=ONCOR&lang=en&custClass=Residential",
+      "enroll_url": "https://www.trieagleenergy.com/PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 5.5,
+        "rate_per_kwh": 0.14629,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "trieagle-energy-lp-simple-savings-36-oncor-36-0": {
+      "plan_id": "trieagle-energy-lp-simple-savings-36-oncor-36-0",
+      "rep": "TRIEAGLE ENERGY LP",
+      "product": "Simple Savings 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 20.0,
+      "renewable": 3.0,
+      "rating": 4.0,
+      "efl_url": "https://shopping.trieagleenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=ONXTESMSAVC36AA&tdsp=ONCOR&lang=es&custClass=Residential",
+      "enroll_url": "https://www.trieagleenergy.com/PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 5.5,
+        "rate_per_kwh": 0.15229,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "chariot-energy-chariot-choice-24-oncor-24-0": {
+      "plan_id": "chariot-energy-chariot-choice-24-oncor-24-0",
+      "rep": "CHARIOT ENERGY",
+      "product": "Chariot Choice 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 99.0,
+      "renewable": 100.0,
+      "rating": 1.0,
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46469&ver=spanish",
+      "enroll_url": "https://signup.chariotenergy.com//Home/index?ProductCode=RN24000016&Promo=GqAtunAVIGY=",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.12371,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "chariot-energy-chariot-choice-36-oncor-36-0": {
+      "plan_id": "chariot-energy-chariot-choice-36-oncor-36-0",
+      "rep": "CHARIOT ENERGY",
+      "product": "Chariot Choice 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 99.0,
+      "renewable": 100.0,
+      "rating": 1.0,
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46480&ver=spanish",
+      "enroll_url": "https://signup.chariotenergy.com//Home/index?ProductCode=RN36000007&Promo=GqAtunAVIGY=",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.12671,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "ironhorse-power-services-llc-giddy-up-18-oncor-18-0": {
+      "plan_id": "ironhorse-power-services-llc-giddy-up-18-oncor-18-0",
+      "rep": "IRONHORSE POWER SERVICES LLC",
+      "product": "Giddy Up 18",
+      "rate_type": "Fixed",
+      "term_months": 18.0,
+      "cancel_fee": 250.0,
+      "renewable": 6.0,
+      "rating": 3.0,
+      "efl_url": "https://ironhorse-storage.s3.us-west-2.amazonaws.com/public/efl/ONC-18-PC-0-100279.pdf",
+      "enroll_url": "https://signup.ironhorsepowerservices.com/ironhorse-ptc/ONC-18-PC-0-100279",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.136,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "octopus-energy-octo-simple-12-oncor-12-0": {
+      "plan_id": "octopus-energy-octo-simple-12-oncor-12-0",
+      "rep": "Octopus Energy",
+      "product": "Octo Simple 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-12-ONCOR-LZ_NORTH-202607151300",
+      "enroll_url": "http://octopusenergy.com/affiliate/ptc?redirect=join%2Fenrollment%2Fquote",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.116,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "revolution-energy-llc-stars-and-stripes-36-oncor-36-0": {
+      "plan_id": "revolution-energy-llc-stars-and-stripes-36-oncor-36-0",
+      "rep": "REVOLUTION ENERGY LLC",
+      "product": "Stars and Stripes 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 375.0,
+      "renewable": 24.0,
+      "rating": 5.0,
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260710-101400-ONCORD-Stars and Stripes 36 (Spanish).pdf",
+      "enroll_url": "https://www.joinarevolution.com/signup/signup-step1/?id=366904&promotion=NONE&valid=N&referral=&landingpage=ptc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.129,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "revolution-energy-llc-stars-and-stripes-24-oncor-24-0": {
+      "plan_id": "revolution-energy-llc-stars-and-stripes-24-oncor-24-0",
+      "rep": "REVOLUTION ENERGY LLC",
+      "product": "Stars and Stripes 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 300.0,
+      "renewable": 24.0,
+      "rating": 5.0,
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260710-101400-ONCORD-Stars and Stripes 24 (Spanish).pdf",
+      "enroll_url": "https://www.joinarevolution.com/signup/signup-step1/?id=366899&promotion=NONE&valid=N&referral=&landingpage=ptc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.126,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "revolution-energy-llc-stars-and-stripes-18-oncor-18-0": {
+      "plan_id": "revolution-energy-llc-stars-and-stripes-18-oncor-18-0",
+      "rep": "REVOLUTION ENERGY LLC",
+      "product": "Stars and Stripes 18",
+      "rate_type": "Fixed",
+      "term_months": 18.0,
+      "cancel_fee": 250.0,
+      "renewable": 24.0,
+      "rating": 5.0,
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260714-130800-ONCORD-Stars and Stripes 18 (Spanish).pdf",
+      "enroll_url": "https://www.joinarevolution.com/signup/signup-step1/?id=369024&promotion=NONE&valid=N&referral=&landingpage=ptc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.139,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "revolution-energy-llc-stars-and-stripes-12-oncor-12-0": {
+      "plan_id": "revolution-energy-llc-stars-and-stripes-12-oncor-12-0",
+      "rep": "REVOLUTION ENERGY LLC",
+      "product": "Stars and Stripes 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 200.0,
+      "renewable": 24.0,
+      "rating": 5.0,
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260710-101400-ONCORD-Stars and Stripes 12 (Spanish).pdf",
+      "enroll_url": "https://www.joinarevolution.com/signup/signup-step1/?id=366889&promotion=NONE&valid=N&referral=&landingpage=ptc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.12,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "revolution-energy-llc-stars-and-stripes-9-oncor-9-0": {
+      "plan_id": "revolution-energy-llc-stars-and-stripes-9-oncor-9-0",
+      "rep": "REVOLUTION ENERGY LLC",
+      "product": "Stars and Stripes 9",
+      "rate_type": "Fixed",
+      "term_months": 9.0,
+      "cancel_fee": 175.0,
+      "renewable": 24.0,
+      "rating": 5.0,
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260714-130800-ONCORD-Stars and Stripes 9 (Spanish).pdf",
+      "enroll_url": "https://www.joinarevolution.com/signup/signup-step1/?id=369039&promotion=NONE&valid=N&referral=&landingpage=ptc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.132,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "bkv-energy-daisy-green-12-oncor-12-0": {
+      "plan_id": "bkv-energy-daisy-green-12-oncor-12-0",
+      "rep": "BKV Energy",
+      "product": "Daisy Green 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rating": 5.0,
+      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001186&promo=&term=12",
+      "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.132,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "bkv-energy-daisy-12-oncor-12-0": {
+      "plan_id": "bkv-energy-daisy-12-oncor-12-0",
+      "rep": "BKV Energy",
+      "product": "Daisy 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 20.0,
+      "renewable": 29.0,
+      "rating": 5.0,
+      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001189&promo=&term=12",
+      "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.13,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "bkv-energy-daisy-24-oncor-24-0": {
+      "plan_id": "bkv-energy-daisy-24-oncor-24-0",
+      "rep": "BKV Energy",
+      "product": "Daisy 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 20.0,
+      "renewable": 29.0,
+      "rating": 5.0,
+      "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001187&promo=&term=24",
+      "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.135,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "southern-federal-power-llc-sofed-better-rate-11-oncor-11-0": {
+      "plan_id": "southern-federal-power-llc-sofed-better-rate-11-oncor-11-0",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "SoFed Better Rate - 11",
+      "rate_type": "Fixed",
+      "term_months": 11.0,
+      "cancel_fee": 249.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4yln94l",
+      "enroll_url": "https://southernfederal.com",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.11343,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "southern-federal-power-llc-sofed-better-rate-36-oncor-36-0": {
+      "plan_id": "southern-federal-power-llc-sofed-better-rate-36-oncor-36-0",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "SoFed Better Rate - 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 249.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4u9OJhA",
+      "enroll_url": "http://www.southernfederal.com/",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.13243,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "southern-federal-power-llc-sofed-mejor-tarifa-5-oncor-5-0": {
+      "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-5-oncor-5-0",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "SoFed Mejor Tarifa \u2013 5",
+      "rate_type": "Fixed",
+      "term_months": 5.0,
+      "cancel_fee": 249.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4fbZE4R",
+      "enroll_url": null,
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.11343,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "ranchero-power-ranchero-fija-y-inteligente-11-oncor-11-0": {
+      "plan_id": "ranchero-power-ranchero-fija-y-inteligente-11-oncor-11-0",
+      "rep": "Ranchero Power",
+      "product": "Ranchero Fija y Inteligente - 11",
+      "rate_type": "Fixed",
+      "term_months": 11.0,
+      "cancel_fee": 179.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4aSh858",
+      "enroll_url": null,
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.11443,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "southern-federal-power-llc-sofed-better-rate-5-oncor-5-0": {
+      "plan_id": "southern-federal-power-llc-sofed-better-rate-5-oncor-5-0",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "SoFed Better Rate - 5",
+      "rate_type": "Fixed",
+      "term_months": 5.0,
+      "cancel_fee": 249.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4fcM0i5",
+      "enroll_url": null,
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.11343,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "southern-federal-power-llc-sofed-mejor-tarifa-11-oncor-11-0": {
+      "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-11-oncor-11-0",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "SoFed Mejor Tarifa \u2013 11",
+      "rate_type": "Fixed",
+      "term_months": 11.0,
+      "cancel_fee": 249.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4yg1evv",
+      "enroll_url": "http://www.southernfederal.com",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.11343,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-oncor-12-0": {
+      "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-oncor-12-0",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "Almuerzo De Energ\u00eda Gratis - 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 99.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4bHhVpM",
+      "enroll_url": "http://www.southernfederal.com",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 5.0,
+        "rate_per_kwh": 0.12657,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "southern-federal-power-llc-sofed-free-energy-lunch-12-oncor-12-0": {
+      "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-oncor-12-0",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "SoFed Free Energy Lunch - 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 99.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4ylotEn",
+      "enroll_url": "http://southernfederal.com",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 5.0,
+        "rate_per_kwh": 0.12657,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "ranchero-power-smart-fixed-36-oncor-36-0": {
+      "plan_id": "ranchero-power-smart-fixed-36-oncor-36-0",
+      "rep": "Ranchero Power",
+      "product": "Smart & Fixed - 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 179.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4eg6F5o",
+      "enroll_url": "http://Rancheropower.com",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.13343,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "ranchero-power-ranchero-smart-fixed-12-oncor-12-0": {
+      "plan_id": "ranchero-power-ranchero-smart-fixed-12-oncor-12-0",
+      "rep": "Ranchero Power",
+      "product": "Ranchero Smart & Fixed -12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 179.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4f0724B",
+      "enroll_url": "http://Rancheropower.com",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.12443,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "ranchero-power-ranchero-smart-fixed-5-oncor-5-0": {
+      "plan_id": "ranchero-power-ranchero-smart-fixed-5-oncor-5-0",
+      "rep": "Ranchero Power",
+      "product": "Ranchero Smart & Fixed - 5",
+      "rate_type": "Fixed",
+      "term_months": 5.0,
+      "cancel_fee": 179.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4w4Sk2m",
+      "enroll_url": "http://Rancheropower.com",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.11443,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "ranchero-power-ranchero-smart-fixed-11-oncor-11-0": {
+      "plan_id": "ranchero-power-ranchero-smart-fixed-11-oncor-11-0",
+      "rep": "Ranchero Power",
+      "product": "Ranchero Smart & Fixed - 11",
+      "rate_type": "Fixed",
+      "term_months": 11.0,
+      "cancel_fee": 179.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4vvh4Qf",
+      "enroll_url": "http://Rancheropower.com",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.11443,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "ranchero-power-ranchero-tarifa-fija-y-inteligente-12-oncor-12-0": {
+      "plan_id": "ranchero-power-ranchero-tarifa-fija-y-inteligente-12-oncor-12-0",
+      "rep": "Ranchero Power",
+      "product": "Ranchero Tarifa Fija y Inteligente - 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 0.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4yiAUAT",
+      "enroll_url": "http://Rancheropower.com",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.12443,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "ranchero-power-ranchero-tarifa-fija-y-inteligente-5-oncor-5-0": {
+      "plan_id": "ranchero-power-ranchero-tarifa-fija-y-inteligente-5-oncor-5-0",
+      "rep": "Ranchero Power",
+      "product": "Ranchero Tarifa Fija y Inteligente - 5",
+      "rate_type": "Fixed",
+      "term_months": 5.0,
+      "cancel_fee": 179.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4w3AA7y",
+      "enroll_url": "http://www.rancheropower.com",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.11443,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "ranchero-power-tarifa-fija-y-inteligente-36-oncor-36-0": {
+      "plan_id": "ranchero-power-tarifa-fija-y-inteligente-36-oncor-36-0",
+      "rep": "Ranchero Power",
+      "product": "Tarifa Fija y Inteligente \u2013 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 179.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4fRligL",
+      "enroll_url": "http://www.rancheropower.com",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.13343,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "spark-energy-llc-choose-6-oncor-6-0": {
+      "plan_id": "spark-energy-llc-choose-6-oncor-6-0",
+      "rep": "SPARK ENERGY LLC",
+      "product": "Choose 6",
+      "rate_type": "Fixed",
+      "term_months": 6.0,
+      "cancel_fee": 100.0,
+      "renewable": 37.0,
+      "rating": 4.0,
+      "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=150856&type=EFL&title=Electricity+Facts+Label&language=english",
+      "enroll_url": "https://www.sparkenergy.com/products-and-services/?PromotionCode=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.126,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ranchero-power-ranchero-fixed-prime-48-oncor-48-0": {
+      "plan_id": "ranchero-power-ranchero-fixed-prime-48-oncor-48-0",
+      "rep": "Ranchero Power",
+      "product": "Ranchero Fixed Prime - 48",
+      "rate_type": "Fixed",
+      "term_months": 48.0,
+      "cancel_fee": 0.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4eQdcTp",
+      "enroll_url": "http://Rancheropower.com",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.14443,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "ranchero-power-ranchero-prima-fija-48-oncor-48-0": {
+      "plan_id": "ranchero-power-ranchero-prima-fija-48-oncor-48-0",
+      "rep": "Ranchero Power",
+      "product": "Ranchero Prima Fija - 48",
+      "rate_type": "Fixed",
+      "term_months": 48.0,
+      "cancel_fee": 0.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4gJiseg",
+      "enroll_url": "http://www.rancheropower.com",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.14443,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "frontier-utilities-frontier-power-saver-12-oncor-12-0": {
+      "plan_id": "frontier-utilities-frontier-power-saver-12-oncor-12-0",
+      "rep": "FRONTIER UTILITIES",
+      "product": "Frontier Power Saver 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 30.0,
+      "rating": 2.0,
+      "efl_url": "https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=EN&prodcode=FPOWSVR12&tdspcode=ONCOR_ELEC",
+      "enroll_url": "https://newenroll.frontierutilities.com/?refid=PTCFPS12&ul=1000&tdsp=ONCOR_ELEC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.118,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "good-charlie-co-llc-goodenergy-24-oncor-24-0": {
+      "plan_id": "good-charlie-co-llc-goodenergy-24-oncor-24-0",
+      "rep": "GOOD CHARLIE & CO LLC",
+      "product": "GoodEnergy 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 20.0,
+      "renewable": 25.0,
+      "rating": 5.0,
+      "efl_url": "https://api.goodcharlie.com/products/2047/EFL/Oncor/latest/en",
+      "enroll_url": "https://goodcharlie.com/?product_id=2117&utility_code=ONCOR&utm_campaign=Corporate&utm_source=comparison-site&utm_medium=third-party&utm_content=power-to-choose-onc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.5,
+        "rate_per_kwh": 0.12371,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "good-charlie-co-llc-goodenergy-12-oncor-12-0": {
+      "plan_id": "good-charlie-co-llc-goodenergy-12-oncor-12-0",
+      "rep": "GOOD CHARLIE & CO LLC",
+      "product": "GoodEnergy 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 20.0,
+      "renewable": 25.0,
+      "rating": 5.0,
+      "efl_url": "https://api.goodcharlie.com/products/2046/EFL/Oncor/latest/en",
+      "enroll_url": "https://goodcharlie.com/?product_id=2117&utility_code=ONCOR&utm_campaign=Corporate&utm_source=comparison-site&utm_medium=third-party&utm_content=power-to-choose-onc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.5,
+        "rate_per_kwh": 0.11871,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "good-charlie-co-llc-goodenergy-36-oncor-36-0": {
+      "plan_id": "good-charlie-co-llc-goodenergy-36-oncor-36-0",
+      "rep": "GOOD CHARLIE & CO LLC",
+      "product": "GoodEnergy 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 20.0,
+      "renewable": 25.0,
+      "rating": 5.0,
+      "efl_url": "https://api.goodcharlie.com/products/2048/EFL/Oncor/latest/es",
+      "enroll_url": "https://goodcharlie.com/?product_id=2117&utility_code=ONCOR&utm_campaign=Corporate&utm_source=comparison-site&utm_medium=third-party&utm_content=power-to-choose-onc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.5,
+        "rate_per_kwh": 0.12671,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "green-mountain-energy-company-pollution-free-e-plus-18-choice-oncor-18-0": {
+      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-18-choice-oncor-18-0",
+      "rep": "GREEN MOUNTAIN ENERGY COMPANY",
+      "product": "Pollution Free e-Plus 18 Choice",
+      "rate_type": "Fixed",
+      "term_months": 18.0,
+      "cancel_fee": 180.0,
+      "renewable": 100.0,
+      "rating": 2.0,
+      "efl_url": "https://signup.greenmountain.com/defl/G1F00190243335B.pdf",
+      "enroll_url": "https://www.greenmountainenergy.com/gmec-lnd-tx-ptc/?txtPromocode=WA0TEZ&sid=APTC_1686090168&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.5,
+        "rate_per_kwh": 0.14929,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "reliant-reliant-power-on-18-oncor-18-0": {
+      "plan_id": "reliant-reliant-power-on-18-oncor-18-0",
+      "rep": "RELIANT",
+      "product": "Reliant Power On 18",
+      "rate_type": "Fixed",
+      "term_months": 18.0,
+      "cancel_fee": 180.0,
+      "renewable": 15.0,
+      "rating": 4.0,
+      "efl_url": "https://www.reliant.com/defl/R1F00190183729B.pdf",
+      "enroll_url": "http://www.reliant.com/public/startOEProcess.htm?tdspCodeCCS=D0002&fromLP=ptc&txtPromocode=WF3713&sid=A3P_1562314131",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.5,
+        "rate_per_kwh": 0.14429,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "ironhorse-power-services-llc-giddy-up-24-oncor-24-0": {
+      "plan_id": "ironhorse-power-services-llc-giddy-up-24-oncor-24-0",
+      "rep": "IRONHORSE POWER SERVICES LLC",
+      "product": "Giddy Up 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 250.0,
+      "renewable": 6.0,
+      "rating": 3.0,
+      "efl_url": "https://ironhorse-storage.s3.us-west-2.amazonaws.com/public/efl/ONC-24-PC-0-100279.pdf",
+      "enroll_url": "https://signup.ironhorsepowerservices.com/ironhorse-ptc/ONC-24-PC-0-100279",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.135,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "cleansky-energy-embrace-green-36-new-customer-special-oncor-36-0": {
+      "plan_id": "cleansky-energy-embrace-green-36-new-customer-special-oncor-36-0",
+      "rep": "CleanSky Energy",
+      "product": "Embrace Green 36 - New Customer Special",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 275.0,
+      "renewable": 100.0,
+      "rating": 5.0,
+      "efl_url": "https://rates.titangasandpower.com/Frontend/DownloadDoc?path=4de51f18-b8df-4b6d-bee7-7317b0aa87dd.html&id_plan=604912",
+      "enroll_url": "https://signup.cleanskyenergy.com/rates?utility_id=113&promocode=PTCHOOSETX",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 1.5,
+        "rate_per_kwh": 0.14043,
+        "is_linear": true,
+        "max_residual": 1.071
+      }
+    },
+    "cleansky-energy-embrace-green-12-new-customer-special-oncor-12-0": {
+      "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-oncor-12-0",
+      "rep": "CleanSky Energy",
+      "product": "Embrace Green 12 - New Customer Special",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 100.0,
+      "rating": 5.0,
+      "efl_url": "https://rates.titangasandpower.com/Frontend/DownloadDoc?path=4de51f18-b8df-4b6d-bee7-7317b0aa87dd.html&id_plan=604910",
+      "enroll_url": "https://signup.cleanskyenergy.com/rates?utility_id=113&promocode=PTCHOOSETX",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.135,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "cleansky-energy-embrace-green-24-new-customer-special-oncor-24-0": {
+      "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-oncor-24-0",
+      "rep": "CleanSky Energy",
+      "product": "Embrace Green 24 - New Customer Special",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 225.0,
+      "renewable": 100.0,
+      "rating": 5.0,
+      "efl_url": "https://rates.titangasandpower.com/Frontend/DownloadDoc?path=4de51f18-b8df-4b6d-bee7-7317b0aa87dd.html&id_plan=604911",
+      "enroll_url": "https://signup.cleanskyenergy.com/rates?utility_id=113&promocode=PTCHOOSETX",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.136,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "varsity-energy-llc-homerun-12-oncor-12-0": {
+      "plan_id": "varsity-energy-llc-homerun-12-oncor-12-0",
+      "rep": "VARSITY ENERGY LLC",
+      "product": "HOMERUN 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 24.0,
+      "rating": 2.0,
+      "efl_url": "https://signup.varsityenergy.com/Home/EFl?productId=33041&ver=spanish",
+      "enroll_url": "https://signup.varsityenergy.com/Home/index?ProductCode=RN12000005&Promo=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.116,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "direct-energy-autopay-texas-12-oncor-12-0": {
+      "plan_id": "direct-energy-autopay-texas-12-oncor-12-0",
+      "rep": "DIRECT ENERGY",
+      "product": "Autopay Texas 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 24.0,
+      "rating": 3.0,
+      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00183448954B.pdf",
+      "enroll_url": "https://shop.directenergy.com/tx/product-chart-tabs?tdspCode=D0002&promo_code=WHPGCD&sid=APTC_1726591058&utm_campaign=PTC&utm_medium=PTC_&utm_source=PowerToChoose",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.5,
+        "rate_per_kwh": 0.14429,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "green-mountain-energy-company-pollution-free-e-plus-36-choice-oncor-36-0": {
+      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-36-choice-oncor-36-0",
+      "rep": "GREEN MOUNTAIN ENERGY COMPANY",
+      "product": "Pollution Free e-Plus 36 Choice",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 395.0,
+      "renewable": 100.0,
+      "rating": 2.0,
+      "efl_url": "https://signup.greenmountain.com/defl/G1F00183449033B.pdf",
+      "enroll_url": "https://www.greenmountainenergy.com/gmec-lnd-tx-ptc/?sid=A3P_PTC_ERCOT_2015APR_PFe-P36",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.5,
+        "rate_per_kwh": 0.15729,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "reliant-reliant-power-on-36-plan-oncor-36-0": {
+      "plan_id": "reliant-reliant-power-on-36-plan-oncor-36-0",
+      "rep": "RELIANT",
+      "product": "Reliant Power on 36 Plan",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 395.0,
+      "renewable": 24.0,
+      "rating": 4.0,
+      "efl_url": "https://www.reliant.com/defl/R1F00183448881C.pdf",
+      "enroll_url": "https://shop.reliant.com/plans-for-you/?tdspCodeCCS=D0002&fromLP=ptc&txtPromocode=WF3713&sid=APTC_1686089562&language_code=es_US&utm_source=None&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.5,
+        "rate_per_kwh": 0.15329,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "direct-energy-autopay-texas-36-oncor-36-0": {
+      "plan_id": "direct-energy-autopay-texas-36-oncor-36-0",
+      "rep": "DIRECT ENERGY",
+      "product": "Autopay Texas 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 395.0,
+      "renewable": 24.0,
+      "rating": 3.0,
+      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00183449012B.pdf",
+      "enroll_url": "https://shop.directenergy.com/tx/product-chart-tabs?tdspCode=D0002&promo_code=WHPGCD&sid=APTC_1726591058&utm_campaign=PTC&utm_medium=PTC_&utm_source=PowerToChoose",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.5,
+        "rate_per_kwh": 0.15129,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "direct-energy-autopay-texas-24-oncor-24-0": {
+      "plan_id": "direct-energy-autopay-texas-24-oncor-24-0",
+      "rep": "DIRECT ENERGY",
+      "product": "Autopay Texas 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 295.0,
+      "renewable": 24.0,
+      "rating": 3.0,
+      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00183448968B.pdf",
+      "enroll_url": "https://shop.directenergy.com/tx/product-chart-tabs?tdspCode=D0002&promo_code=WHPGCD&sid=APTC_1726591058&utm_campaign=PTC&utm_medium=PTC_&utm_source=PowerToChoose",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.5,
+        "rate_per_kwh": 0.14929,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "spark-energy-llc-choose-15-oncor-15-0": {
+      "plan_id": "spark-energy-llc-choose-15-oncor-15-0",
+      "rep": "SPARK ENERGY LLC",
+      "product": "Choose 15",
+      "rate_type": "Fixed",
+      "term_months": 15.0,
+      "cancel_fee": 100.0,
+      "renewable": 37.0,
+      "rating": 4.0,
+      "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=148473&type=EFL&title=Electricity+Facts+Label&language=spanish",
+      "enroll_url": "https://www.sparkenergy.com/products-and-services/?PromotionCode=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.13,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "spark-energy-llc-choose-12-oncor-12-0": {
+      "plan_id": "spark-energy-llc-choose-12-oncor-12-0",
+      "rep": "SPARK ENERGY LLC",
+      "product": "Choose 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 100.0,
+      "renewable": 37.0,
+      "rating": 4.0,
+      "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=148468&type=EFL&title=Electricity+Facts+Label&language=spanish",
+      "enroll_url": "https://www.sparkenergy.com/products-and-services/?PromotionCode=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.125,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "cirro-energy-smart-simple-12-oncor-12-0": {
+      "plan_id": "cirro-energy-smart-simple-12-oncor-12-0",
+      "rep": "CIRRO ENERGY",
+      "product": "Smart Simple 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 24.0,
+      "rating": 2.0,
+      "efl_url": "https://www.cirroenergy.com/defl/M1F00183537191C.pdf",
+      "enroll_url": "https://www.cirroenergy.com/espanol?txtPromocode=WA198B&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.14071,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "discount-power-saver-12-oncor-12-0": {
+      "plan_id": "discount-power-saver-12-oncor-12-0",
+      "rep": "Discount Power",
+      "product": "Saver 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 22.0,
+      "rating": 2.0,
+      "efl_url": "https://www.discountpowertx.com/defl/M1F00183448696C.pdf",
+      "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0002&language=es&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.13971,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "gexa-energy-gexa-eco-choice-12-oncor-12-0": {
+      "plan_id": "gexa-energy-gexa-eco-choice-12-oncor-12-0",
+      "rep": "GEXA ENERGY",
+      "product": "Gexa Eco Choice 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 100.0,
+      "rating": 4.0,
+      "efl_url": "https://eflviewer.gexaenergy.com/eflviewer.aspx?lang=EN&prodcode=GXAECOCHI12&tdspcode=ONCOR_ELEC",
+      "enroll_url": "https://newenroll.gexaenergy.com/?refid=PTC_EcoChoice12&ul=1000&tdsp=ONCOR_ELEC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.118,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "green-mountain-energy-company-pollution-free-e-plus-12-choice-oncor-12-0": {
+      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-12-choice-oncor-12-0",
+      "rep": "GREEN MOUNTAIN ENERGY COMPANY",
+      "product": "Pollution Free e-Plus 12 Choice",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 100.0,
+      "rating": 2.0,
+      "efl_url": "https://signup.greenmountain.com/defl/G1F00183449081C.pdf",
+      "enroll_url": "https://www.greenmountainenergy.com/gmec-lnd-tx-ptc/?txtPromocode=WA0TEZ&sid=APTC_1686090168&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.5,
+        "rate_per_kwh": 0.14929,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "constellation-newenergy-inc-simple-switch-6-oncor-6-0": {
+      "plan_id": "constellation-newenergy-inc-simple-switch-6-oncor-6-0",
+      "rep": "CONSTELLATION NEWENERGY INC",
+      "product": "Simple Switch 6",
+      "rate_type": "Fixed",
+      "term_months": 6.0,
+      "cancel_fee": 50.0,
+      "renewable": 24.0,
+      "rating": 4.0,
+      "efl_url": "https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=4988492",
+      "enroll_url": "https://www.constellation.com/content/constellation/en/campaigns/powertochoose.html?UTM_source=powertochoose.org&UTM_medium=referral",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.12,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "reliant-reliant-power-on-12-plan-oncor-12-0": {
+      "plan_id": "reliant-reliant-power-on-12-plan-oncor-12-0",
+      "rep": "RELIANT",
+      "product": "Reliant Power On 12 Plan",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 24.0,
+      "rating": 4.0,
+      "efl_url": "https://www.reliant.com/defl/R1F00183448928C.pdf",
+      "enroll_url": "https://shop.reliant.com/plans-for-you/?tdspCodeCCS=D0002&fromLP=ptc&txtPromocode=WF3713&sid=APTC_1686089562&utm_source=None&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.5,
+        "rate_per_kwh": 0.14729,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "reliant-reliant-power-on-24-plan-oncor-24-0": {
+      "plan_id": "reliant-reliant-power-on-24-plan-oncor-24-0",
+      "rep": "RELIANT",
+      "product": "Reliant Power On 24 Plan",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 295.0,
+      "renewable": 24.0,
+      "rating": 4.0,
+      "efl_url": "https://www.reliant.com/defl/R1F00183448857C.pdf",
+      "enroll_url": "https://shop.reliant.com/plans-for-you/?tdspCodeCCS=D0002&fromLP=ptc&txtPromocode=WF3713&sid=APTC_1686089562&language_code=es_US&utm_source=None&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.5,
+        "rate_per_kwh": 0.15029,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "green-mountain-energy-company-pollution-free-e-plus-24-choice-oncor-24-0": {
+      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-24-choice-oncor-24-0",
+      "rep": "GREEN MOUNTAIN ENERGY COMPANY",
+      "product": "Pollution Free e-Plus 24 Choice",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 295.0,
+      "renewable": 100.0,
+      "rating": 2.0,
+      "efl_url": "https://signup.greenmountain.com/defl/G1F00183449048C.pdf",
+      "enroll_url": "https://shop.greenmountainenergy.com/texas/home-energy-solutions/products/?tdspCodeCCS=D0002&fromLP=ptc&txtPromocode=WA0TEZ&sid=APTC_1726590650&utm_campaign=PTC&utm_medium=PTC_&utm_source=PowerToChoose",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.5,
+        "rate_per_kwh": 0.15429,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "amigo-energy-basics-ptc-36-oncor-36-0": {
+      "plan_id": "amigo-energy-basics-ptc-36-oncor-36-0",
+      "rep": "AMIGO ENERGY",
+      "product": "Basics PTC - 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rating": 3.0,
+      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=BfnIuuEZljQ=&RCID=rv5fvOkFHh4=&L=6f+Ch9flI7k=",
+      "enroll_url": "https://amigoenergy.com/lp/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.155,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "just-energy-sustainable-living-bundle-5-oncor-5-0": {
+      "plan_id": "just-energy-sustainable-living-bundle-5-oncor-5-0",
+      "rep": "JUST ENERGY",
+      "product": "Sustainable Living Bundle - 5",
+      "rate_type": "Fixed",
+      "term_months": 5.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rating": 2.0,
+      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=8GkjuAORk+8=&RCID=gNASPlhlupI=&L=jfm4E/YMcQk=",
+      "enroll_url": "https://justenergy.com/affiliatepartner/ptcsl/?utm_source=powertochoose&utm_medium=referral&utm_campaign=ST",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.5,
+        "rate_per_kwh": 0.10971,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "tara-energy-basics-ptc-36-oncor-36-0": {
+      "plan_id": "tara-energy-basics-ptc-36-oncor-36-0",
+      "rep": "TARA ENERGY",
+      "product": "Basics PTC - 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rating": 4.0,
+      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=ZLQfjOoVTQc=&RCID=cacW2cvK/I0=&L=6f+Ch9flI7k=",
+      "enroll_url": "https://taraenergy.com/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.155,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "tara-energy-sustainable-home-bundle-5-oncor-5-0": {
+      "plan_id": "tara-energy-sustainable-home-bundle-5-oncor-5-0",
+      "rep": "TARA ENERGY",
+      "product": "Sustainable Home Bundle - 5",
+      "rate_type": "Fixed",
+      "term_months": 5.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rating": 4.0,
+      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=zqyTj4wGIzw=&RCID=cacW2cvK/I0=&L=6f+Ch9flI7k=",
+      "enroll_url": "https://taraenergy.com/ptcsl/?utm_source=powertochoose&utm_medium=referral&utm_campaign=ST",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.5,
+        "rate_per_kwh": 0.10971,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "amigo-energy-sustainable-lifestyle-5-oncor-5-0": {
+      "plan_id": "amigo-energy-sustainable-lifestyle-5-oncor-5-0",
+      "rep": "AMIGO ENERGY",
+      "product": "Sustainable Lifestyle - 5",
+      "rate_type": "Fixed",
+      "term_months": 5.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rating": 3.0,
+      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=6sytHZqu2zo=&RCID=rv5fvOkFHh4=&L=6f+Ch9flI7k=",
+      "enroll_url": "https://amigoenergy.com/lp/ptcsl/?utm_source=powertochoose&utm_medium=referral&utm_campaign=ST",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.5,
+        "rate_per_kwh": 0.10971,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "discount-power-saver-36-oncor-36-0": {
+      "plan_id": "discount-power-saver-36-oncor-36-0",
+      "rep": "Discount Power",
+      "product": "Saver 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 395.0,
+      "renewable": 22.0,
+      "rating": 2.0,
+      "efl_url": "https://www.discountpowertx.com/defl/M1F00183448695C.pdf",
+      "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0002&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.14471,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "discount-power-saver-24-oncor-24-0": {
+      "plan_id": "discount-power-saver-24-oncor-24-0",
+      "rep": "Discount Power",
+      "product": "Saver 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 295.0,
+      "renewable": 22.0,
+      "rating": 2.0,
+      "efl_url": "https://www.discountpowertx.com/defl/M1F00183448674C.pdf",
+      "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0002&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.14371,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "express-energy-speedy-12-oncor-12-0": {
+      "plan_id": "express-energy-speedy-12-oncor-12-0",
+      "rep": "Express Energy",
+      "product": "Speedy 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 20.0,
+      "renewable": 3.0,
+      "rating": 3.0,
+      "efl_url": "https://shopping.myexpressenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=ONEXSPDYVBC12AC&tdsp=ONCOR&lang=en&custClass=Residential",
+      "enroll_url": "https://shopping.myexpressenergy.com/path2plans?prom=EXWPTC&vendorid=72318331&utm_source=PTC&utm_medium=affiliate&utm_campaign=affiliate&customerclassification=residential&cint=4&dwel=02",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.11471,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "cirro-energy-smart-simple-24-oncor-24-0": {
+      "plan_id": "cirro-energy-smart-simple-24-oncor-24-0",
+      "rep": "CIRRO ENERGY",
+      "product": "Smart Simple 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 295.0,
+      "renewable": 24.0,
+      "rating": 2.0,
+      "efl_url": "https://www.cirroenergy.com/defl/M1F00188282522C.pdf",
+      "enroll_url": "https://www.cirroenergy.com/espanol?txtPromocode=WA198B&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.14471,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "cirro-energy-smart-simple-36-oncor-36-0": {
+      "plan_id": "cirro-energy-smart-simple-36-oncor-36-0",
+      "rep": "CIRRO ENERGY",
+      "product": "Smart Simple 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 395.0,
+      "renewable": 24.0,
+      "rating": 2.0,
+      "efl_url": "https://www.cirroenergy.com/defl/M1F00188282541C.pdf",
+      "enroll_url": "https://www.cirroenergy.com/espanol?txtPromocode=WA198B&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.14671,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "champion-energy-services-llc-champ-saver-12-oncor-12-0": {
+      "plan_id": "champion-energy-services-llc-champ-saver-12-oncor-12-0",
+      "rep": "CHAMPION ENERGY SERVICES LLC",
+      "product": "Champ Saver-12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 25.0,
+      "rating": 5.0,
+      "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN2402&state=TX&language=ES",
+      "enroll_url": "https://www.championenergyservices.com/Residential/Sign-Up?promo=powertochoose",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.125,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "champion-energy-services-llc-champ-saver-24-oncor-24-0": {
+      "plan_id": "champion-energy-services-llc-champ-saver-24-oncor-24-0",
+      "rep": "CHAMPION ENERGY SERVICES LLC",
+      "product": "Champ Saver-24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 250.0,
+      "renewable": 25.0,
+      "rating": 5.0,
+      "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN2407&state=TX&language=ES",
+      "enroll_url": "https://www.championenergyservices.com/Residential/Sign-Up?promo=powertochoose",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.131,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "heritage-power-llc-bright-start-12-25-credit-on-your-first-bill-oncor-12-0": {
+      "plan_id": "heritage-power-llc-bright-start-12-25-credit-on-your-first-bill-oncor-12-0",
+      "rep": "HERITAGE POWER LLC",
+      "product": "Bright Start 12 - $25 credit on your first bill!",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 75.0,
+      "renewable": 24.0,
+      "rating": 5.0,
+      "efl_url": "https://signup.heritagepower.com/Home/EFl?productId=6361",
+      "enroll_url": "https://signup.heritagepower.com/Home/index?ProductCode=RN12000523&Promo=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.146,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "heritage-power-llc-bright-start-24-25-credit-on-your-first-bill-oncor-24-0": {
+      "plan_id": "heritage-power-llc-bright-start-24-25-credit-on-your-first-bill-oncor-24-0",
+      "rep": "HERITAGE POWER LLC",
+      "product": "Bright Start 24 - $25 credit on your first bill!",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 75.0,
+      "renewable": 24.0,
+      "rating": 5.0,
+      "efl_url": "https://signup.heritagepower.com/Home/EFl?productId=6351",
+      "enroll_url": "https://signup.heritagepower.com/Home/index?ProductCode=RN24000455&Promo=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.146,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "think-energy-think-clean-24-with-smart-thermostat-oncor-24-0": {
+      "plan_id": "think-energy-think-clean-24-with-smart-thermostat-oncor-24-0",
+      "rep": "Think Energy",
+      "product": "Think Clean 24 With Smart Thermostat",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 200.0,
+      "renewable": 100.0,
+      "rating": 2.0,
+      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.noap.fixed.thermostat&tdsp_id=3&doc_type=EFL&term=24&promo_code=default",
+      "enroll_url": "https://www.thinkenergy.com/",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": -1.5,
+        "rate_per_kwh": 0.14571,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "think-energy-think-simple-with-smart-thermostat-24-oncor-24-0": {
+      "plan_id": "think-energy-think-simple-with-smart-thermostat-24-oncor-24-0",
+      "rep": "Think Energy",
+      "product": "Think Simple With Smart Thermostat 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 200.0,
+      "renewable": 100.0,
+      "rating": 2.0,
+      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=es&product_code=tx.thinkclean.noap.fixed.thermostat&tdsp_id=3&doc_type=EFL&term=24&promo_code=default",
+      "enroll_url": "https://www.thinkenergy.com/",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": -1.5,
+        "rate_per_kwh": 0.14571,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "atlantex-power-luminous-10-oncor-10-0": {
+      "plan_id": "atlantex-power-luminous-10-oncor-10-0",
+      "rep": "Atlantex Power",
+      "product": "Luminous 10",
+      "rate_type": "Fixed",
+      "term_months": 10.0,
+      "cancel_fee": 20.0,
+      "renewable": 23.0,
+      "rating": 3.0,
+      "efl_url": "https://enroll.atlantexpower.com/EmailHTML/efl_SPA.aspx?RateID=8393&BrandID=3&PromoCodeID=14",
+      "enroll_url": "https://enroll.atlantexpower.com/Enrollment/Default.aspx?promoCode=ATLPTC1",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.13971,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "atlantex-power-luminous-36-oncor-36-0": {
+      "plan_id": "atlantex-power-luminous-36-oncor-36-0",
+      "rep": "Atlantex Power",
+      "product": "Luminous 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 20.0,
+      "renewable": 23.0,
+      "rating": 3.0,
+      "efl_url": "https://enroll.atlantexpower.com/EmailHTML/efl_SPA.aspx?RateID=3347&BrandID=3&PromoCodeID=115",
+      "enroll_url": "https://enroll.atlantexpower.com/Enrollment/Default.aspx?promoCode=ATLPTC1",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.14571,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "texans-choice-power-llc-choose-6-oncor-6-0": {
+      "plan_id": "texans-choice-power-llc-choose-6-oncor-6-0",
+      "rep": "Texans Choice Power LLC",
+      "product": "Choose 6",
+      "rate_type": "Fixed",
+      "term_months": 6.0,
+      "cancel_fee": 100.0,
+      "renewable": 37.0,
+      "rating": null,
+      "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153838&type=EFL&title=153838_EFL&language=english",
+      "enroll_url": "https://signup.texanschoicepower.com/?PromoCode=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.118,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "texans-choice-power-llc-choose-12-oncor-12-0": {
+      "plan_id": "texans-choice-power-llc-choose-12-oncor-12-0",
+      "rep": "Texans Choice Power LLC",
+      "product": "Choose 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 100.0,
+      "renewable": 37.0,
+      "rating": null,
+      "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153808&type=EFL&title=153808_EFL&language=english",
+      "enroll_url": "https://signup.texanschoicepower.com/?PromoCode=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.119,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "octopus-energy-octo-simple-18-oncor-18-0": {
+      "plan_id": "octopus-energy-octo-simple-18-oncor-18-0",
+      "rep": "Octopus Energy",
+      "product": "Octo Simple 18",
+      "rate_type": "Fixed",
+      "term_months": 18.0,
+      "cancel_fee": 200.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-18-ONCOR-LZ_NORTH-202607091030",
+      "enroll_url": "https://www.octopusenergy.com/affiliate/ptc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.134,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "rhythm-digital-choice-36-oncor-36-0": {
+      "plan_id": "rhythm-digital-choice-36-oncor-36-0",
+      "rep": "RHYTHM",
+      "product": "Digital Choice 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/18912/?locale=en",
+      "enroll_url": "https://www.gotrhythm.com/?rcid=power-to-choose&utm_source=powertochoose&utm_content=oncor&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=DC36",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": -1.0,
+        "rate_per_kwh": 0.13843,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "rhythm-digital-choice-24-oncor-24-0": {
+      "plan_id": "rhythm-digital-choice-24-oncor-24-0",
+      "rep": "RHYTHM",
+      "product": "Digital Choice 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/18865/?locale=en",
+      "enroll_url": "https://www.gotrhythm.com/?rcid=power-to-choose&utm_source=powertochoose&utm_content=oncor&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=DC24",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": -1.0,
+        "rate_per_kwh": 0.13543,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "companion-energy-companion-perks-12-oncor-12-0": {
+      "plan_id": "companion-energy-companion-perks-12-oncor-12-0",
+      "rep": "Companion Energy",
+      "product": "Companion + Perks 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 30.0,
+      "rating": 2.0,
+      "efl_url": "https://eflviewer.companionenergy.com/eflviewer.aspx?lang=EN&prodcode=CEPERK12&tdspcode=ONCOR_ELEC",
+      "enroll_url": "https://newenroll.companionenergy.com/?refid=PTCPERKS12&ul=1000&tdsp=ONCOR_ELEC&utm_source=power_to_choose&utm_medium=referral&utm_campaign=PTC-PTCPERKS12&utm_content=ONCOR_ELEC&utm_term=additional_info",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.118,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "octopus-energy-llc-octo-simple-14-oncor-14-0": {
+      "plan_id": "octopus-energy-llc-octo-simple-14-oncor-14-0",
+      "rep": "Octopus Energy LLC",
+      "product": "Octo Simple 14",
+      "rate_type": "Fixed",
+      "term_months": 14.0,
+      "cancel_fee": 200.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://octopusenergy.com/es/efl/OCTO-SIMPLE-14-ONCOR-LZ_NORTH-202607091030",
+      "enroll_url": "https://octopusenergy.com/es/affiliate/ptc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.142,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "octopus-energy-llc-octo-simple-24-oncor-24-0": {
+      "plan_id": "octopus-energy-llc-octo-simple-24-oncor-24-0",
+      "rep": "Octopus Energy LLC",
+      "product": "Octo Simple 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 250.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-24-ONCOR-LZ_NORTH-202607141200",
+      "enroll_url": "https://www.octopusenergy.com/affiliate/ptc",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.136,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ae-texas-smart-secure-10-oncor-10-0": {
+      "plan_id": "ae-texas-smart-secure-10-oncor-10-0",
+      "rep": "AE TEXAS",
+      "product": "Smart Secure 10",
+      "rate_type": "Fixed",
+      "term_months": 10.0,
+      "cancel_fee": 20.0,
+      "renewable": 23.0,
+      "rating": 3.0,
+      "efl_url": "https://enroll.aetexasco.com/EmailHTML/efl.aspx?RateID=8471&BrandID=1&PromoCodeID=114",
+      "enroll_url": "https://enroll.aetexasco.com/Enrollment/Default.aspx?&promoCode=AETXPTC1",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.11971,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "abundance-energy-clean-energy-12-oncor-12-0": {
+      "plan_id": "abundance-energy-clean-energy-12-oncor-12-0",
+      "rep": "Abundance Energy",
+      "product": "Clean Energy 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 200.0,
+      "renewable": 100.0,
+      "rating": 4.0,
+      "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=cleanenergy.fixed&tdsp_id=3&doc_type=EFL&term=12&promo_code=PTC",
+      "enroll_url": "https://join.abundanceenergy.com/?promoCode=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 9.0,
+        "rate_per_kwh": 0.12443,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "sfe-energy-texas-inc-sfe-rewardsplus-12-oncor-12-0": {
+      "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-oncor-12-0",
+      "rep": "SFE ENERGY TEXAS INC",
+      "product": "SFE RewardsPlus - 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 175.0,
+      "renewable": 35.0,
+      "rating": 1.0,
+      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_12MTH_ONC_12_2516194962185400471_EFL_SFE Residential Fixed ONC 12Spanish.pdf",
+      "enroll_url": "https://www.sfeenergy.com/texas/",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.128,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "sfe-energy-texas-inc-sfe-rewardsplus-24-oncor-24-0": {
+      "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-24-oncor-24-0",
+      "rep": "SFE ENERGY TEXAS INC",
+      "product": "SFE RewardsPlus - 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 175.0,
+      "renewable": 35.0,
+      "rating": 1.0,
+      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_24MTH_ONC_24_2516194962253682344_EFL_SFE Residential Fixed ONC 24Spanish.pdf",
+      "enroll_url": "https://www.sfeenergy.com/texas/",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 10.0,
+        "rate_per_kwh": 0.132,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "budget-power-no-gimmicks-green-12-oncor-12-0": {
+      "plan_id": "budget-power-no-gimmicks-green-12-oncor-12-0",
+      "rep": "Budget Power",
+      "product": "No Gimmicks Green 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 100.0,
+      "renewable": 100.0,
+      "rating": 1.0,
+      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34811&Promo=",
+      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN12000484&Promo=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.117,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ironhorse-power-services-llc-giddy-up-36-oncor-36-0": {
+      "plan_id": "ironhorse-power-services-llc-giddy-up-36-oncor-36-0",
+      "rep": "IRONHORSE POWER SERVICES LLC",
+      "product": "Giddy Up 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": null,
+      "renewable": 6.0,
+      "rating": 3.0,
+      "efl_url": "https://ironhorse-storage.s3.us-west-2.amazonaws.com/public/efl/ONC-36-PC-0-100279.pdf",
+      "enroll_url": "https://signup.ironhorsepowerservices.com/ironhorse-ptc/ONC-36-PC-0-100279",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.139,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "rhythm-digital-choice-12-oncor-12-0": {
+      "plan_id": "rhythm-digital-choice-12-oncor-12-0",
+      "rep": "RHYTHM",
+      "product": "Digital Choice 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://api.gotrhythm.com/api/pricing/offers/latest-offers-efl/16245/?locale=en",
+      "enroll_url": "https://www.gotrhythm.com/?rcid=power-to-choose&utm_source=powertochoose&utm_content=oncor&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=DC12",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": -1.0,
+        "rate_per_kwh": 0.12143,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "energy-texas-no-bull-24-oncor-24-0": {
+      "plan_id": "energy-texas-no-bull-24-oncor-24-0",
+      "rep": "Energy Texas",
+      "product": "No Bull 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/18850/?locale=en",
+      "enroll_url": "https://www.energytexas.com/?rcid=power-to-choose&utm_source=powertochoose&utm_content=oncor&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=NB24",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": -1.0,
+        "rate_per_kwh": 0.13543,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "energy-texas-no-bull-36-oncor-36-0": {
+      "plan_id": "energy-texas-no-bull-36-oncor-36-0",
+      "rep": "Energy Texas",
+      "product": "No Bull 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/12899/?locale=en",
+      "enroll_url": "https://www.energytexas.com/?rcid=power-to-choose&utm_source=powertochoose&utm_content=oncor&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=NB36",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": -1.0,
+        "rate_per_kwh": 0.13843,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "true-power-true-value-12-oncor-12-0": {
+      "plan_id": "true-power-true-value-12-oncor-12-0",
+      "rep": "TRUE POWER",
+      "product": "True Value 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 300.0,
+      "renewable": 15.0,
+      "rating": 1.0,
+      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/57100226D70A7201E063E0F8000AE5AB/view",
+      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.11371,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "smartenergy-holdings-llc-smartgreen-9-200-bill-credit-oncor-9-0": {
+      "plan_id": "smartenergy-holdings-llc-smartgreen-9-200-bill-credit-oncor-9-0",
+      "rep": "SMARTENERGY HOLDINGS LLC",
+      "product": "SmartGreen 9 $200 Bill Credit",
+      "rate_type": "Fixed",
+      "term_months": 9.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rating": null,
+      "efl_url": "https://texas.smartenergy.com/docs/efls/output/20260702_F_ONC_SG9-1MNTHBC_M2001.pdf",
+      "enroll_url": "https://texas.smartenergy.com/plans?msid=2001&utility=ONCOR",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.5,
+        "rate_per_kwh": 0.13871,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "smartenergy-holdings-llc-smartgreen-12-200-bill-credit-oncor-12-0": {
+      "plan_id": "smartenergy-holdings-llc-smartgreen-12-200-bill-credit-oncor-12-0",
+      "rep": "SMARTENERGY HOLDINGS LLC",
+      "product": "SmartGreen 12 $200 Bill Credit",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rating": null,
+      "efl_url": "https://texas.smartenergy.com/docs/efls/output/20260702_F_ONC_SG12-1MNTHBC_M2001.pdf",
+      "enroll_url": "https://texas.smartenergy.com/plans?msid=2001&utility=ONCOR",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.5,
+        "rate_per_kwh": 0.13371,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "smartenergy-holdings-llc-smartgreen-24-200-bill-credit-oncor-24-0": {
+      "plan_id": "smartenergy-holdings-llc-smartgreen-24-200-bill-credit-oncor-24-0",
+      "rep": "SMARTENERGY HOLDINGS LLC",
+      "product": "SmartGreen 24 $200 Bill Credit",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rating": null,
+      "efl_url": "https://texas.smartenergy.com/docs/efls/output/20260702_F_ONC_SG24-1MNTHBC_M2001.pdf",
+      "enroll_url": "https://texas.smartenergy.com/plans?msid=2001&utility=ONCOR",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 8.5,
+        "rate_per_kwh": 0.14371,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "sfe-energy-texas-inc-sfe-rewardsplus-14-oncor-14-0": {
+      "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-14-oncor-14-0",
+      "rep": "SFE ENERGY TEXAS INC",
+      "product": "SFE RewardsPlus - 14",
+      "rate_type": "Fixed",
+      "term_months": 14.0,
+      "cancel_fee": 175.0,
+      "renewable": 35.0,
+      "rating": 1.0,
+      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_14MTH_ONC_14_2516194962544016512_EFL_SFE Residential Fixed ONC 14English.pdf",
+      "enroll_url": "https://www.sfeenergy.com/texas/",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 10.0,
+        "rate_per_kwh": 0.126,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "base-power-base-energy-36-oncor-36-0": {
+      "plan_id": "base-power-base-energy-36-oncor-36-0",
+      "rep": "Base Power",
+      "product": "Base Energy 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rating": 2.0,
+      "efl_url": "https://bpc-web-static-files.s3.us-east-2.amazonaws.com/efl/english-oncor-efl-energy36.pdf",
+      "enroll_url": "https://www.basepowercompany.com/energy?utm_source=powertochoose",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.138,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "base-power-base-energia-36-oncor-36-0": {
+      "plan_id": "base-power-base-energia-36-oncor-36-0",
+      "rep": "Base Power",
+      "product": "Base Energia 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rating": 2.0,
+      "efl_url": "https://bpc-web-static-files.s3.us-east-2.amazonaws.com/efl/english-oncor-efl-energy36.pdf",
+      "enroll_url": "https://www.basepowercompany.com/energy?utm_source=powertochoose",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.138,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "true-power-true-value-36-oncor-36-0": {
+      "plan_id": "true-power-true-value-36-oncor-36-0",
+      "rep": "TRUE POWER",
+      "product": "True Value 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 300.0,
+      "renewable": 15.0,
+      "rating": 1.0,
+      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/561D74EED7A22EACE06382F2000A7ABA/view",
+      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.12371,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "veteran-energy-basic-12-oncor-12-0": {
+      "plan_id": "veteran-energy-basic-12-oncor-12-0",
+      "rep": "Veteran Energy",
+      "product": "Basic 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 20.0,
+      "renewable": 3.0,
+      "rating": 3.0,
+      "efl_url": "https://shopping.veteranenergyusa.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=ONVTBASICAC12AB&tdsp=ONCOR&lang=es&custClass=Residential",
+      "enroll_url": "https://shopping.veteranenergyusa.com/path2plans?prom=VTWPTC&vendorid=72318331&utm_source=PTC&utm_medium=affiliate&utm_campaign=affiliate&customerclassification=residential&cint=4&dwel=02",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.11471,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "true-power-true-value-24-oncor-24-0": {
+      "plan_id": "true-power-true-value-24-oncor-24-0",
+      "rep": "TRUE POWER",
+      "product": "True Value 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 300.0,
+      "renewable": 15.0,
+      "rating": 1.0,
+      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/569742CEB47EA266E06382F2000ADFDC/view",
+      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.5,
+        "rate_per_kwh": 0.12171,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "budget-power-no-gimmicks-11-oncor-11-0": {
+      "plan_id": "budget-power-no-gimmicks-11-oncor-11-0",
+      "rep": "Budget Power",
+      "product": "No Gimmicks 11",
+      "rate_type": "Fixed",
+      "term_months": 11.0,
+      "cancel_fee": 100.0,
+      "renewable": 24.0,
+      "rating": 1.0,
+      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34824&Promo=",
+      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN11000003&Promo=PTC",
+      "efl_verified": false,
+      "cost": {
+        "base_charge": 4.0,
+        "rate_per_kwh": 0.114,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    }
+  },
+  "rankings": {
+    "500": {
+      "top_pick_id": "energy-texas-no-bull-12-oncor-12-0",
+      "plans": [
+        {
+          "plan_id": "energy-texas-no-bull-12-oncor-12-0",
+          "monthly_bill": 59.71,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "rhythm-digital-choice-12-oncor-12-0",
+          "monthly_bill": 59.71,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-11-oncor-11-0",
+          "monthly_bill": 61.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-12-oncor-12-0",
+          "monthly_bill": 61.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "express-energy-speedy-12-oncor-12-0",
+          "monthly_bill": 61.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "veteran-energy-basic-12-oncor-12-0",
+          "monthly_bill": 61.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-12-oncor-12-0",
+          "monthly_bill": 62.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-octo-simple-12-oncor-12-0",
+          "monthly_bill": 62.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "varsity-energy-llc-homerun-12-oncor-12-0",
+          "monthly_bill": 62.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-green-12-oncor-12-0",
+          "monthly_bill": 62.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "texans-choice-power-llc-choose-6-oncor-6-0",
+          "monthly_bill": 63.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "gexa-energy-gexa-eco-choice-12-oncor-12-0",
+          "monthly_bill": 63.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "frontier-utilities-frontier-power-saver-12-oncor-12-0",
+          "monthly_bill": 63.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "companion-energy-companion-perks-12-oncor-12-0",
+          "monthly_bill": 63.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "tara-energy-sustainable-home-bundle-5-oncor-5-0",
+          "monthly_bill": 63.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "amigo-energy-sustainable-lifestyle-5-oncor-5-0",
+          "monthly_bill": 63.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "just-energy-sustainable-living-bundle-5-oncor-5-0",
+          "monthly_bill": 63.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "texans-choice-power-llc-choose-12-oncor-12-0",
+          "monthly_bill": 63.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "constellation-newenergy-inc-simple-switch-6-oncor-6-0",
+          "monthly_bill": 64.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ae-texas-smart-secure-10-oncor-10-0",
+          "monthly_bill": 64.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-oncor-11-0",
+          "monthly_bill": 65.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-24-oncor-24-0",
+          "monthly_bill": 65.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-oncor-12-0",
+          "monthly_bill": 65.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-24-oncor-24-0",
+          "monthly_bill": 65.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-5-oncor-5-0",
+          "monthly_bill": 65.71,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-better-rate-5-oncor-5-0",
+          "monthly_bill": 65.71,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-better-rate-11-oncor-11-0",
+          "monthly_bill": 65.71,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-11-oncor-11-0",
+          "monthly_bill": 65.71,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "abundance-energy-confident-renter-12-oncor-12-0",
+          "monthly_bill": 65.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-smart-fixed-5-oncor-5-0",
+          "monthly_bill": 66.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-tarifa-fija-y-inteligente-5-oncor-5-0",
+          "monthly_bill": 66.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-fija-y-inteligente-11-oncor-11-0",
+          "monthly_bill": 66.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-smart-fixed-11-oncor-11-0",
+          "monthly_bill": 66.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "chariot-energy-chariot-choice-24-oncor-24-0",
+          "monthly_bill": 66.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-36-oncor-36-0",
+          "monthly_bill": 66.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-12-oncor-12-0",
+          "monthly_bill": 66.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-12-oncor-12-0",
+          "monthly_bill": 66.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-36-oncor-36-0",
+          "monthly_bill": 66.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "rhythm-digital-choice-24-oncor-24-0",
+          "monthly_bill": 66.71,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "energy-texas-no-bull-24-oncor-24-0",
+          "monthly_bill": 66.71,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-6-oncor-6-0",
+          "monthly_bill": 67.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-12-oncor-12-0",
+          "monthly_bill": 67.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ae-texas-smart-secure-36-oncor-36-0",
+          "monthly_bill": 67.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-6-oncor-6-0",
+          "monthly_bill": 67.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "good-charlie-co-llc-goodenergy-12-oncor-12-0",
+          "monthly_bill": 67.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "chariot-energy-chariot-choice-36-oncor-36-0",
+          "monthly_bill": 67.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-oncor-12-0",
+          "monthly_bill": 68.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-12-oncor-12-0",
+          "monthly_bill": 68.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "rhythm-digital-choice-36-oncor-36-0",
+          "monthly_bill": 68.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "energy-texas-no-bull-36-oncor-36-0",
+          "monthly_bill": 68.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-oncor-12-0",
+          "monthly_bill": 68.29,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-oncor-12-0",
+          "monthly_bill": 68.29,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-12-with-smart-thermostat-connected-oncor-12-0",
+          "monthly_bill": 68.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-oncor-24-0",
+          "monthly_bill": 68.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "abundance-energy-straight-forward-12-oncor-12-0",
+          "monthly_bill": 68.71,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-12-oncor-12-0",
+          "monthly_bill": 69.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-15-oncor-15-0",
+          "monthly_bill": 69.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-11-oncor-11-0",
+          "monthly_bill": 69.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-24-oncor-24-0",
+          "monthly_bill": 69.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-green-12-oncor-12-0",
+          "monthly_bill": 70.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-24-oncor-24-0",
+          "monthly_bill": 70.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "good-charlie-co-llc-goodenergy-24-oncor-24-0",
+          "monthly_bill": 70.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-13-oncor-13-0",
+          "monthly_bill": 70.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-oncor-36-0",
+          "monthly_bill": 70.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-octo-simple-18-oncor-18-0",
+          "monthly_bill": 71.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-24-oncor-24-0",
+          "monthly_bill": 71.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-tarifa-fija-y-inteligente-12-oncor-12-0",
+          "monthly_bill": 71.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-smart-fixed-12-oncor-12-0",
+          "monthly_bill": 71.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "abundance-energy-clean-energy-12-oncor-12-0",
+          "monthly_bill": 71.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-24-with-smart-thermostat-oncor-24-0",
+          "monthly_bill": 71.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-simple-with-smart-thermostat-24-oncor-24-0",
+          "monthly_bill": 71.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-24-oncor-24-0",
+          "monthly_bill": 71.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-oncor-12-0",
+          "monthly_bill": 71.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ironhorse-power-services-llc-giddy-up-24-oncor-24-0",
+          "monthly_bill": 71.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-36-oncor-36-0",
+          "monthly_bill": 71.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cleansky-energy-embrace-green-36-new-customer-special-oncor-36-0",
+          "monthly_bill": 71.71,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "good-charlie-co-llc-goodenergy-36-oncor-36-0",
+          "monthly_bill": 71.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-3-oncor-3-0",
+          "monthly_bill": 71.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-oncor-24-0",
+          "monthly_bill": 72.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ironhorse-power-services-llc-giddy-up-18-oncor-18-0",
+          "monthly_bill": 72.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-llc-octo-simple-24-oncor-24-0",
+          "monthly_bill": 72.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-36-oncor-36-0",
+          "monthly_bill": 72.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "base-power-base-energy-36-oncor-36-0",
+          "monthly_bill": 73.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "base-power-base-energia-36-oncor-36-0",
+          "monthly_bill": 73.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-14-oncor-14-0",
+          "monthly_bill": 73.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ironhorse-power-services-llc-giddy-up-36-oncor-36-0",
+          "monthly_bill": 73.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-9-oncor-9-0",
+          "monthly_bill": 74.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "atlantex-power-luminous-10-oncor-10-0",
+          "monthly_bill": 74.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-12-oncor-12-0",
+          "monthly_bill": 74.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cirro-energy-smart-simple-12-oncor-12-0",
+          "monthly_bill": 74.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-llc-octo-simple-14-oncor-14-0",
+          "monthly_bill": 75.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-better-rate-36-oncor-36-0",
+          "monthly_bill": 75.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "smartenergy-holdings-llc-smartgreen-12-200-bill-credit-oncor-12-0",
+          "monthly_bill": 75.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-smart-fixed-36-oncor-36-0",
+          "monthly_bill": 75.71,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-tarifa-fija-y-inteligente-36-oncor-36-0",
+          "monthly_bill": 75.71,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-24-oncor-24-0",
+          "monthly_bill": 76.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-24-oncor-24-0",
+          "monthly_bill": 76.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "trieagle-energy-lp-simple-savings-28-oncor-28-0",
+          "monthly_bill": 76.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cirro-energy-smart-simple-24-oncor-24-0",
+          "monthly_bill": 76.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-36-oncor-36-0",
+          "monthly_bill": 76.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "heritage-power-llc-bright-start-12-25-credit-on-your-first-bill-oncor-12-0",
+          "monthly_bill": 77.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "heritage-power-llc-bright-start-24-25-credit-on-your-first-bill-oncor-24-0",
+          "monthly_bill": 77.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "atlantex-power-luminous-36-oncor-36-0",
+          "monthly_bill": 77.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-18-oncor-18-0",
+          "monthly_bill": 77.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "smartenergy-holdings-llc-smartgreen-9-200-bill-credit-oncor-9-0",
+          "monthly_bill": 77.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cirro-energy-smart-simple-36-oncor-36-0",
+          "monthly_bill": 77.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-12-oncor-12-0",
+          "monthly_bill": 78.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "trieagle-energy-lp-simple-savings-12-oncor-12-0",
+          "monthly_bill": 78.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "smartenergy-holdings-llc-smartgreen-24-200-bill-credit-oncor-24-0",
+          "monthly_bill": 80.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-fixed-prime-48-oncor-48-0",
+          "monthly_bill": 81.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-prima-fija-48-oncor-48-0",
+          "monthly_bill": 81.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-24-oncor-24-0",
+          "monthly_bill": 81.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "tara-energy-basics-ptc-24-oncor-24-0",
+          "monthly_bill": 81.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "tara-energy-basics-ptc-36-oncor-36-0",
+          "monthly_bill": 81.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "amigo-energy-basics-ptc-24-oncor-24-0",
+          "monthly_bill": 81.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "amigo-energy-basics-ptc-36-oncor-36-0",
+          "monthly_bill": 81.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "just-energy-basics-ptc-24-oncor-24-0",
+          "monthly_bill": 81.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "just-energy-basics-ptc-60-oncor-60-0",
+          "monthly_bill": 81.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "trieagle-energy-lp-simple-savings-36-oncor-36-0",
+          "monthly_bill": 81.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "direct-energy-autopay-texas-12-oncor-12-0",
+          "monthly_bill": 81.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-18-oncor-18-0",
+          "monthly_bill": 81.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-12-plan-oncor-12-0",
+          "monthly_bill": 83.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-12-choice-oncor-12-0",
+          "monthly_bill": 84.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-18-choice-oncor-18-0",
+          "monthly_bill": 84.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "direct-energy-autopay-texas-24-oncor-24-0",
+          "monthly_bill": 84.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-24-plan-oncor-24-0",
+          "monthly_bill": 84.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "direct-energy-autopay-texas-36-oncor-36-0",
+          "monthly_bill": 85.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-36-plan-oncor-36-0",
+          "monthly_bill": 86.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-24-choice-oncor-24-0",
+          "monthly_bill": 86.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-36-choice-oncor-36-0",
+          "monthly_bill": 88.14,
+          "trustworthy_price": true
+        }
+      ]
+    },
+    "1000": {
+      "top_pick_id": "budget-power-no-gimmicks-11-oncor-11-0",
+      "plans": [
+        {
+          "plan_id": "budget-power-no-gimmicks-11-oncor-11-0",
+          "monthly_bill": 118.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "tara-energy-sustainable-home-bundle-5-oncor-5-0",
+          "monthly_bill": 118.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "amigo-energy-sustainable-lifestyle-5-oncor-5-0",
+          "monthly_bill": 118.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "just-energy-sustainable-living-bundle-5-oncor-5-0",
+          "monthly_bill": 118.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-12-oncor-12-0",
+          "monthly_bill": 118.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "express-energy-speedy-12-oncor-12-0",
+          "monthly_bill": 119.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "veteran-energy-basic-12-oncor-12-0",
+          "monthly_bill": 119.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-12-oncor-12-0",
+          "monthly_bill": 120.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-octo-simple-12-oncor-12-0",
+          "monthly_bill": 120.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "varsity-energy-llc-homerun-12-oncor-12-0",
+          "monthly_bill": 120.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "energy-texas-no-bull-12-oncor-12-0",
+          "monthly_bill": 120.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "rhythm-digital-choice-12-oncor-12-0",
+          "monthly_bill": 120.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-green-12-oncor-12-0",
+          "monthly_bill": 121.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "texans-choice-power-llc-choose-6-oncor-6-0",
+          "monthly_bill": 122.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "gexa-energy-gexa-eco-choice-12-oncor-12-0",
+          "monthly_bill": 122.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "frontier-utilities-frontier-power-saver-12-oncor-12-0",
+          "monthly_bill": 122.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "companion-energy-companion-perks-12-oncor-12-0",
+          "monthly_bill": 122.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-5-oncor-5-0",
+          "monthly_bill": 122.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-better-rate-5-oncor-5-0",
+          "monthly_bill": 122.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-better-rate-11-oncor-11-0",
+          "monthly_bill": 122.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-11-oncor-11-0",
+          "monthly_bill": 122.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "texans-choice-power-llc-choose-12-oncor-12-0",
+          "monthly_bill": 123.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-smart-fixed-5-oncor-5-0",
+          "monthly_bill": 123.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-tarifa-fija-y-inteligente-5-oncor-5-0",
+          "monthly_bill": 123.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-fija-y-inteligente-11-oncor-11-0",
+          "monthly_bill": 123.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-smart-fixed-11-oncor-11-0",
+          "monthly_bill": 123.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "constellation-newenergy-inc-simple-switch-6-oncor-6-0",
+          "monthly_bill": 124.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ae-texas-smart-secure-10-oncor-10-0",
+          "monthly_bill": 124.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-oncor-11-0",
+          "monthly_bill": 126.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-24-oncor-24-0",
+          "monthly_bill": 126.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-oncor-12-0",
+          "monthly_bill": 127.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-24-oncor-24-0",
+          "monthly_bill": 127.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "good-charlie-co-llc-goodenergy-12-oncor-12-0",
+          "monthly_bill": 127.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "abundance-energy-confident-renter-12-oncor-12-0",
+          "monthly_bill": 127.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-12-oncor-12-0",
+          "monthly_bill": 128.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-12-oncor-12-0",
+          "monthly_bill": 128.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "chariot-energy-chariot-choice-24-oncor-24-0",
+          "monthly_bill": 128.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-36-oncor-36-0",
+          "monthly_bill": 128.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "abundance-energy-straight-forward-12-oncor-12-0",
+          "monthly_bill": 128.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-12-oncor-12-0",
+          "monthly_bill": 129.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-6-oncor-6-0",
+          "monthly_bill": 129.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-12-oncor-12-0",
+          "monthly_bill": 129.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-36-oncor-36-0",
+          "monthly_bill": 129.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-6-oncor-6-0",
+          "monthly_bill": 130.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ae-texas-smart-secure-36-oncor-36-0",
+          "monthly_bill": 130.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "chariot-energy-chariot-choice-36-oncor-36-0",
+          "monthly_bill": 131.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-oncor-12-0",
+          "monthly_bill": 131.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-oncor-12-0",
+          "monthly_bill": 131.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-oncor-12-0",
+          "monthly_bill": 132.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "good-charlie-co-llc-goodenergy-24-oncor-24-0",
+          "monthly_bill": 132.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-oncor-24-0",
+          "monthly_bill": 133.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-tarifa-fija-y-inteligente-12-oncor-12-0",
+          "monthly_bill": 133.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-smart-fixed-12-oncor-12-0",
+          "monthly_bill": 133.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "abundance-energy-clean-energy-12-oncor-12-0",
+          "monthly_bill": 133.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-12-oncor-12-0",
+          "monthly_bill": 134.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-15-oncor-15-0",
+          "monthly_bill": 134.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-24-oncor-24-0",
+          "monthly_bill": 134.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-24-oncor-24-0",
+          "monthly_bill": 134.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "rhythm-digital-choice-24-oncor-24-0",
+          "monthly_bill": 134.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "energy-texas-no-bull-24-oncor-24-0",
+          "monthly_bill": 134.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-11-oncor-11-0",
+          "monthly_bill": 135.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-24-oncor-24-0",
+          "monthly_bill": 135.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "good-charlie-co-llc-goodenergy-36-oncor-36-0",
+          "monthly_bill": 135.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-green-12-oncor-12-0",
+          "monthly_bill": 136.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-14-oncor-14-0",
+          "monthly_bill": 136.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-13-oncor-13-0",
+          "monthly_bill": 137.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-oncor-36-0",
+          "monthly_bill": 137.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-36-oncor-36-0",
+          "monthly_bill": 137.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-36-oncor-36-0",
+          "monthly_bill": 137.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-3-oncor-3-0",
+          "monthly_bill": 137.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "rhythm-digital-choice-36-oncor-36-0",
+          "monthly_bill": 137.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "energy-texas-no-bull-36-oncor-36-0",
+          "monthly_bill": 137.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-octo-simple-18-oncor-18-0",
+          "monthly_bill": 138.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-12-with-smart-thermostat-connected-oncor-12-0",
+          "monthly_bill": 138.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-24-oncor-24-0",
+          "monthly_bill": 139.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-oncor-12-0",
+          "monthly_bill": 139.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ironhorse-power-services-llc-giddy-up-24-oncor-24-0",
+          "monthly_bill": 139.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-9-oncor-9-0",
+          "monthly_bill": 140.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-oncor-24-0",
+          "monthly_bill": 140.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ironhorse-power-services-llc-giddy-up-18-oncor-18-0",
+          "monthly_bill": 140.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-llc-octo-simple-24-oncor-24-0",
+          "monthly_bill": 140.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-better-rate-36-oncor-36-0",
+          "monthly_bill": 141.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cleansky-energy-embrace-green-36-new-customer-special-oncor-36-0",
+          "monthly_bill": 141.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "base-power-base-energy-36-oncor-36-0",
+          "monthly_bill": 142.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "base-power-base-energia-36-oncor-36-0",
+          "monthly_bill": 142.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-24-oncor-24-0",
+          "monthly_bill": 142.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "smartenergy-holdings-llc-smartgreen-12-200-bill-credit-oncor-12-0",
+          "monthly_bill": 142.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-smart-fixed-36-oncor-36-0",
+          "monthly_bill": 142.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-tarifa-fija-y-inteligente-36-oncor-36-0",
+          "monthly_bill": 142.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ironhorse-power-services-llc-giddy-up-36-oncor-36-0",
+          "monthly_bill": 143.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "atlantex-power-luminous-10-oncor-10-0",
+          "monthly_bill": 144.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-12-oncor-12-0",
+          "monthly_bill": 144.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-24-with-smart-thermostat-oncor-24-0",
+          "monthly_bill": 144.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-simple-with-smart-thermostat-24-oncor-24-0",
+          "monthly_bill": 144.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cirro-energy-smart-simple-12-oncor-12-0",
+          "monthly_bill": 145.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-llc-octo-simple-14-oncor-14-0",
+          "monthly_bill": 146.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-18-oncor-18-0",
+          "monthly_bill": 147.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "smartenergy-holdings-llc-smartgreen-9-200-bill-credit-oncor-9-0",
+          "monthly_bill": 147.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "trieagle-energy-lp-simple-savings-28-oncor-28-0",
+          "monthly_bill": 147.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-12-oncor-12-0",
+          "monthly_bill": 148.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-24-oncor-24-0",
+          "monthly_bill": 148.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cirro-energy-smart-simple-24-oncor-24-0",
+          "monthly_bill": 149.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-36-oncor-36-0",
+          "monthly_bill": 149.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "heritage-power-llc-bright-start-12-25-credit-on-your-first-bill-oncor-12-0",
+          "monthly_bill": 150.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "heritage-power-llc-bright-start-24-25-credit-on-your-first-bill-oncor-24-0",
+          "monthly_bill": 150.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "atlantex-power-luminous-36-oncor-36-0",
+          "monthly_bill": 150.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cirro-energy-smart-simple-36-oncor-36-0",
+          "monthly_bill": 151.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "trieagle-energy-lp-simple-savings-12-oncor-12-0",
+          "monthly_bill": 151.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "smartenergy-holdings-llc-smartgreen-24-200-bill-credit-oncor-24-0",
+          "monthly_bill": 152.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-fixed-prime-48-oncor-48-0",
+          "monthly_bill": 153.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-prima-fija-48-oncor-48-0",
+          "monthly_bill": 153.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "direct-energy-autopay-texas-12-oncor-12-0",
+          "monthly_bill": 153.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-18-oncor-18-0",
+          "monthly_bill": 153.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-24-oncor-24-0",
+          "monthly_bill": 154.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-12-plan-oncor-12-0",
+          "monthly_bill": 156.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "trieagle-energy-lp-simple-savings-36-oncor-36-0",
+          "monthly_bill": 157.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-12-choice-oncor-12-0",
+          "monthly_bill": 158.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-18-choice-oncor-18-0",
+          "monthly_bill": 158.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "direct-energy-autopay-texas-24-oncor-24-0",
+          "monthly_bill": 158.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "tara-energy-basics-ptc-24-oncor-24-0",
+          "monthly_bill": 159.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "tara-energy-basics-ptc-36-oncor-36-0",
+          "monthly_bill": 159.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "amigo-energy-basics-ptc-24-oncor-24-0",
+          "monthly_bill": 159.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "amigo-energy-basics-ptc-36-oncor-36-0",
+          "monthly_bill": 159.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "just-energy-basics-ptc-24-oncor-24-0",
+          "monthly_bill": 159.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "just-energy-basics-ptc-60-oncor-60-0",
+          "monthly_bill": 159.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-24-plan-oncor-24-0",
+          "monthly_bill": 159.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "direct-energy-autopay-texas-36-oncor-36-0",
+          "monthly_bill": 160.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-36-plan-oncor-36-0",
+          "monthly_bill": 162.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-24-choice-oncor-24-0",
+          "monthly_bill": 163.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-36-choice-oncor-36-0",
+          "monthly_bill": 166.79,
+          "trustworthy_price": true
+        }
+      ]
+    },
+    "1500": {
+      "top_pick_id": "tara-energy-sustainable-home-bundle-5-oncor-5-0",
+      "plans": [
+        {
+          "plan_id": "tara-energy-sustainable-home-bundle-5-oncor-5-0",
+          "monthly_bill": 173.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "amigo-energy-sustainable-lifestyle-5-oncor-5-0",
+          "monthly_bill": 173.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "just-energy-sustainable-living-bundle-5-oncor-5-0",
+          "monthly_bill": 173.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-11-oncor-11-0",
+          "monthly_bill": 175.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-12-oncor-12-0",
+          "monthly_bill": 175.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "express-energy-speedy-12-oncor-12-0",
+          "monthly_bill": 176.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "veteran-energy-basic-12-oncor-12-0",
+          "monthly_bill": 176.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-12-oncor-12-0",
+          "monthly_bill": 178.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-octo-simple-12-oncor-12-0",
+          "monthly_bill": 178.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "varsity-energy-llc-homerun-12-oncor-12-0",
+          "monthly_bill": 178.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-5-oncor-5-0",
+          "monthly_bill": 179.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-better-rate-5-oncor-5-0",
+          "monthly_bill": 179.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-better-rate-11-oncor-11-0",
+          "monthly_bill": 179.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-11-oncor-11-0",
+          "monthly_bill": 179.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-green-12-oncor-12-0",
+          "monthly_bill": 179.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-smart-fixed-5-oncor-5-0",
+          "monthly_bill": 180.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-tarifa-fija-y-inteligente-5-oncor-5-0",
+          "monthly_bill": 180.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-fija-y-inteligente-11-oncor-11-0",
+          "monthly_bill": 180.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-smart-fixed-11-oncor-11-0",
+          "monthly_bill": 180.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "texans-choice-power-llc-choose-6-oncor-6-0",
+          "monthly_bill": 181.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "gexa-energy-gexa-eco-choice-12-oncor-12-0",
+          "monthly_bill": 181.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "frontier-utilities-frontier-power-saver-12-oncor-12-0",
+          "monthly_bill": 181.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "companion-energy-companion-perks-12-oncor-12-0",
+          "monthly_bill": 181.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "energy-texas-no-bull-12-oncor-12-0",
+          "monthly_bill": 181.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "rhythm-digital-choice-12-oncor-12-0",
+          "monthly_bill": 181.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "texans-choice-power-llc-choose-12-oncor-12-0",
+          "monthly_bill": 182.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "constellation-newenergy-inc-simple-switch-6-oncor-6-0",
+          "monthly_bill": 184.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ae-texas-smart-secure-10-oncor-10-0",
+          "monthly_bill": 184.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "good-charlie-co-llc-goodenergy-12-oncor-12-0",
+          "monthly_bill": 186.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-oncor-11-0",
+          "monthly_bill": 187.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-24-oncor-24-0",
+          "monthly_bill": 187.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-12-oncor-12-0",
+          "monthly_bill": 188.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "abundance-energy-straight-forward-12-oncor-12-0",
+          "monthly_bill": 188.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-oncor-12-0",
+          "monthly_bill": 188.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-24-oncor-24-0",
+          "monthly_bill": 188.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "abundance-energy-confident-renter-12-oncor-12-0",
+          "monthly_bill": 188.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-12-oncor-12-0",
+          "monthly_bill": 189.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "chariot-energy-chariot-choice-24-oncor-24-0",
+          "monthly_bill": 190.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-36-oncor-36-0",
+          "monthly_bill": 190.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-6-oncor-6-0",
+          "monthly_bill": 190.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-12-oncor-12-0",
+          "monthly_bill": 191.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-12-oncor-12-0",
+          "monthly_bill": 191.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-36-oncor-36-0",
+          "monthly_bill": 191.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-6-oncor-6-0",
+          "monthly_bill": 193.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ae-texas-smart-secure-36-oncor-36-0",
+          "monthly_bill": 193.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "good-charlie-co-llc-goodenergy-24-oncor-24-0",
+          "monthly_bill": 194.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "chariot-energy-chariot-choice-36-oncor-36-0",
+          "monthly_bill": 194.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-oncor-12-0",
+          "monthly_bill": 194.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-oncor-12-0",
+          "monthly_bill": 194.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-tarifa-fija-y-inteligente-12-oncor-12-0",
+          "monthly_bill": 195.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-smart-fixed-12-oncor-12-0",
+          "monthly_bill": 195.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "abundance-energy-clean-energy-12-oncor-12-0",
+          "monthly_bill": 195.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-oncor-12-0",
+          "monthly_bill": 196.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-24-oncor-24-0",
+          "monthly_bill": 197.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-oncor-24-0",
+          "monthly_bill": 197.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-24-oncor-24-0",
+          "monthly_bill": 198.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "good-charlie-co-llc-goodenergy-36-oncor-36-0",
+          "monthly_bill": 198.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-12-oncor-12-0",
+          "monthly_bill": 199.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-15-oncor-15-0",
+          "monthly_bill": 199.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-14-oncor-14-0",
+          "monthly_bill": 199.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-11-oncor-11-0",
+          "monthly_bill": 200.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-24-oncor-24-0",
+          "monthly_bill": 200.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-36-oncor-36-0",
+          "monthly_bill": 201.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-green-12-oncor-12-0",
+          "monthly_bill": 202.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "rhythm-digital-choice-24-oncor-24-0",
+          "monthly_bill": 202.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "energy-texas-no-bull-24-oncor-24-0",
+          "monthly_bill": 202.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-36-oncor-36-0",
+          "monthly_bill": 202.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-3-oncor-3-0",
+          "monthly_bill": 202.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-13-oncor-13-0",
+          "monthly_bill": 203.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-oncor-36-0",
+          "monthly_bill": 203.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-octo-simple-18-oncor-18-0",
+          "monthly_bill": 205.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-9-oncor-9-0",
+          "monthly_bill": 206.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-24-oncor-24-0",
+          "monthly_bill": 206.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-oncor-12-0",
+          "monthly_bill": 206.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ironhorse-power-services-llc-giddy-up-24-oncor-24-0",
+          "monthly_bill": 206.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "rhythm-digital-choice-36-oncor-36-0",
+          "monthly_bill": 206.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "energy-texas-no-bull-36-oncor-36-0",
+          "monthly_bill": 206.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-better-rate-36-oncor-36-0",
+          "monthly_bill": 207.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-24-oncor-24-0",
+          "monthly_bill": 208.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-oncor-24-0",
+          "monthly_bill": 208.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ironhorse-power-services-llc-giddy-up-18-oncor-18-0",
+          "monthly_bill": 208.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-llc-octo-simple-24-oncor-24-0",
+          "monthly_bill": 208.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-12-with-smart-thermostat-connected-oncor-12-0",
+          "monthly_bill": 208.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "smartenergy-holdings-llc-smartgreen-12-200-bill-credit-oncor-12-0",
+          "monthly_bill": 209.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-smart-fixed-36-oncor-36-0",
+          "monthly_bill": 209.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-tarifa-fija-y-inteligente-36-oncor-36-0",
+          "monthly_bill": 209.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "base-power-base-energy-36-oncor-36-0",
+          "monthly_bill": 211.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "base-power-base-energia-36-oncor-36-0",
+          "monthly_bill": 211.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cleansky-energy-embrace-green-36-new-customer-special-oncor-36-0",
+          "monthly_bill": 212.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ironhorse-power-services-llc-giddy-up-36-oncor-36-0",
+          "monthly_bill": 212.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "atlantex-power-luminous-10-oncor-10-0",
+          "monthly_bill": 214.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-12-oncor-12-0",
+          "monthly_bill": 214.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cirro-energy-smart-simple-12-oncor-12-0",
+          "monthly_bill": 215.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-18-oncor-18-0",
+          "monthly_bill": 216.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "smartenergy-holdings-llc-smartgreen-9-200-bill-credit-oncor-9-0",
+          "monthly_bill": 216.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-llc-octo-simple-14-oncor-14-0",
+          "monthly_bill": 217.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-24-with-smart-thermostat-oncor-24-0",
+          "monthly_bill": 217.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-simple-with-smart-thermostat-24-oncor-24-0",
+          "monthly_bill": 217.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-12-oncor-12-0",
+          "monthly_bill": 218.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "trieagle-energy-lp-simple-savings-28-oncor-28-0",
+          "monthly_bill": 218.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-24-oncor-24-0",
+          "monthly_bill": 220.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cirro-energy-smart-simple-24-oncor-24-0",
+          "monthly_bill": 221.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-36-oncor-36-0",
+          "monthly_bill": 221.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "heritage-power-llc-bright-start-12-25-credit-on-your-first-bill-oncor-12-0",
+          "monthly_bill": 223.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "heritage-power-llc-bright-start-24-25-credit-on-your-first-bill-oncor-24-0",
+          "monthly_bill": 223.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "atlantex-power-luminous-36-oncor-36-0",
+          "monthly_bill": 223.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "smartenergy-holdings-llc-smartgreen-24-200-bill-credit-oncor-24-0",
+          "monthly_bill": 224.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cirro-energy-smart-simple-36-oncor-36-0",
+          "monthly_bill": 224.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "trieagle-energy-lp-simple-savings-12-oncor-12-0",
+          "monthly_bill": 224.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-fixed-prime-48-oncor-48-0",
+          "monthly_bill": 225.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-prima-fija-48-oncor-48-0",
+          "monthly_bill": 225.64,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "direct-energy-autopay-texas-12-oncor-12-0",
+          "monthly_bill": 225.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-18-oncor-18-0",
+          "monthly_bill": 225.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-24-oncor-24-0",
+          "monthly_bill": 227.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-12-plan-oncor-12-0",
+          "monthly_bill": 230.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-12-choice-oncor-12-0",
+          "monthly_bill": 233.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-18-choice-oncor-18-0",
+          "monthly_bill": 233.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "direct-energy-autopay-texas-24-oncor-24-0",
+          "monthly_bill": 233.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "trieagle-energy-lp-simple-savings-36-oncor-36-0",
+          "monthly_bill": 233.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-24-plan-oncor-24-0",
+          "monthly_bill": 234.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "direct-energy-autopay-texas-36-oncor-36-0",
+          "monthly_bill": 236.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "tara-energy-basics-ptc-24-oncor-24-0",
+          "monthly_bill": 236.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "tara-energy-basics-ptc-36-oncor-36-0",
+          "monthly_bill": 236.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "amigo-energy-basics-ptc-24-oncor-24-0",
+          "monthly_bill": 236.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "amigo-energy-basics-ptc-36-oncor-36-0",
+          "monthly_bill": 236.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "just-energy-basics-ptc-24-oncor-24-0",
+          "monthly_bill": 236.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "just-energy-basics-ptc-60-oncor-60-0",
+          "monthly_bill": 236.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-36-plan-oncor-36-0",
+          "monthly_bill": 239.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-24-choice-oncor-24-0",
+          "monthly_bill": 240.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-36-choice-oncor-36-0",
+          "monthly_bill": 245.43,
+          "trustworthy_price": true
+        }
+      ]
+    },
+    "2000": {
+      "top_pick_id": "tara-energy-sustainable-home-bundle-5-oncor-5-0",
+      "plans": [
+        {
+          "plan_id": "tara-energy-sustainable-home-bundle-5-oncor-5-0",
+          "monthly_bill": 227.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "amigo-energy-sustainable-lifestyle-5-oncor-5-0",
+          "monthly_bill": 227.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "just-energy-sustainable-living-bundle-5-oncor-5-0",
+          "monthly_bill": 227.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-12-oncor-12-0",
+          "monthly_bill": 231.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-11-oncor-11-0",
+          "monthly_bill": 232.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "express-energy-speedy-12-oncor-12-0",
+          "monthly_bill": 233.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "veteran-energy-basic-12-oncor-12-0",
+          "monthly_bill": 233.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-5-oncor-5-0",
+          "monthly_bill": 235.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-better-rate-5-oncor-5-0",
+          "monthly_bill": 235.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-better-rate-11-oncor-11-0",
+          "monthly_bill": 235.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-11-oncor-11-0",
+          "monthly_bill": 235.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-12-oncor-12-0",
+          "monthly_bill": 236.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-octo-simple-12-oncor-12-0",
+          "monthly_bill": 236.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "varsity-energy-llc-homerun-12-oncor-12-0",
+          "monthly_bill": 236.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-smart-fixed-5-oncor-5-0",
+          "monthly_bill": 237.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-tarifa-fija-y-inteligente-5-oncor-5-0",
+          "monthly_bill": 237.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-fija-y-inteligente-11-oncor-11-0",
+          "monthly_bill": 237.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-smart-fixed-11-oncor-11-0",
+          "monthly_bill": 237.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-green-12-oncor-12-0",
+          "monthly_bill": 238.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "texans-choice-power-llc-choose-6-oncor-6-0",
+          "monthly_bill": 240.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "gexa-energy-gexa-eco-choice-12-oncor-12-0",
+          "monthly_bill": 240.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "frontier-utilities-frontier-power-saver-12-oncor-12-0",
+          "monthly_bill": 240.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "companion-energy-companion-perks-12-oncor-12-0",
+          "monthly_bill": 240.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "energy-texas-no-bull-12-oncor-12-0",
+          "monthly_bill": 241.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "rhythm-digital-choice-12-oncor-12-0",
+          "monthly_bill": 241.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "texans-choice-power-llc-choose-12-oncor-12-0",
+          "monthly_bill": 242.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ae-texas-smart-secure-10-oncor-10-0",
+          "monthly_bill": 243.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "constellation-newenergy-inc-simple-switch-6-oncor-6-0",
+          "monthly_bill": 244.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "good-charlie-co-llc-goodenergy-12-oncor-12-0",
+          "monthly_bill": 245.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "abundance-energy-straight-forward-12-oncor-12-0",
+          "monthly_bill": 247.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-24-oncor-24-0",
+          "monthly_bill": 247.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-oncor-11-0",
+          "monthly_bill": 248.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-12-oncor-12-0",
+          "monthly_bill": 248.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "abundance-energy-confident-renter-12-oncor-12-0",
+          "monthly_bill": 249.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-oncor-12-0",
+          "monthly_bill": 250.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-24-oncor-24-0",
+          "monthly_bill": 250.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-12-oncor-12-0",
+          "monthly_bill": 250.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "chariot-energy-chariot-choice-24-oncor-24-0",
+          "monthly_bill": 251.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-36-oncor-36-0",
+          "monthly_bill": 251.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-6-oncor-6-0",
+          "monthly_bill": 252.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-12-oncor-12-0",
+          "monthly_bill": 254.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-12-oncor-12-0",
+          "monthly_bill": 254.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "budget-power-no-gimmicks-36-oncor-36-0",
+          "monthly_bill": 254.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "good-charlie-co-llc-goodenergy-24-oncor-24-0",
+          "monthly_bill": 255.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ae-texas-smart-secure-36-oncor-36-0",
+          "monthly_bill": 255.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-6-oncor-6-0",
+          "monthly_bill": 256.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-tarifa-fija-y-inteligente-12-oncor-12-0",
+          "monthly_bill": 257.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-smart-fixed-12-oncor-12-0",
+          "monthly_bill": 257.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "abundance-energy-clean-energy-12-oncor-12-0",
+          "monthly_bill": 257.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "chariot-energy-chariot-choice-36-oncor-36-0",
+          "monthly_bill": 257.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-oncor-12-0",
+          "monthly_bill": 258.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-oncor-12-0",
+          "monthly_bill": 258.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-oncor-12-0",
+          "monthly_bill": 260.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-24-oncor-24-0",
+          "monthly_bill": 260.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "good-charlie-co-llc-goodenergy-36-oncor-36-0",
+          "monthly_bill": 261.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-14-oncor-14-0",
+          "monthly_bill": 262.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-oncor-24-0",
+          "monthly_bill": 262.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-24-oncor-24-0",
+          "monthly_bill": 262.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-12-oncor-12-0",
+          "monthly_bill": 264.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-15-oncor-15-0",
+          "monthly_bill": 264.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-11-oncor-11-0",
+          "monthly_bill": 266.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-24-oncor-24-0",
+          "monthly_bill": 266.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-36-oncor-36-0",
+          "monthly_bill": 266.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-3-oncor-3-0",
+          "monthly_bill": 267.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-green-12-oncor-12-0",
+          "monthly_bill": 268.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "infuse-energy-essential-infusion-36-oncor-36-0",
+          "monthly_bill": 268.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "rhythm-digital-choice-24-oncor-24-0",
+          "monthly_bill": 269.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "energy-texas-no-bull-24-oncor-24-0",
+          "monthly_bill": 269.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-13-oncor-13-0",
+          "monthly_bill": 270.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-oncor-36-0",
+          "monthly_bill": 270.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-9-oncor-9-0",
+          "monthly_bill": 272.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-octo-simple-18-oncor-18-0",
+          "monthly_bill": 272.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "southern-federal-power-llc-sofed-better-rate-36-oncor-36-0",
+          "monthly_bill": 273.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-24-oncor-24-0",
+          "monthly_bill": 274.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-oncor-12-0",
+          "monthly_bill": 274.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-24-oncor-24-0",
+          "monthly_bill": 274.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ironhorse-power-services-llc-giddy-up-24-oncor-24-0",
+          "monthly_bill": 274.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "rhythm-digital-choice-36-oncor-36-0",
+          "monthly_bill": 275.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "energy-texas-no-bull-36-oncor-36-0",
+          "monthly_bill": 275.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-smart-fixed-36-oncor-36-0",
+          "monthly_bill": 275.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-tarifa-fija-y-inteligente-36-oncor-36-0",
+          "monthly_bill": 275.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "smartenergy-holdings-llc-smartgreen-12-200-bill-credit-oncor-12-0",
+          "monthly_bill": 275.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-oncor-24-0",
+          "monthly_bill": 276.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ironhorse-power-services-llc-giddy-up-18-oncor-18-0",
+          "monthly_bill": 276.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-llc-octo-simple-24-oncor-24-0",
+          "monthly_bill": 276.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-12-with-smart-thermostat-connected-oncor-12-0",
+          "monthly_bill": 277.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "base-power-base-energy-36-oncor-36-0",
+          "monthly_bill": 280.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "base-power-base-energia-36-oncor-36-0",
+          "monthly_bill": 280.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ironhorse-power-services-llc-giddy-up-36-oncor-36-0",
+          "monthly_bill": 282.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cleansky-energy-embrace-green-36-new-customer-special-oncor-36-0",
+          "monthly_bill": 282.36,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "atlantex-power-luminous-10-oncor-10-0",
+          "monthly_bill": 283.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-12-oncor-12-0",
+          "monthly_bill": 283.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "smartenergy-holdings-llc-smartgreen-9-200-bill-credit-oncor-9-0",
+          "monthly_bill": 285.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cirro-energy-smart-simple-12-oncor-12-0",
+          "monthly_bill": 285.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "revolution-energy-llc-stars-and-stripes-18-oncor-18-0",
+          "monthly_bill": 286.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-12-oncor-12-0",
+          "monthly_bill": 287.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "octopus-energy-llc-octo-simple-14-oncor-14-0",
+          "monthly_bill": 288.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-24-with-smart-thermostat-oncor-24-0",
+          "monthly_bill": 289.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-simple-with-smart-thermostat-24-oncor-24-0",
+          "monthly_bill": 289.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "trieagle-energy-lp-simple-savings-28-oncor-28-0",
+          "monthly_bill": 290.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-24-oncor-24-0",
+          "monthly_bill": 291.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cirro-energy-smart-simple-24-oncor-24-0",
+          "monthly_bill": 293.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-36-oncor-36-0",
+          "monthly_bill": 293.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "atlantex-power-luminous-36-oncor-36-0",
+          "monthly_bill": 295.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "smartenergy-holdings-llc-smartgreen-24-200-bill-credit-oncor-24-0",
+          "monthly_bill": 295.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "heritage-power-llc-bright-start-12-25-credit-on-your-first-bill-oncor-12-0",
+          "monthly_bill": 296.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "heritage-power-llc-bright-start-24-25-credit-on-your-first-bill-oncor-24-0",
+          "monthly_bill": 296.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-fixed-prime-48-oncor-48-0",
+          "monthly_bill": 297.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ranchero-power-ranchero-prima-fija-48-oncor-48-0",
+          "monthly_bill": 297.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "cirro-energy-smart-simple-36-oncor-36-0",
+          "monthly_bill": 297.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "trieagle-energy-lp-simple-savings-12-oncor-12-0",
+          "monthly_bill": 298.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "direct-energy-autopay-texas-12-oncor-12-0",
+          "monthly_bill": 298.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-18-oncor-18-0",
+          "monthly_bill": 298.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "think-energy-think-clean-24-oncor-24-0",
+          "monthly_bill": 299.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-12-plan-oncor-12-0",
+          "monthly_bill": 304.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-12-choice-oncor-12-0",
+          "monthly_bill": 308.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-18-choice-oncor-18-0",
+          "monthly_bill": 308.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "direct-energy-autopay-texas-24-oncor-24-0",
+          "monthly_bill": 308.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "trieagle-energy-lp-simple-savings-36-oncor-36-0",
+          "monthly_bill": 310.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-24-plan-oncor-24-0",
+          "monthly_bill": 310.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "direct-energy-autopay-texas-36-oncor-36-0",
+          "monthly_bill": 312.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "tara-energy-basics-ptc-24-oncor-24-0",
+          "monthly_bill": 314.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "tara-energy-basics-ptc-36-oncor-36-0",
+          "monthly_bill": 314.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "amigo-energy-basics-ptc-24-oncor-24-0",
+          "monthly_bill": 314.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "amigo-energy-basics-ptc-36-oncor-36-0",
+          "monthly_bill": 314.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "just-energy-basics-ptc-24-oncor-24-0",
+          "monthly_bill": 314.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "just-energy-basics-ptc-60-oncor-60-0",
+          "monthly_bill": 314.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "reliant-reliant-power-on-36-plan-oncor-36-0",
+          "monthly_bill": 316.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-24-choice-oncor-24-0",
+          "monthly_bill": 318.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-36-choice-oncor-36-0",
+          "monthly_bill": 324.07,
+          "trustworthy_price": true
+        }
+      ]
+    }
+  },
+  "autopsies": [
+    {
+      "plan_id": "chariot-energy-bright-nights-12-oncor-12-0",
+      "rep": "CHARIOT ENERGY",
+      "product": "Bright Nights 12",
+      "reason_codes": [
+        "TIME_OF_USE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more."
+      ]
+    },
+    {
+      "plan_id": "infuse-energy-ptc-infusion-flex-oncor-1-0",
+      "rep": "INFUSE ENERGY",
+      "product": "PTC Infusion Flex",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "infuse-energy-ptc-green-infusion-flex-oncor-1-0",
+      "rep": "INFUSE ENERGY",
+      "product": "PTC Green Infusion Flex",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "pronto-power-power-to-choose-oncor-1-0",
+      "rep": "PRONTO POWER",
+      "product": "Power To Choose",
+      "reason_codes": [
+        "VARIABLE_RATE",
+        "PREPAID"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap.",
+        "Prepaid plan \u2014 pay-as-you-go with its own fees, not a straight rate."
+      ]
+    },
+    {
+      "plan_id": "infuse-energy-essential-infusion-green-flex-oncor-1-0",
+      "rep": "INFUSE ENERGY",
+      "product": "Essential Infusion Green Flex",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "infuse-energy-essential-infusion-flex-oncor-1-0",
+      "rep": "INFUSE ENERGY",
+      "product": "Essential Infusion Flex",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "ap-gas-electric-tx-llc-simplesaver-12-oncor-12-0",
+      "rep": "AP GAS & ELECTRIC (TX) LLC",
+      "product": "SimpleSaver 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    },
+    {
+      "plan_id": "chariot-energy-chariot-freedom-oncor-0-0",
+      "rep": "CHARIOT ENERGY",
+      "product": "Chariot Freedom",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "nec-co-op-energy-residential-electricity-plain-and-simple-oncor-0-0",
+      "rep": "NEC Co-op Energy",
+      "product": "Residential Electricity... Plain and simple.",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "revolution-energy-llc-liberty-bell-green-flex-oncor-1-0",
+      "rep": "REVOLUTION ENERGY LLC",
+      "product": "Liberty Bell Green Flex",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "revolution-energy-llc-liberty-bell-flex-oncor-1-0",
+      "rep": "REVOLUTION ENERGY LLC",
+      "product": "Liberty Bell Flex",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "revolution-energy-llc-stars-and-stripes-green-flex-oncor-1-0",
+      "rep": "REVOLUTION ENERGY LLC",
+      "product": "Stars and Stripes Green Flex",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "revolution-energy-llc-stars-and-stripes-flex-oncor-1-0",
+      "rep": "REVOLUTION ENERGY LLC",
+      "product": "Stars and Stripes Flex",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "trieagle-energy-lp-sure-value-36-oncor-36-0",
+      "rep": "TRIEAGLE ENERGY LP",
+      "product": "Sure Value 36",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    },
+    {
+      "plan_id": "southern-federal-power-llc-variable-advantage-oncor-1-0",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "Variable Advantage",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "southern-federal-power-llc-introducci-n-de-tarifa-variable-oncor-1-0",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "Introducci\u00f3n de Tarifa Variable",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "ranchero-power-no-contract-advantage-oncor-1-0",
+      "rep": "Ranchero Power",
+      "product": "No Contract Advantage",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "ranchero-power-introducci-n-de-tarifa-variable-oncor-1-0",
+      "rep": "Ranchero Power",
+      "product": "Introducci\u00f3n de Tarifa Variable",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "reliant-reliant-power-on-flex-plan-oncor-0-0",
+      "rep": "RELIANT",
+      "product": "Reliant Power On Flex plan",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "just-energy-smart-choice-12-oncor-12-0",
+      "rep": "JUST ENERGY",
+      "product": "Smart Choice - 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    },
+    {
+      "plan_id": "just-energy-sustainable-days-bundle-5-oncor-5-0",
+      "rep": "JUST ENERGY",
+      "product": "Sustainable Days Bundle - 5",
+      "reason_codes": [
+        "TIME_OF_USE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more."
+      ]
+    },
+    {
+      "plan_id": "tara-energy-value-choice-12-oncor-12-0",
+      "rep": "TARA ENERGY",
+      "product": "Value Choice - 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    },
+    {
+      "plan_id": "amigo-energy-power-perks-12-oncor-12-0",
+      "rep": "AMIGO ENERGY",
+      "product": "Power Perks - 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    },
+    {
+      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-choice-oncor-0-0",
+      "rep": "GREEN MOUNTAIN ENERGY COMPANY",
+      "product": "Pollution Free e-Plus Choice",
+      "reason_codes": [
+        "VARIABLE_RATE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap."
+      ]
+    },
+    {
+      "plan_id": "payless-power-ptc-6-month-prepaid-oncor-6-0",
+      "rep": "PAYLESS POWER",
+      "product": "PTC 6 Month - Prepaid",
+      "reason_codes": [
+        "PREPAID"
+      ],
+      "verdicts": [
+        "Prepaid plan \u2014 pay-as-you-go with its own fees, not a straight rate."
+      ]
+    },
+    {
+      "plan_id": "payless-power-ptc-12-month-prepaid-oncor-12-0",
+      "rep": "PAYLESS POWER",
+      "product": "PTC 12 Month - Prepaid",
+      "reason_codes": [
+        "PREPAID"
+      ],
+      "verdicts": [
+        "Prepaid plan \u2014 pay-as-you-go with its own fees, not a straight rate."
+      ]
+    },
+    {
+      "plan_id": "constellation-newenergy-inc-12-month-a-c-protect-plus-for-2-units-oncor-12-0",
+      "rep": "CONSTELLATION NEWENERGY INC",
+      "product": "12 Month A/C Protect Plus for 2 Units",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    },
+    {
+      "plan_id": "amigo-energy-sustainable-simply-days-5-oncor-5-0",
+      "rep": "AMIGO ENERGY",
+      "product": "Sustainable Simply Days - 5",
+      "reason_codes": [
+        "TIME_OF_USE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more."
+      ]
+    },
+    {
+      "plan_id": "tara-energy-balanced-days-bundle-5-oncor-5-0",
+      "rep": "TARA ENERGY",
+      "product": "Balanced Days Bundle - 5",
+      "reason_codes": [
+        "TIME_OF_USE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more."
+      ]
+    },
+    {
+      "plan_id": "chariot-energy-gridplus-12-oncor-12-0",
+      "rep": "CHARIOT ENERGY",
+      "product": "GridPlus 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    },
+    {
+      "plan_id": "constellation-newenergy-inc-36-month-usage-bill-credit-oncor-36-0",
+      "rep": "CONSTELLATION NEWENERGY INC",
+      "product": "36 Month Usage Bill Credit",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    },
+    {
+      "plan_id": "texans-choice-power-llc-texas-instant-12-oncor-12-0",
+      "rep": "Texans Choice Power LLC",
+      "product": "Texas Instant 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    },
+    {
+      "plan_id": "octopus-energy-octopus-lite-12-oncor-12-0",
+      "rep": "Octopus Energy",
+      "product": "Octopus Lite 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    },
+    {
+      "plan_id": "octopus-energy-octopusflex-oncor-12-0",
+      "rep": "Octopus Energy",
+      "product": "OctopusFlex",
+      "reason_codes": [
+        "TIME_OF_USE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more."
+      ]
+    },
+    {
+      "plan_id": "chariot-energy-bright-nights-11-oncor-11-0",
+      "rep": "CHARIOT ENERGY",
+      "product": "Bright Nights 11",
+      "reason_codes": [
+        "TIME_OF_USE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more."
+      ]
+    },
+    {
+      "plan_id": "rhythm-rhythm-max-saver-12-oncor-12-0",
+      "rep": "RHYTHM",
+      "product": "Rhythm Max Saver 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    },
+    {
+      "plan_id": "discount-power-bill-credit-bundle-13-oncor-13-0",
+      "rep": "Discount Power",
+      "product": "Bill Credit Bundle 13",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    },
+    {
+      "plan_id": "txu-energy-smart-1000-select-12-oncor-12-0",
+      "rep": "TXU ENERGY",
+      "product": "Smart 1000 Select 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    },
+    {
+      "plan_id": "express-energy-flash-value-12-oncor-12-0",
+      "rep": "Express Energy",
+      "product": "Flash Value 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    },
+    {
+      "plan_id": "pronto-power-summer-2026-oncor-3-0",
+      "rep": "PRONTO POWER",
+      "product": "Summer 2026",
+      "reason_codes": [
+        "PREPAID"
+      ],
+      "verdicts": [
+        "Prepaid plan \u2014 pay-as-you-go with its own fees, not a straight rate."
+      ]
+    },
+    {
+      "plan_id": "energy-texas-the-lone-saver-plus-12-oncor-12-0",
+      "rep": "Energy Texas",
+      "product": "The Lone Saver Plus 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ]
+    }
+  ]
+}

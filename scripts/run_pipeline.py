@@ -21,7 +21,9 @@ from htx.models import TDU_ONCOR  # noqa: E402
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 FIXTURE = os.path.join(ROOT, "tests", "fixtures", "oncor_all.json")
-OUT_DIR = os.path.join(ROOT, "data", "out")
+# The frontend imports this JSON at build time. Committed so the site builds
+# without needing to run the Python pipeline; the monthly refresh overwrites it.
+OUT_DIR = os.path.join(ROOT, "web", "src", "data")
 
 
 def main() -> None:
