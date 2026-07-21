@@ -4,7 +4,7 @@ import "@fontsource/ibm-plex-mono/400.css";
 import "@fontsource/ibm-plex-mono/600.css";
 import "../styles/global.css";
 import type { RegionData, HonestPlan } from "../lib/types";
-import { rankHonest, topPick } from "../lib/recommend";
+import { pickByPreference } from "../lib/recommend";
 import oncorRaw from "../data/oncor.json";
 import manifestRaw from "../data/regions.json";
 
@@ -16,9 +16,10 @@ const manifest = manifestRaw as unknown as { generated_at: string; regions: Regi
 const data = oncorRaw as unknown as RegionData;
 
 const DEFAULT_USAGE = 1000;
-const ranked = rankHonest(data, DEFAULT_USAGE);
-const pick = topPick(ranked);
+const pref0 = pickByPreference(data, DEFAULT_USAGE, "cheapest");
+const pick = pref0 ? pref0.pick : null;
 const pickPlan: HonestPlan | null = pick ? pick.plan : null;
+const why0 = pref0 ? pref0.why : "";
 
 const updated = new Date(manifest.generated_at).toLocaleDateString("en-US", {
   year: "numeric", month: "short", day: "numeric",
@@ -64,7 +65,7 @@ const shownAutopsies = data.autopsies.slice(0, 12);
             <input id="zip" inputmode="numeric" maxlength="5" value="75201" aria-describedby="region-note" />
           </div>
           <div class="field field--region">
-            <label for="region">Your area</label>
+            <label for="region">Your utility area</label>
             <select id="region" aria-describedby="region-note">
               {manifest.regions.map((r) => (
                 <option value={r.slug} selected={r.slug === "oncor"}>{r.label} — {r.cities.split(",")[0]}</option>
@@ -83,12 +84,23 @@ const shownAutopsies = data.autopsies.slice(0, 12);
           </div>
         </div>
         <p id="region-note" class="usage-readout" style="margin-top:8px">
-          Showing <strong id="region-label">{oncorMeta.label}</strong> —
-          <span id="region-cities">{oncorMeta.cities}</span>.
+          ZIP <strong>75201</strong> → showing <strong id="region-label">{oncorMeta.label}</strong>
+          (<span id="region-cities">{oncorMeta.cities}</span>).
         </p>
       </section>
 
-      <p class="result-kicker">Your honest cheapest plan</p>
+      <div class="pref-bar">
+        <label for="pref">What matters most?</label>
+        <select id="pref">
+          <option value="cheapest" selected>Cheapest overall</option>
+          <option value="renewable">100% renewable</option>
+          <option value="shortest">Shortest commitment</option>
+          <option value="lowcancel">Lowest cancel fee</option>
+          <option value="rating">Best-rated provider</option>
+        </select>
+      </div>
+
+      <p class="result-kicker" id="result-kicker">Your honest cheapest plan</p>
       <div id="result">
         {pickPlan && pick ? (
           <div class="plan-card">
@@ -110,8 +122,7 @@ const shownAutopsies = data.autopsies.slice(0, 12);
               <div class="fact"><b>{pickPlan.renewable != null ? `${pickPlan.renewable}%` : "—"}</b><span>renewable</span></div>
             </div>
             <p class="why">
-              <strong>Why this won:</strong> lowest true cost at your usage, no bill
-              credit, no minimum-usage fee, and a flat rate that holds across usage levels.
+              <strong>Why this won:</strong> {why0}
               {pickPlan.efl_url ? (<> <a href={pickPlan.efl_url} rel="nofollow noopener" target="_blank">See the official EFL →</a></>) : null}
             </p>
           </div>
@@ -158,7 +169,7 @@ const shownAutopsies = data.autopsies.slice(0, 12);
     <script type="application/json" id="region-data" set:html={JSON.stringify(data)}></script>
     <script type="application/json" id="region-manifest" set:html={JSON.stringify(manifest.regions)}></script>
     <script>
-      import { rankHonest, topPick } from "../lib/recommend";
+      import { pickByPreference, type Preference } from "../lib/recommend";
       import { zipToSlug } from "../lib/zipRegion";
       import type { RegionData } from "../lib/types";
 
@@ -177,24 +188,36 @@ const shownAutopsies = data.autopsies.slice(0, 12);
       const usageVal = document.getElementById("usage-val")!;
       const zip = document.getElementById("zip") as HTMLInputElement;
       const region = document.getElementById("region") as HTMLSelectElement;
+      const pref = document.getElementById("pref") as HTMLSelectElement;
       const result = document.getElementById("result")!;
+      const resultKicker = document.getElementById("result-kicker")!;
       const rejCount = document.getElementById("rej-count")!;
       const rejList = document.getElementById("rej-list")!;
-      const regionLabel = document.getElementById("region-label")!;
-      const regionCities = document.getElementById("region-cities")!;
+      const regionNote = document.getElementById("region-note")!;
 
       const money = (n: number) => `$${n.toFixed(0)}`;
       const centsAt = (bill: number, u: number) => ((bill / u) * 100).toFixed(1);
       const esc = (s: string) =>
         s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 
+      const KICKER: Record<Preference, string> = {
+        cheapest: "Your honest cheapest plan",
+        renewable: "Your honest greenest plan",
+        shortest: "Your shortest honest commitment",
+        lowcancel: "Your most flexible honest plan",
+        rating: "Your best-rated honest plan",
+      };
+
       function renderResult(u: number) {
         usageVal.textContent = u.toLocaleString();
-        const pick = topPick(rankHonest(data, u));
-        if (!pick) {
+        const preference = pref.value as Preference;
+        resultKicker.textContent = KICKER[preference];
+        const chosen = pickByPreference(data, u, preference);
+        if (!chosen) {
           result.innerHTML = '<div class="empty">No honest plan is available for this usage right now.</div>';
           return;
         }
+        const { pick, why, note } = chosen;
         const p = pick.plan;
         const badge = p.efl_verified
           ? '<span class="badge badge--verified">EFL-verified</span>'
@@ -202,6 +225,7 @@ const shownAutopsies = data.autopsies.slice(0, 12);
         const efl = p.efl_url
           ? ` <a href="${esc(p.efl_url)}" rel="nofollow noopener" target="_blank">See the official EFL →</a>`
           : "";
+        const noteHtml = note ? `<p class="pref-note">${esc(note)}</p>` : "";
         result.innerHTML = `
           <div class="plan-card">
             <div class="plan-card__top">
@@ -214,8 +238,8 @@ const shownAutopsies = data.autopsies.slice(0, 12);
               <div class="fact"><b>${p.cancel_fee != null ? money(p.cancel_fee) : "—"}</b><span>cancel fee</span></div>
               <div class="fact"><b>${p.renewable != null ? p.renewable + "%" : "—"}</b><span>renewable</span></div>
             </div>
-            <p class="why"><strong>Why this won:</strong> lowest true cost at your usage,
-            no bill credit, no minimum-usage fee, and a flat rate that holds across usage levels.${efl}</p>
+            <p class="why"><strong>Why this won:</strong> ${esc(why)}${efl}</p>
+            ${noteHtml}
           </div>`;
       }
 
@@ -243,41 +267,72 @@ const shownAutopsies = data.autopsies.slice(0, 12);
 
       const seeAll = document.getElementById("see-all-link") as HTMLAnchorElement;
       const honestCount = document.getElementById("honest-count")!;
+      const metaFor = (slug: string) => regions.find((r) => r.slug === slug);
 
-      function renderRegionNote() {
-        const meta = regions.find((r) => r.slug === currentSlug);
-        if (meta) {
-          regionLabel.textContent = meta.label;
-          regionCities.textContent = meta.cities;
-        }
+      function updateSeeAll() {
         seeAll.href = `${base}plans/${currentSlug}`;
         honestCount.textContent = String(data.counts.honest);
       }
 
-      async function loadRegion(slug: string) {
-        if (slug === currentSlug) return;
-        if (!cache[slug]) {
-          try {
-            const res = await fetch(`${import.meta.env.BASE_URL}data/${slug}.json`);
-            if (!res.ok) throw new Error(String(res.status));
-            cache[slug] = (await res.json()) as RegionData;
-          } catch {
-            return; // keep the current region rather than showing a broken state
-          }
+      function setRegionNote(source: "zip-match" | "zip-unknown" | "manual", zipVal = "") {
+        const m = metaFor(currentSlug);
+        const label = m ? m.label : currentSlug;
+        const cities = m ? m.cities : "";
+        if (source === "zip-match") {
+          regionNote.innerHTML = `ZIP <strong>${esc(zipVal)}</strong> → showing <strong>${esc(label)}</strong> (${esc(cities)}).`;
+        } else if (source === "zip-unknown") {
+          regionNote.innerHTML = `We don't have ZIP <strong>${esc(zipVal)}</strong> mapped yet — showing <strong>${esc(label)}</strong> (${esc(cities)}). Pick your utility area above to be sure it's yours.`;
+        } else {
+          regionNote.innerHTML = `Showing <strong>${esc(label)}</strong> (${esc(cities)}) — chosen by area.`;
         }
-        currentSlug = slug;
-        data = cache[slug];
-        region.value = slug;
-        renderRegionNote();
+      }
+
+      // Load a region's data and re-render everything EXCEPT the status note
+      // (the caller sets the note so it reflects how the region was chosen).
+      async function loadRegion(slug: string): Promise<boolean> {
+        if (slug !== currentSlug) {
+          if (!cache[slug]) {
+            try {
+              const res = await fetch(`${base}data/${slug}.json`);
+              if (!res.ok) throw new Error(String(res.status));
+              cache[slug] = (await res.json()) as RegionData;
+            } catch {
+              return false; // keep the current region rather than a broken state
+            }
+          }
+          currentSlug = slug;
+          data = cache[slug];
+          region.value = slug;
+        }
+        updateSeeAll();
         renderResult(Number(usage.value));
         renderRejected();
+        return true;
       }
 
       usage.addEventListener("input", () => renderResult(Number(usage.value)));
-      region.addEventListener("change", () => loadRegion(region.value));
-      zip.addEventListener("input", () => {
-        const slug = zipToSlug(zip.value);
-        if (slug) loadRegion(slug);
+      pref.addEventListener("change", () => renderResult(Number(usage.value)));
+
+      // The ZIP and the area selector are ONE choice, never two contradictory
+      // ones. A recognized ZIP drives the area; an unrecognized ZIP defers to
+      // the selector (so we never show a wrong region); and choosing an area by
+      // hand clears the ZIP, so the two can never disagree.
+      region.addEventListener("change", async () => {
+        zip.value = "";
+        await loadRegion(region.value);
+        setRegionNote("manual");
+      });
+
+      zip.addEventListener("input", async () => {
+        const v = zip.value.trim();
+        if (v.length < 5) return;
+        const slug = zipToSlug(v);
+        if (slug) {
+          await loadRegion(slug);
+          setRegionNote("zip-match", v);
+        } else {
+          setRegionNote("zip-unknown", v);
+        }
       });
     </script>
   </body>
