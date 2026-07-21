@@ -18,6 +18,7 @@ import argparse
 import datetime as dt
 import json
 import os
+import statistics
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
@@ -48,10 +49,26 @@ def main() -> None:
     os.makedirs(PUBLIC_DIR, exist_ok=True)
     os.makedirs(SRC_DIR, exist_ok=True)
 
+    month = now[:7]  # YYYY-MM
+    history_month = {}  # per-region price summary for this run's month
+
     manifest = []
     for region in REGION_META:
         result = pipeline.run(plans, region["tdu"], generated_at=now)
         out = result.to_json()
+
+        # Monthly price archive: avg / median / cheapest honest ¢/kWh at 1,000 kWh,
+        # plus a per-plan cents map so month-over-month diffs are possible later.
+        ranked = result.data["rankings"]["1000"]["plans"]
+        cents = sorted(round(r["monthly_bill"] / 1000 * 100, 2) for r in ranked)
+        if cents:
+            history_month[region["slug"]] = {
+                "avg": round(statistics.fmean(cents), 2),
+                "median": round(statistics.median(cents), 2),
+                "cheapest": cents[0],
+                "honest": len(cents),
+                "plans": {r["plan_id"]: round(r["monthly_bill"] / 1000 * 100, 2) for r in ranked},
+            }
         # public/data -> client fetch (region switching); src/data -> build-time
         # imports (home SSR + autopsy static pages).
         with open(os.path.join(PUBLIC_DIR, f"{region['slug']}.json"), "w", encoding="utf-8") as fh:
@@ -72,7 +89,20 @@ def main() -> None:
         with open(os.path.join(d, "regions.json"), "w", encoding="utf-8") as fh:
             fh.write(manifest_json)
 
+    # Merge this month into the price history archive (idempotent per month; past
+    # months are preserved). The trend charts grow as months accumulate.
+    history_path = os.path.join(SRC_DIR, "history.json")
+    history = {"months": {}}
+    if os.path.exists(history_path):
+        with open(history_path, encoding="utf-8") as fh:
+            history = json.load(fh)
+    history["months"][month] = history_month
+    history["updated"] = now
+    with open(history_path, "w", encoding="utf-8") as fh:
+        json.dump(history, fh, indent=2)
+
     print(f"Wrote {len(manifest)} regions + manifest to web/public/data and web/src/data")
+    print(f"Recorded price history for {month} ({len(history['months'])} month(s) tracked)")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,122 @@
+---
+import Layout from "../layouts/Layout.astro";
+import historyRaw from "../data/history.json";
+import manifestRaw from "../data/regions.json";
+
+interface RegionMeta { slug: string; label: string; cities: string }
+interface MonthSummary { avg: number; median: number; cheapest: number; honest: number }
+
+const history = historyRaw as unknown as {
+  updated: string;
+  months: Record<string, Record<string, MonthSummary>>;
+};
+const manifest = manifestRaw as unknown as { regions: RegionMeta[] };
+
+const base = import.meta.env.BASE_URL;
+const months = Object.keys(history.months).sort();
+const latest = months[months.length - 1];
+const latestData = history.months[latest];
+const updated = new Date(history.updated).toLocaleDateString("en-US", {
+  year: "numeric", month: "short", day: "numeric",
+});
+const monthLabel = (m: string) => {
+  // Build the date from local components to avoid the UTC-parse timezone shift
+  // that would render "2026-07" as "Jun 2026" in negative-offset timezones.
+  const [y, mo] = m.split("-").map(Number);
+  return new Date(y, mo - 1, 1).toLocaleDateString("en-US", { month: "short", year: "numeric" });
+};
+
+// Regional comparison (current month): cheapest honest ¢/kWh, ranked.
+const compare = manifest.regions
+  .map((r) => ({ ...r, ...(latestData[r.slug] ?? { cheapest: 0, avg: 0, honest: 0 }) }))
+  .filter((r) => r.honest > 0)
+  .sort((a, b) => a.cheapest - b.cheapest);
+const maxCheap = Math.max(...compare.map((r) => r.cheapest), 1);
+
+// Time series (avg ¢/kWh per region). One point per recorded month.
+const W = 620, H = 240, PADX = 44, PADY = 28;
+const allAvg = months.flatMap((m) => Object.values(history.months[m]).map((s) => s.avg));
+const yMin = Math.floor(Math.min(...allAvg) - 1);
+const yMax = Math.ceil(Math.max(...allAvg) + 1);
+const xOf = (i: number) => (months.length === 1 ? W / 2 : PADX + (i / (months.length - 1)) * (W - 2 * PADX));
+const yOf = (v: number) => H - PADY - ((v - yMin) / (yMax - yMin)) * (H - 2 * PADY);
+const palette = ["#0b5d3b", "#9a2a2a", "#2a5a6a", "#9a6a12", "#5a3b8a", "#3b6a2a"];
+const series = manifest.regions.map((r, idx) => ({
+  label: r.label,
+  color: palette[idx % palette.length],
+  points: months
+    .map((m, i) => (history.months[m][r.slug] ? { x: xOf(i), y: yOf(history.months[m][r.slug].avg) } : null))
+    .filter(Boolean) as { x: number; y: number }[],
+}));
+---
+
+<Layout title="Texas electricity price trends by region | Honest Texas Electricity"
+        description="Average honest electricity prices by Texas region, tracked over time to help you time your switch."
+        updated={updated}>
+  <p class="crumb"><a href={base}>← Honest Texas Electricity</a> · Price trends</p>
+  <h1 class="autopsy-h1">Texas price trends</h1>
+  <p class="autopsy-verdict-lead">
+    Average and cheapest honest prices by region, so you can see where prices sit and
+    time your switch. We record a snapshot every month.
+  </p>
+
+  <section class="curve">
+    <h2>Cheapest honest plan by region — {monthLabel(latest)}</h2>
+    <p class="curve-note">Lowest true cost at 1,000 kWh among plans that passed our honest filter.</p>
+    <div class="bars">
+      {compare.map((r) => (
+        <div class="bar-row">
+          <a class="bar-label" href={`${base}plans/${r.slug}`}>{r.label}</a>
+          <div class="bar-track">
+            <div class="bar-fill" style={`width:${(r.cheapest / maxCheap) * 100}%`}></div>
+          </div>
+          <span class="bar-val mono">{r.cheapest.toFixed(1)}¢</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="curve">
+    <h2>Average price over time</h2>
+    {months.length < 2 ? (
+      <p class="curve-note">
+        <strong>Month 1 of tracking ({monthLabel(latest)}).</strong> The trend lines fill
+        in as we record a snapshot each month — check back to spot when prices dip and
+        it's a good time to switch. We don't invent past data.
+      </p>
+    ) : (
+      <p class="curve-note">Average honest ¢/kWh at 1,000 kWh, per region, over {months.length} months.</p>
+    )}
+    <svg viewBox={`0 0 ${W} ${H}`} class="trend-svg" role="img" aria-label="Average price per region over time">
+      {[yMin, Math.round((yMin + yMax) / 2), yMax].map((v) => (
+        <g>
+          <line x1={PADX} y1={yOf(v)} x2={W - PADX} y2={yOf(v)} class="axis" />
+          <text x={PADX - 6} y={yOf(v) + 3} text-anchor="end" class="curve-x">{v}¢</text>
+        </g>
+      ))}
+      {months.map((m, i) => (
+        <text x={xOf(i)} y={H - 8} text-anchor="middle" class="curve-x">{monthLabel(m)}</text>
+      ))}
+      {series.map((s) => (
+        <g>
+          {s.points.length > 1 && (
+            <polyline points={s.points.map((p) => `${p.x},${p.y}`).join(" ")} fill="none" stroke={s.color} stroke-width="2" />
+          )}
+          {s.points.map((p) => <circle cx={p.x} cy={p.y} r="3.5" fill={s.color} />)}
+        </g>
+      ))}
+    </svg>
+    <div class="legend">
+      {series.map((s) => (<span class="legend-item"><span class="swatch" style={`background:${s.color}`}></span>{s.label}</span>))}
+    </div>
+  </section>
+
+  <section class="honest-alt">
+    <h2>Plans that changed</h2>
+    <p>
+      Once we've recorded two or more months, this is where we'll flag new plans, plans
+      that disappeared, and plans whose price got worse. We started tracking in
+      {" "}{monthLabel(latest)}, so there's nothing to compare yet — check back next month.
+    </p>
+  </section>
+</Layout>

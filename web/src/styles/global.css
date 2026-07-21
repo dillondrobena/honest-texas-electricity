@@ -229,8 +229,23 @@ table.plans td.td-name { min-width: 220px; }
 table.plans tbody tr:hover { background: var(--surface); }
 table.plans tbody tr:first-child { background: color-mix(in srgb, var(--accent) 8%, transparent); }
 
+/* ── Trends: bar chart + line chart ── */
+.bars { margin: var(--s-md) 0; }
+.bar-row { display: grid; grid-template-columns: 190px 1fr 56px; align-items: center; gap: var(--s-md); padding: var(--s-2xs) 0; }
+.bar-label { font-family: var(--font-sans); font-size: 14px; color: var(--ink); text-decoration: none; }
+.bar-label:hover { color: var(--accent); text-decoration: underline; }
+.bar-track { background: var(--rule); height: 18px; border-radius: var(--radius-sm); overflow: hidden; }
+.bar-fill { height: 100%; background: var(--accent); }
+.bar-val { font-size: 14px; text-align: right; color: var(--ink); }
+
+.trend-svg { width: 100%; max-width: 640px; height: auto; background: var(--surface); border: 1px solid var(--rule); }
+.legend { font-family: var(--font-sans); font-size: 12px; color: var(--muted); margin-top: var(--s-xs); display: flex; flex-wrap: wrap; gap: var(--s-sm); }
+.legend-item { display: inline-flex; align-items: center; gap: 4px; }
+.swatch { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+
 @media (max-width: 480px) {
   .facts, .autopsy-facts { grid-template-columns: repeat(2, 1fr); }
   .rej { flex-wrap: wrap; }
   .rej .pname { min-width: 0; }
+  .bar-row { grid-template-columns: 120px 1fr 48px; }
 }
