@@ -2,18 +2,18 @@
   "tdu": "TEXAS-NEW MEXICO POWER",
   "slug": "tnmp",
   "language": "Spanish",
-  "generated_at": "2026-07-21T19:30:43Z",
+  "generated_at": "2026-08-01T10:39:21Z",
   "disclaimer": "Free, no-affiliate. Always verify the plan's EFL before enrolling.",
   "counts": {
-    "total": 135,
+    "total": 150,
     "dropped_invalid": 0,
-    "honest": 57,
-    "rejected": 78,
-    "verified": 30
+    "honest": 71,
+    "rejected": 79,
+    "verified": 46
   },
   "honest_plans": {
-    "veteran-energy-basic-12-texas-new-mexico-power-12-0": {
-      "plan_id": "veteran-energy-basic-12-texas-new-mexico-power-12-0",
+    "ptc-36654": {
+      "plan_id": "ptc-36654",
       "rep": "Veteran Energy",
       "product": "Basic 12",
       "rate_type": "Fixed",
@@ -27,13 +27,13 @@
       "efl_status": "unparseable",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.12,
+        "rate_per_kwh": 0.117,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "express-energy-speedy-12-texas-new-mexico-power-12-0": {
-      "plan_id": "express-energy-speedy-12-texas-new-mexico-power-12-0",
+    "ptc-36644": {
+      "plan_id": "ptc-36644",
       "rep": "Express Energy",
       "product": "Speedy 12",
       "rate_type": "Fixed",
@@ -47,13 +47,93 @@
       "efl_status": "unparseable",
       "cost": {
         "base_charge": 8.0,
+        "rate_per_kwh": 0.117,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-37076": {
+      "plan_id": "ptc-37076",
+      "rep": "TRUE POWER",
+      "product": "True Value 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 300.0,
+      "renewable": 15.0,
+      "rating": 1.0,
+      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/57DBC466748BEE28E063E0F8000A9310/view?lang=es",
+      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.115,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-37078": {
+      "plan_id": "ptc-37078",
+      "rep": "TRUE POWER",
+      "product": "True Value 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 300.0,
+      "renewable": 15.0,
+      "rating": 1.0,
+      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/57DBD881CB12092BE063E0F8000A53E7/view?lang=es",
+      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
         "rate_per_kwh": 0.12,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "base-power-base-energia-36-texas-new-mexico-power-36-0": {
-      "plan_id": "base-power-base-energia-36-texas-new-mexico-power-36-0",
+    "ptc-37080": {
+      "plan_id": "ptc-37080",
+      "rep": "TRUE POWER",
+      "product": "True Value 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 300.0,
+      "renewable": 15.0,
+      "rating": 1.0,
+      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/57DBD000A71A494DE063E0F8000AF09F/view?lang=es",
+      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.123,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-36271": {
+      "plan_id": "ptc-36271",
+      "rep": "RHYTHM",
+      "product": "Digital Choice 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/18868/?locale=es",
+      "enroll_url": "https://www.gotrhythm.com/es?rcid=power-to-choose&utm_source=powertochoose&utm_content=tnmp&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=DC24",
+      "efl_verified": false,
+      "efl_status": "mismatch",
+      "cost": {
+        "base_charge": 2.5,
+        "rate_per_kwh": 0.13871,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "ptc-36251": {
+      "plan_id": "ptc-36251",
       "rep": "Base Power",
       "product": "Base Energia 36",
       "rate_type": "Fixed",
@@ -72,48 +152,168 @@
         "max_residual": 0.214
       }
     },
-    "rhythm-digital-choice-24-texas-new-mexico-power-24-0": {
-      "plan_id": "rhythm-digital-choice-24-texas-new-mexico-power-24-0",
-      "rep": "RHYTHM",
-      "product": "Digital Choice 24",
+    "ptc-37015": {
+      "plan_id": "ptc-37015",
+      "rep": "Abundance Energy",
+      "product": "Confident Renter 12",
       "rate_type": "Fixed",
-      "term_months": 24.0,
-      "cancel_fee": 20.0,
-      "renewable": 100.0,
-      "rating": 3.0,
-      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/18868/?locale=es",
-      "enroll_url": "https://www.gotrhythm.com/es?rcid=power-to-choose&utm_source=powertochoose&utm_content=tnmp&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=DC24",
-      "efl_verified": false,
-      "efl_status": "mismatch",
-      "cost": {
-        "base_charge": 2.5,
-        "rate_per_kwh": 0.13671,
-        "is_linear": true,
-        "max_residual": 0.214
-      }
-    },
-    "energy-texas-no-bull-36-texas-new-mexico-power-36-0": {
-      "plan_id": "energy-texas-no-bull-36-texas-new-mexico-power-36-0",
-      "rep": "Energy Texas",
-      "product": "No Bull 36",
-      "rate_type": "Fixed",
-      "term_months": 36.0,
-      "cancel_fee": 20.0,
-      "renewable": 100.0,
-      "rating": 3.0,
-      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/12913/?locale=es",
-      "enroll_url": "https://www.energytexas.com/es?rcid=power-to-choose&utm_source=powertochoose&utm_content=tnmp&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=NB36",
+      "term_months": 12.0,
+      "cancel_fee": 200.0,
+      "renewable": 25.0,
+      "rating": 4.0,
+      "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=es&product_code=confidentrenter.fixed&tdsp_id=8&doc_type=EFL&term=12&promo_code=PTC",
+      "enroll_url": "https://join.abundanceenergy.com/?promoCode=PTC",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
-        "base_charge": 2.5,
-        "rate_per_kwh": 0.14171,
+        "base_charge": 7.5,
+        "rate_per_kwh": 0.12529,
         "is_linear": true,
         "max_residual": 0.214
       }
     },
-    "energy-texas-no-bull-24-texas-new-mexico-power-24-0": {
-      "plan_id": "energy-texas-no-bull-24-texas-new-mexico-power-24-0",
+    "ptc-37016": {
+      "plan_id": "ptc-37016",
+      "rep": "Budget Power",
+      "product": "No Gimmicks 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 100.0,
+      "renewable": 24.0,
+      "rating": 1.0,
+      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34906&ver=spanish",
+      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN12000011&Promo=PTC",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.116,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-37017": {
+      "plan_id": "ptc-37017",
+      "rep": "Budget Power",
+      "product": "No Gimmicks Green 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 100.0,
+      "renewable": 100.0,
+      "rating": 1.0,
+      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34908&ver=spanish",
+      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN12000514&Promo=PTC",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.117,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-37012": {
+      "plan_id": "ptc-37012",
+      "rep": "Budget Power",
+      "product": "No Gimmicks 11",
+      "rate_type": "Fixed",
+      "term_months": 11.0,
+      "cancel_fee": 100.0,
+      "renewable": 24.0,
+      "rating": 1.0,
+      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34905&ver=spanish",
+      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN11000004&Promo=PTC",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.115,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-37022": {
+      "plan_id": "ptc-37022",
+      "rep": "Budget Power",
+      "product": "No Gimmicks 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 250.0,
+      "renewable": 24.0,
+      "rating": 1.0,
+      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34907&ver=spanish",
+      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN36000012&Promo=PTC",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.124,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-37020": {
+      "plan_id": "ptc-37020",
+      "rep": "Budget Power",
+      "product": "No Gimmicks 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 175.0,
+      "renewable": 24.0,
+      "rating": 1.0,
+      "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34868&ver=spanish",
+      "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN24000014&Promo=PTC",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.122,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-37148": {
+      "plan_id": "ptc-37148",
+      "rep": "TRUE POWER",
+      "product": "True Value 10",
+      "rate_type": "Fixed",
+      "term_months": 10.0,
+      "cancel_fee": 300.0,
+      "renewable": 15.0,
+      "rating": 1.0,
+      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/57EF3B5A6234FBABE063E0F8000A2745/view?lang=es",
+      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.115,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-37153": {
+      "plan_id": "ptc-37153",
+      "rep": "TRUE POWER",
+      "product": "True Value 11",
+      "rate_type": "Fixed",
+      "term_months": 11.0,
+      "cancel_fee": 300.0,
+      "renewable": 15.0,
+      "rating": 1.0,
+      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/57EFE7EAE7D412F4E063E0F8000AFC2C/view?lang=es",
+      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.114,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-34917": {
+      "plan_id": "ptc-34917",
       "rep": "Energy Texas",
       "product": "No Bull 24",
       "rate_type": "Fixed",
@@ -127,13 +327,13 @@
       "efl_status": "mismatch",
       "cost": {
         "base_charge": 2.5,
-        "rate_per_kwh": 0.13671,
+        "rate_per_kwh": 0.13871,
         "is_linear": true,
         "max_residual": 0.214
       }
     },
-    "rhythm-digital-choice-12-texas-new-mexico-power-12-0": {
-      "plan_id": "rhythm-digital-choice-12-texas-new-mexico-power-12-0",
+    "ptc-35079": {
+      "plan_id": "ptc-35079",
       "rep": "RHYTHM",
       "product": "Digital Choice 12",
       "rate_type": "Fixed",
@@ -147,53 +347,13 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": 2.5,
-        "rate_per_kwh": 0.12471,
+        "rate_per_kwh": 0.12071,
         "is_linear": true,
         "max_residual": 0.214
       }
     },
-    "sfe-energy-texas-inc-sfe-rewardsplus-12-texas-new-mexico-power-12-0": {
-      "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-texas-new-mexico-power-12-0",
-      "rep": "SFE ENERGY TEXAS INC",
-      "product": "SFE RewardsPlus - 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 175.0,
-      "renewable": 35.0,
-      "rating": 1.0,
-      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_12MTH_TNMP_12_2516194962221494180_EFL_SFE Residential Fixed TNMP 12Spanish.pdf",
-      "enroll_url": "https://www.sfeenergy.com/texas/",
-      "efl_verified": false,
-      "efl_status": "unparseable",
-      "cost": {
-        "base_charge": 8.0,
-        "rate_per_kwh": 0.135,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ae-texas-smart-secure-36-texas-new-mexico-power-36-0": {
-      "plan_id": "ae-texas-smart-secure-36-texas-new-mexico-power-36-0",
-      "rep": "AE TEXAS",
-      "product": "Smart Secure 36",
-      "rate_type": "Fixed",
-      "term_months": 36.0,
-      "cancel_fee": 20.0,
-      "renewable": 23.0,
-      "rating": 3.0,
-      "efl_url": "https://enroll.aetexasco.com/EmailHTML/efl_SPA.aspx?RateID=3754&BrandID=1&PromoCodeID=114",
-      "enroll_url": "https://enroll.aetexasco.com/Enrollment/Default.aspx?&promoCode=AETXPTC1",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 8.0,
-        "rate_per_kwh": 0.13,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ae-texas-smart-secure-10-texas-new-mexico-power-10-0": {
-      "plan_id": "ae-texas-smart-secure-10-texas-new-mexico-power-10-0",
+    "ptc-35661": {
+      "plan_id": "ptc-35661",
       "rep": "AE TEXAS",
       "product": "Smart Secure 10",
       "rate_type": "Fixed",
@@ -207,53 +367,33 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.123,
+        "rate_per_kwh": 0.12,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "octopus-energy-llc-octo-simple-24-texas-new-mexico-power-24-0": {
-      "plan_id": "octopus-energy-llc-octo-simple-24-texas-new-mexico-power-24-0",
-      "rep": "Octopus Energy LLC",
-      "product": "Octo Simple 24",
+    "ptc-35313": {
+      "plan_id": "ptc-35313",
+      "rep": "AE TEXAS",
+      "product": "Smart Secure 36",
       "rate_type": "Fixed",
-      "term_months": 24.0,
-      "cancel_fee": 250.0,
-      "renewable": 100.0,
+      "term_months": 36.0,
+      "cancel_fee": 20.0,
+      "renewable": 23.0,
       "rating": 3.0,
-      "efl_url": "https://octopusenergy.com/es/efl/OCTO-SIMPLE-24-TNMP-LZ_WEST-202607141200",
-      "enroll_url": "https://octopusenergy.com/es/affiliate/ptc",
-      "efl_verified": false,
-      "efl_status": "unparseable",
-      "cost": {
-        "base_charge": 8.0,
-        "rate_per_kwh": 0.166,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "companion-energy-companion-perks-12-texas-new-mexico-power-12-0": {
-      "plan_id": "companion-energy-companion-perks-12-texas-new-mexico-power-12-0",
-      "rep": "Companion Energy",
-      "product": "Companion + Perks 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 150.0,
-      "renewable": 30.0,
-      "rating": 2.0,
-      "efl_url": "https://eflviewer.companionenergy.com/eflviewer.aspx?lang=SP&prodcode=CEPERK12&tdspcode=TNMP",
-      "enroll_url": "https://newenroll.companionenergy.com/?refid=PTCPERKS12&ul=1000&tdsp=TNMP&utm_source=power_to_choose&utm_medium=referral&utm_campaign=PTC-PTCPERKS12&utm_content=TNMP&utm_term=additional_info",
+      "efl_url": "https://enroll.aetexasco.com/EmailHTML/efl_SPA.aspx?RateID=3754&BrandID=1&PromoCodeID=114",
+      "enroll_url": "https://enroll.aetexasco.com/Enrollment/Default.aspx?&promoCode=AETXPTC1",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.122,
+        "rate_per_kwh": 0.128,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "octopus-energy-llc-octo-simple-14-texas-new-mexico-power-14-0": {
-      "plan_id": "octopus-energy-llc-octo-simple-14-texas-new-mexico-power-14-0",
+    "ptc-35731": {
+      "plan_id": "ptc-35731",
       "rep": "Octopus Energy LLC",
       "product": "Octo Simple 14",
       "rate_type": "Fixed",
@@ -272,28 +412,48 @@
         "max_residual": 0.0
       }
     },
-    "octopus-energy-octo-simple-18-texas-new-mexico-power-18-0": {
-      "plan_id": "octopus-energy-octo-simple-18-texas-new-mexico-power-18-0",
-      "rep": "Octopus Energy",
-      "product": "Octo Simple 18",
+    "ptc-35770": {
+      "plan_id": "ptc-35770",
+      "rep": "Companion Energy",
+      "product": "Companion + Perks 12",
       "rate_type": "Fixed",
-      "term_months": 18.0,
-      "cancel_fee": 200.0,
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 30.0,
+      "rating": 2.0,
+      "efl_url": "https://eflviewer.companionenergy.com/eflviewer.aspx?lang=SP&prodcode=CEPERK12&tdspcode=TNMP&ppid=191515&logid=82371&filename=TNMP_CEPERK12_20260729_0000_82371",
+      "enroll_url": "https://newenroll.companionenergy.com/?refid=PTCPERKS12&ul=1000&tdsp=TNMP&utm_source=power_to_choose&utm_medium=referral&utm_campaign=PTC-PTCPERKS12&utm_content=TNMP&utm_term=additional_info",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.121,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-35744": {
+      "plan_id": "ptc-35744",
+      "rep": "Octopus Energy LLC",
+      "product": "Octo Simple 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 250.0,
       "renewable": 100.0,
       "rating": 3.0,
-      "efl_url": "https://octopusenergy.com/es/efl/OCTO-SIMPLE-18-TNMP-LZ_WEST-202607091030",
+      "efl_url": "https://octopusenergy.com/es/efl/OCTO-SIMPLE-24-TNMP-LZ_WEST-202607141200",
       "enroll_url": "https://octopusenergy.com/es/affiliate/ptc",
       "efl_verified": false,
       "efl_status": "unparseable",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.165,
+        "rate_per_kwh": 0.166,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "rhythm-digital-choice-36-texas-new-mexico-power-36-0": {
-      "plan_id": "rhythm-digital-choice-36-texas-new-mexico-power-36-0",
+    "ptc-35828": {
+      "plan_id": "ptc-35828",
       "rep": "RHYTHM",
       "product": "Digital Choice 36",
       "rate_type": "Fixed",
@@ -312,8 +472,108 @@
         "max_residual": 0.214
       }
     },
-    "texans-choice-power-llc-choose-12-texas-new-mexico-power-12-0": {
-      "plan_id": "texans-choice-power-llc-choose-12-texas-new-mexico-power-12-0",
+    "ptc-35864": {
+      "plan_id": "ptc-35864",
+      "rep": "Octopus Energy",
+      "product": "Octo Simple 18",
+      "rate_type": "Fixed",
+      "term_months": 18.0,
+      "cancel_fee": 200.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://octopusenergy.com/es/efl/OCTO-SIMPLE-18-TNMP-LZ_WEST-202607091030",
+      "enroll_url": "https://octopusenergy.com/es/affiliate/ptc",
+      "efl_verified": false,
+      "efl_status": "unparseable",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.165,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-35877": {
+      "plan_id": "ptc-35877",
+      "rep": "FRONTIER UTILITIES",
+      "product": "Frontier Power Saver 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 30.0,
+      "rating": 2.0,
+      "efl_url": "https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=SP&prodcode=FPOWSVR12&tdspcode=TNMP&ppid=191513&logid=82377&filename=TNMP_FPOWSVR12_20260729_0000_82377",
+      "enroll_url": "https://newenroll.frontierutilities.com/?refid=PTCFPS12&ul=1000&tdsp=TNMP",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.121,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-35889": {
+      "plan_id": "ptc-35889",
+      "rep": "FRONTIER UTILITIES",
+      "product": "Frontier Power Saver 10",
+      "rate_type": "Fixed",
+      "term_months": 10.0,
+      "cancel_fee": 150.0,
+      "renewable": 30.0,
+      "rating": 2.0,
+      "efl_url": "https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=SP&prodcode=FPOWSVR10&tdspcode=TNMP&ppid=190924&logid=82299&filename=TNMP_FPOWSVR10_20260728_0000_82299",
+      "enroll_url": "https://newenroll.frontierutilities.com/?refid=PTCFPS10&ul=1000&tdsp=TNMP",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.116,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-35913": {
+      "plan_id": "ptc-35913",
+      "rep": "GEXA ENERGY",
+      "product": "Gexa Eco Choice 10",
+      "rate_type": "Fixed",
+      "term_months": 10.0,
+      "cancel_fee": 150.0,
+      "renewable": 100.0,
+      "rating": 4.0,
+      "efl_url": "https://eflviewer.gexaenergy.com/eflviewer.aspx?lang=SP&prodcode=GXAECOCHI10&tdspcode=TNMP&ppid=190684&logid=82084&filename=TNMP_GXAECOCHI10_20260728_0000_82084",
+      "enroll_url": "https://www.gexaenergy.com/P2CSP/",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.116,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-35937": {
+      "plan_id": "ptc-35937",
+      "rep": "Companion Energy",
+      "product": "Companion + Perks 10",
+      "rate_type": "Fixed",
+      "term_months": 10.0,
+      "cancel_fee": 150.0,
+      "renewable": 30.0,
+      "rating": 2.0,
+      "efl_url": "https://eflviewer.companionenergy.com/eflviewer.aspx?lang=SP&prodcode=CEPERK10&tdspcode=TNMP&ppid=190685&logid=82088&filename=TNMP_CEPERK10_20260728_0000_82088",
+      "enroll_url": "https://newenroll.companionenergy.com/?refid=PTCPERKS10&ul=1000&tdsp=TNMP&utm_source=power_to_choose&utm_medium=referral&utm_campaign=PTC-PTCPERKS10&utm_content=TNMP&utm_term=additional_info",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.116,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-35966": {
+      "plan_id": "ptc-35966",
       "rep": "Texans Choice Power LLC",
       "product": "Choose 12",
       "rate_type": "Fixed",
@@ -322,18 +582,18 @@
       "renewable": 37.0,
       "rating": null,
       "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153809&type=EFL&title=153809_EFL&language=spanish",
-      "enroll_url": "https://signup.texanschoicepower.com/?PromoCode=PTC",
+      "enroll_url": "https://signup.texanschoicepower.com/",
       "efl_verified": false,
       "efl_status": "unparseable",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.131,
+        "rate_per_kwh": 0.142,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "texans-choice-power-llc-choose-6-texas-new-mexico-power-6-0": {
-      "plan_id": "texans-choice-power-llc-choose-6-texas-new-mexico-power-6-0",
+    "ptc-35993": {
+      "plan_id": "ptc-35993",
       "rep": "Texans Choice Power LLC",
       "product": "Choose 6",
       "rate_type": "Fixed",
@@ -342,18 +602,18 @@
       "renewable": 37.0,
       "rating": null,
       "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153839&type=EFL&title=153839_EFL&language=spanish",
-      "enroll_url": "https://signup.texanschoicepower.com/?PromoCode=PTC",
+      "enroll_url": "https://signup.texanschoicepower.com/",
       "efl_verified": false,
       "efl_status": "unparseable",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.134,
+        "rate_per_kwh": 0.144,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "atlantex-power-luminous-36-texas-new-mexico-power-36-0": {
-      "plan_id": "atlantex-power-luminous-36-texas-new-mexico-power-36-0",
+    "ptc-36199": {
+      "plan_id": "ptc-36199",
       "rep": "Atlantex Power",
       "product": "Luminous 36",
       "rate_type": "Fixed",
@@ -367,13 +627,13 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.15,
+        "rate_per_kwh": 0.148,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "atlantex-power-luminous-10-texas-new-mexico-power-10-0": {
-      "plan_id": "atlantex-power-luminous-10-texas-new-mexico-power-10-0",
+    "ptc-36193": {
+      "plan_id": "ptc-36193",
       "rep": "Atlantex Power",
       "product": "Luminous 10",
       "rate_type": "Fixed",
@@ -387,13 +647,13 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.143,
+        "rate_per_kwh": 0.14,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "champion-energy-services-llc-champ-saver-24-texas-new-mexico-power-24-0": {
-      "plan_id": "champion-energy-services-llc-champ-saver-24-texas-new-mexico-power-24-0",
+    "ptc-16568": {
+      "plan_id": "ptc-16568",
       "rep": "CHAMPION ENERGY SERVICES LLC",
       "product": "Champ Saver-24",
       "rate_type": "Fixed",
@@ -412,8 +672,8 @@
         "max_residual": 0.214
       }
     },
-    "champion-energy-services-llc-champ-saver-12-texas-new-mexico-power-12-0": {
-      "plan_id": "champion-energy-services-llc-champ-saver-12-texas-new-mexico-power-12-0",
+    "ptc-16610": {
+      "plan_id": "ptc-16610",
       "rep": "CHAMPION ENERGY SERVICES LLC",
       "product": "Champ Saver-12",
       "rate_type": "Fixed",
@@ -432,28 +692,8 @@
         "max_residual": 0.214
       }
     },
-    "cirro-energy-smart-simple-24-texas-new-mexico-power-24-0": {
-      "plan_id": "cirro-energy-smart-simple-24-texas-new-mexico-power-24-0",
-      "rep": "CIRRO ENERGY",
-      "product": "Smart Simple 24",
-      "rate_type": "Fixed",
-      "term_months": 24.0,
-      "cancel_fee": 295.0,
-      "renewable": 24.0,
-      "rating": 2.0,
-      "efl_url": "https://www.cirroenergy.com/defl/M1F00188282529B.pdf",
-      "enroll_url": "https://www.cirroenergy.com/espanol?txtPromocode=WA198B&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 8.0,
-        "rate_per_kwh": 0.151,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "cirro-energy-smart-simple-12-texas-new-mexico-power-12-0": {
-      "plan_id": "cirro-energy-smart-simple-12-texas-new-mexico-power-12-0",
+    "ptc-19262": {
+      "plan_id": "ptc-19262",
       "rep": "CIRRO ENERGY",
       "product": "Smart Simple 12",
       "rate_type": "Fixed",
@@ -472,8 +712,8 @@
         "max_residual": 0.0
       }
     },
-    "cirro-energy-smart-simple-36-texas-new-mexico-power-36-0": {
-      "plan_id": "cirro-energy-smart-simple-36-texas-new-mexico-power-36-0",
+    "ptc-19360": {
+      "plan_id": "ptc-19360",
       "rep": "CIRRO ENERGY",
       "product": "Smart Simple 36",
       "rate_type": "Fixed",
@@ -492,8 +732,28 @@
         "max_residual": 0.0
       }
     },
-    "discount-power-saver-24-texas-new-mexico-power-24-0": {
-      "plan_id": "discount-power-saver-24-texas-new-mexico-power-24-0",
+    "ptc-19268": {
+      "plan_id": "ptc-19268",
+      "rep": "CIRRO ENERGY",
+      "product": "Smart Simple 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 295.0,
+      "renewable": 24.0,
+      "rating": 2.0,
+      "efl_url": "https://www.cirroenergy.com/defl/M1F00188282529B.pdf",
+      "enroll_url": "https://www.cirroenergy.com/espanol?txtPromocode=WA198B&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.151,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-21306": {
+      "plan_id": "ptc-21306",
       "rep": "Discount Power",
       "product": "Saver 24",
       "rate_type": "Fixed",
@@ -512,8 +772,8 @@
         "max_residual": 0.0
       }
     },
-    "discount-power-saver-36-texas-new-mexico-power-36-0": {
-      "plan_id": "discount-power-saver-36-texas-new-mexico-power-36-0",
+    "ptc-21539": {
+      "plan_id": "ptc-21539",
       "rep": "Discount Power",
       "product": "Saver 36",
       "rate_type": "Fixed",
@@ -532,8 +792,8 @@
         "max_residual": 0.0
       }
     },
-    "discount-power-saver-12-texas-new-mexico-power-12-0": {
-      "plan_id": "discount-power-saver-12-texas-new-mexico-power-12-0",
+    "ptc-21789": {
+      "plan_id": "ptc-21789",
       "rep": "Discount Power",
       "product": "Saver 12",
       "rate_type": "Fixed",
@@ -552,8 +812,8 @@
         "max_residual": 0.0
       }
     },
-    "tara-energy-basics-ptc-36-texas-new-mexico-power-36-0": {
-      "plan_id": "tara-energy-basics-ptc-36-texas-new-mexico-power-36-0",
+    "ptc-22770": {
+      "plan_id": "ptc-22770",
       "rep": "TARA ENERGY",
       "product": "Basics PTC - 36",
       "rate_type": "Fixed",
@@ -572,28 +832,8 @@
         "max_residual": 0.214
       }
     },
-    "tara-energy-basics-ptc-24-texas-new-mexico-power-24-0": {
-      "plan_id": "tara-energy-basics-ptc-24-texas-new-mexico-power-24-0",
-      "rep": "TARA ENERGY",
-      "product": "Basics PTC - 24",
-      "rate_type": "Fixed",
-      "term_months": 24.0,
-      "cancel_fee": 175.0,
-      "renewable": 31.0,
-      "rating": 4.0,
-      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=a6q2yx0OMmM=&RCID=cacW2cvK/I0=&L=jfm4E/YMcQk=",
-      "enroll_url": "https://taraenergy.com/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
-      "efl_verified": false,
-      "efl_status": "unparseable",
-      "cost": {
-        "base_charge": 7.5,
-        "rate_per_kwh": 0.15729,
-        "is_linear": true,
-        "max_residual": 0.214
-      }
-    },
-    "amigo-energy-basics-ptc-36-texas-new-mexico-power-36-0": {
-      "plan_id": "amigo-energy-basics-ptc-36-texas-new-mexico-power-36-0",
+    "ptc-24337": {
+      "plan_id": "ptc-24337",
       "rep": "AMIGO ENERGY",
       "product": "Basics PTC - 36",
       "rate_type": "Fixed",
@@ -612,8 +852,28 @@
         "max_residual": 0.214
       }
     },
-    "amigo-energy-basics-ptc-24-texas-new-mexico-power-24-0": {
-      "plan_id": "amigo-energy-basics-ptc-24-texas-new-mexico-power-24-0",
+    "ptc-24349": {
+      "plan_id": "ptc-24349",
+      "rep": "TARA ENERGY",
+      "product": "Basics PTC - 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rating": 4.0,
+      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=a6q2yx0OMmM=&RCID=cacW2cvK/I0=&L=jfm4E/YMcQk=",
+      "enroll_url": "https://taraenergy.com/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
+      "efl_verified": false,
+      "efl_status": "unparseable",
+      "cost": {
+        "base_charge": 7.5,
+        "rate_per_kwh": 0.15729,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "ptc-24630": {
+      "plan_id": "ptc-24630",
       "rep": "AMIGO ENERGY",
       "product": "Basics PTC - 24",
       "rate_type": "Fixed",
@@ -632,8 +892,8 @@
         "max_residual": 0.214
       }
     },
-    "just-energy-basics-ptc-60-texas-new-mexico-power-60-0": {
-      "plan_id": "just-energy-basics-ptc-60-texas-new-mexico-power-60-0",
+    "ptc-24683": {
+      "plan_id": "ptc-24683",
       "rep": "JUST ENERGY",
       "product": "Basics PTC - 60",
       "rate_type": "Fixed",
@@ -652,48 +912,8 @@
         "max_residual": 0.214
       }
     },
-    "constellation-newenergy-inc-simple-switch-6-texas-new-mexico-power-6-0": {
-      "plan_id": "constellation-newenergy-inc-simple-switch-6-texas-new-mexico-power-6-0",
-      "rep": "CONSTELLATION NEWENERGY INC",
-      "product": "Simple Switch 6",
-      "rate_type": "Fixed",
-      "term_months": 6.0,
-      "cancel_fee": 50.0,
-      "renewable": 24.0,
-      "rating": 4.0,
-      "efl_url": "https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=4988494",
-      "enroll_url": "https://www.constellation.com/content/constellation/en/campaigns/powertochoose.html?UTM_source=powertochoose.org&UTM_medium=referral",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 8.0,
-        "rate_per_kwh": 0.13,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "gexa-energy-gexa-eco-choice-12-texas-new-mexico-power-12-0": {
-      "plan_id": "gexa-energy-gexa-eco-choice-12-texas-new-mexico-power-12-0",
-      "rep": "GEXA ENERGY",
-      "product": "Gexa Eco Choice 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 150.0,
-      "renewable": 100.0,
-      "rating": 4.0,
-      "efl_url": "https://eflviewer.gexaenergy.com/eflviewer.aspx?lang=SP&prodcode=GXAECOCHI12&tdspcode=TNMP",
-      "enroll_url": "https://www.gexaenergy.com/P2CSP/",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 8.0,
-        "rate_per_kwh": 0.122,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "spark-energy-llc-choose-12-texas-new-mexico-power-12-0": {
-      "plan_id": "spark-energy-llc-choose-12-texas-new-mexico-power-12-0",
+    "ptc-26343": {
+      "plan_id": "ptc-26343",
       "rep": "SPARK ENERGY LLC",
       "product": "Choose 12",
       "rate_type": "Fixed",
@@ -707,13 +927,13 @@
       "efl_status": "unparseable",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.139,
+        "rate_per_kwh": 0.148,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "spark-energy-llc-choose-15-texas-new-mexico-power-15-0": {
-      "plan_id": "spark-energy-llc-choose-15-texas-new-mexico-power-15-0",
+    "ptc-26345": {
+      "plan_id": "ptc-26345",
       "rep": "SPARK ENERGY LLC",
       "product": "Choose 15",
       "rate_type": "Fixed",
@@ -727,13 +947,13 @@
       "efl_status": "unparseable",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.145,
+        "rate_per_kwh": 0.149,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "octopus-energy-octo-simple-12-texas-new-mexico-power-12-0": {
-      "plan_id": "octopus-energy-octo-simple-12-texas-new-mexico-power-12-0",
+    "ptc-27540": {
+      "plan_id": "ptc-27540",
       "rep": "Octopus Energy",
       "product": "Octo Simple 12",
       "rate_type": "Fixed",
@@ -741,19 +961,19 @@
       "cancel_fee": 150.0,
       "renewable": 100.0,
       "rating": 3.0,
-      "efl_url": "https://octopusenergy.com/es/efl/OCTO-SIMPLE-12-TNMP-LZ_WEST-202607151300",
+      "efl_url": "https://octopusenergy.com/es/efl/OCTO-SIMPLE-12-TNMP-LZ_WEST-202607231545",
       "enroll_url": "https://octopusenergy.com/es/affiliate/ptc",
       "efl_verified": false,
       "efl_status": "unparseable",
       "cost": {
-        "base_charge": 7.5,
-        "rate_per_kwh": 0.16129,
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.162,
         "is_linear": true,
-        "max_residual": 0.214
+        "max_residual": 0.0
       }
     },
-    "cleansky-energy-embrace-green-12-new-customer-special-texas-new-mexico-power-12-0": {
-      "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-texas-new-mexico-power-12-0",
+    "ptc-27838": {
+      "plan_id": "ptc-27838",
       "rep": "CleanSky Energy",
       "product": "Embrace Green 12 - New Customer Special",
       "rate_type": "Fixed",
@@ -761,8 +981,8 @@
       "cancel_fee": 150.0,
       "renewable": 100.0,
       "rating": 5.0,
-      "efl_url": "https://rates.titangasandpower.com/Frontend/DownloadDoc?path=4de51f18-b8df-4b6d-bee7-7317b0aa87dd.html&id_plan=604913",
-      "enroll_url": "https://signup.cleanskyenergy.com/rates?utility_id=116&promocode=PTCHOOSETX",
+      "efl_url": "https://enroll.cleanskyenergy.com//Home/EFL?productCode=RN00001122&promo=&term=12",
+      "enroll_url": "https://enroll.cleanskyenergy.com/Home/index?ProductCode=RN00001122&Promo=PTCHOOSETX&Term=12",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
@@ -772,8 +992,8 @@
         "max_residual": 0.214
       }
     },
-    "cleansky-energy-embrace-green-24-new-customer-special-texas-new-mexico-power-24-0": {
-      "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-texas-new-mexico-power-24-0",
+    "ptc-27840": {
+      "plan_id": "ptc-27840",
       "rep": "CleanSky Energy",
       "product": "Embrace Green 24 - New Customer Special",
       "rate_type": "Fixed",
@@ -781,8 +1001,8 @@
       "cancel_fee": 225.0,
       "renewable": 100.0,
       "rating": 5.0,
-      "efl_url": "https://rates.titangasandpower.com/Frontend/DownloadDoc?path=4de51f18-b8df-4b6d-bee7-7317b0aa87dd.html&id_plan=591893",
-      "enroll_url": "https://signup.cleanskyenergy.com/rates?utility_id=116&promocode=PTCHOOSETX",
+      "efl_url": "https://enroll.cleanskyenergy.com//Home/EFL?productCode=RN00001123&promo=&term=24",
+      "enroll_url": "https://enroll.cleanskyenergy.com/Home/index?ProductCode=RN00001123&Promo=PTCHOOSETX&Term=24",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
@@ -792,8 +1012,28 @@
         "max_residual": 0.214
       }
     },
-    "cleansky-energy-embrace-green-36-new-customer-special-texas-new-mexico-power-36-0": {
-      "plan_id": "cleansky-energy-embrace-green-36-new-customer-special-texas-new-mexico-power-36-0",
+    "ptc-27884": {
+      "plan_id": "ptc-27884",
+      "rep": "CONSTELLATION NEWENERGY INC",
+      "product": "Simple Switch 5",
+      "rate_type": "Fixed",
+      "term_months": 5.0,
+      "cancel_fee": 50.0,
+      "renewable": 24.0,
+      "rating": 4.0,
+      "efl_url": "https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=4997561",
+      "enroll_url": "https://www.constellation.com/content/constellation/en/campaigns/powertochoose.html?UTM_source=powertochoose.org&UTM_medium=referral",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.127,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-27897": {
+      "plan_id": "ptc-27897",
       "rep": "CleanSky Energy",
       "product": "Embrace Green 36 - New Customer Special",
       "rate_type": "Fixed",
@@ -801,8 +1041,8 @@
       "cancel_fee": 275.0,
       "renewable": 100.0,
       "rating": 5.0,
-      "efl_url": "https://rates.titangasandpower.com/Frontend/DownloadDoc?path=4de51f18-b8df-4b6d-bee7-7317b0aa87dd.html&id_plan=604914",
-      "enroll_url": "https://signup.cleanskyenergy.com/rates?utility_id=116&promocode=PTCHOOSETX",
+      "efl_url": "https://enroll.cleanskyenergy.com//Home/EFL?productCode=RN00001124&promo=&term=36",
+      "enroll_url": "https://enroll.cleanskyenergy.com/Home/index?ProductCode=RN00001124&Promo=PTCHOOSETX&Term=36",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
@@ -812,28 +1052,8 @@
         "max_residual": 0.214
       }
     },
-    "frontier-utilities-frontier-power-saver-12-texas-new-mexico-power-12-0": {
-      "plan_id": "frontier-utilities-frontier-power-saver-12-texas-new-mexico-power-12-0",
-      "rep": "FRONTIER UTILITIES",
-      "product": "Frontier Power Saver 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 150.0,
-      "renewable": 30.0,
-      "rating": 2.0,
-      "efl_url": "https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=SP&prodcode=FPOWSVR12&tdspcode=TNMP",
-      "enroll_url": "https://newenroll.frontierutilities.com/?refid=PTCFPS12&ul=1000&tdsp=TNMP",
-      "efl_verified": false,
-      "efl_status": "unparseable",
-      "cost": {
-        "base_charge": 8.0,
-        "rate_per_kwh": 0.122,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "spark-energy-llc-choose-6-texas-new-mexico-power-6-0": {
-      "plan_id": "spark-energy-llc-choose-6-texas-new-mexico-power-6-0",
+    "ptc-29215": {
+      "plan_id": "ptc-29215",
       "rep": "SPARK ENERGY LLC",
       "product": "Choose 6",
       "rate_type": "Fixed",
@@ -847,13 +1067,13 @@
       "efl_status": "unparseable",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.138,
+        "rate_per_kwh": 0.147,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-texas-new-mexico-power-12-0": {
-      "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-texas-new-mexico-power-12-0",
+    "ptc-29303": {
+      "plan_id": "ptc-29303",
       "rep": "SOUTHERN FEDERAL POWER LLC",
       "product": "Almuerzo De Energ\u00eda Gratis - 12",
       "rate_type": "Fixed",
@@ -861,19 +1081,39 @@
       "cancel_fee": 99.0,
       "renewable": 6.0,
       "rating": 5.0,
-      "efl_url": "https://bit.ly/4yC7uOr",
+      "efl_url": "https://bit.ly/4yFvrnO",
       "enroll_url": "http://www.southernfederal.com",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
-        "base_charge": 8.0,
-        "rate_per_kwh": 0.135,
+        "base_charge": 7.0,
+        "rate_per_kwh": 0.13243,
         "is_linear": true,
-        "max_residual": 0.0
+        "max_residual": 0.429
       }
     },
-    "bkv-energy-daisy-24-texas-new-mexico-power-24-0": {
-      "plan_id": "bkv-energy-daisy-24-texas-new-mexico-power-24-0",
+    "ptc-29311": {
+      "plan_id": "ptc-29311",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "SoFed Ahorro Digital Plus \u2013 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 99.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/4wrajA8",
+      "enroll_url": "http://southernfederal.com",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 7.0,
+        "rate_per_kwh": 0.12843,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
+    "ptc-29480": {
+      "plan_id": "ptc-29480",
       "rep": "BKV Energy",
       "product": "Daisy 24",
       "rate_type": "Fixed",
@@ -887,13 +1127,13 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.137,
+        "rate_per_kwh": 0.135,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "bkv-energy-daisy-green-12-texas-new-mexico-power-12-0": {
-      "plan_id": "bkv-energy-daisy-green-12-texas-new-mexico-power-12-0",
+    "ptc-29482": {
+      "plan_id": "ptc-29482",
       "rep": "BKV Energy",
       "product": "Daisy Green 12",
       "rate_type": "Fixed",
@@ -907,13 +1147,13 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.134,
+        "rate_per_kwh": 0.133,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "bkv-energy-daisy-12-texas-new-mexico-power-12-0": {
-      "plan_id": "bkv-energy-daisy-12-texas-new-mexico-power-12-0",
+    "ptc-29484": {
+      "plan_id": "ptc-29484",
       "rep": "BKV Energy",
       "product": "Daisy 12",
       "rate_type": "Fixed",
@@ -926,14 +1166,14 @@
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
-        "base_charge": 7.0,
-        "rate_per_kwh": 0.13343,
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.131,
         "is_linear": true,
-        "max_residual": 0.429
+        "max_residual": 0.0
       }
     },
-    "trieagle-energy-lp-simple-savings-36-texas-new-mexico-power-36-0": {
-      "plan_id": "trieagle-energy-lp-simple-savings-36-texas-new-mexico-power-36-0",
+    "ptc-31485": {
+      "plan_id": "ptc-31485",
       "rep": "TRIEAGLE ENERGY LP",
       "product": "Simple Savings 36",
       "rate_type": "Fixed",
@@ -952,8 +1192,8 @@
         "max_residual": 0.214
       }
     },
-    "trieagle-energy-lp-simple-savings-12-texas-new-mexico-power-12-0": {
-      "plan_id": "trieagle-energy-lp-simple-savings-12-texas-new-mexico-power-12-0",
+    "ptc-31493": {
+      "plan_id": "ptc-31493",
       "rep": "TRIEAGLE ENERGY LP",
       "product": "Simple Savings 12",
       "rate_type": "Fixed",
@@ -972,8 +1212,28 @@
         "max_residual": 0.214
       }
     },
-    "trieagle-energy-lp-simple-green-12-texas-new-mexico-power-12-0": {
-      "plan_id": "trieagle-energy-lp-simple-green-12-texas-new-mexico-power-12-0",
+    "ptc-31709": {
+      "plan_id": "ptc-31709",
+      "rep": "GEXA ENERGY",
+      "product": "Gexa Eco Choice 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "renewable": 100.0,
+      "rating": 4.0,
+      "efl_url": "https://eflviewer.gexaenergy.com/eflviewer.aspx?lang=SP&prodcode=GXAECOCHI12&tdspcode=TNMP&ppid=191514&logid=82365&filename=TNMP_GXAECOCHI12_20260729_0000_82365",
+      "enroll_url": "https://www.gexaenergy.com/P2CSP/",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 8.0,
+        "rate_per_kwh": 0.121,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "ptc-31520": {
+      "plan_id": "ptc-31520",
       "rep": "TRIEAGLE ENERGY LP",
       "product": "Simple Green 12",
       "rate_type": "Fixed",
@@ -992,8 +1252,8 @@
         "max_residual": 0.214
       }
     },
-    "just-energy-basics-ptc-24-texas-new-mexico-power-24-0": {
-      "plan_id": "just-energy-basics-ptc-24-texas-new-mexico-power-24-0",
+    "ptc-31964": {
+      "plan_id": "ptc-31964",
       "rep": "JUST ENERGY",
       "product": "Basics PTC - 24",
       "rate_type": "Fixed",
@@ -1012,8 +1272,8 @@
         "max_residual": 0.214
       }
     },
-    "ap-gas-electric-tx-llc-trueclassic-36-texas-new-mexico-power-36-0": {
-      "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-texas-new-mexico-power-36-0",
+    "ptc-33205": {
+      "plan_id": "ptc-33205",
       "rep": "AP GAS & ELECTRIC (TX) LLC",
       "product": "TrueClassic 36",
       "rate_type": "Fixed",
@@ -1027,13 +1287,13 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.136,
+        "rate_per_kwh": 0.133,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ap-gas-electric-tx-llc-trueclassic-12-texas-new-mexico-power-12-0": {
-      "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-texas-new-mexico-power-12-0",
+    "ptc-33207": {
+      "plan_id": "ptc-33207",
       "rep": "AP GAS & ELECTRIC (TX) LLC",
       "product": "TrueClassic 12",
       "rate_type": "Fixed",
@@ -1047,13 +1307,13 @@
       "efl_status": "unparseable",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.127,
+        "rate_per_kwh": 0.123,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ap-gas-electric-tx-llc-trueclassic-24-texas-new-mexico-power-24-0": {
-      "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-texas-new-mexico-power-24-0",
+    "ptc-33351": {
+      "plan_id": "ptc-33351",
       "rep": "AP GAS & ELECTRIC (TX) LLC",
       "product": "TrueClassic 24",
       "rate_type": "Fixed",
@@ -1067,13 +1327,13 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.132,
+        "rate_per_kwh": 0.129,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ap-gas-electric-tx-llc-trueclassic-11-texas-new-mexico-power-11-0": {
-      "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-texas-new-mexico-power-11-0",
+    "ptc-33469": {
+      "plan_id": "ptc-33469",
       "rep": "AP GAS & ELECTRIC (TX) LLC",
       "product": "TrueClassic 11",
       "rate_type": "Fixed",
@@ -1087,13 +1347,13 @@
       "efl_status": "unparseable",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.126,
+        "rate_per_kwh": 0.12,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "bkv-energy-daisy-13-texas-new-mexico-power-13-0": {
-      "plan_id": "bkv-energy-daisy-13-texas-new-mexico-power-13-0",
+    "ptc-34693": {
+      "plan_id": "ptc-34693",
       "rep": "BKV Energy",
       "product": "Daisy 13",
       "rate_type": "Fixed",
@@ -1107,13 +1367,13 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.135,
+        "rate_per_kwh": 0.136,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "bkv-energy-daisy-11-texas-new-mexico-power-11-0": {
-      "plan_id": "bkv-energy-daisy-11-texas-new-mexico-power-11-0",
+    "ptc-34794": {
+      "plan_id": "ptc-34794",
       "rep": "BKV Energy",
       "product": "Daisy 11",
       "rate_type": "Fixed",
@@ -1127,13 +1387,13 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": 8.0,
-        "rate_per_kwh": 0.133,
+        "rate_per_kwh": 0.128,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "energy-texas-no-bull-12-texas-new-mexico-power-12-0": {
-      "plan_id": "energy-texas-no-bull-12-texas-new-mexico-power-12-0",
+    "ptc-34907": {
+      "plan_id": "ptc-34907",
       "rep": "Energy Texas",
       "product": "No Bull 12",
       "rate_type": "Fixed",
@@ -1147,7 +1407,27 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": 2.5,
-        "rate_per_kwh": 0.12471,
+        "rate_per_kwh": 0.12071,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "ptc-34927": {
+      "plan_id": "ptc-34927",
+      "rep": "Energy Texas",
+      "product": "No Bull 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/12913/?locale=es",
+      "enroll_url": "https://www.energytexas.com/es?rcid=power-to-choose&utm_source=powertochoose&utm_content=tnmp&utm_campaign=powertochoose&utm_medium=state-shopping&utm_term=NB36",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 2.5,
+        "rate_per_kwh": 0.14171,
         "is_linear": true,
         "max_residual": 0.214
       }
@@ -1155,1160 +1435,1440 @@
   },
   "rankings": {
     "500": {
-      "top_pick_id": "rhythm-digital-choice-12-texas-new-mexico-power-12-0",
+      "top_pick_id": "ptc-35079",
       "plans": [
         {
-          "plan_id": "rhythm-digital-choice-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 64.86,
+          "plan_id": "ptc-35079",
+          "monthly_bill": 62.86,
           "trustworthy_price": true
         },
         {
-          "plan_id": "energy-texas-no-bull-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 64.86,
+          "plan_id": "ptc-34907",
+          "monthly_bill": 62.86,
           "trustworthy_price": true
         },
         {
-          "plan_id": "veteran-energy-basic-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-37153",
+          "monthly_bill": 65.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37012",
+          "monthly_bill": 65.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37148",
+          "monthly_bill": 65.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37076",
+          "monthly_bill": 65.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37016",
+          "monthly_bill": 66.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35913",
+          "monthly_bill": 66.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35889",
+          "monthly_bill": 66.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35937",
+          "monthly_bill": 66.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-36654",
+          "monthly_bill": 66.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-36644",
+          "monthly_bill": 66.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37017",
+          "monthly_bill": 66.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35661",
           "monthly_bill": 68.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "express-energy-speedy-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-33469",
           "monthly_bill": 68.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "gexa-energy-gexa-eco-choice-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-37078",
+          "monthly_bill": 68.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-31709",
+          "monthly_bill": 68.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35770",
+          "monthly_bill": 68.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35877",
+          "monthly_bill": 68.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37020",
           "monthly_bill": 69.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "companion-energy-companion-perks-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 69.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "frontier-utilities-frontier-power-saver-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 69.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ae-texas-smart-secure-10-texas-new-mexico-power-10-0",
+          "plan_id": "ptc-33207",
           "monthly_bill": 69.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "rhythm-digital-choice-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 70.86,
+          "plan_id": "ptc-37080",
+          "monthly_bill": 69.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "energy-texas-no-bull-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 70.86,
+          "plan_id": "ptc-37022",
+          "monthly_bill": 70.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-texas-new-mexico-power-11-0",
-          "monthly_bill": 71.0,
+          "plan_id": "ptc-37015",
+          "monthly_bill": 70.14,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-29311",
+          "monthly_bill": 71.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-27884",
           "monthly_bill": 71.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ae-texas-smart-secure-36-texas-new-mexico-power-36-0",
-          "monthly_bill": 73.0,
+          "plan_id": "ptc-36271",
+          "monthly_bill": 71.86,
           "trustworthy_price": true
         },
         {
-          "plan_id": "constellation-newenergy-inc-simple-switch-6-texas-new-mexico-power-6-0",
-          "monthly_bill": 73.0,
+          "plan_id": "ptc-34917",
+          "monthly_bill": 71.86,
           "trustworthy_price": true
         },
         {
-          "plan_id": "energy-texas-no-bull-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-34794",
+          "monthly_bill": 72.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35313",
+          "monthly_bill": 72.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-33351",
+          "monthly_bill": 72.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-29303",
+          "monthly_bill": 73.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35828",
           "monthly_bill": 73.36,
           "trustworthy_price": true
         },
         {
-          "plan_id": "rhythm-digital-choice-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-34927",
           "monthly_bill": 73.36,
           "trustworthy_price": true
         },
         {
-          "plan_id": "texans-choice-power-llc-choose-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-29484",
           "monthly_bill": 73.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "bkv-energy-daisy-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 73.71,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 74.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "champion-energy-services-llc-champ-saver-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-16610",
           "monthly_bill": 74.14,
           "trustworthy_price": true
         },
         {
-          "plan_id": "bkv-energy-daisy-11-texas-new-mexico-power-11-0",
+          "plan_id": "ptc-29482",
           "monthly_bill": 74.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "bkv-energy-daisy-green-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 75.0,
+          "plan_id": "ptc-33205",
+          "monthly_bill": 74.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "texans-choice-power-llc-choose-6-texas-new-mexico-power-6-0",
-          "monthly_bill": 75.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "bkv-energy-daisy-13-texas-new-mexico-power-13-0",
+          "plan_id": "ptc-29480",
           "monthly_bill": 75.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 75.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 75.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-34693",
           "monthly_bill": 76.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "bkv-energy-daisy-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 76.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "spark-energy-llc-choose-6-texas-new-mexico-power-6-0",
-          "monthly_bill": 77.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "champion-energy-services-llc-champ-saver-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-16568",
           "monthly_bill": 77.14,
           "trustworthy_price": true
         },
         {
-          "plan_id": "spark-energy-llc-choose-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 77.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-27838",
           "monthly_bill": 77.64,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-36193",
+          "monthly_bill": 78.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-27840",
           "monthly_bill": 78.14,
           "trustworthy_price": true
         },
         {
-          "plan_id": "base-power-base-energia-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-36251",
           "monthly_bill": 78.64,
           "trustworthy_price": true
         },
         {
-          "plan_id": "atlantex-power-luminous-10-texas-new-mexico-power-10-0",
-          "monthly_bill": 79.5,
+          "plan_id": "ptc-35966",
+          "monthly_bill": 79.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cleansky-energy-embrace-green-36-new-customer-special-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-35993",
+          "monthly_bill": 80.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-27897",
           "monthly_bill": 80.14,
           "trustworthy_price": true
         },
         {
-          "plan_id": "spark-energy-llc-choose-15-texas-new-mexico-power-15-0",
-          "monthly_bill": 80.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "discount-power-saver-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-21789",
           "monthly_bill": 81.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cirro-energy-smart-simple-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-29215",
           "monthly_bill": 81.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "atlantex-power-luminous-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-19262",
+          "monthly_bill": 81.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-36199",
+          "monthly_bill": 82.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-26343",
+          "monthly_bill": 82.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-26345",
+          "monthly_bill": 82.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-21306",
           "monthly_bill": 83.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "discount-power-saver-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-21539",
           "monthly_bill": 83.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "discount-power-saver-36-texas-new-mexico-power-36-0",
-          "monthly_bill": 83.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "cirro-energy-smart-simple-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-19268",
           "monthly_bill": 83.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cirro-energy-smart-simple-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-19360",
           "monthly_bill": 83.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "trieagle-energy-lp-simple-savings-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-31493",
           "monthly_bill": 83.64,
           "trustworthy_price": true
         },
         {
-          "plan_id": "tara-energy-basics-ptc-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-24349",
           "monthly_bill": 86.14,
           "trustworthy_price": true
         },
         {
-          "plan_id": "tara-energy-basics-ptc-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-22770",
           "monthly_bill": 86.14,
           "trustworthy_price": true
         },
         {
-          "plan_id": "amigo-energy-basics-ptc-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-24630",
           "monthly_bill": 86.14,
           "trustworthy_price": true
         },
         {
-          "plan_id": "amigo-energy-basics-ptc-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-24337",
           "monthly_bill": 86.14,
           "trustworthy_price": true
         },
         {
-          "plan_id": "just-energy-basics-ptc-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-31964",
           "monthly_bill": 86.14,
           "trustworthy_price": true
         },
         {
-          "plan_id": "just-energy-basics-ptc-60-texas-new-mexico-power-60-0",
+          "plan_id": "ptc-24683",
           "monthly_bill": 86.14,
           "trustworthy_price": true
         },
         {
-          "plan_id": "trieagle-energy-lp-simple-savings-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-31485",
           "monthly_bill": 86.64,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-octo-simple-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 88.14,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "trieagle-energy-lp-simple-green-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-31520",
           "monthly_bill": 88.64,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-octo-simple-18-texas-new-mexico-power-18-0",
+          "plan_id": "ptc-27540",
+          "monthly_bill": 89.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35864",
           "monthly_bill": 90.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-llc-octo-simple-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-35744",
           "monthly_bill": 91.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-llc-octo-simple-14-texas-new-mexico-power-14-0",
+          "plan_id": "ptc-35731",
           "monthly_bill": 91.5,
           "trustworthy_price": true
         }
       ]
     },
     "1000": {
-      "top_pick_id": "rhythm-digital-choice-12-texas-new-mexico-power-12-0",
+      "top_pick_id": "ptc-37153",
       "plans": [
         {
-          "plan_id": "rhythm-digital-choice-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 127.21,
+          "plan_id": "ptc-37153",
+          "monthly_bill": 122.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "energy-texas-no-bull-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 127.21,
+          "plan_id": "ptc-37012",
+          "monthly_bill": 123.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "veteran-energy-basic-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-37148",
+          "monthly_bill": 123.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37076",
+          "monthly_bill": 123.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35079",
+          "monthly_bill": 123.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-34907",
+          "monthly_bill": 123.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37016",
+          "monthly_bill": 124.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35913",
+          "monthly_bill": 124.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35889",
+          "monthly_bill": 124.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35937",
+          "monthly_bill": 124.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-36654",
+          "monthly_bill": 125.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-36644",
+          "monthly_bill": 125.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37017",
+          "monthly_bill": 125.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35661",
           "monthly_bill": 128.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "express-energy-speedy-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-33469",
           "monthly_bill": 128.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "gexa-energy-gexa-eco-choice-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-37078",
+          "monthly_bill": 128.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-31709",
+          "monthly_bill": 129.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35770",
+          "monthly_bill": 129.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35877",
+          "monthly_bill": 129.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37020",
           "monthly_bill": 130.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "companion-energy-companion-perks-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 130.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "frontier-utilities-frontier-power-saver-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 130.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ae-texas-smart-secure-10-texas-new-mexico-power-10-0",
+          "plan_id": "ptc-33207",
           "monthly_bill": 131.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-texas-new-mexico-power-11-0",
-          "monthly_bill": 134.0,
+          "plan_id": "ptc-37080",
+          "monthly_bill": 131.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-37022",
+          "monthly_bill": 132.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37015",
+          "monthly_bill": 132.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-27884",
           "monthly_bill": 135.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ae-texas-smart-secure-36-texas-new-mexico-power-36-0",
-          "monthly_bill": 138.0,
+          "plan_id": "ptc-29311",
+          "monthly_bill": 135.43,
           "trustworthy_price": true
         },
         {
-          "plan_id": "constellation-newenergy-inc-simple-switch-6-texas-new-mexico-power-6-0",
-          "monthly_bill": 138.0,
+          "plan_id": "ptc-34794",
+          "monthly_bill": 136.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "texans-choice-power-llc-choose-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-35313",
+          "monthly_bill": 136.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-33351",
+          "monthly_bill": 137.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-29484",
           "monthly_bill": 139.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "rhythm-digital-choice-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 139.21,
+          "plan_id": "ptc-29303",
+          "monthly_bill": 139.43,
           "trustworthy_price": true
         },
         {
-          "plan_id": "energy-texas-no-bull-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 139.21,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 140.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "bkv-energy-daisy-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 140.43,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "champion-energy-services-llc-champ-saver-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-16610",
           "monthly_bill": 140.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "bkv-energy-daisy-11-texas-new-mexico-power-11-0",
+          "plan_id": "ptc-29482",
           "monthly_bill": 141.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "bkv-energy-daisy-green-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 142.0,
+          "plan_id": "ptc-33205",
+          "monthly_bill": 141.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "texans-choice-power-llc-choose-6-texas-new-mexico-power-6-0",
-          "monthly_bill": 142.0,
+          "plan_id": "ptc-36271",
+          "monthly_bill": 141.21,
           "trustworthy_price": true
         },
         {
-          "plan_id": "bkv-energy-daisy-13-texas-new-mexico-power-13-0",
+          "plan_id": "ptc-34917",
+          "monthly_bill": 141.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-29480",
           "monthly_bill": 143.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 143.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 143.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-34693",
           "monthly_bill": 144.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "energy-texas-no-bull-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-35828",
           "monthly_bill": 144.21,
           "trustworthy_price": true
         },
         {
-          "plan_id": "rhythm-digital-choice-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-34927",
           "monthly_bill": 144.21,
           "trustworthy_price": true
         },
         {
-          "plan_id": "bkv-energy-daisy-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 145.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "spark-energy-llc-choose-6-texas-new-mexico-power-6-0",
-          "monthly_bill": 146.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "champion-energy-services-llc-champ-saver-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-16568",
           "monthly_bill": 146.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "spark-energy-llc-choose-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 147.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-27838",
           "monthly_bill": 147.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-36193",
+          "monthly_bill": 148.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-27840",
           "monthly_bill": 148.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "base-power-base-energia-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-36251",
           "monthly_bill": 149.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "atlantex-power-luminous-10-texas-new-mexico-power-10-0",
-          "monthly_bill": 151.0,
+          "plan_id": "ptc-35966",
+          "monthly_bill": 150.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cleansky-energy-embrace-green-36-new-customer-special-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-35993",
+          "monthly_bill": 152.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-27897",
           "monthly_bill": 152.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "spark-energy-llc-choose-15-texas-new-mexico-power-15-0",
-          "monthly_bill": 153.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "discount-power-saver-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-21789",
           "monthly_bill": 154.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cirro-energy-smart-simple-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-29215",
           "monthly_bill": 155.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "atlantex-power-luminous-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-19262",
+          "monthly_bill": 155.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-36199",
+          "monthly_bill": 156.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-26343",
+          "monthly_bill": 156.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-26345",
+          "monthly_bill": 157.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-21306",
           "monthly_bill": 158.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "discount-power-saver-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-21539",
           "monthly_bill": 158.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "discount-power-saver-36-texas-new-mexico-power-36-0",
-          "monthly_bill": 158.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "cirro-energy-smart-simple-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-19268",
           "monthly_bill": 159.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cirro-energy-smart-simple-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-19360",
           "monthly_bill": 159.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "trieagle-energy-lp-simple-savings-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-31493",
           "monthly_bill": 161.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "tara-energy-basics-ptc-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-24349",
           "monthly_bill": 164.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "tara-energy-basics-ptc-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-22770",
           "monthly_bill": 164.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "amigo-energy-basics-ptc-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-24630",
           "monthly_bill": 164.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "amigo-energy-basics-ptc-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-24337",
           "monthly_bill": 164.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "just-energy-basics-ptc-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-31964",
           "monthly_bill": 164.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "just-energy-basics-ptc-60-texas-new-mexico-power-60-0",
+          "plan_id": "ptc-24683",
           "monthly_bill": 164.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "trieagle-energy-lp-simple-savings-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-31485",
           "monthly_bill": 167.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-octo-simple-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 168.79,
+          "plan_id": "ptc-27540",
+          "monthly_bill": 170.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "trieagle-energy-lp-simple-green-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-31520",
           "monthly_bill": 171.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-octo-simple-18-texas-new-mexico-power-18-0",
+          "plan_id": "ptc-35864",
           "monthly_bill": 173.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-llc-octo-simple-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-35744",
           "monthly_bill": 174.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-llc-octo-simple-14-texas-new-mexico-power-14-0",
+          "plan_id": "ptc-35731",
           "monthly_bill": 175.0,
           "trustworthy_price": true
         }
       ]
     },
     "1500": {
-      "top_pick_id": "rhythm-digital-choice-12-texas-new-mexico-power-12-0",
+      "top_pick_id": "ptc-37153",
       "plans": [
         {
-          "plan_id": "veteran-energy-basic-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-37153",
+          "monthly_bill": 179.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37012",
+          "monthly_bill": 180.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37148",
+          "monthly_bill": 180.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37076",
+          "monthly_bill": 180.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37016",
+          "monthly_bill": 182.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35913",
+          "monthly_bill": 182.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35889",
+          "monthly_bill": 182.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35937",
+          "monthly_bill": 182.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-36654",
+          "monthly_bill": 183.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-36644",
+          "monthly_bill": 183.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37017",
+          "monthly_bill": 183.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35079",
+          "monthly_bill": 183.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-34907",
+          "monthly_bill": 183.57,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35661",
           "monthly_bill": 188.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "express-energy-speedy-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-33469",
           "monthly_bill": 188.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "rhythm-digital-choice-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 189.57,
+          "plan_id": "ptc-37078",
+          "monthly_bill": 188.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "energy-texas-no-bull-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 189.57,
+          "plan_id": "ptc-31709",
+          "monthly_bill": 189.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "gexa-energy-gexa-eco-choice-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-35770",
+          "monthly_bill": 189.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35877",
+          "monthly_bill": 189.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37020",
           "monthly_bill": 191.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "companion-energy-companion-perks-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 191.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "frontier-utilities-frontier-power-saver-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 191.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ae-texas-smart-secure-10-texas-new-mexico-power-10-0",
+          "plan_id": "ptc-33207",
           "monthly_bill": 192.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-texas-new-mexico-power-11-0",
-          "monthly_bill": 197.0,
+          "plan_id": "ptc-37080",
+          "monthly_bill": 192.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-37022",
+          "monthly_bill": 194.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37015",
+          "monthly_bill": 195.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-27884",
           "monthly_bill": 198.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ae-texas-smart-secure-36-texas-new-mexico-power-36-0",
-          "monthly_bill": 203.0,
+          "plan_id": "ptc-29311",
+          "monthly_bill": 199.64,
           "trustworthy_price": true
         },
         {
-          "plan_id": "constellation-newenergy-inc-simple-switch-6-texas-new-mexico-power-6-0",
-          "monthly_bill": 203.0,
+          "plan_id": "ptc-34794",
+          "monthly_bill": 200.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "texans-choice-power-llc-choose-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-35313",
+          "monthly_bill": 200.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-33351",
+          "monthly_bill": 201.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-29484",
           "monthly_bill": 204.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 206.0,
+          "plan_id": "ptc-29303",
+          "monthly_bill": 205.64,
           "trustworthy_price": true
         },
         {
-          "plan_id": "bkv-energy-daisy-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 207.14,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "champion-energy-services-llc-champ-saver-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-16610",
           "monthly_bill": 207.43,
           "trustworthy_price": true
         },
         {
-          "plan_id": "bkv-energy-daisy-11-texas-new-mexico-power-11-0",
+          "plan_id": "ptc-29482",
           "monthly_bill": 207.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "rhythm-digital-choice-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 207.57,
+          "plan_id": "ptc-33205",
+          "monthly_bill": 207.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "energy-texas-no-bull-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 207.57,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "bkv-energy-daisy-green-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 209.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "texans-choice-power-llc-choose-6-texas-new-mexico-power-6-0",
-          "monthly_bill": 209.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "bkv-energy-daisy-13-texas-new-mexico-power-13-0",
+          "plan_id": "ptc-29480",
           "monthly_bill": 210.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 210.5,
+          "plan_id": "ptc-36271",
+          "monthly_bill": 210.57,
           "trustworthy_price": true
         },
         {
-          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 210.5,
+          "plan_id": "ptc-34917",
+          "monthly_bill": 210.57,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-34693",
           "monthly_bill": 212.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "bkv-energy-daisy-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 213.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "spark-energy-llc-choose-6-texas-new-mexico-power-6-0",
-          "monthly_bill": 215.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "energy-texas-no-bull-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-35828",
           "monthly_bill": 215.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "rhythm-digital-choice-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-34927",
           "monthly_bill": 215.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "champion-energy-services-llc-champ-saver-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-16568",
           "monthly_bill": 216.43,
           "trustworthy_price": true
         },
         {
-          "plan_id": "spark-energy-llc-choose-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 216.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-27838",
           "monthly_bill": 217.93,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-36193",
+          "monthly_bill": 218.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-27840",
           "monthly_bill": 219.43,
           "trustworthy_price": true
         },
         {
-          "plan_id": "base-power-base-energia-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-36251",
           "monthly_bill": 220.93,
           "trustworthy_price": true
         },
         {
-          "plan_id": "atlantex-power-luminous-10-texas-new-mexico-power-10-0",
-          "monthly_bill": 222.5,
+          "plan_id": "ptc-35966",
+          "monthly_bill": 221.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cleansky-energy-embrace-green-36-new-customer-special-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-35993",
+          "monthly_bill": 224.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-27897",
           "monthly_bill": 225.43,
           "trustworthy_price": true
         },
         {
-          "plan_id": "spark-energy-llc-choose-15-texas-new-mexico-power-15-0",
-          "monthly_bill": 225.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "discount-power-saver-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-21789",
           "monthly_bill": 227.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cirro-energy-smart-simple-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-29215",
           "monthly_bill": 228.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "atlantex-power-luminous-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-19262",
+          "monthly_bill": 228.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-36199",
+          "monthly_bill": 230.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-26343",
+          "monthly_bill": 230.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-26345",
+          "monthly_bill": 231.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-21306",
           "monthly_bill": 233.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "discount-power-saver-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-21539",
           "monthly_bill": 233.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "discount-power-saver-36-texas-new-mexico-power-36-0",
-          "monthly_bill": 233.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "cirro-energy-smart-simple-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-19268",
           "monthly_bill": 234.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cirro-energy-smart-simple-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-19360",
           "monthly_bill": 234.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "trieagle-energy-lp-simple-savings-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-31493",
           "monthly_bill": 239.93,
           "trustworthy_price": true
         },
         {
-          "plan_id": "tara-energy-basics-ptc-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-24349",
           "monthly_bill": 243.43,
           "trustworthy_price": true
         },
         {
-          "plan_id": "tara-energy-basics-ptc-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-22770",
           "monthly_bill": 243.43,
           "trustworthy_price": true
         },
         {
-          "plan_id": "amigo-energy-basics-ptc-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-24630",
           "monthly_bill": 243.43,
           "trustworthy_price": true
         },
         {
-          "plan_id": "amigo-energy-basics-ptc-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-24337",
           "monthly_bill": 243.43,
           "trustworthy_price": true
         },
         {
-          "plan_id": "just-energy-basics-ptc-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-31964",
           "monthly_bill": 243.43,
           "trustworthy_price": true
         },
         {
-          "plan_id": "just-energy-basics-ptc-60-texas-new-mexico-power-60-0",
+          "plan_id": "ptc-24683",
           "monthly_bill": 243.43,
           "trustworthy_price": true
         },
         {
-          "plan_id": "trieagle-energy-lp-simple-savings-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-31485",
           "monthly_bill": 248.93,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-octo-simple-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 249.43,
+          "plan_id": "ptc-27540",
+          "monthly_bill": 251.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "trieagle-energy-lp-simple-green-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-31520",
           "monthly_bill": 254.93,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-octo-simple-18-texas-new-mexico-power-18-0",
+          "plan_id": "ptc-35864",
           "monthly_bill": 255.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-llc-octo-simple-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-35744",
           "monthly_bill": 257.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-llc-octo-simple-14-texas-new-mexico-power-14-0",
+          "plan_id": "ptc-35731",
           "monthly_bill": 258.5,
           "trustworthy_price": true
         }
       ]
     },
     "2000": {
-      "top_pick_id": "rhythm-digital-choice-12-texas-new-mexico-power-12-0",
+      "top_pick_id": "ptc-37153",
       "plans": [
         {
-          "plan_id": "veteran-energy-basic-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-37153",
+          "monthly_bill": 236.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37012",
+          "monthly_bill": 238.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37148",
+          "monthly_bill": 238.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37076",
+          "monthly_bill": 238.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37016",
+          "monthly_bill": 240.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35913",
+          "monthly_bill": 240.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35889",
+          "monthly_bill": 240.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35937",
+          "monthly_bill": 240.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-36654",
+          "monthly_bill": 242.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-36644",
+          "monthly_bill": 242.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37017",
+          "monthly_bill": 242.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35079",
+          "monthly_bill": 243.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-34907",
+          "monthly_bill": 243.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35661",
           "monthly_bill": 248.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "express-energy-speedy-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-33469",
           "monthly_bill": 248.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "rhythm-digital-choice-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 251.93,
+          "plan_id": "ptc-37078",
+          "monthly_bill": 248.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "energy-texas-no-bull-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 251.93,
+          "plan_id": "ptc-31709",
+          "monthly_bill": 250.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "gexa-energy-gexa-eco-choice-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-35770",
+          "monthly_bill": 250.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35877",
+          "monthly_bill": 250.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37020",
           "monthly_bill": 252.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "companion-energy-companion-perks-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 252.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "frontier-utilities-frontier-power-saver-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 252.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ae-texas-smart-secure-10-texas-new-mexico-power-10-0",
+          "plan_id": "ptc-33207",
           "monthly_bill": 254.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-texas-new-mexico-power-11-0",
-          "monthly_bill": 260.0,
+          "plan_id": "ptc-37080",
+          "monthly_bill": 254.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-37022",
+          "monthly_bill": 256.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37015",
+          "monthly_bill": 258.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-27884",
           "monthly_bill": 262.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ae-texas-smart-secure-36-texas-new-mexico-power-36-0",
-          "monthly_bill": 268.0,
+          "plan_id": "ptc-29311",
+          "monthly_bill": 263.86,
           "trustworthy_price": true
         },
         {
-          "plan_id": "constellation-newenergy-inc-simple-switch-6-texas-new-mexico-power-6-0",
-          "monthly_bill": 268.0,
+          "plan_id": "ptc-34794",
+          "monthly_bill": 264.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "texans-choice-power-llc-choose-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-35313",
+          "monthly_bill": 264.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-33351",
+          "monthly_bill": 266.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-29484",
           "monthly_bill": 270.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 272.0,
+          "plan_id": "ptc-29303",
+          "monthly_bill": 271.86,
           "trustworthy_price": true
         },
         {
-          "plan_id": "bkv-energy-daisy-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 273.86,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "bkv-energy-daisy-11-texas-new-mexico-power-11-0",
+          "plan_id": "ptc-29482",
           "monthly_bill": 274.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "champion-energy-services-llc-champ-saver-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-33205",
+          "monthly_bill": 274.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-16610",
           "monthly_bill": 274.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "rhythm-digital-choice-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 275.93,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "energy-texas-no-bull-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 275.93,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "bkv-energy-daisy-green-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 276.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "texans-choice-power-llc-choose-6-texas-new-mexico-power-6-0",
-          "monthly_bill": 276.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "bkv-energy-daisy-13-texas-new-mexico-power-13-0",
+          "plan_id": "ptc-29480",
           "monthly_bill": 278.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "southern-federal-power-llc-almuerzo-de-energ-a-gratis-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 278.0,
+          "plan_id": "ptc-36271",
+          "monthly_bill": 279.93,
           "trustworthy_price": true
         },
         {
-          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 278.0,
+          "plan_id": "ptc-34917",
+          "monthly_bill": 279.93,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-34693",
           "monthly_bill": 280.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "bkv-energy-daisy-24-texas-new-mexico-power-24-0",
-          "monthly_bill": 282.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "spark-energy-llc-choose-6-texas-new-mexico-power-6-0",
-          "monthly_bill": 284.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "energy-texas-no-bull-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-35828",
           "monthly_bill": 285.93,
           "trustworthy_price": true
         },
         {
-          "plan_id": "rhythm-digital-choice-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-34927",
           "monthly_bill": 285.93,
           "trustworthy_price": true
         },
         {
-          "plan_id": "spark-energy-llc-choose-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 286.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "champion-energy-services-llc-champ-saver-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-16568",
           "monthly_bill": 286.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-36193",
+          "monthly_bill": 288.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-27838",
           "monthly_bill": 288.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-27840",
           "monthly_bill": 290.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "base-power-base-energia-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-35966",
+          "monthly_bill": 292.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-36251",
           "monthly_bill": 292.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "atlantex-power-luminous-10-texas-new-mexico-power-10-0",
-          "monthly_bill": 294.0,
+          "plan_id": "ptc-35993",
+          "monthly_bill": 296.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "spark-energy-llc-choose-15-texas-new-mexico-power-15-0",
-          "monthly_bill": 298.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "cleansky-energy-embrace-green-36-new-customer-special-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-27897",
           "monthly_bill": 298.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "discount-power-saver-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-21789",
           "monthly_bill": 300.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cirro-energy-smart-simple-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-29215",
           "monthly_bill": 302.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "atlantex-power-luminous-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-19262",
+          "monthly_bill": 302.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-36199",
+          "monthly_bill": 304.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-26343",
+          "monthly_bill": 304.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-26345",
+          "monthly_bill": 306.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-21306",
           "monthly_bill": 308.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "discount-power-saver-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-21539",
           "monthly_bill": 308.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "discount-power-saver-36-texas-new-mexico-power-36-0",
-          "monthly_bill": 308.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "cirro-energy-smart-simple-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-19268",
           "monthly_bill": 310.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "cirro-energy-smart-simple-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-19360",
           "monthly_bill": 310.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "trieagle-energy-lp-simple-savings-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-31493",
           "monthly_bill": 318.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "tara-energy-basics-ptc-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-24349",
           "monthly_bill": 322.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "tara-energy-basics-ptc-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-22770",
           "monthly_bill": 322.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "amigo-energy-basics-ptc-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-24630",
           "monthly_bill": 322.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "amigo-energy-basics-ptc-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-24337",
           "monthly_bill": 322.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "just-energy-basics-ptc-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-31964",
           "monthly_bill": 322.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "just-energy-basics-ptc-60-texas-new-mexico-power-60-0",
+          "plan_id": "ptc-24683",
           "monthly_bill": 322.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "trieagle-energy-lp-simple-savings-36-texas-new-mexico-power-36-0",
+          "plan_id": "ptc-31485",
           "monthly_bill": 330.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-octo-simple-12-texas-new-mexico-power-12-0",
-          "monthly_bill": 330.07,
+          "plan_id": "ptc-27540",
+          "monthly_bill": 332.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-octo-simple-18-texas-new-mexico-power-18-0",
+          "plan_id": "ptc-35864",
           "monthly_bill": 338.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "trieagle-energy-lp-simple-green-12-texas-new-mexico-power-12-0",
+          "plan_id": "ptc-31520",
           "monthly_bill": 338.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-llc-octo-simple-24-texas-new-mexico-power-24-0",
+          "plan_id": "ptc-35744",
           "monthly_bill": 340.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "octopus-energy-llc-octo-simple-14-texas-new-mexico-power-14-0",
+          "plan_id": "ptc-35731",
           "monthly_bill": 342.0,
           "trustworthy_price": true
         }
@@ -2317,7 +2877,7 @@
   },
   "autopsies": [
     {
-      "plan_id": "express-energy-flash-value-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-36649",
       "rep": "Express Energy",
       "product": "Flash Value 12",
       "reason_codes": [
@@ -2344,7 +2904,61 @@
       "is_linear": false
     },
     {
-      "plan_id": "energy-texas-the-lone-saver-plus-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-37006",
+      "rep": "Abundance Energy",
+      "product": "Straight Forward 12",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.146,
+        "1000": 0.134,
+        "2000": 0.127
+      },
+      "bills": {
+        "500": 73.0,
+        "1000": 134.0,
+        "2000": 254.0
+      },
+      "term_months": 12.0,
+      "cancel_fee": 200.0,
+      "renewable": 25.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=es&product_code=straightforward.fixed&tdsp_id=8&doc_type=EFL&term=12&promo_code=PTC",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-36358",
+      "rep": "RHYTHM",
+      "product": "Rhythm Max Saver 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ],
+      "rates": {
+        "500": 0.211,
+        "1000": 0.083,
+        "2000": 0.144
+      },
+      "bills": {
+        "500": 105.5,
+        "1000": 83.0,
+        "2000": 288.0
+      },
+      "term_months": 12.0,
+      "cancel_fee": 20.0,
+      "renewable": 100.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/23731/?locale=es",
+      "is_linear": false
+    },
+    {
+      "plan_id": "ptc-36368",
       "rep": "Energy Texas",
       "product": "The Lone Saver Plus 12",
       "reason_codes": [
@@ -2354,14 +2968,14 @@
         "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
       ],
       "rates": {
-        "500": 0.213,
-        "1000": 0.085,
-        "2000": 0.146
+        "500": 0.211,
+        "1000": 0.083,
+        "2000": 0.144
       },
       "bills": {
-        "500": 106.5,
-        "1000": 85.0,
-        "2000": 292.0
+        "500": 105.5,
+        "1000": 83.0,
+        "2000": 288.0
       },
       "term_months": 12.0,
       "cancel_fee": 20.0,
@@ -2371,7 +2985,7 @@
       "is_linear": false
     },
     {
-      "plan_id": "txu-energy-smart-1000-select-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-36605",
       "rep": "TXU ENERGY",
       "product": "Smart 1000 Select 12",
       "reason_codes": [
@@ -2400,9 +3014,9 @@
       "is_linear": false
     },
     {
-      "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-14-texas-new-mexico-power-14-0",
-      "rep": "SFE ENERGY TEXAS INC",
-      "product": "SFE RewardsPlus - 14",
+      "plan_id": "ptc-37026",
+      "rep": "Abundance Energy",
+      "product": "Clean Energy 12",
       "reason_codes": [
         "BASE_CHARGE"
       ],
@@ -2410,105 +3024,24 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.161,
-        "1000": 0.147,
-        "2000": 0.14
+        "500": 0.151,
+        "1000": 0.139,
+        "2000": 0.132
       },
       "bills": {
-        "500": 80.5,
-        "1000": 147.0,
-        "2000": 280.0
-      },
-      "term_months": 14.0,
-      "cancel_fee": 175.0,
-      "renewable": 35.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_14MTH_TNMP_14_2516194962428847502_EFL_SFE Residential Fixed TNMP 14Spanish.pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "rhythm-rhythm-max-saver-12-texas-new-mexico-power-12-0",
-      "rep": "RHYTHM",
-      "product": "Rhythm Max Saver 12",
-      "reason_codes": [
-        "BILL_CREDIT"
-      ],
-      "verdicts": [
-        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
-      ],
-      "rates": {
-        "500": 0.213,
-        "1000": 0.085,
-        "2000": 0.146
-      },
-      "bills": {
-        "500": 106.5,
-        "1000": 85.0,
-        "2000": 292.0
+        "500": 75.5,
+        "1000": 139.0,
+        "2000": 264.0
       },
       "term_months": 12.0,
-      "cancel_fee": 20.0,
+      "cancel_fee": 200.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/23731/?locale=es",
-      "is_linear": false
-    },
-    {
-      "plan_id": "champion-energy-services-llc-free-weekends-24-texas-new-mexico-power-24-0",
-      "rep": "CHAMPION ENERGY SERVICES LLC",
-      "product": "Free Weekends-24",
-      "reason_codes": [
-        "TIME_OF_USE"
-      ],
-      "verdicts": [
-        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more."
-      ],
-      "rates": {
-        "500": 0.155,
-        "1000": 0.147,
-        "2000": 0.143
-      },
-      "bills": {
-        "500": 77.5,
-        "1000": 147.0,
-        "2000": 286.0
-      },
-      "term_months": 24.0,
-      "cancel_fee": 250.0,
-      "renewable": 25.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN2437&state=TX&language=ES",
+      "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=es&product_code=cleanenergy.fixed&tdsp_id=8&doc_type=EFL&term=12&promo_code=PTC",
       "is_linear": true
     },
     {
-      "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-24-texas-new-mexico-power-24-0",
-      "rep": "SFE ENERGY TEXAS INC",
-      "product": "SFE RewardsPlus - 24",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.166,
-        "1000": 0.152,
-        "2000": 0.145
-      },
-      "bills": {
-        "500": 83.0,
-        "1000": 152.0,
-        "2000": 290.0
-      },
-      "term_months": 24.0,
-      "cancel_fee": 175.0,
-      "renewable": 35.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_24MTH_TNMP_24_2516194962737622891_EFL_SFE Residential Fixed TNMP 24Spanish.pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "octopus-energy-octopusflex-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-35251",
       "rep": "Octopus Energy",
       "product": "OctopusFlex",
       "reason_codes": [
@@ -2535,36 +3068,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "chariot-energy-bright-nights-11-texas-new-mexico-power-11-0",
-      "rep": "CHARIOT ENERGY",
-      "product": "Bright Nights 11",
-      "reason_codes": [
-        "TIME_OF_USE",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.145,
-        "1000": 0.127,
-        "2000": 0.118
-      },
-      "bills": {
-        "500": 72.5,
-        "1000": 127.0,
-        "2000": 236.0
-      },
-      "term_months": 11.0,
-      "cancel_fee": 15.0,
-      "renewable": 100.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=39609&ver=spanish",
-      "is_linear": true
-    },
-    {
-      "plan_id": "octopus-energy-octopus-lite-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-35693",
       "rep": "Octopus Energy",
       "product": "Octopus Lite 12",
       "reason_codes": [
@@ -2591,7 +3095,36 @@
       "is_linear": false
     },
     {
-      "plan_id": "texans-choice-power-llc-texas-instant-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-35268",
+      "rep": "CHARIOT ENERGY",
+      "product": "Bright Nights 11",
+      "reason_codes": [
+        "TIME_OF_USE",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.141,
+        "1000": 0.123,
+        "2000": 0.114
+      },
+      "bills": {
+        "500": 70.5,
+        "1000": 123.0,
+        "2000": 228.0
+      },
+      "term_months": 11.0,
+      "cancel_fee": 15.0,
+      "renewable": 100.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46679&ver=spanish",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-35982",
       "rep": "Texans Choice Power LLC",
       "product": "Texas Instant 12",
       "reason_codes": [
@@ -2603,14 +3136,14 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.31,
-        "1000": 0.155,
-        "2000": 0.148
+        "500": 0.3,
+        "1000": 0.15,
+        "2000": 0.145
       },
       "bills": {
-        "500": 155.0,
-        "1000": 155.0,
-        "2000": 296.0
+        "500": 150.0,
+        "1000": 150.0,
+        "2000": 290.0
       },
       "term_months": 12.0,
       "cancel_fee": 200.0,
@@ -2620,7 +3153,7 @@
       "is_linear": false
     },
     {
-      "plan_id": "think-energy-think-clean-24-with-smart-thermostat-texas-new-mexico-power-24-0",
+      "plan_id": "ptc-36010",
       "rep": "Think Energy",
       "product": "Think Clean 24 With Smart Thermostat",
       "reason_codes": [
@@ -2647,7 +3180,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "chariot-energy-gridplus-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-36126",
       "rep": "CHARIOT ENERGY",
       "product": "GridPlus 12",
       "reason_codes": [
@@ -2657,53 +3190,24 @@
         "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
       ],
       "rates": {
-        "500": 0.218,
-        "1000": 0.085,
-        "2000": 0.144
+        "500": 0.216,
+        "1000": 0.083,
+        "2000": 0.142
       },
       "bills": {
-        "500": 109.0,
-        "1000": 85.0,
-        "2000": 288.0
+        "500": 108.0,
+        "1000": 83.0,
+        "2000": 284.0
       },
       "term_months": 12.0,
       "cancel_fee": 15.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46351&ver=spanish",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46684&ver=spanish",
       "is_linear": false
     },
     {
-      "plan_id": "amigo-energy-sustainable-simply-days-5-texas-new-mexico-power-5-0",
-      "rep": "AMIGO ENERGY",
-      "product": "Sustainable Simply Days - 5",
-      "reason_codes": [
-        "TIME_OF_USE",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.139,
-        "1000": 0.127,
-        "2000": 0.121
-      },
-      "bills": {
-        "500": 69.5,
-        "1000": 127.0,
-        "2000": 242.0
-      },
-      "term_months": 5.0,
-      "cancel_fee": 175.0,
-      "renewable": 31.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=/m7uL11c2Ec=&RCID=rv5fvOkFHh4=&L=jfm4E/YMcQk=",
-      "is_linear": true
-    },
-    {
-      "plan_id": "tara-energy-balanced-days-bundle-5-texas-new-mexico-power-5-0",
+      "plan_id": "ptc-17252",
       "rep": "TARA ENERGY",
       "product": "Balanced Days Bundle - 5",
       "reason_codes": [
@@ -2715,14 +3219,14 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.139,
-        "1000": 0.127,
-        "2000": 0.121
+        "500": 0.136,
+        "1000": 0.124,
+        "2000": 0.118
       },
       "bills": {
-        "500": 69.5,
-        "1000": 127.0,
-        "2000": 242.0
+        "500": 68.0,
+        "1000": 124.0,
+        "2000": 236.0
       },
       "term_months": 5.0,
       "cancel_fee": 175.0,
@@ -2732,7 +3236,36 @@
       "is_linear": true
     },
     {
-      "plan_id": "payless-power-ptc-6-month-prepaid-texas-new-mexico-power-6-0",
+      "plan_id": "ptc-17325",
+      "rep": "AMIGO ENERGY",
+      "product": "Sustainable Simply Days - 5",
+      "reason_codes": [
+        "TIME_OF_USE",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.136,
+        "1000": 0.124,
+        "2000": 0.118
+      },
+      "bills": {
+        "500": 68.0,
+        "1000": 124.0,
+        "2000": 236.0
+      },
+      "term_months": 5.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=/m7uL11c2Ec=&RCID=rv5fvOkFHh4=&L=jfm4E/YMcQk=",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-20409",
       "rep": "PAYLESS POWER",
       "product": "PTC 6 Month - Prepaid",
       "reason_codes": [
@@ -2759,7 +3292,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "payless-power-ptc-12-month-prepaid-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-20410",
       "rep": "PAYLESS POWER",
       "product": "PTC 12 Month - Prepaid",
       "reason_codes": [
@@ -2786,7 +3319,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "constellation-newenergy-inc-12-month-usage-bill-credit-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-19589",
       "rep": "CONSTELLATION NEWENERGY INC",
       "product": "12 Month Usage Bill Credit",
       "reason_codes": [
@@ -2798,24 +3331,24 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.175,
-        "1000": 0.132,
-        "2000": 0.138
+        "500": 0.176,
+        "1000": 0.133,
+        "2000": 0.139
       },
       "bills": {
-        "500": 87.5,
-        "1000": 132.0,
-        "2000": 276.0
+        "500": 88.0,
+        "1000": 133.0,
+        "2000": 278.0
       },
       "term_months": 12.0,
       "cancel_fee": 150.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=4988412",
+      "efl_url": "https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=4997486",
       "is_linear": false
     },
     {
-      "plan_id": "ap-gas-electric-tx-llc-simplesaver-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-20552",
       "rep": "AP GAS & ELECTRIC (TX) LLC",
       "product": "SimpleSaver 12",
       "reason_codes": [
@@ -2825,14 +3358,14 @@
         "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
       ],
       "rates": {
-        "500": 0.218,
-        "1000": 0.085,
-        "2000": 0.144
+        "500": 0.215,
+        "1000": 0.082,
+        "2000": 0.141
       },
       "bills": {
-        "500": 109.0,
-        "1000": 85.0,
-        "2000": 288.0
+        "500": 107.5,
+        "1000": 82.0,
+        "2000": 282.0
       },
       "term_months": 12.0,
       "cancel_fee": 150.0,
@@ -2842,7 +3375,7 @@
       "is_linear": false
     },
     {
-      "plan_id": "nec-co-op-energy-residential-electricity-plain-and-simple-texas-new-mexico-power-0-0",
+      "plan_id": "ptc-21469",
       "rep": "NEC Co-op Energy",
       "product": "Residential Electricity... Plain and simple.",
       "reason_codes": [
@@ -2854,24 +3387,24 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.195,
-        "1000": 0.179,
-        "2000": 0.172
+        "500": 0.196,
+        "1000": 0.181,
+        "2000": 0.173
       },
       "bills": {
-        "500": 97.5,
-        "1000": 179.0,
-        "2000": 344.0
+        "500": 98.0,
+        "1000": 181.0,
+        "2000": 346.0
       },
       "term_months": 0.0,
       "cancel_fee": 0.0,
       "renewable": 15.0,
       "rate_type": "Variable",
-      "efl_url": "https://neccoopenergy.com/wp-content/uploads/2026/06/EFL-7-1-26-RESIDENTIAL-TNMP.pdf",
+      "efl_url": "https://neccoopenergy.com/wp-content/uploads/2026/07/EFL-8-1-26-RESIDENTIAL-TNMP.pdf",
       "is_linear": true
     },
     {
-      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-24-choice-texas-new-mexico-power-24-0",
+      "plan_id": "ptc-22003",
       "rep": "GREEN MOUNTAIN ENERGY COMPANY",
       "product": "Pollution Free e-Plus 24 Choice",
       "reason_codes": [
@@ -2898,61 +3431,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "amigo-energy-sustainable-lifestyle-5-texas-new-mexico-power-5-0",
-      "rep": "AMIGO ENERGY",
-      "product": "Sustainable Lifestyle - 5",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.139,
-        "1000": 0.127,
-        "2000": 0.121
-      },
-      "bills": {
-        "500": 69.5,
-        "1000": 127.0,
-        "2000": 242.0
-      },
-      "term_months": 5.0,
-      "cancel_fee": 175.0,
-      "renewable": 31.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=v4Y+lJdLARg=&RCID=rv5fvOkFHh4=&L=jfm4E/YMcQk=",
-      "is_linear": true
-    },
-    {
-      "plan_id": "tara-energy-sustainable-home-bundle-5-texas-new-mexico-power-5-0",
-      "rep": "TARA ENERGY",
-      "product": "Sustainable Home Bundle - 5",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.139,
-        "1000": 0.127,
-        "2000": 0.121
-      },
-      "bills": {
-        "500": 69.5,
-        "1000": 127.0,
-        "2000": 242.0
-      },
-      "term_months": 5.0,
-      "cancel_fee": 175.0,
-      "renewable": 31.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=Bn82Cr4Sa1I=&RCID=cacW2cvK/I0=&L=jfm4E/YMcQk=",
-      "is_linear": true
-    },
-    {
-      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-12-choice-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-22038",
       "rep": "GREEN MOUNTAIN ENERGY COMPANY",
       "product": "Pollution Free e-Plus 12 Choice",
       "reason_codes": [
@@ -2979,7 +3458,61 @@
       "is_linear": true
     },
     {
-      "plan_id": "tara-energy-value-choice-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-22145",
+      "rep": "AMIGO ENERGY",
+      "product": "Sustainable Lifestyle - 5",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.136,
+        "1000": 0.124,
+        "2000": 0.118
+      },
+      "bills": {
+        "500": 68.0,
+        "1000": 124.0,
+        "2000": 236.0
+      },
+      "term_months": 5.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=v4Y+lJdLARg=&RCID=rv5fvOkFHh4=&L=jfm4E/YMcQk=",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-22153",
+      "rep": "TARA ENERGY",
+      "product": "Sustainable Home Bundle - 5",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.136,
+        "1000": 0.124,
+        "2000": 0.118
+      },
+      "bills": {
+        "500": 68.0,
+        "1000": 124.0,
+        "2000": 236.0
+      },
+      "term_months": 5.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=Bn82Cr4Sa1I=&RCID=cacW2cvK/I0=&L=jfm4E/YMcQk=",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-22164",
       "rep": "TARA ENERGY",
       "product": "Value Choice - 12",
       "reason_codes": [
@@ -3006,7 +3539,7 @@
       "is_linear": false
     },
     {
-      "plan_id": "amigo-energy-power-perks-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-22778",
       "rep": "AMIGO ENERGY",
       "product": "Power Perks - 12",
       "reason_codes": [
@@ -3033,7 +3566,7 @@
       "is_linear": false
     },
     {
-      "plan_id": "reliant-reliant-power-on-12-plan-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-23995",
       "rep": "RELIANT",
       "product": "Reliant Power On 12 Plan",
       "reason_codes": [
@@ -3060,7 +3593,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "just-energy-sustainable-living-bundle-5-texas-new-mexico-power-5-0",
+      "plan_id": "ptc-23958",
       "rep": "JUST ENERGY",
       "product": "Sustainable Living Bundle - 5",
       "reason_codes": [
@@ -3070,14 +3603,14 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.139,
-        "1000": 0.127,
-        "2000": 0.121
+        "500": 0.136,
+        "1000": 0.124,
+        "2000": 0.118
       },
       "bills": {
-        "500": 69.5,
-        "1000": 127.0,
-        "2000": 242.0
+        "500": 68.0,
+        "1000": 124.0,
+        "2000": 236.0
       },
       "term_months": 5.0,
       "cancel_fee": 175.0,
@@ -3087,7 +3620,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "reliant-reliant-power-on-flex-plan-texas-new-mexico-power-0-0",
+      "plan_id": "ptc-23986",
       "rep": "RELIANT",
       "product": "Reliant Power On Flex Plan",
       "reason_codes": [
@@ -3116,36 +3649,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "just-energy-sustainable-days-bundle-5-texas-new-mexico-power-5-0",
-      "rep": "JUST ENERGY",
-      "product": "Sustainable Days Bundle - 5",
-      "reason_codes": [
-        "TIME_OF_USE",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.139,
-        "1000": 0.127,
-        "2000": 0.121
-      },
-      "bills": {
-        "500": 69.5,
-        "1000": 127.0,
-        "2000": 242.0
-      },
-      "term_months": 5.0,
-      "cancel_fee": 175.0,
-      "renewable": 31.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=JWdEQ01ih0E=&RCID=gNASPlhlupI=&L=jfm4E/YMcQk=",
-      "is_linear": true
-    },
-    {
-      "plan_id": "just-energy-smart-choice-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-24676",
       "rep": "JUST ENERGY",
       "product": "Smart Choice - 12",
       "reason_codes": [
@@ -3172,7 +3676,36 @@
       "is_linear": false
     },
     {
-      "plan_id": "reliant-reliant-power-on-24-plan-texas-new-mexico-power-24-0",
+      "plan_id": "ptc-24659",
+      "rep": "JUST ENERGY",
+      "product": "Sustainable Days Bundle - 5",
+      "reason_codes": [
+        "TIME_OF_USE",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.136,
+        "1000": 0.124,
+        "2000": 0.118
+      },
+      "bills": {
+        "500": 68.0,
+        "1000": 124.0,
+        "2000": 236.0
+      },
+      "term_months": 5.0,
+      "cancel_fee": 175.0,
+      "renewable": 31.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=JWdEQ01ih0E=&RCID=gNASPlhlupI=&L=jfm4E/YMcQk=",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-24870",
       "rep": "RELIANT",
       "product": "Reliant Power On 24 Plan",
       "reason_codes": [
@@ -3199,88 +3732,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "direct-energy-autopay-texas-24-texas-new-mexico-power-24-0",
-      "rep": "DIRECT ENERGY",
-      "product": "Autopay Texas 24",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.188,
-        "1000": 0.175,
-        "2000": 0.168
-      },
-      "bills": {
-        "500": 94.0,
-        "1000": 175.0,
-        "2000": 336.0
-      },
-      "term_months": 24.0,
-      "cancel_fee": 295.0,
-      "renewable": 24.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00183559247A.pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "direct-energy-autopay-texas-36-texas-new-mexico-power-36-0",
-      "rep": "DIRECT ENERGY",
-      "product": "Autopay Texas 36",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.191,
-        "1000": 0.178,
-        "2000": 0.171
-      },
-      "bills": {
-        "500": 95.5,
-        "1000": 178.0,
-        "2000": 342.0
-      },
-      "term_months": 36.0,
-      "cancel_fee": 395.0,
-      "renewable": 24.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00183559251A.pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "reliant-reliant-power-on-36-plan-texas-new-mexico-power-36-0",
-      "rep": "RELIANT",
-      "product": "Reliant Power on 36 Plan",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.184,
-        "1000": 0.171,
-        "2000": 0.164
-      },
-      "bills": {
-        "500": 92.0,
-        "1000": 171.0,
-        "2000": 328.0
-      },
-      "term_months": 36.0,
-      "cancel_fee": 395.0,
-      "renewable": 24.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://www.reliant.com/defl/R1F00183546032B.pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-36-choice-texas-new-mexico-power-36-0",
+      "plan_id": "ptc-27057",
       "rep": "GREEN MOUNTAIN ENERGY COMPANY",
       "product": "Pollution Free e-Plus 36 Choice",
       "reason_codes": [
@@ -3307,7 +3759,88 @@
       "is_linear": true
     },
     {
-      "plan_id": "direct-energy-autopay-texas-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-26931",
+      "rep": "RELIANT",
+      "product": "Reliant Power on 36 Plan",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.184,
+        "1000": 0.171,
+        "2000": 0.164
+      },
+      "bills": {
+        "500": 92.0,
+        "1000": 171.0,
+        "2000": 328.0
+      },
+      "term_months": 36.0,
+      "cancel_fee": 395.0,
+      "renewable": 24.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://www.reliant.com/defl/R1F00183546032B.pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-26887",
+      "rep": "DIRECT ENERGY",
+      "product": "Autopay Texas 36",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.191,
+        "1000": 0.178,
+        "2000": 0.171
+      },
+      "bills": {
+        "500": 95.5,
+        "1000": 178.0,
+        "2000": 342.0
+      },
+      "term_months": 36.0,
+      "cancel_fee": 395.0,
+      "renewable": 24.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00183559251A.pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-26877",
+      "rep": "DIRECT ENERGY",
+      "product": "Autopay Texas 24",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.188,
+        "1000": 0.175,
+        "2000": 0.168
+      },
+      "bills": {
+        "500": 94.0,
+        "1000": 175.0,
+        "2000": 336.0
+      },
+      "term_months": 24.0,
+      "cancel_fee": 295.0,
+      "renewable": 24.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00183559247A.pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-27790",
       "rep": "DIRECT ENERGY",
       "product": "Autopay Texas 12",
       "reason_codes": [
@@ -3334,34 +3867,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "reliant-reliant-power-on-18-texas-new-mexico-power-18-0",
-      "rep": "RELIANT",
-      "product": "Reliant Power On 18",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.179,
-        "1000": 0.166,
-        "2000": 0.159
-      },
-      "bills": {
-        "500": 89.5,
-        "1000": 166.0,
-        "2000": 318.0
-      },
-      "term_months": 18.0,
-      "cancel_fee": 180.0,
-      "renewable": 15.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://www.reliant.com/defl/R1F00190183742A.pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-18-choice-texas-new-mexico-power-18-0",
+      "plan_id": "ptc-28136",
       "rep": "GREEN MOUNTAIN ENERGY COMPANY",
       "product": "Pollution Free e-Plus 18 Choice",
       "reason_codes": [
@@ -3388,7 +3894,34 @@
       "is_linear": true
     },
     {
-      "plan_id": "good-charlie-co-llc-goodenergy-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-28246",
+      "rep": "GOOD CHARLIE & CO LLC",
+      "product": "GoodEnergy 24",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.155,
+        "1000": 0.142,
+        "2000": 0.136
+      },
+      "bills": {
+        "500": 77.5,
+        "1000": 142.0,
+        "2000": 272.0
+      },
+      "term_months": 24.0,
+      "cancel_fee": 20.0,
+      "renewable": 25.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://api.goodcharlie.com/products/2047/EFL/TNMP/latest/es",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-28298",
       "rep": "GOOD CHARLIE & CO LLC",
       "product": "GoodEnergy 12",
       "reason_codes": [
@@ -3415,7 +3948,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "good-charlie-co-llc-goodenergy-36-texas-new-mexico-power-36-0",
+      "plan_id": "ptc-28295",
       "rep": "GOOD CHARLIE & CO LLC",
       "product": "GoodEnergy 36",
       "reason_codes": [
@@ -3425,14 +3958,14 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.159,
-        "1000": 0.146,
-        "2000": 0.14
+        "500": 0.157,
+        "1000": 0.144,
+        "2000": 0.138
       },
       "bills": {
-        "500": 79.5,
-        "1000": 146.0,
-        "2000": 280.0
+        "500": 78.5,
+        "1000": 144.0,
+        "2000": 276.0
       },
       "term_months": 36.0,
       "cancel_fee": 20.0,
@@ -3442,9 +3975,9 @@
       "is_linear": true
     },
     {
-      "plan_id": "good-charlie-co-llc-goodenergy-24-texas-new-mexico-power-24-0",
-      "rep": "GOOD CHARLIE & CO LLC",
-      "product": "GoodEnergy 24",
+      "plan_id": "ptc-28121",
+      "rep": "RELIANT",
+      "product": "Reliant Power On 18",
       "reason_codes": [
         "BASE_CHARGE"
       ],
@@ -3452,24 +3985,24 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.156,
-        "1000": 0.143,
-        "2000": 0.137
+        "500": 0.179,
+        "1000": 0.166,
+        "2000": 0.159
       },
       "bills": {
-        "500": 78.0,
-        "1000": 143.0,
-        "2000": 274.0
+        "500": 89.5,
+        "1000": 166.0,
+        "2000": 318.0
       },
-      "term_months": 24.0,
-      "cancel_fee": 20.0,
-      "renewable": 25.0,
+      "term_months": 18.0,
+      "cancel_fee": 180.0,
+      "renewable": 15.0,
       "rate_type": "Fixed",
-      "efl_url": "https://api.goodcharlie.com/products/2047/EFL/TNMP/latest/es",
+      "efl_url": "https://www.reliant.com/defl/R1F00190183742A.pdf",
       "is_linear": true
     },
     {
-      "plan_id": "ranchero-power-ranchero-prima-fija-48-texas-new-mexico-power-48-0",
+      "plan_id": "ptc-29231",
       "rep": "Ranchero Power",
       "product": "Ranchero Prima Fija - 48",
       "reason_codes": [
@@ -3496,7 +4029,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "ranchero-power-tarifa-fija-y-inteligente-36-texas-new-mexico-power-36-0",
+      "plan_id": "ptc-29237",
       "rep": "Ranchero Power",
       "product": "Tarifa Fija y Inteligente \u2013 36",
       "reason_codes": [
@@ -3523,7 +4056,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "ranchero-power-ranchero-tarifa-fija-y-inteligente-5-texas-new-mexico-power-5-0",
+      "plan_id": "ptc-29242",
       "rep": "Ranchero Power",
       "product": "Ranchero Tarifa Fija y Inteligente - 5",
       "reason_codes": [
@@ -3533,51 +4066,24 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.145,
-        "1000": 0.132,
-        "2000": 0.126
+        "500": 0.142,
+        "1000": 0.129,
+        "2000": 0.123
       },
       "bills": {
-        "500": 72.5,
-        "1000": 132.0,
-        "2000": 252.0
+        "500": 71.0,
+        "1000": 129.0,
+        "2000": 246.0
       },
       "term_months": 5.0,
       "cancel_fee": 179.0,
       "renewable": 6.0,
       "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/4aLf4fi",
+      "efl_url": "https://bit.ly/45wzhlH",
       "is_linear": true
     },
     {
-      "plan_id": "ranchero-power-ranchero-fija-y-inteligente-11-texas-new-mexico-power-11-0",
-      "rep": "Ranchero Power",
-      "product": "Ranchero Fija y Inteligente - 11",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.143,
-        "1000": 0.13,
-        "2000": 0.124
-      },
-      "bills": {
-        "500": 71.5,
-        "1000": 130.0,
-        "2000": 248.0
-      },
-      "term_months": 11.0,
-      "cancel_fee": 179.0,
-      "renewable": 6.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/4vqvD7G",
-      "is_linear": true
-    },
-    {
-      "plan_id": "ranchero-power-tarifa-fija-y-inteligente-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-29247",
       "rep": "Ranchero Power",
       "product": "Tarifa Fija y Inteligente - 12",
       "reason_codes": [
@@ -3587,24 +4093,51 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.158,
-        "1000": 0.145,
-        "2000": 0.139
+        "500": 0.148,
+        "1000": 0.135,
+        "2000": 0.129
       },
       "bills": {
-        "500": 79.0,
-        "1000": 145.0,
-        "2000": 278.0
+        "500": 74.0,
+        "1000": 135.0,
+        "2000": 258.0
       },
       "term_months": 12.0,
-      "cancel_fee": 0.0,
+      "cancel_fee": 179.0,
       "renewable": 6.0,
       "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/4fyge0b",
+      "efl_url": "https://bit.ly/4fzUxx7",
       "is_linear": true
     },
     {
-      "plan_id": "ranchero-power-introducci-n-de-tarifa-variable-texas-new-mexico-power-1-0",
+      "plan_id": "ptc-29252",
+      "rep": "Ranchero Power",
+      "product": "Ranchero Fija y Inteligente - 10",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.142,
+        "1000": 0.129,
+        "2000": 0.123
+      },
+      "bills": {
+        "500": 71.0,
+        "1000": 129.0,
+        "2000": 246.0
+      },
+      "term_months": 10.0,
+      "cancel_fee": 179.0,
+      "renewable": 6.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://bit.ly/4bidYI9",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-29260",
       "rep": "Ranchero Power",
       "product": "Introducci\u00f3n de Tarifa Variable",
       "reason_codes": [
@@ -3633,9 +4166,9 @@
       "is_linear": true
     },
     {
-      "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-11-texas-new-mexico-power-11-0",
+      "plan_id": "ptc-29319",
       "rep": "SOUTHERN FEDERAL POWER LLC",
-      "product": "SoFed Mejor Tarifa \u2013 11",
+      "product": "SoFed Mejor Tarifa \u2013 10",
       "reason_codes": [
         "BASE_CHARGE"
       ],
@@ -3643,51 +4176,24 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.142,
-        "1000": 0.129,
-        "2000": 0.123
+        "500": 0.141,
+        "1000": 0.128,
+        "2000": 0.122
       },
       "bills": {
-        "500": 71.0,
-        "1000": 129.0,
-        "2000": 246.0
+        "500": 70.5,
+        "1000": 128.0,
+        "2000": 244.0
       },
-      "term_months": 11.0,
+      "term_months": 10.0,
       "cancel_fee": 249.0,
       "renewable": 6.0,
       "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/4baJeZF",
+      "efl_url": "https://bit.ly/4yKr9vt",
       "is_linear": true
     },
     {
-      "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-5-texas-new-mexico-power-5-0",
-      "rep": "SOUTHERN FEDERAL POWER LLC",
-      "product": "SoFed Mejor Tarifa \u2013 5",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.144,
-        "1000": 0.131,
-        "2000": 0.125
-      },
-      "bills": {
-        "500": 72.0,
-        "1000": 131.0,
-        "2000": 250.0
-      },
-      "term_months": 5.0,
-      "cancel_fee": 249.0,
-      "renewable": 6.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/4gBvavz",
-      "is_linear": true
-    },
-    {
-      "plan_id": "southern-federal-power-llc-introducci-n-de-tarifa-variable-texas-new-mexico-power-1-0",
+      "plan_id": "ptc-29340",
       "rep": "SOUTHERN FEDERAL POWER LLC",
       "product": "Introducci\u00f3n de Tarifa Variable",
       "reason_codes": [
@@ -3716,7 +4222,34 @@
       "is_linear": true
     },
     {
-      "plan_id": "trieagle-energy-lp-sure-value-36-texas-new-mexico-power-36-0",
+      "plan_id": "ptc-29328",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "SoFed Mejor Tarifa \u2013 5",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.141,
+        "1000": 0.128,
+        "2000": 0.122
+      },
+      "bills": {
+        "500": 70.5,
+        "1000": 128.0,
+        "2000": 244.0
+      },
+      "term_months": 5.0,
+      "cancel_fee": 249.0,
+      "renewable": 6.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://bit.ly/3TWI11Y",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-29515",
       "rep": "TRIEAGLE ENERGY LP",
       "product": "Sure Value 36",
       "reason_codes": [
@@ -3743,7 +4276,7 @@
       "is_linear": false
     },
     {
-      "plan_id": "southern-federal-power-llc-sofed-mejor-tarifa-36-texas-new-mexico-power-36-0",
+      "plan_id": "ptc-29538",
       "rep": "SOUTHERN FEDERAL POWER LLC",
       "product": "SoFed Mejor Tarifa\u2013 36",
       "reason_codes": [
@@ -3770,7 +4303,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "revolution-energy-llc-stars-and-stripes-flex-texas-new-mexico-power-1-0",
+      "plan_id": "ptc-30470",
       "rep": "REVOLUTION ENERGY LLC",
       "product": "Stars and Stripes Flex",
       "reason_codes": [
@@ -3779,6 +4312,62 @@
       ],
       "verdicts": [
         "Variable rate \u2014 the price can change month to month with no cap.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.151,
+        "1000": 0.139,
+        "2000": 0.133
+      },
+      "bills": {
+        "500": 75.5,
+        "1000": 139.0,
+        "2000": 266.0
+      },
+      "term_months": 1.0,
+      "cancel_fee": 0.0,
+      "renewable": 24.0,
+      "rate_type": "Variable",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260728-085400-TNMPH-Stars and Stripes Flex (Spanish).pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-30478",
+      "rep": "REVOLUTION ENERGY LLC",
+      "product": "Stars and Stripes Green Flex",
+      "reason_codes": [
+        "VARIABLE_RATE",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.151,
+        "1000": 0.14,
+        "2000": 0.134
+      },
+      "bills": {
+        "500": 75.5,
+        "1000": 140.0,
+        "2000": 268.0
+      },
+      "term_months": 1.0,
+      "cancel_fee": 0.0,
+      "renewable": 100.0,
+      "rate_type": "Variable",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260728-085400-TNMPH-Stars and Stripes Green Flex (Spanish).pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-30643",
+      "rep": "REVOLUTION ENERGY LLC",
+      "product": "Stars and Stripes 9",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
@@ -3791,71 +4380,15 @@
         "1000": 141.0,
         "2000": 270.0
       },
-      "term_months": 1.0,
-      "cancel_fee": 0.0,
-      "renewable": 24.0,
-      "rate_type": "Variable",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260707-180100-TNMPH-Stars and Stripes Flex (Spanish).pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "revolution-energy-llc-stars-and-stripes-green-flex-texas-new-mexico-power-1-0",
-      "rep": "REVOLUTION ENERGY LLC",
-      "product": "Stars and Stripes Green Flex",
-      "reason_codes": [
-        "VARIABLE_RATE",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Variable rate \u2014 the price can change month to month with no cap.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.154,
-        "1000": 0.142,
-        "2000": 0.136
-      },
-      "bills": {
-        "500": 77.0,
-        "1000": 142.0,
-        "2000": 272.0
-      },
-      "term_months": 1.0,
-      "cancel_fee": 0.0,
-      "renewable": 100.0,
-      "rate_type": "Variable",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260707-180100-TNMPH-Stars and Stripes Green Flex (Spanish).pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "revolution-energy-llc-stars-and-stripes-9-texas-new-mexico-power-9-0",
-      "rep": "REVOLUTION ENERGY LLC",
-      "product": "Stars and Stripes 9",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.157,
-        "1000": 0.145,
-        "2000": 0.139
-      },
-      "bills": {
-        "500": 78.5,
-        "1000": 145.0,
-        "2000": 278.0
-      },
       "term_months": 9.0,
       "cancel_fee": 175.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260714-130800-TNMPH-Stars and Stripes 9 (Spanish).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260728-085400-TNMPH-Stars and Stripes 9 (Spanish).pdf",
       "is_linear": true
     },
     {
-      "plan_id": "revolution-energy-llc-stars-and-stripes-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-30683",
       "rep": "REVOLUTION ENERGY LLC",
       "product": "Stars and Stripes 12",
       "reason_codes": [
@@ -3865,24 +4398,24 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.146,
-        "1000": 0.135,
-        "2000": 0.129
+        "500": 0.148,
+        "1000": 0.136,
+        "2000": 0.13
       },
       "bills": {
-        "500": 73.0,
-        "1000": 135.0,
-        "2000": 258.0
+        "500": 74.0,
+        "1000": 136.0,
+        "2000": 260.0
       },
       "term_months": 12.0,
       "cancel_fee": 200.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260710-101400-TNMPH-Stars and Stripes 12 (Spanish).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260728-085400-TNMPH-Stars and Stripes 12 (Spanish).pdf",
       "is_linear": true
     },
     {
-      "plan_id": "revolution-energy-llc-stars-and-stripes-18-texas-new-mexico-power-18-0",
+      "plan_id": "ptc-30723",
       "rep": "REVOLUTION ENERGY LLC",
       "product": "Stars and Stripes 18",
       "reason_codes": [
@@ -3905,11 +4438,11 @@
       "cancel_fee": 250.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260714-130800-TNMPH-Stars and Stripes 18 (Spanish).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260730-104800-TNMPH-Stars and Stripes 18 (Spanish).pdf",
       "is_linear": true
     },
     {
-      "plan_id": "revolution-energy-llc-stars-and-stripes-24-texas-new-mexico-power-24-0",
+      "plan_id": "ptc-30763",
       "rep": "REVOLUTION ENERGY LLC",
       "product": "Stars and Stripes 24",
       "reason_codes": [
@@ -3932,11 +4465,11 @@
       "cancel_fee": 300.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260710-101400-TNMPH-Stars and Stripes 24 (Spanish).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260728-085400-TNMPH-Stars and Stripes 24 (Spanish).pdf",
       "is_linear": true
     },
     {
-      "plan_id": "revolution-energy-llc-stars-and-stripes-36-texas-new-mexico-power-36-0",
+      "plan_id": "ptc-30803",
       "rep": "REVOLUTION ENERGY LLC",
       "product": "Stars and Stripes 36",
       "reason_codes": [
@@ -3946,24 +4479,53 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.159,
-        "1000": 0.147,
-        "2000": 0.142
+        "500": 0.156,
+        "1000": 0.145,
+        "2000": 0.139
       },
       "bills": {
-        "500": 79.5,
-        "1000": 147.0,
-        "2000": 284.0
+        "500": 78.0,
+        "1000": 145.0,
+        "2000": 278.0
       },
       "term_months": 36.0,
       "cancel_fee": 375.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260710-101400-TNMPH-Stars and Stripes 36 (Spanish).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260728-085400-TNMPH-Stars and Stripes 36 (Spanish).pdf",
       "is_linear": true
     },
     {
-      "plan_id": "revolution-energy-llc-liberty-bell-flex-texas-new-mexico-power-1-0",
+      "plan_id": "ptc-31069",
+      "rep": "SPARK ENERGY LLC",
+      "product": "Spark Instant 12",
+      "reason_codes": [
+        "BILL_CREDIT",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.3,
+        "1000": 0.15,
+        "2000": 0.145
+      },
+      "bills": {
+        "500": 150.0,
+        "1000": 150.0,
+        "2000": 290.0
+      },
+      "term_months": 12.0,
+      "cancel_fee": 200.0,
+      "renewable": 37.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=141990&type=EFL_TieredPricing&title=Electricity%20Facts%20Label&language=spanish",
+      "is_linear": false
+    },
+    {
+      "plan_id": "ptc-31154",
       "rep": "REVOLUTION ENERGY LLC",
       "product": "Liberty Bell Flex",
       "reason_codes": [
@@ -3975,24 +4537,24 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.152,
-        "1000": 0.141,
-        "2000": 0.135
+        "500": 0.149,
+        "1000": 0.139,
+        "2000": 0.133
       },
       "bills": {
-        "500": 76.0,
-        "1000": 141.0,
-        "2000": 270.0
+        "500": 74.5,
+        "1000": 139.0,
+        "2000": 266.0
       },
       "term_months": 1.0,
       "cancel_fee": 0.0,
       "renewable": 24.0,
       "rate_type": "Variable",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260707-180100-TNMPH-Liberty Bell Flex (Spanish).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260728-085400-TNMPH-Liberty Bell Flex (Spanish).pdf",
       "is_linear": true
     },
     {
-      "plan_id": "revolution-energy-llc-liberty-bell-green-flex-texas-new-mexico-power-1-0",
+      "plan_id": "ptc-31163",
       "rep": "REVOLUTION ENERGY LLC",
       "product": "Liberty Bell Green Flex",
       "reason_codes": [
@@ -4004,24 +4566,24 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.153,
-        "1000": 0.142,
-        "2000": 0.136
+        "500": 0.15,
+        "1000": 0.14,
+        "2000": 0.134
       },
       "bills": {
-        "500": 76.5,
-        "1000": 142.0,
-        "2000": 272.0
+        "500": 75.0,
+        "1000": 140.0,
+        "2000": 268.0
       },
       "term_months": 1.0,
       "cancel_fee": 0.0,
       "renewable": 100.0,
       "rate_type": "Variable",
-      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260707-180100-TNMPH-Liberty Bell Green Flex (Spanish).pdf",
+      "efl_url": "https://e966f83b313c3b45ede3-64a631b37f7b69cdf842d11bca52af9c.ssl.cf5.rackcdn.com//202607/EFL-20260728-085400-TNMPH-Liberty Bell Green Flex (Spanish).pdf",
       "is_linear": true
     },
     {
-      "plan_id": "chariot-energy-chariot-freedom-texas-new-mexico-power-0-0",
+      "plan_id": "ptc-31442",
       "rep": "CHARIOT ENERGY",
       "product": "Chariot Freedom",
       "reason_codes": [
@@ -4048,7 +4610,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "infuse-energy-essential-infusion-flex-texas-new-mexico-power-1-0",
+      "plan_id": "ptc-34012",
       "rep": "INFUSE ENERGY",
       "product": "Essential Infusion Flex",
       "reason_codes": [
@@ -4057,6 +4619,91 @@
       ],
       "verdicts": [
         "Variable rate \u2014 the price can change month to month with no cap.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.149,
+        "1000": 0.139,
+        "2000": 0.134
+      },
+      "bills": {
+        "500": 74.5,
+        "1000": 139.0,
+        "2000": 268.0
+      },
+      "term_months": 1.0,
+      "cancel_fee": 0.0,
+      "renewable": 24.0,
+      "rate_type": "Variable",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260728-083000-TNMPH-Essential Infusion Flex (Spanish).pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-34022",
+      "rep": "INFUSE ENERGY",
+      "product": "Essential Infusion Green Flex",
+      "reason_codes": [
+        "VARIABLE_RATE",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.149,
+        "1000": 0.14,
+        "2000": 0.135
+      },
+      "bills": {
+        "500": 74.5,
+        "1000": 140.0,
+        "2000": 270.0
+      },
+      "term_months": 1.0,
+      "cancel_fee": 0.0,
+      "renewable": 100.0,
+      "rate_type": "Variable",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260728-083000-TNMPH-Essential Infusion Green Flex (Spanish).pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-34040",
+      "rep": "INFUSE ENERGY",
+      "product": "PTC Infusion Flex",
+      "reason_codes": [
+        "VARIABLE_RATE",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.152,
+        "1000": 0.139,
+        "2000": 0.132
+      },
+      "bills": {
+        "500": 76.0,
+        "1000": 139.0,
+        "2000": 264.0
+      },
+      "term_months": 1.0,
+      "cancel_fee": 0.0,
+      "renewable": 24.0,
+      "rate_type": "Variable",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260728-083000-TNMPH-PTC Infusion Flex (Spanish).pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-34069",
+      "rep": "INFUSE ENERGY",
+      "product": "Essential Infusion 3",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
@@ -4069,129 +4716,15 @@
         "1000": 141.0,
         "2000": 272.0
       },
-      "term_months": 1.0,
-      "cancel_fee": 0.0,
-      "renewable": 24.0,
-      "rate_type": "Variable",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260707-183100-TNMPH-Essential Infusion Flex (Spanish).pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "infuse-energy-essential-infusion-green-flex-texas-new-mexico-power-1-0",
-      "rep": "INFUSE ENERGY",
-      "product": "Essential Infusion Green Flex",
-      "reason_codes": [
-        "VARIABLE_RATE",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Variable rate \u2014 the price can change month to month with no cap.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.152,
-        "1000": 0.142,
-        "2000": 0.137
-      },
-      "bills": {
-        "500": 76.0,
-        "1000": 142.0,
-        "2000": 274.0
-      },
-      "term_months": 1.0,
-      "cancel_fee": 0.0,
-      "renewable": 100.0,
-      "rate_type": "Variable",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260707-183100-TNMPH-Essential Infusion Green Flex (Spanish).pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "infuse-energy-ptc-green-infusion-flex-texas-new-mexico-power-1-0",
-      "rep": "INFUSE ENERGY",
-      "product": "PTC Green Infusion Flex",
-      "reason_codes": [
-        "VARIABLE_RATE",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Variable rate \u2014 the price can change month to month with no cap.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.155,
-        "1000": 0.142,
-        "2000": 0.135
-      },
-      "bills": {
-        "500": 77.5,
-        "1000": 142.0,
-        "2000": 270.0
-      },
-      "term_months": 1.0,
-      "cancel_fee": 0.0,
-      "renewable": 100.0,
-      "rate_type": "Variable",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260707-183100-TNMPH-PTC Green Infusion Flex (Spanish).pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "infuse-energy-ptc-infusion-flex-texas-new-mexico-power-1-0",
-      "rep": "INFUSE ENERGY",
-      "product": "PTC Infusion Flex",
-      "reason_codes": [
-        "VARIABLE_RATE",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Variable rate \u2014 the price can change month to month with no cap.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.154,
-        "1000": 0.141,
-        "2000": 0.134
-      },
-      "bills": {
-        "500": 77.0,
-        "1000": 141.0,
-        "2000": 268.0
-      },
-      "term_months": 1.0,
-      "cancel_fee": 0.0,
-      "renewable": 24.0,
-      "rate_type": "Variable",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260707-183100-TNMPH-PTC Infusion Flex (Spanish).pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "infuse-energy-essential-infusion-3-texas-new-mexico-power-3-0",
-      "rep": "INFUSE ENERGY",
-      "product": "Essential Infusion 3",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.157,
-        "1000": 0.147,
-        "2000": 0.142
-      },
-      "bills": {
-        "500": 78.5,
-        "1000": 147.0,
-        "2000": 284.0
-      },
       "term_months": 3.0,
       "cancel_fee": 100.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260714-132700-TNMPH-Essential Infusion 3 (Spanish).pdf",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260728-083000-TNMPH-Essential Infusion 3 (Spanish).pdf",
       "is_linear": true
     },
     {
-      "plan_id": "infuse-energy-essential-infusion-6-texas-new-mexico-power-6-0",
+      "plan_id": "ptc-34145",
       "rep": "INFUSE ENERGY",
       "product": "Essential Infusion 6",
       "reason_codes": [
@@ -4201,24 +4734,24 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.148,
-        "1000": 0.138,
-        "2000": 0.133
+        "500": 0.15,
+        "1000": 0.14,
+        "2000": 0.135
       },
       "bills": {
-        "500": 74.0,
-        "1000": 138.0,
-        "2000": 266.0
+        "500": 75.0,
+        "1000": 140.0,
+        "2000": 270.0
       },
       "term_months": 6.0,
       "cancel_fee": 150.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260714-153400-TNMPH-Essential Infusion 6 (Spanish).pdf",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260728-083000-TNMPH-Essential Infusion 6 (Spanish).pdf",
       "is_linear": true
     },
     {
-      "plan_id": "infuse-energy-essential-infusion-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-34225",
       "rep": "INFUSE ENERGY",
       "product": "Essential Infusion 12",
       "reason_codes": [
@@ -4228,24 +4761,24 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.144,
-        "1000": 0.135,
-        "2000": 0.13
+        "500": 0.146,
+        "1000": 0.136,
+        "2000": 0.131
       },
       "bills": {
-        "500": 72.0,
-        "1000": 135.0,
-        "2000": 260.0
+        "500": 73.0,
+        "1000": 136.0,
+        "2000": 262.0
       },
       "term_months": 12.0,
       "cancel_fee": 200.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260710-093000-TNMPH-Essential Infusion 12 (Spanish).pdf",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260728-083000-TNMPH-Essential Infusion 12 (Spanish).pdf",
       "is_linear": true
     },
     {
-      "plan_id": "infuse-energy-essential-infusion-24-texas-new-mexico-power-24-0",
+      "plan_id": "ptc-34305",
       "rep": "INFUSE ENERGY",
       "product": "Essential Infusion 24",
       "reason_codes": [
@@ -4268,11 +4801,11 @@
       "cancel_fee": 300.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260710-093000-TNMPH-Essential Infusion 24 (Spanish).pdf",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260728-083000-TNMPH-Essential Infusion 24 (Spanish).pdf",
       "is_linear": true
     },
     {
-      "plan_id": "infuse-energy-essential-infusion-36-texas-new-mexico-power-36-0",
+      "plan_id": "ptc-34345",
       "rep": "INFUSE ENERGY",
       "product": "Essential Infusion 36",
       "reason_codes": [
@@ -4282,24 +4815,53 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.157,
-        "1000": 0.147,
-        "2000": 0.143
+        "500": 0.154,
+        "1000": 0.145,
+        "2000": 0.14
       },
       "bills": {
-        "500": 78.5,
-        "1000": 147.0,
-        "2000": 286.0
+        "500": 77.0,
+        "1000": 145.0,
+        "2000": 280.0
       },
       "term_months": 36.0,
       "cancel_fee": 375.0,
       "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260710-093000-TNMPH-Essential Infusion 36 (Spanish).pdf",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260728-083000-TNMPH-Essential Infusion 36 (Spanish).pdf",
       "is_linear": true
     },
     {
-      "plan_id": "think-energy-think-clean-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-34031",
+      "rep": "INFUSE ENERGY",
+      "product": "PTC Green Infusion Flex",
+      "reason_codes": [
+        "VARIABLE_RATE",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.152,
+        "1000": 0.14,
+        "2000": 0.133
+      },
+      "bills": {
+        "500": 76.0,
+        "1000": 140.0,
+        "2000": 266.0
+      },
+      "term_months": 1.0,
+      "cancel_fee": 0.0,
+      "renewable": 100.0,
+      "rate_type": "Variable",
+      "efl_url": "https://88fd201f32c53c2bd0fb-11ba98ed637230a2314ec7c228a44bda.ssl.cf5.rackcdn.com/202607/EFL-20260728-083000-TNMPH-PTC Green Infusion Flex (Spanish).pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-34482",
       "rep": "Think Energy",
       "product": "Think Clean 12",
       "reason_codes": [
@@ -4326,7 +4888,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "think-energy-think-clean-24-texas-new-mexico-power-24-0",
+      "plan_id": "ptc-34494",
       "rep": "Think Energy",
       "product": "Think Clean 24",
       "reason_codes": [
@@ -4353,7 +4915,7 @@
       "is_linear": true
     },
     {
-      "plan_id": "think-energy-think-clean-12-with-smart-thermostat-connected-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-34709",
       "rep": "Think Energy",
       "product": "Think Clean 12 with Smart Thermostat Connected",
       "reason_codes": [
@@ -4380,9 +4942,38 @@
       "is_linear": true
     },
     {
-      "plan_id": "chariot-energy-bright-nights-12-texas-new-mexico-power-12-0",
+      "plan_id": "ptc-34730",
       "rep": "CHARIOT ENERGY",
       "product": "Bright Nights 12",
+      "reason_codes": [
+        "TIME_OF_USE",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.143,
+        "1000": 0.125,
+        "2000": 0.116
+      },
+      "bills": {
+        "500": 71.5,
+        "1000": 125.0,
+        "2000": 232.0
+      },
+      "term_months": 12.0,
+      "cancel_fee": 15.0,
+      "renewable": 100.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46609&ver=spanish",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-34740",
+      "rep": "CHARIOT ENERGY",
+      "product": "Bright Nights 24",
       "reason_codes": [
         "TIME_OF_USE",
         "BASE_CHARGE"
@@ -4401,44 +4992,15 @@
         "1000": 129.0,
         "2000": 240.0
       },
-      "term_months": 12.0,
-      "cancel_fee": 15.0,
-      "renewable": 100.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46476&ver=spanish",
-      "is_linear": true
-    },
-    {
-      "plan_id": "chariot-energy-bright-nights-24-texas-new-mexico-power-24-0",
-      "rep": "CHARIOT ENERGY",
-      "product": "Bright Nights 24",
-      "reason_codes": [
-        "TIME_OF_USE",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.152,
-        "1000": 0.134,
-        "2000": 0.125
-      },
-      "bills": {
-        "500": 76.0,
-        "1000": 134.0,
-        "2000": 250.0
-      },
       "term_months": 24.0,
       "cancel_fee": 15.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46346&ver=spanish",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46748&ver=spanish",
       "is_linear": true
     },
     {
-      "plan_id": "chariot-energy-bright-nights-36-texas-new-mexico-power-36-0",
+      "plan_id": "ptc-34742",
       "rep": "CHARIOT ENERGY",
       "product": "Bright Nights 36",
       "reason_codes": [
@@ -4450,20 +5012,47 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.154,
-        "1000": 0.136,
-        "2000": 0.127
+        "500": 0.15,
+        "1000": 0.132,
+        "2000": 0.123
       },
       "bills": {
-        "500": 77.0,
-        "1000": 136.0,
-        "2000": 254.0
+        "500": 75.0,
+        "1000": 132.0,
+        "2000": 246.0
       },
       "term_months": 36.0,
       "cancel_fee": 15.0,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46477&ver=spanish",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46610&ver=spanish",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-34878",
+      "rep": "CHAMPION ENERGY SERVICES LLC",
+      "product": "Free Weekends-24",
+      "reason_codes": [
+        "TIME_OF_USE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more."
+      ],
+      "rates": {
+        "500": 0.155,
+        "1000": 0.147,
+        "2000": 0.143
+      },
+      "bills": {
+        "500": 77.5,
+        "1000": 147.0,
+        "2000": 286.0
+      },
+      "term_months": 24.0,
+      "cancel_fee": 250.0,
+      "renewable": 25.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN2437&state=TX&language=ES",
       "is_linear": true
     }
   ]
