@@ -57,11 +57,35 @@ def test_nonlinear_plan_not_the_top_pick():
     assert top_pick(ranked).plan.plan_id == "good"
 
 
-def test_require_verified_gates_top_pick():
+def test_unverified_plan_can_be_top_pick():
+    # An unverified ("couldn't check") plan is still eligible for #1 — we show the
+    # genuinely cheapest and badge it, rather than hiding it.
     p = plan("p", base=5, rate=0.10, efl_verified=False)
-    ranked = rank([p], 1000)
-    assert top_pick(ranked) is not None
-    assert top_pick(ranked, require_verified=True) is None
+    assert top_pick(rank([p], 1000)).plan.plan_id == "p"
+
+
+def test_cheapest_wins_even_if_unverified():
+    cheap_unverified = plan("cheap", base=5, rate=0.10, efl_verified=False)
+    pricier_verified = plan("verified", base=5, rate=0.12, efl_verified=True)
+    ranked = rank([pricier_verified, cheap_unverified], 1000)
+    assert top_pick(ranked).plan.plan_id == "cheap"  # cheapest wins, not verified
+
+
+def test_mismatch_plan_never_top_pick():
+    # A plan whose price contradicts its EFL is known-wrong and must not lead,
+    # even when it's the cheapest.
+    bad = plan("bad", base=5, rate=0.09)
+    bad.efl_mismatch = True
+    good = plan("good", base=5, rate=0.11, efl_verified=True)
+    ranked = rank([bad, good], 1000)
+    assert top_pick(ranked).plan.plan_id == "good"
+
+
+def test_verified_wins_exact_cost_tie():
+    unv = plan("unv", base=5, rate=0.10, efl_verified=False)
+    ver = plan("ver", base=5, rate=0.10, efl_verified=True)  # identical cost
+    ranked = rank([unv, ver], 1000)
+    assert top_pick(ranked).plan.plan_id == "ver"  # verified breaks the tie
 
 
 def test_tie_group_bands_by_percent():

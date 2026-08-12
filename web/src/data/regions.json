@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T14:54:14Z",
+  "generated_at": "2026-08-12T20:21:31Z",
   "regions": [
     {
       "slug": "oncor",
@@ -7,13 +7,13 @@
       "label": "Oncor",
       "cities": "Dallas\u2013Fort Worth, Waco, Midland, Odessa, Round Rock",
       "counts": {
-        "total": 170,
+        "total": 172,
         "dropped_invalid": 0,
         "honest": 83,
-        "rejected": 87,
-        "verified": 24
+        "rejected": 89,
+        "verified": 66
       },
-      "generated_at": "2026-08-12T14:54:14Z"
+      "generated_at": "2026-08-12T20:21:31Z"
     },
     {
       "slug": "centerpoint",
@@ -21,13 +21,13 @@
       "label": "CenterPoint",
       "cities": "Houston and the Gulf Coast",
       "counts": {
-        "total": 174,
+        "total": 177,
         "dropped_invalid": 0,
-        "honest": 84,
-        "rejected": 90,
-        "verified": 27
+        "honest": 85,
+        "rejected": 92,
+        "verified": 69
       },
-      "generated_at": "2026-08-12T14:54:14Z"
+      "generated_at": "2026-08-12T20:21:31Z"
     },
     {
       "slug": "aep-central",
@@ -37,11 +37,11 @@
       "counts": {
         "total": 167,
         "dropped_invalid": 0,
-        "honest": 79,
-        "rejected": 88,
-        "verified": 25
+        "honest": 77,
+        "rejected": 90,
+        "verified": 57
       },
-      "generated_at": "2026-08-12T14:54:14Z"
+      "generated_at": "2026-08-12T20:21:31Z"
     },
     {
       "slug": "aep-north",
@@ -51,11 +51,11 @@
       "counts": {
         "total": 167,
         "dropped_invalid": 0,
-        "honest": 79,
-        "rejected": 88,
-        "verified": 30
+        "honest": 77,
+        "rejected": 90,
+        "verified": 56
       },
-      "generated_at": "2026-08-12T14:54:14Z"
+      "generated_at": "2026-08-12T20:21:31Z"
     },
     {
       "slug": "tnmp",
@@ -67,9 +67,9 @@
         "dropped_invalid": 0,
         "honest": 80,
         "rejected": 85,
-        "verified": 20
+        "verified": 53
       },
-      "generated_at": "2026-08-12T14:54:14Z"
+      "generated_at": "2026-08-12T20:21:31Z"
     },
     {
       "slug": "lubbock",
@@ -81,9 +81,9 @@
         "dropped_invalid": 0,
         "honest": 68,
         "rejected": 32,
-        "verified": 30
+        "verified": 53
       },
-      "generated_at": "2026-08-12T14:54:14Z"
+      "generated_at": "2026-08-12T20:21:31Z"
     }
   ]
 }

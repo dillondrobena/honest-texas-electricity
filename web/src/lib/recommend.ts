@@ -44,6 +44,7 @@ function compare(a: Priced, b: Priced): number {
   const round2 = (n: number) => Math.round(n * 100) / 100;
   return (
     round2(a.monthlyBill) - round2(b.monthlyBill) ||
+    (a.plan.efl_verified ? 0 : 1) - (b.plan.efl_verified ? 0 : 1) || // prefer verified on ties
     (effectiveCancelFee(a.plan) ?? Infinity) - (effectiveCancelFee(b.plan) ?? Infinity) ||
     (b.plan.rating ?? -1) - (a.plan.rating ?? -1) ||
     (a.plan.term_months ?? Infinity) - (b.plan.term_months ?? Infinity) ||
@@ -65,10 +66,10 @@ export function rankHonest(data: RegionData, usageKwh: number): Priced[] {
 // The single honest #1: cheapest with a trustworthy (linear) price. When
 // requireVerified is on (once the EFL milestone lands) it must also be
 // EFL-verified. In M1 nothing is verified yet, so the default is false.
-export function topPick(ranked: Priced[], requireVerified = false): Priced | null {
+export function topPick(ranked: Priced[]): Priced | null {
   for (const r of ranked) {
     if (!r.trustworthy) continue;
-    if (requireVerified && !r.plan.efl_verified) continue;
+    if (r.plan.efl_status === "mismatch") continue; // never lead with a known-wrong price
     return r;
   }
   return null;
@@ -93,7 +94,10 @@ export function pickByPreference(
   usageKwh: number,
   pref: Preference,
 ): PreferencePick | null {
-  const trustworthy = rankHonest(data, usageKwh).filter((r) => r.trustworthy);
+  // Eligible = trustworthy price, and not a known EFL mismatch. Unverified
+  // ("couldn't check") plans stay eligible and carry a feed-estimate badge.
+  const trustworthy = rankHonest(data, usageKwh)
+    .filter((r) => r.trustworthy && r.plan.efl_status !== "mismatch");
   if (trustworthy.length === 0) return null;
 
   const byCost = (a: Priced, b: Priced) => a.monthlyBill - b.monthlyBill;
@@ -118,14 +122,13 @@ export function pickByPreference(
     sorted = [...trustworthy].sort((a, b) => (b.plan.rating ?? -1) - (a.plan.rating ?? -1) || byCost(a, b));
   }
 
-  // Verified-#1 gate (T1A): the top pick must be EFL-verified when any verified
-  // plan qualifies. Only fall back to an unverified plan (honestly badged "feed
-  // estimate") when nothing verified is available, so there's always an answer.
-  const anyVerified = trustworthy.some((r) => r.plan.efl_verified);
-  const pick = sorted.find((r) => r.plan.efl_verified) ?? sorted[0];
-  if (anyVerified && !pick.plan.efl_verified) {
+  // The best plan for this preference is simply the first (cheapest breaks ties,
+  // and verified wins exact ties via the sort). No verified-only gate: we show
+  // the genuinely best plan and let its badge carry the confidence level.
+  const pick = sorted[0];
+  if (!pick.plan.efl_verified && pick.plan.efl_status !== "verified") {
     note = (note ? note + " " : "") +
-      "No EFL-verified plan fit this preference, so this one is a feed estimate — verify its EFL.";
+      "We couldn't verify this plan's price against its EFL yet — check the EFL before you enroll.";
   }
 
   const p = pick.plan;

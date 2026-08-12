@@ -204,8 +204,9 @@ class Plan:
     enroll_phone: str | None = None
     new_customer: bool = False
     language: str | None = None
-    # EFL verification is a later milestone; every M1 plan is unverified.
-    efl_verified: bool = False
+    # EFL reconciliation state, set by the pipeline from the verification cache.
+    efl_verified: bool = False   # price confirmed against the legal EFL
+    efl_mismatch: bool = False   # price CONTRADICTS the EFL (known-wrong; never #1)
 
     def effective_cancel_fee(self) -> float | None:
         """The honest worst-case cost of leaving early, in dollars.

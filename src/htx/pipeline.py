@@ -153,14 +153,16 @@ def run(plans: list[Plan], tdu: str, generated_at: str,
         status = rec["status"] if rec else "no_efl"
         efl_status[p.plan_id] = status
         p.efl_verified = status == "verified"
+        p.efl_mismatch = status == "mismatch"
 
-    # Rankings per usage level. The #1 pick must be EFL-verified when any verified
-    # plan exists (T1A); otherwise fall back to cheapest, honestly badged as a
-    # feed estimate, so a region is never left without an answer.
+    # Rankings per usage level. The #1 pick is the genuinely cheapest honest plan
+    # (decision: show the true cheapest, badge honestly). We only refuse to lead
+    # with a plan whose price CONTRADICTS its legal EFL (a known mismatch);
+    # "couldn't verify" plans are eligible and carry a "feed estimate" badge.
     rankings = {}
     for u in usage_levels:
         ranked = rank(honest, u)
-        pick = top_pick(ranked, require_verified=True) or top_pick(ranked, require_verified=False)
+        pick = top_pick(ranked)
         rankings[str(u)] = {
             "top_pick_id": pick.plan.plan_id if pick else None,
             "plans": [

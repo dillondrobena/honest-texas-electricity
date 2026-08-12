@@ -23,6 +23,7 @@ export interface HonestPlan {
   efl_url: string | null;
   enroll_url: string | null;
   efl_verified: boolean;
+  efl_status?: string; // "verified" | "mismatch" | "no_efl" | "unparseable"
   cost?: CostModel;
 }
 

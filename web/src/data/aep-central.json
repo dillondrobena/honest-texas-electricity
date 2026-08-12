@@ -2,14 +2,14 @@
   "tdu": "AEP TEXAS CENTRAL",
   "slug": "aep-central",
   "language": "English",
-  "generated_at": "2026-08-12T14:54:14Z",
+  "generated_at": "2026-08-12T20:21:31Z",
   "disclaimer": "Free, no-affiliate. Always verify the plan's EFL before enrolling.",
   "counts": {
     "total": 167,
     "dropped_invalid": 0,
-    "honest": 79,
-    "rejected": 88,
-    "verified": 25
+    "honest": 77,
+    "rejected": 90,
+    "verified": 57
   },
   "honest_plans": {
     "ptc-36767": {
@@ -25,8 +25,8 @@
       "rating": 1.0,
       "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34967&Promo=",
       "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN11000059&Promo=PTC",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.10643,
@@ -69,8 +69,8 @@
       "rating": 1.0,
       "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_-_23_2516169848051664025_EFL_SFE%20Residential%20Fixed%20AEPC%2023English.pdf",
       "enroll_url": "https://www.sfeenergy.com/texas/",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 2.5,
         "rate_per_kwh": 0.11971,
@@ -91,8 +91,8 @@
       "rating": 2.0,
       "efl_url": "https://www.cirroenergy.com/defl/M1F00193223040A.pdf",
       "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0004&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.12429,
@@ -113,8 +113,8 @@
       "rating": 2.0,
       "efl_url": "https://www.discountpowertx.com/defl/M1F00193222842A.pdf",
       "enroll_url": "https://www.discountpowertx.com/plans-and-prices?txtPromocode=WQ4131&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.12329,
@@ -136,7 +136,7 @@
       "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-5-AEP_TCC-LZ_SOUTH-202608071400",
       "enroll_url": "https://www.octopusenergy.com/affiliate/ptc",
       "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": 2.5,
         "rate_per_kwh": 0.10471,
@@ -157,33 +157,11 @@
       "rating": 1.0,
       "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/5852FA1B02D242DEE063E0F8000A1A79/view",
       "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.10743,
-        "is_linear": true,
-        "max_residual": 0.429
-      }
-    },
-    "ptc-35988": {
-      "plan_id": "ptc-35988",
-      "rep": "Texans Choice Power LLC",
-      "product": "Choose 6",
-      "rate_type": "Fixed",
-      "term_months": 6.0,
-      "cancel_fee": 100.0,
-      "cancel_fee_per_month": false,
-      "cancel_fee_effective": 100.0,
-      "renewable": 37.0,
-      "rating": null,
-      "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153837&type=EFL&title=153837_EFL&language=english",
-      "enroll_url": "https://signup.texanschoicepower.com/",
-      "efl_verified": false,
-      "efl_status": "unparseable",
-      "cost": {
-        "base_charge": 3.0,
-        "rate_per_kwh": 0.11243,
         "is_linear": true,
         "max_residual": 0.429
       }
@@ -201,8 +179,8 @@
       "rating": 1.0,
       "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34971&Promo=",
       "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN12000949&Promo=PTC",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.10843,
@@ -289,8 +267,8 @@
       "rating": 1.0,
       "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_-_12_2516164615647892044_EFL_SFE%20Residential%20Fixed%20AEPC%2012English.pdf",
       "enroll_url": "https://www.sfeenergy.com/texas/",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 2.5,
         "rate_per_kwh": 0.11671,
@@ -311,8 +289,8 @@
       "rating": 1.0,
       "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34968&Promo=",
       "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN12000083&Promo=PTC",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.10743,
@@ -333,8 +311,8 @@
       "rating": 1.0,
       "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34986&Promo=",
       "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN24000133&Promo=PTC",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.11643,
@@ -355,8 +333,8 @@
       "rating": 1.0,
       "efl_url": "https://signup.budgetpowertx.com/Home/EFL?productId=34970&Promo=",
       "enroll_url": "https://signup.budgetpowertx.com/Home/index?ProductCode=RN36000086&Promo=PTC",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.11743,
@@ -465,8 +443,8 @@
       "rating": 1.0,
       "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_-_5_2516169848128851307_EFL_SFE%20Residential%20Fixed%20AEPC%205English.pdf",
       "enroll_url": "https://www.sfeenergy.com/texas/",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 2.5,
         "rate_per_kwh": 0.11271,
@@ -487,8 +465,8 @@
       "rating": 1.0,
       "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_-_10_2516164616051697015_EFL_SFE%20Residential%20Fixed%20AEPC%2010English.pdf",
       "enroll_url": "https://www.sfeenergy.com/texas/",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 2.5,
         "rate_per_kwh": 0.11371,
@@ -532,7 +510,7 @@
       "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-10-AEP_TCC-LZ_SOUTH-202608071400",
       "enroll_url": "https://octopusenergy.com/affiliate/ptc",
       "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": 2.5,
         "rate_per_kwh": 0.10971,
@@ -553,13 +531,13 @@
       "rating": 5.0,
       "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00085564&promo=&term=5",
       "enroll_url": "https://enroll.bkvenergy.com/?promo=PTCALL0001",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
-        "base_charge": 3.0,
-        "rate_per_kwh": 0.11643,
+        "base_charge": 3.5,
+        "rate_per_kwh": 0.11629,
         "is_linear": true,
-        "max_residual": 0.429
+        "max_residual": 0.214
       }
     },
     "ptc-35735": {
@@ -576,7 +554,7 @@
       "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-24-AEP_TCC-LZ_SOUTH-202608051000",
       "enroll_url": "https://octopusenergy.com/affiliate/ptc",
       "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.13229,
@@ -685,8 +663,8 @@
       "rating": 2.0,
       "efl_url": "https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=EN&prodcode=FPOWSVR10&tdspcode=AEP_CENT&ppid=192471&logid=83007&filename=AEP_CENT_FPOWSVR10_20260812_0000_83007",
       "enroll_url": "https://newenroll.frontierutilities.com/?refid=PTCFPS10&ul=1000&tdsp=AEP_CENT",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.10329,
@@ -707,8 +685,8 @@
       "rating": 4.0,
       "efl_url": "https://eflviewer.gexaenergy.com/eflviewer.aspx?lang=EN&prodcode=GXAECOCHI10&tdspcode=AEP_CENT&ppid=192472&logid=83001&filename=AEP_CENT_GXAECOCHI10_20260812_0000_83001",
       "enroll_url": "https://newenroll.gexaenergy.com/?refid=PTC_EcoChoice10&ul=1000&tdsp=AEP_CENT",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.10329,
@@ -729,8 +707,8 @@
       "rating": 2.0,
       "efl_url": "https://eflviewer.companionenergy.com/eflviewer.aspx?lang=EN&prodcode=CEPERK10&tdspcode=AEP_CENT&ppid=192473&logid=83013&filename=AEP_CENT_CEPERK10_20260812_0000_83013",
       "enroll_url": "https://newenroll.companionenergy.com/?refid=PTCPERKS10&ul=1000&tdsp=AEP_CENT&utm_source=power_to_choose&utm_medium=referral&utm_campaign=PTC-PTCPERKS10&utm_content=AEP_CENT&utm_term=additional_info",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.10329,
@@ -760,6 +738,28 @@
         "max_residual": 0.429
       }
     },
+    "ptc-35988": {
+      "plan_id": "ptc-35988",
+      "rep": "Texans Choice Power LLC",
+      "product": "Choose 6",
+      "rate_type": "Fixed",
+      "term_months": 6.0,
+      "cancel_fee": 100.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 100.0,
+      "renewable": 37.0,
+      "rating": null,
+      "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153837&type=EFL&title=153837_EFL&language=english",
+      "enroll_url": "https://signup.texanschoicepower.com/",
+      "efl_verified": false,
+      "efl_status": "unparseable",
+      "cost": {
+        "base_charge": 3.0,
+        "rate_per_kwh": 0.11243,
+        "is_linear": true,
+        "max_residual": 0.429
+      }
+    },
     "ptc-37361": {
       "plan_id": "ptc-37361",
       "rep": "TRUE POWER",
@@ -773,8 +773,8 @@
       "rating": 1.0,
       "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/587A26F9D40B5E68E063E0F8000A09D8/view",
       "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.10643,
@@ -795,57 +795,13 @@
       "rating": 1.0,
       "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/587A3FE3D7A428DAE063E0F8000A5154/view",
       "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.11643,
         "is_linear": true,
         "max_residual": 0.429
-      }
-    },
-    "ptc-37386": {
-      "plan_id": "ptc-37386",
-      "rep": "HERITAGE POWER LLC",
-      "product": "Bright Start 12 \u2013 $180 Bill Credit Reward",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 75.0,
-      "cancel_fee_per_month": false,
-      "cancel_fee_effective": 75.0,
-      "renewable": 24.0,
-      "rating": 5.0,
-      "efl_url": "https://signup.heritagepower.com/Home/EFl?productId=6412",
-      "enroll_url": "https://signup.heritagepower.com/Home/index?ProductCode=RN12000613&Promo=PTC",
-      "efl_verified": false,
-      "efl_status": "no_efl",
-      "cost": {
-        "base_charge": 3.5,
-        "rate_per_kwh": 0.12729,
-        "is_linear": true,
-        "max_residual": 0.214
-      }
-    },
-    "ptc-37396": {
-      "plan_id": "ptc-37396",
-      "rep": "HERITAGE POWER LLC",
-      "product": "Bright Start 5 \u2013 $50 First Bill Credit!!",
-      "rate_type": "Fixed",
-      "term_months": 5.0,
-      "cancel_fee": 75.0,
-      "cancel_fee_per_month": false,
-      "cancel_fee_effective": 75.0,
-      "renewable": 24.0,
-      "rating": 5.0,
-      "efl_url": "https://signup.heritagepower.com/Home/EFl?productId=6420",
-      "enroll_url": "https://signup.heritagepower.com/Home/index?ProductCode=RN05000007&Promo=PTC",
-      "efl_verified": false,
-      "efl_status": "no_efl",
-      "cost": {
-        "base_charge": 3.5,
-        "rate_per_kwh": 0.11329,
-        "is_linear": true,
-        "max_residual": 0.214
       }
     },
     "ptc-37404": {
@@ -861,8 +817,8 @@
       "rating": 1.0,
       "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/58B6EF797CA5D928E063E0F8000AE480/view",
       "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.10543,
@@ -883,8 +839,8 @@
       "rating": 1.0,
       "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/58B6E4FC37B583DAE063E0F8000AF8A5/view",
       "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.11543,
@@ -904,12 +860,12 @@
       "renewable": 100.0,
       "rating": 3.0,
       "efl_url": "https://api.gotrhythm.com/api/pricing/offers/latest-offers-efl/25744/?locale=en",
-      "enroll_url": "https://gotrhythm.com/?rcid=power-to-choose&utm_source=powertochoose&utm_campaign=aep-north&utm_medium=state-shopping&utm_term=DC5",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "enroll_url": "https://gotrhythm.com/?rcid=power-to-choose&utm_source=powertochoose&utm_campaign=aep-central&utm_medium=state-shopping&utm_term=DC5",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -1.5,
-        "rate_per_kwh": 0.10871,
+        "rate_per_kwh": 0.10771,
         "is_linear": true,
         "max_residual": 0.214
       }
@@ -926,12 +882,12 @@
       "renewable": 100.0,
       "rating": 3.0,
       "efl_url": "https://api.energytexas.com/api/pricing/offers/latest-offers-efl/25746/?locale=en",
-      "enroll_url": "https://www.energytexas.com/?rcid=power-to-choose&utm_source=powertochoose&utm_campaign=centerpoint&utm_medium=state-shopping&utm_term=NB5",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "enroll_url": "https://www.energytexas.com/?rcid=power-to-choose&utm_source=powertochoose&utm_campaign=aep-central&utm_medium=state-shopping&utm_term=NB5",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": -1.5,
-        "rate_per_kwh": 0.10871,
+        "rate_per_kwh": 0.10771,
         "is_linear": true,
         "max_residual": 0.214
       }
@@ -949,8 +905,8 @@
       "rating": 2.0,
       "efl_url": "https://www.cirroenergy.com/defl/M1F00193223144A.pdf",
       "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0004&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.12429,
@@ -971,8 +927,8 @@
       "rating": 2.0,
       "efl_url": "https://www.discountpowertx.com/defl/M1F00193222982A.pdf",
       "enroll_url": "https://www.discountpowertx.com/plans-and-prices?txtPromocode=WQ4131&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.13229,
@@ -1037,8 +993,8 @@
       "rating": 2.0,
       "efl_url": "https://www.discountpowertx.com/defl/M1F00193222930A.pdf",
       "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0004&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.12329,
@@ -1059,8 +1015,8 @@
       "rating": 2.0,
       "efl_url": "https://www.cirroenergy.com/defl/M1F00193223136A.pdf",
       "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0004&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.13329,
@@ -1081,8 +1037,8 @@
       "rating": 2.0,
       "efl_url": "https://www.cirroenergy.com/defl/M1F00193223168A.pdf",
       "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0004&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.12929,
@@ -1125,8 +1081,8 @@
       "rating": 2.0,
       "efl_url": "https://www.discountpowertx.com/defl/M1F00193222998A.pdf",
       "enroll_url": "https://shop.discountpowertx.com/offer-selection/?txtPromocode=WQ4131&tdspCode=D0004&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.12829,
@@ -1170,7 +1126,7 @@
       "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-12-AEP_TCC-LZ_SOUTH-202608071400",
       "enroll_url": "https://octopusenergy.com/affiliate/ptc",
       "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.10629,
@@ -1222,6 +1178,50 @@
         "max_residual": 0.429
       }
     },
+    "ptc-27845": {
+      "plan_id": "ptc-27845",
+      "rep": "CleanSky Energy",
+      "product": "Embrace Green 12 - New Customer Special",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 150.0,
+      "renewable": 100.0,
+      "rating": 5.0,
+      "efl_url": "https://enroll.cleanskyenergy.com//Home/EFL?productCode=RN00005291&promo=PTCHOOSETX&term=12",
+      "enroll_url": "https://enroll.cleanskyenergy.com/Home/index?ProductCode=RN00005291&Promo=PTCHOOSETX&Term=12",
+      "efl_verified": false,
+      "efl_status": "unparseable",
+      "cost": {
+        "base_charge": 2.5,
+        "rate_per_kwh": 0.12071,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
+    "ptc-27847": {
+      "plan_id": "ptc-27847",
+      "rep": "CleanSky Energy",
+      "product": "Embrace Green 24 - New Customer Special",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 225.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 225.0,
+      "renewable": 100.0,
+      "rating": 5.0,
+      "efl_url": "https://enroll.cleanskyenergy.com//Home/EFL?productCode=RN00005292&promo=PTCHOOSETX&term=24",
+      "enroll_url": "https://enroll.cleanskyenergy.com/Home/index?ProductCode=RN00005292&Promo=PTCHOOSETX&Term=24",
+      "efl_verified": false,
+      "efl_status": "unparseable",
+      "cost": {
+        "base_charge": 2.5,
+        "rate_per_kwh": 0.12371,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
     "ptc-27805": {
       "plan_id": "ptc-27805",
       "rep": "TARA ENERGY",
@@ -1244,50 +1244,6 @@
         "max_residual": 0.214
       }
     },
-    "ptc-27845": {
-      "plan_id": "ptc-27845",
-      "rep": "CleanSky Energy",
-      "product": "Embrace Green 12 - New Customer Special",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 150.0,
-      "cancel_fee_per_month": false,
-      "cancel_fee_effective": 150.0,
-      "renewable": 100.0,
-      "rating": 5.0,
-      "efl_url": "https://enroll.cleanskyenergy.com//Home/EFL?productCode=RN00005291&promo=PTCHOOSETX&term=12",
-      "enroll_url": "https://enroll.cleanskyenergy.com/Home/index?ProductCode=RN00005291&Promo=PTCHOOSETX&Term=12",
-      "efl_verified": false,
-      "efl_status": "no_efl",
-      "cost": {
-        "base_charge": 2.5,
-        "rate_per_kwh": 0.12071,
-        "is_linear": true,
-        "max_residual": 0.214
-      }
-    },
-    "ptc-27847": {
-      "plan_id": "ptc-27847",
-      "rep": "CleanSky Energy",
-      "product": "Embrace Green 24 - New Customer Special",
-      "rate_type": "Fixed",
-      "term_months": 24.0,
-      "cancel_fee": 225.0,
-      "cancel_fee_per_month": false,
-      "cancel_fee_effective": 225.0,
-      "renewable": 100.0,
-      "rating": 5.0,
-      "efl_url": "https://enroll.cleanskyenergy.com//Home/EFL?productCode=RN00005292&promo=PTCHOOSETX&term=24",
-      "enroll_url": "https://enroll.cleanskyenergy.com/Home/index?ProductCode=RN00005292&Promo=PTCHOOSETX&Term=24",
-      "efl_verified": false,
-      "efl_status": "no_efl",
-      "cost": {
-        "base_charge": 2.5,
-        "rate_per_kwh": 0.12371,
-        "is_linear": true,
-        "max_residual": 0.214
-      }
-    },
     "ptc-27877": {
       "plan_id": "ptc-27877",
       "rep": "CONSTELLATION NEWENERGY INC",
@@ -1301,8 +1257,8 @@
       "rating": 4.0,
       "efl_url": "https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=5006078",
       "enroll_url": "https://www.constellation.com/content/constellation/en/campaigns/powertochoose.html?UTM_source=powertochoose.org&UTM_medium=referral",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.10429,
@@ -1324,7 +1280,7 @@
       "efl_url": "https://enroll.cleanskyenergy.com//Home/EFL?productCode=RN00005278&promo=PTCHOOSETX&term=36",
       "enroll_url": "https://enroll.cleanskyenergy.com/Home/index?ProductCode=RN00005278&Promo=PTCHOOSETX&Term=36",
       "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": 2.5,
         "rate_per_kwh": 0.12671,
@@ -1367,8 +1323,8 @@
       "rating": 5.0,
       "efl_url": "https://bit.ly/4fFZdRW",
       "enroll_url": "http://southernfederal.com",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.0,
         "rate_per_kwh": 0.12043,
@@ -1530,28 +1486,6 @@
         "max_residual": 0.214
       }
     },
-    "ptc-33306": {
-      "plan_id": "ptc-33306",
-      "rep": "Abundance Energy",
-      "product": "Confident Renter 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 200.0,
-      "cancel_fee_per_month": false,
-      "cancel_fee_effective": 200.0,
-      "renewable": 25.0,
-      "rating": 4.0,
-      "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=confidentrenter.fixed&tdsp_id=4&doc_type=EFL&term=12&promo_code=PTC",
-      "enroll_url": "https://join.abundanceenergy.com/?promoCode=PTC",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 3.5,
-        "rate_per_kwh": 0.11129,
-        "is_linear": true,
-        "max_residual": 0.214
-      }
-    },
     "ptc-33342": {
       "plan_id": "ptc-33342",
       "rep": "AP GAS & ELECTRIC (TX) LLC",
@@ -1569,7 +1503,7 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
-        "rate_per_kwh": 0.11029,
+        "rate_per_kwh": 0.11129,
         "is_linear": true,
         "max_residual": 0.214
       }
@@ -1640,6 +1574,28 @@
         "max_residual": 0.214
       }
     },
+    "ptc-33306": {
+      "plan_id": "ptc-33306",
+      "rep": "Abundance Energy",
+      "product": "Confident Renter 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 200.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 200.0,
+      "renewable": 25.0,
+      "rating": 4.0,
+      "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=confidentrenter.fixed&tdsp_id=4&doc_type=EFL&term=12&promo_code=PTC",
+      "enroll_url": "https://join.abundanceenergy.com/?promoCode=PTC",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": 3.5,
+        "rate_per_kwh": 0.11129,
+        "is_linear": true,
+        "max_residual": 0.214
+      }
+    },
     "ptc-33610": {
       "plan_id": "ptc-33610",
       "rep": "JUST ENERGY",
@@ -1675,8 +1631,8 @@
       "rating": 2.0,
       "efl_url": "https://www.discountpowertx.com/defl/M1F00193222874A.pdf",
       "enroll_url": "https://www.discountpowertx.com/plans-and-prices?txtPromocode=WQ4131&fromLP=ptc&sid=APTC_1686090020&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.12329,
@@ -1697,8 +1653,8 @@
       "rating": 2.0,
       "efl_url": "https://www.cirroenergy.com/defl/M1F00193223068A.pdf",
       "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0011&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": false,
-      "efl_status": "no_efl",
+      "efl_verified": true,
+      "efl_status": "verified",
       "cost": {
         "base_charge": 3.5,
         "rate_per_kwh": 0.12429,
@@ -1753,16 +1709,16 @@
   },
   "rankings": {
     "500": {
-      "top_pick_id": "ptc-34898",
+      "top_pick_id": "ptc-37426",
       "plans": [
         {
           "plan_id": "ptc-37426",
-          "monthly_bill": 52.86,
+          "monthly_bill": 52.36,
           "trustworthy_price": true
         },
         {
           "plan_id": "ptc-37442",
-          "monthly_bill": 52.86,
+          "monthly_bill": 52.36,
           "trustworthy_price": true
         },
         {
@@ -1866,23 +1822,23 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35773",
-          "monthly_bill": 58.64,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ptc-35880",
           "monthly_bill": 58.64,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33342",
+          "plan_id": "ptc-35773",
           "monthly_bill": 58.64,
           "trustworthy_price": true
         },
         {
           "plan_id": "ptc-35173",
           "monthly_bill": 58.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-33342",
+          "monthly_bill": 59.14,
           "trustworthy_price": true
         },
         {
@@ -1901,11 +1857,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37396",
-          "monthly_bill": 60.14,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ptc-37406",
           "monthly_bill": 60.71,
           "trustworthy_price": true
@@ -1913,11 +1864,6 @@
         {
           "plan_id": "ptc-36280",
           "monthly_bill": 60.86,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35707",
-          "monthly_bill": 61.21,
           "trustworthy_price": true
         },
         {
@@ -1936,12 +1882,17 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35958",
-          "monthly_bill": 61.71,
+          "plan_id": "ptc-35707",
+          "monthly_bill": 61.64,
           "trustworthy_price": true
         },
         {
           "plan_id": "ptc-34850",
+          "monthly_bill": 61.71,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35958",
           "monthly_bill": 61.71,
           "trustworthy_price": true
         },
@@ -2071,11 +2022,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37386",
-          "monthly_bill": 67.14,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ptc-16523",
           "monthly_bill": 67.14,
           "trustworthy_price": true
@@ -2121,6 +2067,16 @@
           "trustworthy_price": true
         },
         {
+          "plan_id": "ptc-33610",
+          "monthly_bill": 76.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-31959",
+          "monthly_bill": 76.14,
+          "trustworthy_price": true
+        },
+        {
           "plan_id": "ptc-31983",
           "monthly_bill": 76.14,
           "trustworthy_price": true
@@ -2139,22 +2095,22 @@
           "plan_id": "ptc-24623",
           "monthly_bill": 76.14,
           "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-33610",
-          "monthly_bill": 76.14,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-31959",
-          "monthly_bill": 76.14,
-          "trustworthy_price": true
         }
       ]
     },
     "1000": {
-      "top_pick_id": "ptc-34898",
+      "top_pick_id": "ptc-37426",
       "plans": [
+        {
+          "plan_id": "ptc-37426",
+          "monthly_bill": 106.21,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37442",
+          "monthly_bill": 106.21,
+          "trustworthy_price": true
+        },
         {
           "plan_id": "ptc-35916",
           "monthly_bill": 106.79,
@@ -2168,16 +2124,6 @@
         {
           "plan_id": "ptc-35940",
           "monthly_bill": 106.79,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-37426",
-          "monthly_bill": 107.21,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-37442",
-          "monthly_bill": 107.21,
           "trustworthy_price": true
         },
         {
@@ -2266,18 +2212,18 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35773",
-          "monthly_bill": 113.79,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ptc-35880",
           "monthly_bill": 113.79,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33342",
+          "plan_id": "ptc-35773",
           "monthly_bill": 113.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-33342",
+          "monthly_bill": 114.79,
           "trustworthy_price": true
         },
         {
@@ -2301,11 +2247,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37396",
-          "monthly_bill": 116.79,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ptc-37406",
           "monthly_bill": 118.43,
           "trustworthy_price": true
@@ -2313,11 +2254,6 @@
         {
           "plan_id": "ptc-36280",
           "monthly_bill": 119.21,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35707",
-          "monthly_bill": 119.43,
           "trustworthy_price": true
         },
         {
@@ -2336,12 +2272,17 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35958",
-          "monthly_bill": 120.43,
+          "plan_id": "ptc-35707",
+          "monthly_bill": 119.79,
           "trustworthy_price": true
         },
         {
           "plan_id": "ptc-34850",
+          "monthly_bill": 120.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35958",
           "monthly_bill": 120.43,
           "trustworthy_price": true
         },
@@ -2456,11 +2397,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-27894",
-          "monthly_bill": 129.21,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ptc-34918",
           "monthly_bill": 129.21,
           "trustworthy_price": true
@@ -2471,8 +2407,8 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37386",
-          "monthly_bill": 130.79,
+          "plan_id": "ptc-27894",
+          "monthly_bill": 129.21,
           "trustworthy_price": true
         },
         {
@@ -2521,6 +2457,16 @@
           "trustworthy_price": true
         },
         {
+          "plan_id": "ptc-33610",
+          "monthly_bill": 148.79,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-31959",
+          "monthly_bill": 148.79,
+          "trustworthy_price": true
+        },
+        {
           "plan_id": "ptc-31983",
           "monthly_bill": 148.79,
           "trustworthy_price": true
@@ -2539,21 +2485,11 @@
           "plan_id": "ptc-24623",
           "monthly_bill": 148.79,
           "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-33610",
-          "monthly_bill": 148.79,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-31959",
-          "monthly_bill": 148.79,
-          "trustworthy_price": true
         }
       ]
     },
     "1500": {
-      "top_pick_id": "ptc-33457",
+      "top_pick_id": "ptc-35916",
       "plans": [
         {
           "plan_id": "ptc-35916",
@@ -2581,18 +2517,18 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37404",
-          "monthly_bill": 161.14,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ptc-37426",
-          "monthly_bill": 161.57,
+          "monthly_bill": 160.07,
           "trustworthy_price": true
         },
         {
           "plan_id": "ptc-37442",
-          "monthly_bill": 161.57,
+          "monthly_bill": 160.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37404",
+          "monthly_bill": 161.14,
           "trustworthy_price": true
         },
         {
@@ -2666,18 +2602,18 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35773",
-          "monthly_bill": 168.93,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ptc-35880",
           "monthly_bill": 168.93,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33342",
+          "plan_id": "ptc-35773",
           "monthly_bill": 168.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-33342",
+          "monthly_bill": 170.43,
           "trustworthy_price": true
         },
         {
@@ -2701,11 +2637,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37396",
-          "monthly_bill": 173.43,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ptc-37406",
           "monthly_bill": 176.14,
           "trustworthy_price": true
@@ -2713,11 +2644,6 @@
         {
           "plan_id": "ptc-36280",
           "monthly_bill": 177.57,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35707",
-          "monthly_bill": 177.64,
           "trustworthy_price": true
         },
         {
@@ -2736,12 +2662,17 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35958",
-          "monthly_bill": 179.14,
+          "plan_id": "ptc-35707",
+          "monthly_bill": 177.93,
           "trustworthy_price": true
         },
         {
           "plan_id": "ptc-34850",
+          "monthly_bill": 179.14,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35958",
           "monthly_bill": 179.14,
           "trustworthy_price": true
         },
@@ -2861,11 +2792,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37386",
-          "monthly_bill": 194.43,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ptc-16523",
           "monthly_bill": 194.43,
           "trustworthy_price": true
@@ -2921,6 +2847,16 @@
           "trustworthy_price": true
         },
         {
+          "plan_id": "ptc-33610",
+          "monthly_bill": 221.43,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-31959",
+          "monthly_bill": 221.43,
+          "trustworthy_price": true
+        },
+        {
           "plan_id": "ptc-31983",
           "monthly_bill": 221.43,
           "trustworthy_price": true
@@ -2939,21 +2875,11 @@
           "plan_id": "ptc-24623",
           "monthly_bill": 221.43,
           "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-33610",
-          "monthly_bill": 221.43,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-31959",
-          "monthly_bill": 221.43,
-          "trustworthy_price": true
         }
       ]
     },
     "2000": {
-      "top_pick_id": "ptc-33457",
+      "top_pick_id": "ptc-35916",
       "plans": [
         {
           "plan_id": "ptc-35916",
@@ -2986,6 +2912,16 @@
           "trustworthy_price": true
         },
         {
+          "plan_id": "ptc-37426",
+          "monthly_bill": 213.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-37442",
+          "monthly_bill": 213.93,
+          "trustworthy_price": true
+        },
+        {
           "plan_id": "ptc-36767",
           "monthly_bill": 215.86,
           "trustworthy_price": true
@@ -2993,16 +2929,6 @@
         {
           "plan_id": "ptc-37361",
           "monthly_bill": 215.86,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-37426",
-          "monthly_bill": 215.93,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-37442",
-          "monthly_bill": 215.93,
           "trustworthy_price": true
         },
         {
@@ -3036,17 +2962,17 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35675",
-          "monthly_bill": 221.93,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ptc-34898",
           "monthly_bill": 221.93,
           "trustworthy_price": true
         },
         {
           "plan_id": "ptc-35074",
+          "monthly_bill": 221.93,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35675",
           "monthly_bill": 221.93,
           "trustworthy_price": true
         },
@@ -3066,18 +2992,18 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35773",
-          "monthly_bill": 224.07,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ptc-35880",
           "monthly_bill": 224.07,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33342",
+          "plan_id": "ptc-35773",
           "monthly_bill": 224.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-33342",
+          "monthly_bill": 226.07,
           "trustworthy_price": true
         },
         {
@@ -3101,18 +3027,8 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37396",
-          "monthly_bill": 230.07,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ptc-37406",
           "monthly_bill": 233.86,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35707",
-          "monthly_bill": 235.86,
           "trustworthy_price": true
         },
         {
@@ -3136,12 +3052,17 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35958",
-          "monthly_bill": 237.86,
+          "plan_id": "ptc-35707",
+          "monthly_bill": 236.07,
           "trustworthy_price": true
         },
         {
           "plan_id": "ptc-34850",
+          "monthly_bill": 237.86,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-35958",
           "monthly_bill": 237.86,
           "trustworthy_price": true
         },
@@ -3261,11 +3182,6 @@
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37386",
-          "monthly_bill": 258.07,
-          "trustworthy_price": true
-        },
-        {
           "plan_id": "ptc-16523",
           "monthly_bill": 258.07,
           "trustworthy_price": true
@@ -3321,6 +3237,16 @@
           "trustworthy_price": true
         },
         {
+          "plan_id": "ptc-33610",
+          "monthly_bill": 294.07,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ptc-31959",
+          "monthly_bill": 294.07,
+          "trustworthy_price": true
+        },
+        {
           "plan_id": "ptc-31983",
           "monthly_bill": 294.07,
           "trustworthy_price": true
@@ -3337,16 +3263,6 @@
         },
         {
           "plan_id": "ptc-24623",
-          "monthly_bill": 294.07,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-33610",
-          "monthly_bill": 294.07,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-31959",
           "monthly_bill": 294.07,
           "trustworthy_price": true
         }
@@ -3385,6 +3301,34 @@
       "is_linear": true
     },
     {
+      "plan_id": "ptc-36620",
+      "rep": "Express Energy",
+      "product": "Flash Value 12",
+      "reason_codes": [
+        "BILL_CREDIT"
+      ],
+      "verdicts": [
+        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
+      ],
+      "rates": {
+        "500": 0.198,
+        "1000": 0.069,
+        "2000": 0.13
+      },
+      "bills": {
+        "500": 99.0,
+        "1000": 69.0,
+        "2000": 260.0
+      },
+      "term_months": 12.0,
+      "cancel_fee": 20.0,
+      "cancel_fee_per_month": true,
+      "renewable": 3.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://shopping.myexpressenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCEXFLASHCC12IL&tdsp=AEPTCC&lang=en&custClass=Residential",
+      "is_linear": false
+    },
+    {
       "plan_id": "ptc-37302",
       "rep": "SPARK ENERGY LLC",
       "product": "Sure Saver 12",
@@ -3411,6 +3355,64 @@
       "rate_type": "Fixed",
       "efl_url": "https://signup.sparkenergy.com/getdocument/?getproductpdf=1&productid=154444&type=EFL_MSFCREDIT&title=154444_EFL_MSFCREDIT&language=english",
       "is_linear": false
+    },
+    {
+      "plan_id": "ptc-35999",
+      "rep": "Think Energy",
+      "product": "Think Clean 24 with Smart Thermostat",
+      "reason_codes": [
+        "DEVICE_REQUIRED"
+      ],
+      "verdicts": [
+        "Requires connecting a smart thermostat or device to get the rate."
+      ],
+      "rates": {
+        "500": 0.136,
+        "1000": 0.137,
+        "2000": 0.138
+      },
+      "bills": {
+        "500": 68.0,
+        "1000": 137.0,
+        "2000": 276.0
+      },
+      "term_months": 24.0,
+      "cancel_fee": 200.0,
+      "cancel_fee_per_month": false,
+      "renewable": 100.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.noap.fixed.thermostat&tdsp_id=4&doc_type=EFL&term=24&promo_code=default",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-36332",
+      "rep": "PRONTO POWER",
+      "product": "Summer 2026",
+      "reason_codes": [
+        "PREPAID",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Prepaid plan \u2014 pay-as-you-go with its own fees, not a straight rate.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.15,
+        "1000": 0.145,
+        "2000": 0.142
+      },
+      "bills": {
+        "500": 75.0,
+        "1000": 145.0,
+        "2000": 284.0
+      },
+      "term_months": 3.0,
+      "cancel_fee": 50.0,
+      "cancel_fee_per_month": false,
+      "renewable": 26.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://pronto-gridlink.smartgridcis.net//Documents/Download.aspx?ProductDocumentID=1166",
+      "is_linear": true
     },
     {
       "plan_id": "ptc-36349",
@@ -3469,36 +3471,6 @@
       "is_linear": false
     },
     {
-      "plan_id": "ptc-36332",
-      "rep": "PRONTO POWER",
-      "product": "Summer 2026",
-      "reason_codes": [
-        "PREPAID",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Prepaid plan \u2014 pay-as-you-go with its own fees, not a straight rate.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.15,
-        "1000": 0.145,
-        "2000": 0.142
-      },
-      "bills": {
-        "500": 75.0,
-        "1000": 145.0,
-        "2000": 284.0
-      },
-      "term_months": 3.0,
-      "cancel_fee": 50.0,
-      "cancel_fee_per_month": false,
-      "renewable": 26.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://pronto-gridlink.smartgridcis.net//Documents/Download.aspx?ProductDocumentID=1166",
-      "is_linear": true
-    },
-    {
       "plan_id": "ptc-36597",
       "rep": "TXU ENERGY",
       "product": "Smart 1000 Select 12",
@@ -3526,34 +3498,6 @@
       "renewable": 3.0,
       "rate_type": "Fixed",
       "efl_url": "https://residential.txu.com/Handlers/PDFGenerator.ashx?comProdId=TCXSMSL1KD12AA&lang=en&formType=EnergyFactsLabel&custClass=3&tdsp=AEPTCC",
-      "is_linear": false
-    },
-    {
-      "plan_id": "ptc-36620",
-      "rep": "Express Energy",
-      "product": "Flash Value 12",
-      "reason_codes": [
-        "BILL_CREDIT"
-      ],
-      "verdicts": [
-        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
-      ],
-      "rates": {
-        "500": 0.198,
-        "1000": 0.069,
-        "2000": 0.13
-      },
-      "bills": {
-        "500": 99.0,
-        "1000": 69.0,
-        "2000": 260.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 20.0,
-      "cancel_fee_per_month": true,
-      "renewable": 3.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://shopping.myexpressenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=TCEXFLASHCC12IL&tdsp=AEPTCC&lang=en&custClass=Residential",
       "is_linear": false
     },
     {
@@ -3731,31 +3675,59 @@
       "is_linear": false
     },
     {
-      "plan_id": "ptc-35999",
-      "rep": "Think Energy",
-      "product": "Think Clean 24 with Smart Thermostat",
+      "plan_id": "ptc-37386",
+      "rep": "HERITAGE POWER LLC",
+      "product": "Bright Start 12 \u2013 $180 Bill Credit Reward",
       "reason_codes": [
-        "DEVICE_REQUIRED"
+        "CC_FEE"
       ],
       "verdicts": [
-        "Requires connecting a smart thermostat or device to get the rate."
+        "Adds a credit-card or processing fee \u2014 you pay extra just to pay your bill."
       ],
       "rates": {
-        "500": 0.136,
-        "1000": 0.137,
-        "2000": 0.138
+        "500": 0.134,
+        "1000": 0.131,
+        "2000": 0.129
       },
       "bills": {
-        "500": 68.0,
-        "1000": 137.0,
-        "2000": 276.0
+        "500": 67.0,
+        "1000": 131.0,
+        "2000": 258.0
       },
-      "term_months": 24.0,
-      "cancel_fee": 200.0,
+      "term_months": 12.0,
+      "cancel_fee": 75.0,
       "cancel_fee_per_month": false,
-      "renewable": 100.0,
+      "renewable": 24.0,
       "rate_type": "Fixed",
-      "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.noap.fixed.thermostat&tdsp_id=4&doc_type=EFL&term=24&promo_code=default",
+      "efl_url": "https://signup.heritagepower.com/Home/EFl?productId=6412",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-37396",
+      "rep": "HERITAGE POWER LLC",
+      "product": "Bright Start 5 \u2013 $50 First Bill Credit!!",
+      "reason_codes": [
+        "CC_FEE"
+      ],
+      "verdicts": [
+        "Adds a credit-card or processing fee \u2014 you pay extra just to pay your bill."
+      ],
+      "rates": {
+        "500": 0.12,
+        "1000": 0.117,
+        "2000": 0.115
+      },
+      "bills": {
+        "500": 60.0,
+        "1000": 117.0,
+        "2000": 230.0
+      },
+      "term_months": 5.0,
+      "cancel_fee": 75.0,
+      "cancel_fee_per_month": false,
+      "renewable": 24.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://signup.heritagepower.com/Home/EFl?productId=6420",
       "is_linear": true
     },
     {
@@ -4193,10 +4165,12 @@
       "rep": "JUST ENERGY",
       "product": "Sustainable Living Bundle - 3",
       "reason_codes": [
-        "BASE_CHARGE"
+        "BASE_CHARGE",
+        "SETUP_FEE"
       ],
       "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest.",
+        "Has an enrollment or setup fee \u2014 an upfront cost the advertised rate hides."
       ],
       "rates": {
         "500": 0.114,
@@ -4499,34 +4473,6 @@
       "is_linear": true
     },
     {
-      "plan_id": "ptc-28116",
-      "rep": "RELIANT",
-      "product": "Reliant Power On 18",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.157,
-        "1000": 0.149,
-        "2000": 0.144
-      },
-      "bills": {
-        "500": 78.5,
-        "1000": 149.0,
-        "2000": 288.0
-      },
-      "term_months": 18.0,
-      "cancel_fee": 180.0,
-      "cancel_fee_per_month": false,
-      "renewable": 15.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://www.reliant.com/defl/R1F00190183733A.pdf",
-      "is_linear": true
-    },
-    {
       "plan_id": "ptc-28127",
       "rep": "GREEN MOUNTAIN ENERGY COMPANY",
       "product": "Pollution Free e-Plus 18 Choice",
@@ -4580,6 +4526,34 @@
       "renewable": 25.0,
       "rate_type": "Fixed",
       "efl_url": "https://api.goodcharlie.com/products/2047/EFL/AEP_Central/latest/en",
+      "is_linear": true
+    },
+    {
+      "plan_id": "ptc-28116",
+      "rep": "RELIANT",
+      "product": "Reliant Power On 18",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.157,
+        "1000": 0.149,
+        "2000": 0.144
+      },
+      "bills": {
+        "500": 78.5,
+        "1000": 149.0,
+        "2000": 288.0
+      },
+      "term_months": 18.0,
+      "cancel_fee": 180.0,
+      "cancel_fee_per_month": false,
+      "renewable": 15.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://www.reliant.com/defl/R1F00190183733A.pdf",
       "is_linear": true
     },
     {

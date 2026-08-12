@@ -39,6 +39,7 @@ class Ranked:
         p = self.plan
         return (
             round(self.monthly_bill, 2),
+            0 if p.efl_verified else 1,  # among equal-cost plans, prefer verified
             p.effective_cancel_fee() if p.effective_cancel_fee() is not None else float("inf"),
             -(p.rating if p.rating is not None else -1),
             p.term_months if p.term_months is not None else float("inf"),
@@ -70,13 +71,14 @@ def rank(plans: list[Plan], usage_kwh: float, *, require_verified: bool = False)
     return ranked
 
 
-def top_pick(ranked: list[Ranked], *, require_verified: bool = False) -> Ranked | None:
-    """The single honest #1. Must have a trustworthy (linear) price, and — when
-    require_verified is on — must be EFL-verified."""
+def top_pick(ranked: list[Ranked]) -> Ranked | None:
+    """The single honest #1: the cheapest plan with a trustworthy (linear) price.
+    We never lead with a plan whose price contradicts its EFL (a known mismatch);
+    unverified plans are eligible and get a 'feed estimate' badge in the UI."""
     for r in ranked:
         if not r.trustworthy_price:
             continue
-        if require_verified and not r.plan.efl_verified:
+        if r.plan.efl_mismatch:
             continue
         return r
     return None
