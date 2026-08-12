@@ -116,7 +116,7 @@ const title = `Is ${autopsy.rep} — ${autopsy.product} a good electricity plan?
   <section class="autopsy-facts">
     <div><b>{autopsy.rate_type ?? "—"}</b><span>rate type</span></div>
     <div><b>{autopsy.term_months ?? "—"} mo</b><span>term</span></div>
-    <div><b>{money(autopsy.cancel_fee ?? null)}</b><span>cancel fee</span></div>
+    <div><b>{autopsy.cancel_fee == null ? "—" : autopsy.cancel_fee_per_month ? `$${autopsy.cancel_fee.toFixed(0)}/mo left` : money(autopsy.cancel_fee)}</b><span>cancel fee</span></div>
     <div><b>{autopsy.renewable != null ? `${autopsy.renewable}%` : "—"}</b><span>renewable</span></div>
   </section>
 

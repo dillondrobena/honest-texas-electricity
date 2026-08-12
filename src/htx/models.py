@@ -119,16 +119,27 @@ VERDICT_TEMPLATES = {
 }
 
 
-def parse_cancel_fee(raw) -> float | None:
-    """Cancel-fee cells are messy free text: '100.0', '20 per month remaining',
-    '$150', '20.00 per month remaining term'. Pull out the leading dollar amount;
-    return None if there's no number."""
+def parse_cancel_fee(raw) -> tuple[float | None, bool]:
+    """Parse a cancel-fee cell into (amount, per_remaining_month).
+
+    Cells are messy free text. Two structurally different kinds:
+      flat:      '100.0', '$150', '75'                 -> (100.0, False)
+      per-month: '20 per remaining month', '20/mes'    -> (20.0, True)
+
+    The per-month kind is the important distinction: '$20 per remaining month'
+    on a fresh 12-month plan is up to ~$240 if you cancel early, NOT $20. Callers
+    must treat the amount as a monthly rate when per_remaining_month is True."""
     if raw is None:
-        return None
+        return None, False
     if isinstance(raw, (int, float)):
-        return float(raw)
-    m = re.search(r"\d+(?:\.\d+)?", str(raw))
-    return float(m.group()) if m else None
+        return float(raw), False
+    s = str(raw)
+    m = re.search(r"\d+(?:\.\d+)?", s)
+    if not m:
+        return None, False
+    # "month"/"mes" in the text means the number is a per-remaining-month rate.
+    per_month = bool(re.search(r"month|mes\b|mes\s", s, re.I))
+    return float(m.group()), per_month
 
 
 def _slug(*parts) -> str:
@@ -183,7 +194,8 @@ class Plan:
     time_of_use: bool = False
     # terms + metadata
     term_months: float | None = None
-    cancel_fee: float | None = None
+    cancel_fee: float | None = None          # dollar amount (flat, or per-month rate)
+    cancel_fee_per_month: bool = False        # True => amount is charged per remaining month
     cancel_fee_raw: str | None = None
     renewable: float | None = None
     rating: float | None = None
@@ -194,6 +206,20 @@ class Plan:
     language: str | None = None
     # EFL verification is a later milestone; every M1 plan is unverified.
     efl_verified: bool = False
+
+    def effective_cancel_fee(self) -> float | None:
+        """The honest worst-case cost of leaving early, in dollars.
+
+        Flat fee -> the fee. Per-remaining-month -> rate * full term (the most
+        you could owe, i.e. cancelling right after enrolling). This is what makes
+        'lowest cancel fee' rankings honest: a '$20/remaining-month' fee on a
+        12-month plan sorts as ~$240, not $20."""
+        if self.cancel_fee is None:
+            return None
+        if self.cancel_fee_per_month:
+            term = self.term_months or 12  # assume a year if term is unknown
+            return self.cancel_fee * term
+        return self.cancel_fee
 
     def bill_points(self) -> list[tuple[float, float]]:
         """(kWh, monthly bill) sample points, only the ones present."""
@@ -226,6 +252,7 @@ def from_ptc_record(raw: dict) -> Plan:
     product = _clean(g("Product")) or "Unknown"
     term = _to_float(g("TermValue"))
     cancel_raw = g("CancelFee")
+    cancel_amt, cancel_per_month = parse_cancel_fee(cancel_raw)
 
     # The curator's spreadsheet had precomputed "Bill @ N" columns; the live feed
     # has only the per-kWh rates. Compute the bill from rate * kWh when the bill
@@ -261,7 +288,8 @@ def from_ptc_record(raw: dict) -> Plan:
         prepaid=_to_bool(g("PrePaid")),
         time_of_use=_to_bool(g("TimeOfUse")),
         term_months=term,
-        cancel_fee=parse_cancel_fee(cancel_raw),
+        cancel_fee=cancel_amt,
+        cancel_fee_per_month=cancel_per_month,
         cancel_fee_raw=_clean(cancel_raw),
         renewable=_to_float(g("Renewable")),
         rating=_to_float(g("Rating")),

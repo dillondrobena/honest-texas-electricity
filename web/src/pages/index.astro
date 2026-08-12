@@ -4,7 +4,7 @@ import "@fontsource/ibm-plex-mono/400.css";
 import "@fontsource/ibm-plex-mono/600.css";
 import "../styles/global.css";
 import type { RegionData, HonestPlan } from "../lib/types";
-import { pickByPreference } from "../lib/recommend";
+import { pickByPreference, cancelFeeLabel } from "../lib/recommend";
 import oncorRaw from "../data/oncor.json";
 import manifestRaw from "../data/regions.json";
 
@@ -120,7 +120,7 @@ const shownAutopsies = data.autopsies.slice(0, 12);
             <div class="facts">
               <div class="fact"><b>{money(pick.monthlyBill)}</b><span>est. bill</span></div>
               <div class="fact"><b>{pickPlan.rate_type} · {pickPlan.term_months ?? "—"} mo</b><span>rate &amp; term</span></div>
-              <div class="fact"><b>{pickPlan.cancel_fee != null ? money(pickPlan.cancel_fee) : "—"}</b><span>cancel fee</span></div>
+              <div class="fact"><b>{cancelFeeLabel(pickPlan)}</b><span>cancel fee</span></div>
               <div class="fact"><b>{pickPlan.renewable != null ? `${pickPlan.renewable}%` : "—"}</b><span>renewable</span></div>
             </div>
             <p class="why">
@@ -173,7 +173,7 @@ const shownAutopsies = data.autopsies.slice(0, 12);
     <script type="application/json" id="region-data" set:html={JSON.stringify(data)}></script>
     <script type="application/json" id="region-manifest" set:html={JSON.stringify(manifest.regions)}></script>
     <script>
-      import { pickByPreference, type Preference } from "../lib/recommend";
+      import { pickByPreference, cancelFeeLabel, type Preference } from "../lib/recommend";
       import { zipToSlug } from "../lib/zipRegion";
       import type { RegionData } from "../lib/types";
 
@@ -239,7 +239,7 @@ const shownAutopsies = data.autopsies.slice(0, 12);
             <div class="facts">
               <div class="fact"><b>${money(pick.monthlyBill)}</b><span>est. bill</span></div>
               <div class="fact"><b>${esc(p.rate_type ?? "—")} · ${p.term_months ?? "—"} mo</b><span>rate &amp; term</span></div>
-              <div class="fact"><b>${p.cancel_fee != null ? money(p.cancel_fee) : "—"}</b><span>cancel fee</span></div>
+              <div class="fact"><b>${esc(cancelFeeLabel(p))}</b><span>cancel fee</span></div>
               <div class="fact"><b>${p.renewable != null ? p.renewable + "%" : "—"}</b><span>renewable</span></div>
             </div>
             <p class="why"><strong>Why this won:</strong> ${esc(why)}${efl}</p>

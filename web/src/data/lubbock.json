@@ -2,23 +2,25 @@
   "tdu": "LUBBOCK POWER & LIGHT",
   "slug": "lubbock",
   "language": "English",
-  "generated_at": "2026-08-01T10:39:21Z",
+  "generated_at": "2026-08-12T14:47:51Z",
   "disclaimer": "Free, no-affiliate. Always verify the plan's EFL before enrolling.",
   "counts": {
-    "total": 93,
+    "total": 89,
     "dropped_invalid": 0,
-    "honest": 61,
-    "rejected": 32,
-    "verified": 47
+    "honest": 56,
+    "rejected": 33,
+    "verified": 40
   },
   "honest_plans": {
-    "ptc-24620": {
-      "plan_id": "ptc-24620",
+    "amigo-energy-basics-ptc-36-lubbock-power-light-36-0": {
+      "plan_id": "amigo-energy-basics-ptc-36-lubbock-power-light-36-0",
       "rep": "AMIGO ENERGY",
       "product": "Basics PTC - 36",
       "rate_type": "Fixed",
       "term_months": 36.0,
       "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 175.0,
       "renewable": 31.0,
       "rating": 3.0,
       "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=S8UvhovVo/k=&RCID=rv5fvOkFHh4=&L=6f+Ch9flI7k=",
@@ -32,13 +34,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-27802": {
-      "plan_id": "ptc-27802",
+    "tara-energy-basics-ptc-36-lubbock-power-light-36-0": {
+      "plan_id": "tara-energy-basics-ptc-36-lubbock-power-light-36-0",
       "rep": "TARA ENERGY",
       "product": "Basics PTC - 36",
       "rate_type": "Fixed",
       "term_months": 36.0,
       "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 175.0,
       "renewable": 31.0,
       "rating": 4.0,
       "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=px8nNPR0SyU=&RCID=cacW2cvK/I0=&L=6f+Ch9flI7k=",
@@ -52,13 +56,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-34778": {
-      "plan_id": "ptc-34778",
+    "bkv-energy-daisy-11-lubbock-power-light-11-0": {
+      "plan_id": "bkv-energy-daisy-11-lubbock-power-light-11-0",
       "rep": "BKV Energy",
       "product": "Daisy 11",
       "rate_type": "Fixed",
       "term_months": 11.0,
       "cancel_fee": 20.0,
+      "cancel_fee_per_month": true,
+      "cancel_fee_effective": 220.0,
       "renewable": 29.0,
       "rating": 5.0,
       "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00027077&promo=&term=11",
@@ -67,18 +73,20 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.131,
+        "rate_per_kwh": 0.135,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-34687": {
-      "plan_id": "ptc-34687",
+    "bkv-energy-daisy-13-lubbock-power-light-13-0": {
+      "plan_id": "bkv-energy-daisy-13-lubbock-power-light-13-0",
       "rep": "BKV Energy",
       "product": "Daisy 13",
       "rate_type": "Fixed",
       "term_months": 13.0,
       "cancel_fee": 20.0,
+      "cancel_fee_per_month": true,
+      "cancel_fee_effective": 260.0,
       "renewable": 29.0,
       "rating": 5.0,
       "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00013527&term=13",
@@ -87,18 +95,20 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.141,
+        "rate_per_kwh": 0.139,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-34694": {
-      "plan_id": "ptc-34694",
+    "abundance-energy-confident-renter-12-lubbock-power-light-12-0": {
+      "plan_id": "abundance-energy-confident-renter-12-lubbock-power-light-12-0",
       "rep": "Abundance Energy",
       "product": "Confident Renter 12",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 200.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 200.0,
       "renewable": 25.0,
       "rating": 4.0,
       "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=confidentrenter.fixed&tdsp_id=9&doc_type=EFL&term=12&promo_code=PTC",
@@ -106,19 +116,21 @@
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.131,
+        "base_charge": 0.0,
+        "rate_per_kwh": 0.134,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-34635": {
-      "plan_id": "ptc-34635",
+    "ae-texas-smart-secure-36-lubbock-power-light-36-0": {
+      "plan_id": "ae-texas-smart-secure-36-lubbock-power-light-36-0",
       "rep": "AE TEXAS",
       "product": "Smart Secure 36",
       "rate_type": "Fixed",
       "term_months": 36.0,
       "cancel_fee": 20.0,
+      "cancel_fee_per_month": true,
+      "cancel_fee_effective": 720.0,
       "renewable": 23.0,
       "rating": 3.0,
       "efl_url": "https://enroll.aetexasco.com/EmailHTML/efl.aspx?RateID=3749&BrandID=1&PromoCodeID=114",
@@ -127,18 +139,20 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.147,
+        "rate_per_kwh": 0.149,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-34579": {
-      "plan_id": "ptc-34579",
+    "direct-energy-autopay-texas-24-lubbock-power-light-24-0": {
+      "plan_id": "direct-energy-autopay-texas-24-lubbock-power-light-24-0",
       "rep": "DIRECT ENERGY",
       "product": "Autopay Texas 24",
       "rate_type": "Fixed",
       "term_months": 24.0,
       "cancel_fee": 295.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 295.0,
       "renewable": 24.0,
       "rating": 3.0,
       "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00183197330A.pdf",
@@ -152,13 +166,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-33472": {
-      "plan_id": "ptc-33472",
+    "ap-gas-electric-tx-llc-trueclassic-11-lubbock-power-light-11-0": {
+      "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-lubbock-power-light-11-0",
       "rep": "AP GAS & ELECTRIC (TX) LLC",
       "product": "TrueClassic 11",
       "rate_type": "Fixed",
       "term_months": 11.0,
       "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 150.0,
       "renewable": 6.0,
       "rating": 1.0,
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_LPL_NA_NA_RES_FPR_SD0_T11_NEW",
@@ -167,18 +183,20 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.118,
+        "rate_per_kwh": 0.124,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-33607": {
-      "plan_id": "ptc-33607",
+    "just-energy-basics-ptc-24-lubbock-power-light-24-0": {
+      "plan_id": "just-energy-basics-ptc-24-lubbock-power-light-24-0",
       "rep": "JUST ENERGY",
       "product": "Basics PTC - 24",
       "rate_type": "Fixed",
       "term_months": 24.0,
       "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 175.0,
       "renewable": 31.0,
       "rating": 2.0,
       "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=kJlJrIjrmJI=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=",
@@ -192,13 +210,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-33357": {
-      "plan_id": "ptc-33357",
+    "ap-gas-electric-tx-llc-trueclassic-36-lubbock-power-light-36-0": {
+      "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-lubbock-power-light-36-0",
       "rep": "AP GAS & ELECTRIC (TX) LLC",
       "product": "TrueClassic 36",
       "rate_type": "Fixed",
       "term_months": 36.0,
       "cancel_fee": 350.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 350.0,
       "renewable": 6.0,
       "rating": 1.0,
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_LPL_NA_NA_RES_FPR_SD0_T36_NEW",
@@ -212,13 +232,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-33432": {
-      "plan_id": "ptc-33432",
+    "discount-power-saver-24-lubbock-power-light-24-0": {
+      "plan_id": "discount-power-saver-24-lubbock-power-light-24-0",
       "rep": "Discount Power",
       "product": "Saver 24",
       "rate_type": "Fixed",
       "term_months": 24.0,
       "cancel_fee": 295.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 295.0,
       "renewable": 24.0,
       "rating": 2.0,
       "efl_url": "https://www.discountpowertx.com/defl/M1F00183207002A.pdf",
@@ -232,13 +254,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-33434": {
-      "plan_id": "ptc-33434",
+    "discount-power-saver-36-lubbock-power-light-36-0": {
+      "plan_id": "discount-power-saver-36-lubbock-power-light-36-0",
       "rep": "Discount Power",
       "product": "Saver 36",
       "rate_type": "Fixed",
       "term_months": 36.0,
       "cancel_fee": 395.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 395.0,
       "renewable": 24.0,
       "rating": 2.0,
       "efl_url": "https://www.discountpowertx.com/defl/M1F00183207014A.pdf",
@@ -252,33 +276,59 @@
         "max_residual": 0.0
       }
     },
-    "ptc-32902": {
-      "plan_id": "ptc-32902",
+    "frontier-utilities-frontier-power-saver-12-lubbock-power-light-12-0": {
+      "plan_id": "frontier-utilities-frontier-power-saver-12-lubbock-power-light-12-0",
+      "rep": "FRONTIER UTILITIES",
+      "product": "Frontier Power Saver 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 150.0,
+      "renewable": 30.0,
+      "rating": 2.0,
+      "efl_url": "https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=EN&prodcode=FPOWSVR12&tdspcode=LPL",
+      "enroll_url": "https://newenroll.frontierutilities.com/?refid=PTC_LPL&ul=1000&tdsp=LPL",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": -0.0,
+        "rate_per_kwh": 0.127,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "gexa-energy-gexa-eco-choice-12-lubbock-power-light-12-0": {
+      "plan_id": "gexa-energy-gexa-eco-choice-12-lubbock-power-light-12-0",
       "rep": "GEXA ENERGY",
       "product": "Gexa Eco Choice 12",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 150.0,
       "renewable": 100.0,
       "rating": 4.0,
-      "efl_url": "https://eflviewer.gexaenergy.com/eflviewer.aspx?lang=EN&prodcode=GXAECOCHI12&tdspcode=LPL&ppid=191538&logid=82363&filename=LPL_GXAECOCHI12_20260729_0000_82363",
+      "efl_url": "https://eflviewer.gexaenergy.com/eflviewer.aspx?lang=EN&prodcode=GXAECOCHI12&tdspcode=LPL",
       "enroll_url": "https://newenroll.gexaenergy.com/?refid=PTC_LPL&ul=1000&tdsp=LPL",
-      "efl_verified": true,
-      "efl_status": "verified",
+      "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.126,
+        "rate_per_kwh": 0.127,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-32905": {
-      "plan_id": "ptc-32905",
+    "green-mountain-energy-company-pollution-free-e-plus-12-choice-lubbock-power-light-12-0": {
+      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-12-choice-lubbock-power-light-12-0",
       "rep": "GREEN MOUNTAIN ENERGY COMPANY",
       "product": "Pollution Free e-Plus 12 Choice",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 150.0,
       "renewable": 100.0,
       "rating": 2.0,
       "efl_url": "https://signup.greenmountain.com/defl/G1F00183202970A.pdf",
@@ -292,13 +342,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-32910": {
-      "plan_id": "ptc-32910",
+    "reliant-reliant-power-on-12-plan-lubbock-power-light-12-0": {
+      "plan_id": "reliant-reliant-power-on-12-plan-lubbock-power-light-12-0",
       "rep": "RELIANT",
       "product": "Reliant Power On 12 Plan",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 150.0,
       "renewable": 24.0,
       "rating": 4.0,
       "efl_url": "https://www.reliant.com/defl/R1F00183448944A.pdf",
@@ -312,13 +364,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-32914": {
-      "plan_id": "ptc-32914",
+    "direct-energy-autopay-texas-12-lubbock-power-light-12-0": {
+      "plan_id": "direct-energy-autopay-texas-12-lubbock-power-light-12-0",
       "rep": "DIRECT ENERGY",
       "product": "Autopay Texas 12",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 150.0,
       "renewable": 24.0,
       "rating": 3.0,
       "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00183197311A.pdf",
@@ -332,13 +386,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-32915": {
-      "plan_id": "ptc-32915",
+    "cirro-energy-smart-simple-12-lubbock-power-light-12-0": {
+      "plan_id": "cirro-energy-smart-simple-12-lubbock-power-light-12-0",
       "rep": "CIRRO ENERGY",
       "product": "Smart Simple 12",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 150.0,
       "renewable": 24.0,
       "rating": 2.0,
       "efl_url": "https://www.cirroenergy.com/defl/M1F00183205073A.pdf",
@@ -352,13 +408,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-32925": {
-      "plan_id": "ptc-32925",
+    "discount-power-saver-12-lubbock-power-light-12-0": {
+      "plan_id": "discount-power-saver-12-lubbock-power-light-12-0",
       "rep": "Discount Power",
       "product": "Saver 12",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 150.0,
       "renewable": 24.0,
       "rating": 2.0,
       "efl_url": "https://www.discountpowertx.com/defl/M1F00183207014A.pdf",
@@ -372,13 +430,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-32928": {
-      "plan_id": "ptc-32928",
+    "ap-gas-electric-tx-llc-trueclassic-12-lubbock-power-light-12-0": {
+      "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-lubbock-power-light-12-0",
       "rep": "AP GAS & ELECTRIC (TX) LLC",
       "product": "TrueClassic 12",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 150.0,
       "renewable": 6.0,
       "rating": 1.0,
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_LPL_NA_NA_RES_FPR_SD0_T12_NEW",
@@ -386,19 +446,21 @@
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.121,
+        "base_charge": 0.0,
+        "rate_per_kwh": 0.125,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-32931": {
-      "plan_id": "ptc-32931",
+    "ap-gas-electric-tx-llc-trueclassic-24-lubbock-power-light-24-0": {
+      "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-lubbock-power-light-24-0",
       "rep": "AP GAS & ELECTRIC (TX) LLC",
       "product": "TrueClassic 24",
       "rate_type": "Fixed",
       "term_months": 24.0,
       "cancel_fee": 250.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 250.0,
       "renewable": 6.0,
       "rating": 1.0,
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBTX_LPL_NA_NA_RES_FPR_SD0_T24_NEW",
@@ -412,17 +474,63 @@
         "max_residual": 0.0
       }
     },
-    "ptc-32936": {
-      "plan_id": "ptc-32936",
+    "champion-energy-services-llc-champ-saver-24-lubbock-power-light-24-0": {
+      "plan_id": "champion-energy-services-llc-champ-saver-24-lubbock-power-light-24-0",
       "rep": "CHAMPION ENERGY SERVICES LLC",
       "product": "Champ Saver-24",
       "rate_type": "Fixed",
       "term_months": 24.0,
       "cancel_fee": 250.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 250.0,
       "renewable": 25.0,
       "rating": 5.0,
       "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN6179&state=TX&language=EN",
       "enroll_url": "https://www.championenergyservices.com/Residential/Sign-Up?promo=powertochoose",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": -0.0,
+        "rate_per_kwh": 0.135,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "octopus-energy-octo-simple-12-lubbock-power-light-12-0": {
+      "plan_id": "octopus-energy-octo-simple-12-lubbock-power-light-12-0",
+      "rep": "Octopus Energy",
+      "product": "Octo Simple 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 150.0,
+      "renewable": 100.0,
+      "rating": 3.0,
+      "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-12-LPL-LZ_WEST-202607151300",
+      "enroll_url": "https://octopusenergy.com/affiliate/ptc",
+      "efl_verified": false,
+      "efl_status": "unparseable",
+      "cost": {
+        "base_charge": -0.0,
+        "rate_per_kwh": 0.159,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "southern-federal-power-llc-sofed-free-energy-lunch-12-lubbock-power-light-12-0": {
+      "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-lubbock-power-light-12-0",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "SoFed Free Energy Lunch - 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 99.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 99.0,
+      "renewable": 6.0,
+      "rating": 5.0,
+      "efl_url": "https://bit.ly/3R70Vm0",
+      "enroll_url": null,
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
@@ -432,77 +540,19 @@
         "max_residual": 0.0
       }
     },
-    "ptc-32949": {
-      "plan_id": "ptc-32949",
-      "rep": "Octopus Energy",
-      "product": "Octo Simple 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 150.0,
-      "renewable": 100.0,
-      "rating": 3.0,
-      "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-12-LPL-LZ_WEST-202607231545",
-      "enroll_url": "https://octopusenergy.com/affiliate/ptc",
-      "efl_verified": false,
-      "efl_status": "unparseable",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.161,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-32953": {
-      "plan_id": "ptc-32953",
-      "rep": "SOUTHERN FEDERAL POWER LLC",
-      "product": "SoFed Free Energy Lunch - 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 99.0,
-      "renewable": 6.0,
-      "rating": 5.0,
-      "efl_url": "https://bit.ly/4pDTGP2",
-      "enroll_url": null,
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": 0.0,
-        "rate_per_kwh": 0.129,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-32955": {
-      "plan_id": "ptc-32955",
-      "rep": "SOUTHERN FEDERAL POWER LLC",
-      "product": "SoFed Digital Saver Plus - 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 99.0,
-      "renewable": 6.0,
-      "rating": 5.0,
-      "efl_url": "https://bit.ly/4vZq0NU",
-      "enroll_url": "https://southernfederal.com/",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.126,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-33065": {
-      "plan_id": "ptc-33065",
+    "cleansky-energy-embrace-green-12-new-customer-special-lubbock-power-light-12-0": {
+      "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-lubbock-power-light-12-0",
       "rep": "CleanSky Energy",
       "product": "Embrace Green 12 - New Customer Special",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 150.0,
       "renewable": 100.0,
       "rating": 5.0,
-      "efl_url": "https://enroll.cleanskyenergy.com//Home/EFL?productCode=RN00001125&promo=&term=12",
-      "enroll_url": "https://enroll.cleanskyenergy.com/Home/index?ProductCode=RN00001125&Promo=PTCHOOSETX&Term=12",
+      "efl_url": "https://rates.titangasandpower.com/Frontend/DownloadDoc?path=4de51f18-b8df-4b6d-bee7-7317b0aa87dd.html&id_plan=601800",
+      "enroll_url": "https://signup.cleanskyenergy.com/rates?utility_id=121&promocode=PTCHOOSETX",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
@@ -512,17 +562,19 @@
         "max_residual": 0.0
       }
     },
-    "ptc-33067": {
-      "plan_id": "ptc-33067",
+    "cleansky-energy-embrace-green-24-new-customer-special-lubbock-power-light-24-0": {
+      "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-lubbock-power-light-24-0",
       "rep": "CleanSky Energy",
       "product": "Embrace Green 24 - New Customer Special",
       "rate_type": "Fixed",
       "term_months": 24.0,
       "cancel_fee": 225.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 225.0,
       "renewable": 100.0,
       "rating": 5.0,
-      "efl_url": "https://enroll.cleanskyenergy.com//Home/EFL?productCode=RN00001126&promo=&term=24",
-      "enroll_url": "https://enroll.cleanskyenergy.com/Home/index?ProductCode=RN00001126&Promo=PTCHOOSETX&Term=24",
+      "efl_url": "https://rates.titangasandpower.com/Frontend/DownloadDoc?path=4de51f18-b8df-4b6d-bee7-7317b0aa87dd.html&id_plan=601803",
+      "enroll_url": "https://signup.cleanskyenergy.com/rates?utility_id=121&promocode=PTCHOOSETX",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
@@ -532,153 +584,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-33177": {
-      "plan_id": "ptc-33177",
-      "rep": "DIRECT ENERGY",
-      "product": "Autopay Texas 36",
-      "rate_type": "Fixed",
-      "term_months": 36.0,
-      "cancel_fee": 395.0,
-      "renewable": 24.0,
-      "rating": 3.0,
-      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00183197346A.pdf",
-      "enroll_url": "https://shop.directenergy.com/tx/product-chart-tabs?tdspCode=D0011&promo_code=WHPGCD&sid=APTC_1726591058&utm_campaign=PTC&utm_medium=PTC_&utm_source=PowerToChoose",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.185,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-33184": {
-      "plan_id": "ptc-33184",
-      "rep": "RELIANT",
-      "product": "Reliant Power on 24 Plan",
-      "rate_type": "Fixed",
-      "term_months": 24.0,
-      "cancel_fee": 295.0,
-      "renewable": 24.0,
-      "rating": 4.0,
-      "efl_url": "https://www.reliant.com/defl/R1F00183448876A.pdf",
-      "enroll_url": "https://shop.reliant.com/plans-for-you/?tdspCodeCCS=D0011&fromLP=ptc&txtPromocode=WF3713&sid=APTC_1686089562&utm_source=None&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_",
-      "efl_verified": false,
-      "efl_status": "unparseable",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.174,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-33185": {
-      "plan_id": "ptc-33185",
-      "rep": "RELIANT",
-      "product": "Reliant Power on 36 Plan",
-      "rate_type": "Fixed",
-      "term_months": 36.0,
-      "cancel_fee": 395.0,
-      "renewable": 24.0,
-      "rating": 4.0,
-      "efl_url": "https://www.reliant.com/defl/R1F00183448906A.pdf",
-      "enroll_url": "https://shop.reliant.com/plans-for-you/?tdspCodeCCS=D0011&fromLP=ptc&txtPromocode=WF3713&sid=APTC_1686089562&utm_source=None&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.179,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-33200": {
-      "plan_id": "ptc-33200",
-      "rep": "CIRRO ENERGY",
-      "product": "Smart Simple 24",
-      "rate_type": "Fixed",
-      "term_months": 24.0,
-      "cancel_fee": 295.0,
-      "renewable": 24.0,
-      "rating": 2.0,
-      "efl_url": "https://www.cirroenergy.com/defl/M1F00183205102A.pdf",
-      "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0011&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.17,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-33202": {
-      "plan_id": "ptc-33202",
-      "rep": "CIRRO ENERGY",
-      "product": "Smart Simple 36",
-      "rate_type": "Fixed",
-      "term_months": 36.0,
-      "cancel_fee": 395.0,
-      "renewable": 24.0,
-      "rating": 2.0,
-      "efl_url": "https://www.cirroenergy.com/defl/M1F00182612006A.pdf",
-      "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0011&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.175,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-31968": {
-      "plan_id": "ptc-31968",
-      "rep": "AMIGO ENERGY",
-      "product": "Basics PTC - 24",
-      "rate_type": "Fixed",
-      "term_months": 24.0,
-      "cancel_fee": 175.0,
-      "renewable": 31.0,
-      "rating": 3.0,
-      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=FmU1axfKZP4=&RCID=rv5fvOkFHh4=&L=6f+Ch9flI7k=",
-      "enroll_url": "https://amigoenergy.com/lp/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
-      "efl_verified": false,
-      "efl_status": "unparseable",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.165,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-31956": {
-      "plan_id": "ptc-31956",
-      "rep": "JUST ENERGY",
-      "product": "Basics PTC - 60",
-      "rate_type": "Fixed",
-      "term_months": 60.0,
-      "cancel_fee": 175.0,
-      "renewable": 31.0,
-      "rating": 2.0,
-      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=ffiZbWf+Qi8=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=",
-      "enroll_url": "https://justenergy.com/affiliatepartner/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.165,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-31978": {
-      "plan_id": "ptc-31978",
+    "tara-energy-basics-ptc-24-lubbock-power-light-24-0": {
+      "plan_id": "tara-energy-basics-ptc-24-lubbock-power-light-24-0",
       "rep": "TARA ENERGY",
       "product": "Basics PTC - 24",
       "rate_type": "Fixed",
       "term_months": 24.0,
       "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 175.0,
       "renewable": 31.0,
       "rating": 4.0,
       "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=9go1u2iCjqo=&RCID=cacW2cvK/I0=&L=6f+Ch9flI7k=",
@@ -692,13 +606,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-31995": {
-      "plan_id": "ptc-31995",
+    "bkv-energy-daisy-12-lubbock-power-light-12-0": {
+      "plan_id": "bkv-energy-daisy-12-lubbock-power-light-12-0",
       "rep": "BKV Energy",
       "product": "Daisy 12",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 20.0,
+      "cancel_fee_per_month": true,
+      "cancel_fee_effective": 240.0,
       "renewable": 29.0,
       "rating": 5.0,
       "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001835&term=12",
@@ -707,18 +623,20 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.136,
+        "rate_per_kwh": 0.135,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-31996": {
-      "plan_id": "ptc-31996",
+    "bkv-energy-daisy-24-lubbock-power-light-24-0": {
+      "plan_id": "bkv-energy-daisy-24-lubbock-power-light-24-0",
       "rep": "BKV Energy",
       "product": "Daisy 24",
       "rate_type": "Fixed",
       "term_months": 24.0,
       "cancel_fee": 20.0,
+      "cancel_fee_per_month": true,
+      "cancel_fee_effective": 480.0,
       "renewable": 29.0,
       "rating": 5.0,
       "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001836&term=24",
@@ -727,18 +645,20 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.144,
+        "rate_per_kwh": 0.145,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-31998": {
-      "plan_id": "ptc-31998",
+    "bkv-energy-daisy-green-12-lubbock-power-light-12-0": {
+      "plan_id": "bkv-energy-daisy-green-12-lubbock-power-light-12-0",
       "rep": "BKV Energy",
       "product": "Daisy Green 12",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 20.0,
+      "cancel_fee_per_month": true,
+      "cancel_fee_effective": 240.0,
       "renewable": 100.0,
       "rating": 5.0,
       "efl_url": "https://enroll.bkvenergy.com/Home/EFL?productCode=RN00001834&term=12",
@@ -752,13 +672,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-32007": {
-      "plan_id": "ptc-32007",
+    "champion-energy-services-llc-champ-saver-12-lubbock-power-light-12-0": {
+      "plan_id": "champion-energy-services-llc-champ-saver-12-lubbock-power-light-12-0",
       "rep": "CHAMPION ENERGY SERVICES LLC",
       "product": "Champ Saver-12",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 150.0,
       "renewable": 24.0,
       "rating": 5.0,
       "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN6174&state=TX&language=EN",
@@ -767,98 +689,218 @@
       "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.127,
+        "rate_per_kwh": 0.13,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-36185": {
-      "plan_id": "ptc-36185",
-      "rep": "Atlantex Power",
-      "product": "Luminous 36",
+    "direct-energy-autopay-texas-36-lubbock-power-light-36-0": {
+      "plan_id": "direct-energy-autopay-texas-36-lubbock-power-light-36-0",
+      "rep": "DIRECT ENERGY",
+      "product": "Autopay Texas 36",
       "rate_type": "Fixed",
       "term_months": 36.0,
-      "cancel_fee": 20.0,
-      "renewable": 23.0,
+      "cancel_fee": 395.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 395.0,
+      "renewable": 24.0,
       "rating": 3.0,
-      "efl_url": "https://enroll.atlantexpower.com/EmailHTML/efl.aspx?RateID=3346&BrandID=3&PromoCodeID=115",
-      "enroll_url": "https://enroll.atlantexpower.com/Enrollment/Default.aspx?promoCode=ATLPTC1",
+      "efl_url": "https://documents.directenergy.com/dynamic/efl/D1F00183197346A.pdf",
+      "enroll_url": "https://shop.directenergy.com/tx/product-chart-tabs?tdspCode=D0011&promo_code=WHPGCD&sid=APTC_1726591058&utm_campaign=PTC&utm_medium=PTC_&utm_source=PowerToChoose",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.167,
+        "rate_per_kwh": 0.185,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-36179": {
-      "plan_id": "ptc-36179",
-      "rep": "Atlantex Power",
-      "product": "Luminous 10",
+    "reliant-reliant-power-on-24-plan-lubbock-power-light-24-0": {
+      "plan_id": "reliant-reliant-power-on-24-plan-lubbock-power-light-24-0",
+      "rep": "RELIANT",
+      "product": "Reliant Power on 24 Plan",
       "rate_type": "Fixed",
-      "term_months": 10.0,
-      "cancel_fee": 20.0,
-      "renewable": 23.0,
-      "rating": 3.0,
-      "efl_url": "https://enroll.atlantexpower.com/EmailHTML/efl.aspx?RateID=8392&BrandID=3&PromoCodeID=14",
-      "enroll_url": "https://enroll.atlantexpower.com/Enrollment/Default.aspx?promoCode=ATLPTC1",
-      "efl_verified": true,
-      "efl_status": "verified",
+      "term_months": 24.0,
+      "cancel_fee": 295.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 295.0,
+      "renewable": 24.0,
+      "rating": 4.0,
+      "efl_url": "https://www.reliant.com/defl/R1F00183448876A.pdf",
+      "enroll_url": "https://shop.reliant.com/plans-for-you/?tdspCodeCCS=D0011&fromLP=ptc&txtPromocode=WF3713&sid=APTC_1686089562&utm_source=None&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_",
+      "efl_verified": false,
+      "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.159,
+        "rate_per_kwh": 0.174,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-36071": {
-      "plan_id": "ptc-36071",
+    "reliant-reliant-power-on-36-plan-lubbock-power-light-36-0": {
+      "plan_id": "reliant-reliant-power-on-36-plan-lubbock-power-light-36-0",
+      "rep": "RELIANT",
+      "product": "Reliant Power on 36 Plan",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 395.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 395.0,
+      "renewable": 24.0,
+      "rating": 4.0,
+      "efl_url": "https://www.reliant.com/defl/R1F00183448906A.pdf",
+      "enroll_url": "https://shop.reliant.com/plans-for-you/?tdspCodeCCS=D0011&fromLP=ptc&txtPromocode=WF3713&sid=APTC_1686089562&utm_source=None&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": -0.0,
+        "rate_per_kwh": 0.179,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "cirro-energy-smart-simple-24-lubbock-power-light-24-0": {
+      "plan_id": "cirro-energy-smart-simple-24-lubbock-power-light-24-0",
+      "rep": "CIRRO ENERGY",
+      "product": "Smart Simple 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 295.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 295.0,
+      "renewable": 24.0,
+      "rating": 2.0,
+      "efl_url": "https://www.cirroenergy.com/defl/M1F00183205102A.pdf",
+      "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0011&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": -0.0,
+        "rate_per_kwh": 0.17,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "cirro-energy-smart-simple-36-lubbock-power-light-36-0": {
+      "plan_id": "cirro-energy-smart-simple-36-lubbock-power-light-36-0",
+      "rep": "CIRRO ENERGY",
+      "product": "Smart Simple 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 395.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 395.0,
+      "renewable": 24.0,
+      "rating": 2.0,
+      "efl_url": "https://www.cirroenergy.com/defl/M1F00182612006A.pdf",
+      "enroll_url": "https://www.cirroenergy.com/lp/ptcZipCodeSearch?tdsp_code=D0011&promo_code=WA198B&txtPromocode=WA198B&fromLP=ptc&sid=APTC_1685677096&utm_campaign=Power+To+Choose+Listings&utm_medium=PTC_&utm_source=None",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": -0.0,
+        "rate_per_kwh": 0.175,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "amigo-energy-basics-ptc-24-lubbock-power-light-24-0": {
+      "plan_id": "amigo-energy-basics-ptc-24-lubbock-power-light-24-0",
+      "rep": "AMIGO ENERGY",
+      "product": "Basics PTC - 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 175.0,
+      "renewable": 31.0,
+      "rating": 3.0,
+      "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=FmU1axfKZP4=&RCID=rv5fvOkFHh4=&L=6f+Ch9flI7k=",
+      "enroll_url": "https://amigoenergy.com/lp/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
+      "efl_verified": false,
+      "efl_status": "unparseable",
+      "cost": {
+        "base_charge": -0.0,
+        "rate_per_kwh": 0.165,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "just-energy-basics-ptc-60-lubbock-power-light-60-0": {
+      "plan_id": "just-energy-basics-ptc-60-lubbock-power-light-60-0",
+      "rep": "JUST ENERGY",
+      "product": "Basics PTC - 60",
+      "rate_type": "Fixed",
+      "term_months": 60.0,
+      "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 175.0,
+      "renewable": 31.0,
+      "rating": 2.0,
+      "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=ffiZbWf+Qi8=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=",
+      "enroll_url": "https://justenergy.com/affiliatepartner/ptc/?utm_source=powertochoose&utm_medium=referral&utm_campaign=LT",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": -0.0,
+        "rate_per_kwh": 0.165,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "texans-choice-power-llc-choose-12-lubbock-power-light-12-0": {
+      "plan_id": "texans-choice-power-llc-choose-12-lubbock-power-light-12-0",
       "rep": "Texans Choice Power LLC",
       "product": "Choose 12",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 100.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 100.0,
       "renewable": 37.0,
       "rating": null,
       "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153966&type=EFL&title=153966_EFL&language=english",
-      "enroll_url": "https://signup.texanschoicepower.com/",
+      "enroll_url": "https://signup.texanschoicepower.com/?PromoCode=PTC",
       "efl_verified": false,
       "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.141,
+        "rate_per_kwh": 0.132,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-36073": {
-      "plan_id": "ptc-36073",
+    "texans-choice-power-llc-choose-6-lubbock-power-light-6-0": {
+      "plan_id": "texans-choice-power-llc-choose-6-lubbock-power-light-6-0",
       "rep": "Texans Choice Power LLC",
       "product": "Choose 6",
       "rate_type": "Fixed",
       "term_months": 6.0,
       "cancel_fee": 100.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 100.0,
       "renewable": 37.0,
       "rating": null,
       "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153967&type=EFL&title=153967_EFL&language=english",
-      "enroll_url": "https://signup.texanschoicepower.com/",
+      "enroll_url": "https://signup.texanschoicepower.com/?PromoCode=PTC",
       "efl_verified": false,
       "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.143,
+        "rate_per_kwh": 0.131,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-36075": {
-      "plan_id": "ptc-36075",
+    "spark-energy-llc-choose-12-lubbock-power-light-12-0": {
+      "plan_id": "spark-energy-llc-choose-12-lubbock-power-light-12-0",
       "rep": "SPARK ENERGY LLC",
       "product": "Choose 12",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 100.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 100.0,
       "renewable": 37.0,
       "rating": 4.0,
       "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=153953&type=EFL&title=Electricity+Facts+Label&language=english",
@@ -867,18 +909,20 @@
       "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.145,
+        "rate_per_kwh": 0.138,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-36077": {
-      "plan_id": "ptc-36077",
+    "spark-energy-llc-choose-15-lubbock-power-light-15-0": {
+      "plan_id": "spark-energy-llc-choose-15-lubbock-power-light-15-0",
       "rep": "SPARK ENERGY LLC",
       "product": "Choose 15",
       "rate_type": "Fixed",
       "term_months": 15.0,
       "cancel_fee": 100.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 100.0,
       "renewable": 37.0,
       "rating": 4.0,
       "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=153954&type=EFL&title=Electricity+Facts+Label&language=english",
@@ -887,18 +931,20 @@
       "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.148,
+        "rate_per_kwh": 0.144,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-36079": {
-      "plan_id": "ptc-36079",
+    "spark-energy-llc-choose-6-lubbock-power-light-6-0": {
+      "plan_id": "spark-energy-llc-choose-6-lubbock-power-light-6-0",
       "rep": "SPARK ENERGY LLC",
       "product": "Choose 6",
       "rate_type": "Fixed",
       "term_months": 6.0,
       "cancel_fee": 100.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 100.0,
       "renewable": 37.0,
       "rating": 4.0,
       "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=153955&type=EFL&title=Electricity+Facts+Label&language=english",
@@ -907,18 +953,20 @@
       "efl_status": "unparseable",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.146,
+        "rate_per_kwh": 0.137,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-36089": {
-      "plan_id": "ptc-36089",
+    "reliant-reliant-power-on-18-lubbock-power-light-18-0": {
+      "plan_id": "reliant-reliant-power-on-18-lubbock-power-light-18-0",
       "rep": "RELIANT",
       "product": "Reliant Power On 18",
       "rate_type": "Fixed",
       "term_months": 18.0,
       "cancel_fee": 180.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 180.0,
       "renewable": 15.0,
       "rating": 4.0,
       "efl_url": "https://www.reliant.com/defl/R1F00190183745A.pdf",
@@ -932,13 +980,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-36093": {
-      "plan_id": "ptc-36093",
+    "green-mountain-energy-company-pollution-free-e-plus-18-choice-lubbock-power-light-18-0": {
+      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-18-choice-lubbock-power-light-18-0",
       "rep": "GREEN MOUNTAIN ENERGY COMPANY",
       "product": "Pollution Free e-Plus 18 Choice",
       "rate_type": "Fixed",
       "term_months": 18.0,
       "cancel_fee": 180.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 180.0,
       "renewable": 100.0,
       "rating": 2.0,
       "efl_url": "https://signup.greenmountain.com/defl/G1F00183201882A.pdf",
@@ -952,53 +1002,59 @@
         "max_residual": 0.0
       }
     },
-    "ptc-35934": {
-      "plan_id": "ptc-35934",
-      "rep": "Companion Energy",
-      "product": "Companion + Perks 10",
+    "atlantex-power-luminous-36-lubbock-power-light-36-0": {
+      "plan_id": "atlantex-power-luminous-36-lubbock-power-light-36-0",
+      "rep": "Atlantex Power",
+      "product": "Luminous 36",
       "rate_type": "Fixed",
-      "term_months": 10.0,
-      "cancel_fee": 150.0,
-      "renewable": 30.0,
-      "rating": 2.0,
-      "efl_url": "https://eflviewer.companionenergy.com/eflviewer.aspx?lang=EN&prodcode=CEPERK10&tdspcode=LPL&ppid=190508&logid=81958&filename=LPL_CEPERK10_20260724",
-      "enroll_url": "https://newenroll.companionenergy.com/?refid=PTCPERKS10&ul=1000&tdsp=LPL&utm_source=power_to_choose&utm_medium=referral&utm_campaign=PTC-PTCPERKS10&utm_content=LPL&utm_term=additional_info",
+      "term_months": 36.0,
+      "cancel_fee": 20.0,
+      "cancel_fee_per_month": true,
+      "cancel_fee_effective": 720.0,
+      "renewable": 23.0,
+      "rating": 3.0,
+      "efl_url": "https://enroll.atlantexpower.com/EmailHTML/efl.aspx?RateID=3346&BrandID=3&PromoCodeID=115",
+      "enroll_url": "https://enroll.atlantexpower.com/Enrollment/Default.aspx?promoCode=ATLPTC1",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.121,
+        "rate_per_kwh": 0.169,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-35910": {
-      "plan_id": "ptc-35910",
-      "rep": "GEXA ENERGY",
-      "product": "Gexa Eco Choice 10",
+    "atlantex-power-luminous-10-lubbock-power-light-10-0": {
+      "plan_id": "atlantex-power-luminous-10-lubbock-power-light-10-0",
+      "rep": "Atlantex Power",
+      "product": "Luminous 10",
       "rate_type": "Fixed",
       "term_months": 10.0,
-      "cancel_fee": 150.0,
-      "renewable": 100.0,
-      "rating": 4.0,
-      "efl_url": "https://eflviewer.gexaenergy.com/eflviewer.aspx?lang=EN&prodcode=GXAECOCHI10&tdspcode=LPL&ppid=190507&logid=81944&filename=LPL_GXAECOCHI10_20260724",
-      "enroll_url": "https://newenroll.gexaenergy.com/?refid=PTC_LPL&ul=1000&tdsp=LPL",
+      "cancel_fee": 20.0,
+      "cancel_fee_per_month": true,
+      "cancel_fee_effective": 200.0,
+      "renewable": 23.0,
+      "rating": 3.0,
+      "efl_url": "https://enroll.atlantexpower.com/EmailHTML/efl.aspx?RateID=8392&BrandID=3&PromoCodeID=14",
+      "enroll_url": "https://enroll.atlantexpower.com/Enrollment/Default.aspx?promoCode=ATLPTC1",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.121,
+        "rate_per_kwh": 0.162,
         "is_linear": true,
         "max_residual": 0.0
       }
     },
-    "ptc-35867": {
-      "plan_id": "ptc-35867",
+    "octopus-energy-octo-simple-18-lubbock-power-light-18-0": {
+      "plan_id": "octopus-energy-octo-simple-18-lubbock-power-light-18-0",
       "rep": "Octopus Energy",
       "product": "Octo Simple 18",
       "rate_type": "Fixed",
       "term_months": 18.0,
       "cancel_fee": 200.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 200.0,
       "renewable": 100.0,
       "rating": 3.0,
       "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-18-LPL-LZ_WEST-202607091030",
@@ -1012,73 +1068,15 @@
         "max_residual": 0.0
       }
     },
-    "ptc-35874": {
-      "plan_id": "ptc-35874",
-      "rep": "FRONTIER UTILITIES",
-      "product": "Frontier Power Saver 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 150.0,
-      "renewable": 30.0,
-      "rating": 2.0,
-      "efl_url": "https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=EN&prodcode=FPOWSVR12&tdspcode=LPL&ppid=191537&logid=82375&filename=LPL_FPOWSVR12_20260729_0000_82375",
-      "enroll_url": "https://newenroll.frontierutilities.com/?refid=PTC_LPL&ul=1000&tdsp=LPL",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.126,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-35886": {
-      "plan_id": "ptc-35886",
-      "rep": "FRONTIER UTILITIES",
-      "product": "Frontier Power Saver 10",
-      "rate_type": "Fixed",
-      "term_months": 10.0,
-      "cancel_fee": 150.0,
-      "renewable": 30.0,
-      "rating": 2.0,
-      "efl_url": "https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=EN&prodcode=FPOWSVR10&tdspcode=LPL&ppid=190506&logid=81950&filename=LPL_FPOWSVR10_20260724",
-      "enroll_url": "https://newenroll.frontierutilities.com/?refid=PTC_LPL&ul=1000&tdsp=LPL",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.121,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-35767": {
-      "plan_id": "ptc-35767",
-      "rep": "Companion Energy",
-      "product": "Companion + Perks 12",
-      "rate_type": "Fixed",
-      "term_months": 12.0,
-      "cancel_fee": 150.0,
-      "renewable": 30.0,
-      "rating": 2.0,
-      "efl_url": "https://eflviewer.companionenergy.com/eflviewer.aspx?lang=EN&prodcode=CEPERK12&tdspcode=LPL&ppid=191539&logid=82369&filename=LPL_CEPERK12_20260729_0000_82369",
-      "enroll_url": "https://newenroll.companionenergy.com/?refid=PTCPERKS12&ul=1000&tdsp=LPL&utm_source=power_to_choose&utm_medium=referral&utm_campaign=PTC-PTCPERKS12&utm_content=LPL&utm_term=additional_info",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.126,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-35739": {
-      "plan_id": "ptc-35739",
+    "octopus-energy-llc-octo-simple-24-lubbock-power-light-24-0": {
+      "plan_id": "octopus-energy-llc-octo-simple-24-lubbock-power-light-24-0",
       "rep": "Octopus Energy LLC",
       "product": "Octo Simple 24",
       "rate_type": "Fixed",
       "term_months": 24.0,
       "cancel_fee": 250.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 250.0,
       "renewable": 100.0,
       "rating": 3.0,
       "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-24-LPL-LZ_WEST-202607141200",
@@ -1092,13 +1090,37 @@
         "max_residual": 0.0
       }
     },
-    "ptc-35728": {
-      "plan_id": "ptc-35728",
+    "companion-energy-companion-perks-12-lubbock-power-light-12-0": {
+      "plan_id": "companion-energy-companion-perks-12-lubbock-power-light-12-0",
+      "rep": "Companion Energy",
+      "product": "Companion + Perks 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 150.0,
+      "renewable": 30.0,
+      "rating": 2.0,
+      "efl_url": "https://eflviewer.companionenergy.com/eflviewer.aspx?lang=EN&prodcode=CEPERK12&tdspcode=LPL",
+      "enroll_url": "https://newenroll.companionenergy.com/?refid=PTCPERKS12&ul=1000&tdsp=LPL&utm_source=power_to_choose&utm_medium=referral&utm_campaign=PTC-PTCPERKS12&utm_content=LPL&utm_term=additional_info",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": -0.0,
+        "rate_per_kwh": 0.127,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "octopus-energy-llc-octo-simple-14-lubbock-power-light-14-0": {
+      "plan_id": "octopus-energy-llc-octo-simple-14-lubbock-power-light-14-0",
       "rep": "Octopus Energy LLC",
       "product": "Octo Simple 14",
       "rate_type": "Fixed",
       "term_months": 14.0,
       "cancel_fee": 200.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 200.0,
       "renewable": 100.0,
       "rating": 3.0,
       "efl_url": "https://octopusenergy.com/efl/OCTO-SIMPLE-14-LPL-LZ_WEST-202607091030",
@@ -1112,17 +1134,85 @@
         "max_residual": 0.0
       }
     },
-    "ptc-35656": {
-      "plan_id": "ptc-35656",
+    "ae-texas-smart-secure-10-lubbock-power-light-10-0": {
+      "plan_id": "ae-texas-smart-secure-10-lubbock-power-light-10-0",
       "rep": "AE TEXAS",
       "product": "Smart Secure 10",
       "rate_type": "Fixed",
       "term_months": 10.0,
       "cancel_fee": 20.0,
+      "cancel_fee_per_month": true,
+      "cancel_fee_effective": 200.0,
       "renewable": 23.0,
       "rating": 3.0,
       "efl_url": "https://enroll.aetexasco.com/EmailHTML/efl.aspx?RateID=8470&BrandID=1&PromoCodeID=114",
       "enroll_url": "https://enroll.aetexasco.com/Enrollment/Default.aspx?&promoCode=AETXPTC1",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": -0.0,
+        "rate_per_kwh": 0.142,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "sfe-energy-texas-inc-sfe-rewardsplus-12-lubbock-power-light-12-0": {
+      "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-lubbock-power-light-12-0",
+      "rep": "SFE ENERGY TEXAS INC",
+      "product": "SFE RewardsPlus - 12",
+      "rate_type": "Fixed",
+      "term_months": 12.0,
+      "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 175.0,
+      "renewable": 35.0,
+      "rating": 1.0,
+      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_12MTH_LPL_12_2516194962686059803_EFL_SFE Residential Fixed LPL 12English.pdf",
+      "enroll_url": "https://www.sfeenergy.com/texas/",
+      "efl_verified": false,
+      "efl_status": "unparseable",
+      "cost": {
+        "base_charge": 0.0,
+        "rate_per_kwh": 0.134,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "true-power-true-value-24-lubbock-power-light-24-0": {
+      "plan_id": "true-power-true-value-24-lubbock-power-light-24-0",
+      "rep": "TRUE POWER",
+      "product": "True Value 24",
+      "rate_type": "Fixed",
+      "term_months": 24.0,
+      "cancel_fee": 300.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 300.0,
+      "renewable": 15.0,
+      "rating": 1.0,
+      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/5685191CD3E9726CE06382F2000A3173/view",
+      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
+      "efl_verified": true,
+      "efl_status": "verified",
+      "cost": {
+        "base_charge": -0.0,
+        "rate_per_kwh": 0.132,
+        "is_linear": true,
+        "max_residual": 0.0
+      }
+    },
+    "true-power-true-value-36-lubbock-power-light-36-0": {
+      "plan_id": "true-power-true-value-36-lubbock-power-light-36-0",
+      "rep": "TRUE POWER",
+      "product": "True Value 36",
+      "rate_type": "Fixed",
+      "term_months": 36.0,
+      "cancel_fee": 300.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 300.0,
+      "renewable": 15.0,
+      "rating": 1.0,
+      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/5685191CD3E6726CE06382F2000A3173/view",
+      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
@@ -1132,102 +1222,24 @@
         "max_residual": 0.0
       }
     },
-    "ptc-37157": {
-      "plan_id": "ptc-37157",
-      "rep": "TRUE POWER",
-      "product": "True Value 10",
-      "rate_type": "Fixed",
-      "term_months": 10.0,
-      "cancel_fee": 300.0,
-      "renewable": 15.0,
-      "rating": 1.0,
-      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/57F05FC8C477ED0AE063E0F8000A9CF2/view",
-      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.12,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-37162": {
-      "plan_id": "ptc-37162",
-      "rep": "TRUE POWER",
-      "product": "True Value 11",
-      "rate_type": "Fixed",
-      "term_months": 11.0,
-      "cancel_fee": 300.0,
-      "renewable": 15.0,
-      "rating": 1.0,
-      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/57F0C5E74F15E843E063E0F8000A5D09/view",
-      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.117,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-37103": {
-      "plan_id": "ptc-37103",
+    "true-power-true-value-12-lubbock-power-light-12-0": {
+      "plan_id": "true-power-true-value-12-lubbock-power-light-12-0",
       "rep": "TRUE POWER",
       "product": "True Value 12",
       "rate_type": "Fixed",
       "term_months": 12.0,
       "cancel_fee": 300.0,
+      "cancel_fee_per_month": false,
+      "cancel_fee_effective": 300.0,
       "renewable": 15.0,
       "rating": 1.0,
-      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/57DD7E9217EE69ADE063E0F8000AD8D6/view",
+      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/570F6516F26D38FAE063E0F8000A92D0/view",
       "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
       "efl_verified": true,
       "efl_status": "verified",
       "cost": {
         "base_charge": -0.0,
-        "rate_per_kwh": 0.12,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-37105": {
-      "plan_id": "ptc-37105",
-      "rep": "TRUE POWER",
-      "product": "True Value 24",
-      "rate_type": "Fixed",
-      "term_months": 24.0,
-      "cancel_fee": 300.0,
-      "renewable": 15.0,
-      "rating": 1.0,
-      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/57DD75BB90B6697EE063E0F8000AD0D1/view",
-      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.126,
-        "is_linear": true,
-        "max_residual": 0.0
-      }
-    },
-    "ptc-37107": {
-      "plan_id": "ptc-37107",
-      "rep": "TRUE POWER",
-      "product": "True Value 36",
-      "rate_type": "Fixed",
-      "term_months": 36.0,
-      "cancel_fee": 300.0,
-      "renewable": 15.0,
-      "rating": 1.0,
-      "efl_url": "https://gb008a8dbfa8724-worx4uv1.adb.us-ashburn-1.oraclecloudapps.com/ords/worx4u/admin/efls/57DD6629815E0DC1E063E0F8000A325A/view",
-      "enroll_url": "https://portal.truepower.com/signup?ref=PTC",
-      "efl_verified": true,
-      "efl_status": "verified",
-      "cost": {
-        "base_charge": -0.0,
-        "rate_per_kwh": 0.133,
+        "rate_per_kwh": 0.124,
         "is_linear": true,
         "max_residual": 0.0
       }
@@ -1235,1240 +1247,1140 @@
   },
   "rankings": {
     "500": {
-      "top_pick_id": "ptc-37162",
+      "top_pick_id": "ap-gas-electric-tx-llc-trueclassic-11-lubbock-power-light-11-0",
       "plans": [
         {
-          "plan_id": "ptc-37162",
-          "monthly_bill": 58.5,
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-lubbock-power-light-11-0",
+          "monthly_bill": 62.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33472",
-          "monthly_bill": 59.0,
+          "plan_id": "true-power-true-value-12-lubbock-power-light-12-0",
+          "monthly_bill": 62.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37157",
-          "monthly_bill": 60.0,
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-lubbock-power-light-12-0",
+          "monthly_bill": 62.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37103",
-          "monthly_bill": 60.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35910",
-          "monthly_bill": 60.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35934",
-          "monthly_bill": 60.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35886",
-          "monthly_bill": 60.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32928",
-          "monthly_bill": 60.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32955",
-          "monthly_bill": 63.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32902",
-          "monthly_bill": 63.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35874",
-          "monthly_bill": 63.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35767",
-          "monthly_bill": 63.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-37105",
-          "monthly_bill": 63.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32007",
+          "plan_id": "gexa-energy-gexa-eco-choice-12-lubbock-power-light-12-0",
           "monthly_bill": 63.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32953",
-          "monthly_bill": 64.5,
+          "plan_id": "frontier-utilities-frontier-power-saver-12-lubbock-power-light-12-0",
+          "monthly_bill": 63.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34778",
+          "plan_id": "companion-energy-companion-perks-12-lubbock-power-light-12-0",
+          "monthly_bill": 63.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-12-lubbock-power-light-12-0",
+          "monthly_bill": 65.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "texans-choice-power-llc-choose-6-lubbock-power-light-6-0",
           "monthly_bill": 65.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34694",
-          "monthly_bill": 65.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32936",
+          "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-lubbock-power-light-12-0",
           "monthly_bill": 66.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32931",
+          "plan_id": "texans-choice-power-llc-choose-12-lubbock-power-light-12-0",
+          "monthly_bill": 66.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-24-lubbock-power-light-24-0",
+          "monthly_bill": 66.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-lubbock-power-light-24-0",
           "monthly_bill": 66.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37107",
-          "monthly_bill": 66.5,
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-lubbock-power-light-12-0",
+          "monthly_bill": 67.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31995",
-          "monthly_bill": 68.0,
+          "plan_id": "abundance-energy-confident-renter-12-lubbock-power-light-12-0",
+          "monthly_bill": 67.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31998",
+          "plan_id": "bkv-energy-daisy-11-lubbock-power-light-11-0",
+          "monthly_bill": 67.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-12-lubbock-power-light-12-0",
+          "monthly_bill": 67.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-24-lubbock-power-light-24-0",
+          "monthly_bill": 67.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-6-lubbock-power-light-6-0",
           "monthly_bill": 68.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35656",
+          "plan_id": "bkv-energy-daisy-green-12-lubbock-power-light-12-0",
+          "monthly_bill": 68.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-12-lubbock-power-light-12-0",
+          "monthly_bill": 69.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-13-lubbock-power-light-13-0",
           "monthly_bill": 69.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33357",
+          "plan_id": "true-power-true-value-36-lubbock-power-light-36-0",
+          "monthly_bill": 69.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-lubbock-power-light-36-0",
           "monthly_bill": 70.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34687",
-          "monthly_bill": 70.5,
+          "plan_id": "ae-texas-smart-secure-10-lubbock-power-light-10-0",
+          "monthly_bill": 71.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36071",
-          "monthly_bill": 70.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-36073",
-          "monthly_bill": 71.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-31996",
+          "plan_id": "spark-energy-llc-choose-15-lubbock-power-light-15-0",
           "monthly_bill": 72.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36075",
+          "plan_id": "bkv-energy-daisy-24-lubbock-power-light-24-0",
           "monthly_bill": 72.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36079",
-          "monthly_bill": 73.0,
+          "plan_id": "ae-texas-smart-secure-36-lubbock-power-light-36-0",
+          "monthly_bill": 74.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34635",
-          "monthly_bill": 73.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-36077",
-          "monthly_bill": 74.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-33065",
+          "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-lubbock-power-light-12-0",
           "monthly_bill": 75.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33067",
+          "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-lubbock-power-light-24-0",
           "monthly_bill": 76.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36179",
+          "plan_id": "octopus-energy-octo-simple-12-lubbock-power-light-12-0",
           "monthly_bill": 79.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32949",
-          "monthly_bill": 80.5,
+          "plan_id": "atlantex-power-luminous-10-lubbock-power-light-10-0",
+          "monthly_bill": 81.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35867",
+          "plan_id": "octopus-energy-octo-simple-18-lubbock-power-light-18-0",
           "monthly_bill": 82.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32915",
+          "plan_id": "cirro-energy-smart-simple-12-lubbock-power-light-12-0",
           "monthly_bill": 82.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32925",
+          "plan_id": "discount-power-saver-12-lubbock-power-light-12-0",
           "monthly_bill": 82.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31978",
+          "plan_id": "tara-energy-basics-ptc-24-lubbock-power-light-24-0",
           "monthly_bill": 82.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-27802",
+          "plan_id": "tara-energy-basics-ptc-36-lubbock-power-light-36-0",
           "monthly_bill": 82.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31968",
+          "plan_id": "amigo-energy-basics-ptc-24-lubbock-power-light-24-0",
           "monthly_bill": 82.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-24620",
+          "plan_id": "amigo-energy-basics-ptc-36-lubbock-power-light-36-0",
           "monthly_bill": 82.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33607",
+          "plan_id": "just-energy-basics-ptc-24-lubbock-power-light-24-0",
           "monthly_bill": 82.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31956",
+          "plan_id": "just-energy-basics-ptc-60-lubbock-power-light-60-0",
           "monthly_bill": 82.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35739",
+          "plan_id": "octopus-energy-llc-octo-simple-24-lubbock-power-light-24-0",
           "monthly_bill": 82.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33434",
+          "plan_id": "discount-power-saver-36-lubbock-power-light-36-0",
           "monthly_bill": 82.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35728",
+          "plan_id": "octopus-energy-llc-octo-simple-14-lubbock-power-light-14-0",
           "monthly_bill": 83.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36185",
-          "monthly_bill": 83.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-36089",
+          "plan_id": "reliant-reliant-power-on-18-lubbock-power-light-18-0",
           "monthly_bill": 84.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33432",
+          "plan_id": "atlantex-power-luminous-36-lubbock-power-light-36-0",
+          "monthly_bill": 84.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-24-lubbock-power-light-24-0",
           "monthly_bill": 85.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33200",
+          "plan_id": "cirro-energy-smart-simple-24-lubbock-power-light-24-0",
           "monthly_bill": 85.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32910",
+          "plan_id": "reliant-reliant-power-on-12-plan-lubbock-power-light-12-0",
           "monthly_bill": 86.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33184",
+          "plan_id": "reliant-reliant-power-on-24-plan-lubbock-power-light-24-0",
           "monthly_bill": 87.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32914",
+          "plan_id": "direct-energy-autopay-texas-12-lubbock-power-light-12-0",
           "monthly_bill": 87.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33202",
+          "plan_id": "cirro-energy-smart-simple-36-lubbock-power-light-36-0",
           "monthly_bill": 87.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32905",
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-12-choice-lubbock-power-light-12-0",
           "monthly_bill": 89.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36093",
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-18-choice-lubbock-power-light-18-0",
           "monthly_bill": 89.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34579",
+          "plan_id": "direct-energy-autopay-texas-24-lubbock-power-light-24-0",
           "monthly_bill": 89.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33185",
+          "plan_id": "reliant-reliant-power-on-36-plan-lubbock-power-light-36-0",
           "monthly_bill": 89.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33177",
+          "plan_id": "direct-energy-autopay-texas-36-lubbock-power-light-36-0",
           "monthly_bill": 92.5,
           "trustworthy_price": true
         }
       ]
     },
     "1000": {
-      "top_pick_id": "ptc-37162",
+      "top_pick_id": "ap-gas-electric-tx-llc-trueclassic-11-lubbock-power-light-11-0",
       "plans": [
         {
-          "plan_id": "ptc-37162",
-          "monthly_bill": 117.0,
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-lubbock-power-light-11-0",
+          "monthly_bill": 124.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33472",
-          "monthly_bill": 118.0,
+          "plan_id": "true-power-true-value-12-lubbock-power-light-12-0",
+          "monthly_bill": 124.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37157",
-          "monthly_bill": 120.0,
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-lubbock-power-light-12-0",
+          "monthly_bill": 125.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37103",
-          "monthly_bill": 120.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35910",
-          "monthly_bill": 121.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35934",
-          "monthly_bill": 121.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35886",
-          "monthly_bill": 121.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32928",
-          "monthly_bill": 121.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32955",
-          "monthly_bill": 126.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32902",
-          "monthly_bill": 126.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35874",
-          "monthly_bill": 126.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35767",
-          "monthly_bill": 126.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-37105",
-          "monthly_bill": 126.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32007",
+          "plan_id": "gexa-energy-gexa-eco-choice-12-lubbock-power-light-12-0",
           "monthly_bill": 127.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32953",
-          "monthly_bill": 129.0,
+          "plan_id": "frontier-utilities-frontier-power-saver-12-lubbock-power-light-12-0",
+          "monthly_bill": 127.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34778",
+          "plan_id": "companion-energy-companion-perks-12-lubbock-power-light-12-0",
+          "monthly_bill": 127.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-12-lubbock-power-light-12-0",
+          "monthly_bill": 130.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "texans-choice-power-llc-choose-6-lubbock-power-light-6-0",
           "monthly_bill": 131.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34694",
-          "monthly_bill": 131.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32936",
+          "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-lubbock-power-light-12-0",
           "monthly_bill": 132.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32931",
+          "plan_id": "texans-choice-power-llc-choose-12-lubbock-power-light-12-0",
+          "monthly_bill": 132.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-24-lubbock-power-light-24-0",
+          "monthly_bill": 132.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-lubbock-power-light-24-0",
           "monthly_bill": 133.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37107",
-          "monthly_bill": 133.0,
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-lubbock-power-light-12-0",
+          "monthly_bill": 134.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31995",
-          "monthly_bill": 136.0,
+          "plan_id": "abundance-energy-confident-renter-12-lubbock-power-light-12-0",
+          "monthly_bill": 134.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31998",
+          "plan_id": "bkv-energy-daisy-11-lubbock-power-light-11-0",
+          "monthly_bill": 135.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-12-lubbock-power-light-12-0",
+          "monthly_bill": 135.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-24-lubbock-power-light-24-0",
+          "monthly_bill": 135.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-6-lubbock-power-light-6-0",
           "monthly_bill": 137.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35656",
+          "plan_id": "bkv-energy-daisy-green-12-lubbock-power-light-12-0",
+          "monthly_bill": 137.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-12-lubbock-power-light-12-0",
+          "monthly_bill": 138.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-13-lubbock-power-light-13-0",
           "monthly_bill": 139.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33357",
+          "plan_id": "true-power-true-value-36-lubbock-power-light-36-0",
+          "monthly_bill": 139.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-lubbock-power-light-36-0",
           "monthly_bill": 140.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34687",
-          "monthly_bill": 141.0,
+          "plan_id": "ae-texas-smart-secure-10-lubbock-power-light-10-0",
+          "monthly_bill": 142.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36071",
-          "monthly_bill": 141.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-36073",
-          "monthly_bill": 143.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-31996",
+          "plan_id": "spark-energy-llc-choose-15-lubbock-power-light-15-0",
           "monthly_bill": 144.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36075",
+          "plan_id": "bkv-energy-daisy-24-lubbock-power-light-24-0",
           "monthly_bill": 145.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36079",
-          "monthly_bill": 146.0,
+          "plan_id": "ae-texas-smart-secure-36-lubbock-power-light-36-0",
+          "monthly_bill": 149.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34635",
-          "monthly_bill": 147.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-36077",
-          "monthly_bill": 148.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-33065",
+          "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-lubbock-power-light-12-0",
           "monthly_bill": 151.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33067",
+          "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-lubbock-power-light-24-0",
           "monthly_bill": 152.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36179",
+          "plan_id": "octopus-energy-octo-simple-12-lubbock-power-light-12-0",
           "monthly_bill": 159.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32949",
-          "monthly_bill": 161.0,
+          "plan_id": "atlantex-power-luminous-10-lubbock-power-light-10-0",
+          "monthly_bill": 162.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35867",
+          "plan_id": "octopus-energy-octo-simple-18-lubbock-power-light-18-0",
           "monthly_bill": 164.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32915",
+          "plan_id": "cirro-energy-smart-simple-12-lubbock-power-light-12-0",
           "monthly_bill": 165.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32925",
+          "plan_id": "discount-power-saver-12-lubbock-power-light-12-0",
           "monthly_bill": 165.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31978",
+          "plan_id": "tara-energy-basics-ptc-24-lubbock-power-light-24-0",
           "monthly_bill": 165.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-27802",
+          "plan_id": "tara-energy-basics-ptc-36-lubbock-power-light-36-0",
           "monthly_bill": 165.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31968",
+          "plan_id": "amigo-energy-basics-ptc-24-lubbock-power-light-24-0",
           "monthly_bill": 165.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-24620",
+          "plan_id": "amigo-energy-basics-ptc-36-lubbock-power-light-36-0",
           "monthly_bill": 165.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33607",
+          "plan_id": "just-energy-basics-ptc-24-lubbock-power-light-24-0",
           "monthly_bill": 165.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31956",
+          "plan_id": "just-energy-basics-ptc-60-lubbock-power-light-60-0",
           "monthly_bill": 165.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35739",
+          "plan_id": "octopus-energy-llc-octo-simple-24-lubbock-power-light-24-0",
           "monthly_bill": 165.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33434",
+          "plan_id": "discount-power-saver-36-lubbock-power-light-36-0",
           "monthly_bill": 165.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35728",
+          "plan_id": "octopus-energy-llc-octo-simple-14-lubbock-power-light-14-0",
           "monthly_bill": 166.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36185",
-          "monthly_bill": 167.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-36089",
+          "plan_id": "reliant-reliant-power-on-18-lubbock-power-light-18-0",
           "monthly_bill": 169.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33432",
+          "plan_id": "atlantex-power-luminous-36-lubbock-power-light-36-0",
+          "monthly_bill": 169.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-24-lubbock-power-light-24-0",
           "monthly_bill": 170.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33200",
+          "plan_id": "cirro-energy-smart-simple-24-lubbock-power-light-24-0",
           "monthly_bill": 170.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32910",
+          "plan_id": "reliant-reliant-power-on-12-plan-lubbock-power-light-12-0",
           "monthly_bill": 172.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33184",
+          "plan_id": "reliant-reliant-power-on-24-plan-lubbock-power-light-24-0",
           "monthly_bill": 174.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32914",
+          "plan_id": "direct-energy-autopay-texas-12-lubbock-power-light-12-0",
           "monthly_bill": 175.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33202",
+          "plan_id": "cirro-energy-smart-simple-36-lubbock-power-light-36-0",
           "monthly_bill": 175.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32905",
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-12-choice-lubbock-power-light-12-0",
           "monthly_bill": 179.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36093",
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-18-choice-lubbock-power-light-18-0",
           "monthly_bill": 179.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34579",
+          "plan_id": "direct-energy-autopay-texas-24-lubbock-power-light-24-0",
           "monthly_bill": 179.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33185",
+          "plan_id": "reliant-reliant-power-on-36-plan-lubbock-power-light-36-0",
           "monthly_bill": 179.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33177",
+          "plan_id": "direct-energy-autopay-texas-36-lubbock-power-light-36-0",
           "monthly_bill": 185.0,
           "trustworthy_price": true
         }
       ]
     },
     "1500": {
-      "top_pick_id": "ptc-37162",
+      "top_pick_id": "ap-gas-electric-tx-llc-trueclassic-11-lubbock-power-light-11-0",
       "plans": [
         {
-          "plan_id": "ptc-37162",
-          "monthly_bill": 175.5,
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-lubbock-power-light-11-0",
+          "monthly_bill": 186.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33472",
-          "monthly_bill": 177.0,
+          "plan_id": "true-power-true-value-12-lubbock-power-light-12-0",
+          "monthly_bill": 186.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37157",
-          "monthly_bill": 180.0,
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-lubbock-power-light-12-0",
+          "monthly_bill": 187.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37103",
-          "monthly_bill": 180.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35910",
-          "monthly_bill": 181.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35934",
-          "monthly_bill": 181.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35886",
-          "monthly_bill": 181.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32928",
-          "monthly_bill": 181.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32955",
-          "monthly_bill": 189.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32902",
-          "monthly_bill": 189.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35874",
-          "monthly_bill": 189.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35767",
-          "monthly_bill": 189.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-37105",
-          "monthly_bill": 189.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32007",
+          "plan_id": "gexa-energy-gexa-eco-choice-12-lubbock-power-light-12-0",
           "monthly_bill": 190.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32953",
-          "monthly_bill": 193.5,
+          "plan_id": "frontier-utilities-frontier-power-saver-12-lubbock-power-light-12-0",
+          "monthly_bill": 190.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34778",
+          "plan_id": "companion-energy-companion-perks-12-lubbock-power-light-12-0",
+          "monthly_bill": 190.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-12-lubbock-power-light-12-0",
+          "monthly_bill": 195.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "texans-choice-power-llc-choose-6-lubbock-power-light-6-0",
           "monthly_bill": 196.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34694",
-          "monthly_bill": 196.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32936",
+          "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-lubbock-power-light-12-0",
           "monthly_bill": 198.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32931",
+          "plan_id": "texans-choice-power-llc-choose-12-lubbock-power-light-12-0",
+          "monthly_bill": 198.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-24-lubbock-power-light-24-0",
+          "monthly_bill": 198.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-lubbock-power-light-24-0",
           "monthly_bill": 199.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37107",
-          "monthly_bill": 199.5,
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-lubbock-power-light-12-0",
+          "monthly_bill": 201.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31995",
-          "monthly_bill": 204.0,
+          "plan_id": "abundance-energy-confident-renter-12-lubbock-power-light-12-0",
+          "monthly_bill": 201.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31998",
+          "plan_id": "bkv-energy-daisy-11-lubbock-power-light-11-0",
+          "monthly_bill": 202.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-12-lubbock-power-light-12-0",
+          "monthly_bill": 202.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-24-lubbock-power-light-24-0",
+          "monthly_bill": 202.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-6-lubbock-power-light-6-0",
           "monthly_bill": 205.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35656",
+          "plan_id": "bkv-energy-daisy-green-12-lubbock-power-light-12-0",
+          "monthly_bill": 205.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-12-lubbock-power-light-12-0",
+          "monthly_bill": 207.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-13-lubbock-power-light-13-0",
           "monthly_bill": 208.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33357",
+          "plan_id": "true-power-true-value-36-lubbock-power-light-36-0",
+          "monthly_bill": 208.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-lubbock-power-light-36-0",
           "monthly_bill": 210.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34687",
-          "monthly_bill": 211.5,
+          "plan_id": "ae-texas-smart-secure-10-lubbock-power-light-10-0",
+          "monthly_bill": 213.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36071",
-          "monthly_bill": 211.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-36073",
-          "monthly_bill": 214.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-31996",
+          "plan_id": "spark-energy-llc-choose-15-lubbock-power-light-15-0",
           "monthly_bill": 216.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36075",
+          "plan_id": "bkv-energy-daisy-24-lubbock-power-light-24-0",
           "monthly_bill": 217.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36079",
-          "monthly_bill": 219.0,
+          "plan_id": "ae-texas-smart-secure-36-lubbock-power-light-36-0",
+          "monthly_bill": 223.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34635",
-          "monthly_bill": 220.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-36077",
-          "monthly_bill": 222.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-33065",
+          "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-lubbock-power-light-12-0",
           "monthly_bill": 226.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33067",
+          "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-lubbock-power-light-24-0",
           "monthly_bill": 228.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36179",
+          "plan_id": "octopus-energy-octo-simple-12-lubbock-power-light-12-0",
           "monthly_bill": 238.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32949",
-          "monthly_bill": 241.5,
+          "plan_id": "atlantex-power-luminous-10-lubbock-power-light-10-0",
+          "monthly_bill": 243.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35867",
+          "plan_id": "octopus-energy-octo-simple-18-lubbock-power-light-18-0",
           "monthly_bill": 246.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32915",
+          "plan_id": "cirro-energy-smart-simple-12-lubbock-power-light-12-0",
           "monthly_bill": 247.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32925",
+          "plan_id": "discount-power-saver-12-lubbock-power-light-12-0",
           "monthly_bill": 247.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31978",
+          "plan_id": "tara-energy-basics-ptc-24-lubbock-power-light-24-0",
           "monthly_bill": 247.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-27802",
+          "plan_id": "tara-energy-basics-ptc-36-lubbock-power-light-36-0",
           "monthly_bill": 247.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31968",
+          "plan_id": "amigo-energy-basics-ptc-24-lubbock-power-light-24-0",
           "monthly_bill": 247.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-24620",
+          "plan_id": "amigo-energy-basics-ptc-36-lubbock-power-light-36-0",
           "monthly_bill": 247.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33607",
+          "plan_id": "just-energy-basics-ptc-24-lubbock-power-light-24-0",
           "monthly_bill": 247.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31956",
+          "plan_id": "just-energy-basics-ptc-60-lubbock-power-light-60-0",
           "monthly_bill": 247.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35739",
+          "plan_id": "octopus-energy-llc-octo-simple-24-lubbock-power-light-24-0",
           "monthly_bill": 247.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33434",
+          "plan_id": "discount-power-saver-36-lubbock-power-light-36-0",
           "monthly_bill": 247.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35728",
+          "plan_id": "octopus-energy-llc-octo-simple-14-lubbock-power-light-14-0",
           "monthly_bill": 249.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36185",
-          "monthly_bill": 250.5,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-36089",
+          "plan_id": "reliant-reliant-power-on-18-lubbock-power-light-18-0",
           "monthly_bill": 253.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33432",
+          "plan_id": "atlantex-power-luminous-36-lubbock-power-light-36-0",
+          "monthly_bill": 253.5,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-24-lubbock-power-light-24-0",
           "monthly_bill": 255.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33200",
+          "plan_id": "cirro-energy-smart-simple-24-lubbock-power-light-24-0",
           "monthly_bill": 255.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32910",
+          "plan_id": "reliant-reliant-power-on-12-plan-lubbock-power-light-12-0",
           "monthly_bill": 258.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33184",
+          "plan_id": "reliant-reliant-power-on-24-plan-lubbock-power-light-24-0",
           "monthly_bill": 261.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32914",
+          "plan_id": "direct-energy-autopay-texas-12-lubbock-power-light-12-0",
           "monthly_bill": 262.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33202",
+          "plan_id": "cirro-energy-smart-simple-36-lubbock-power-light-36-0",
           "monthly_bill": 262.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32905",
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-12-choice-lubbock-power-light-12-0",
           "monthly_bill": 268.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36093",
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-18-choice-lubbock-power-light-18-0",
           "monthly_bill": 268.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34579",
+          "plan_id": "direct-energy-autopay-texas-24-lubbock-power-light-24-0",
           "monthly_bill": 268.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33185",
+          "plan_id": "reliant-reliant-power-on-36-plan-lubbock-power-light-36-0",
           "monthly_bill": 268.5,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33177",
+          "plan_id": "direct-energy-autopay-texas-36-lubbock-power-light-36-0",
           "monthly_bill": 277.5,
           "trustworthy_price": true
         }
       ]
     },
     "2000": {
-      "top_pick_id": "ptc-37162",
+      "top_pick_id": "ap-gas-electric-tx-llc-trueclassic-11-lubbock-power-light-11-0",
       "plans": [
         {
-          "plan_id": "ptc-37162",
-          "monthly_bill": 234.0,
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-11-lubbock-power-light-11-0",
+          "monthly_bill": 248.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33472",
-          "monthly_bill": 236.0,
+          "plan_id": "true-power-true-value-12-lubbock-power-light-12-0",
+          "monthly_bill": 248.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37157",
-          "monthly_bill": 240.0,
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-12-lubbock-power-light-12-0",
+          "monthly_bill": 250.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37103",
-          "monthly_bill": 240.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35910",
-          "monthly_bill": 242.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35934",
-          "monthly_bill": 242.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35886",
-          "monthly_bill": 242.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32928",
-          "monthly_bill": 242.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32955",
-          "monthly_bill": 252.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32902",
-          "monthly_bill": 252.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35874",
-          "monthly_bill": 252.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-35767",
-          "monthly_bill": 252.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-37105",
-          "monthly_bill": 252.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32007",
+          "plan_id": "gexa-energy-gexa-eco-choice-12-lubbock-power-light-12-0",
           "monthly_bill": 254.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32953",
-          "monthly_bill": 258.0,
+          "plan_id": "frontier-utilities-frontier-power-saver-12-lubbock-power-light-12-0",
+          "monthly_bill": 254.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34778",
+          "plan_id": "companion-energy-companion-perks-12-lubbock-power-light-12-0",
+          "monthly_bill": 254.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-12-lubbock-power-light-12-0",
+          "monthly_bill": 260.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "texans-choice-power-llc-choose-6-lubbock-power-light-6-0",
           "monthly_bill": 262.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34694",
-          "monthly_bill": 262.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-32936",
+          "plan_id": "southern-federal-power-llc-sofed-free-energy-lunch-12-lubbock-power-light-12-0",
           "monthly_bill": 264.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32931",
+          "plan_id": "texans-choice-power-llc-choose-12-lubbock-power-light-12-0",
+          "monthly_bill": 264.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "true-power-true-value-24-lubbock-power-light-24-0",
+          "monthly_bill": 264.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-24-lubbock-power-light-24-0",
           "monthly_bill": 266.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-37107",
-          "monthly_bill": 266.0,
+          "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-12-lubbock-power-light-12-0",
+          "monthly_bill": 268.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31995",
-          "monthly_bill": 272.0,
+          "plan_id": "abundance-energy-confident-renter-12-lubbock-power-light-12-0",
+          "monthly_bill": 268.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31998",
+          "plan_id": "bkv-energy-daisy-11-lubbock-power-light-11-0",
+          "monthly_bill": 270.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-12-lubbock-power-light-12-0",
+          "monthly_bill": 270.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "champion-energy-services-llc-champ-saver-24-lubbock-power-light-24-0",
+          "monthly_bill": 270.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-6-lubbock-power-light-6-0",
           "monthly_bill": 274.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35656",
+          "plan_id": "bkv-energy-daisy-green-12-lubbock-power-light-12-0",
+          "monthly_bill": 274.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "spark-energy-llc-choose-12-lubbock-power-light-12-0",
+          "monthly_bill": 276.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "bkv-energy-daisy-13-lubbock-power-light-13-0",
           "monthly_bill": 278.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33357",
+          "plan_id": "true-power-true-value-36-lubbock-power-light-36-0",
+          "monthly_bill": 278.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "ap-gas-electric-tx-llc-trueclassic-36-lubbock-power-light-36-0",
           "monthly_bill": 280.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34687",
-          "monthly_bill": 282.0,
+          "plan_id": "ae-texas-smart-secure-10-lubbock-power-light-10-0",
+          "monthly_bill": 284.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36071",
-          "monthly_bill": 282.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-36073",
-          "monthly_bill": 286.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-31996",
+          "plan_id": "spark-energy-llc-choose-15-lubbock-power-light-15-0",
           "monthly_bill": 288.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36075",
+          "plan_id": "bkv-energy-daisy-24-lubbock-power-light-24-0",
           "monthly_bill": 290.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36079",
-          "monthly_bill": 292.0,
+          "plan_id": "ae-texas-smart-secure-36-lubbock-power-light-36-0",
+          "monthly_bill": 298.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34635",
-          "monthly_bill": 294.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-36077",
-          "monthly_bill": 296.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-33065",
+          "plan_id": "cleansky-energy-embrace-green-12-new-customer-special-lubbock-power-light-12-0",
           "monthly_bill": 302.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33067",
+          "plan_id": "cleansky-energy-embrace-green-24-new-customer-special-lubbock-power-light-24-0",
           "monthly_bill": 304.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36179",
+          "plan_id": "octopus-energy-octo-simple-12-lubbock-power-light-12-0",
           "monthly_bill": 318.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32949",
-          "monthly_bill": 322.0,
+          "plan_id": "atlantex-power-luminous-10-lubbock-power-light-10-0",
+          "monthly_bill": 324.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35867",
+          "plan_id": "octopus-energy-octo-simple-18-lubbock-power-light-18-0",
           "monthly_bill": 328.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32915",
+          "plan_id": "cirro-energy-smart-simple-12-lubbock-power-light-12-0",
           "monthly_bill": 330.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32925",
+          "plan_id": "discount-power-saver-12-lubbock-power-light-12-0",
           "monthly_bill": 330.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31978",
+          "plan_id": "tara-energy-basics-ptc-24-lubbock-power-light-24-0",
           "monthly_bill": 330.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-27802",
+          "plan_id": "tara-energy-basics-ptc-36-lubbock-power-light-36-0",
           "monthly_bill": 330.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31968",
+          "plan_id": "amigo-energy-basics-ptc-24-lubbock-power-light-24-0",
           "monthly_bill": 330.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-24620",
+          "plan_id": "amigo-energy-basics-ptc-36-lubbock-power-light-36-0",
           "monthly_bill": 330.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33607",
+          "plan_id": "just-energy-basics-ptc-24-lubbock-power-light-24-0",
           "monthly_bill": 330.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-31956",
+          "plan_id": "just-energy-basics-ptc-60-lubbock-power-light-60-0",
           "monthly_bill": 330.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35739",
+          "plan_id": "octopus-energy-llc-octo-simple-24-lubbock-power-light-24-0",
           "monthly_bill": 330.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33434",
+          "plan_id": "discount-power-saver-36-lubbock-power-light-36-0",
           "monthly_bill": 330.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-35728",
+          "plan_id": "octopus-energy-llc-octo-simple-14-lubbock-power-light-14-0",
           "monthly_bill": 332.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36185",
-          "monthly_bill": 334.0,
-          "trustworthy_price": true
-        },
-        {
-          "plan_id": "ptc-36089",
+          "plan_id": "reliant-reliant-power-on-18-lubbock-power-light-18-0",
           "monthly_bill": 338.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33432",
+          "plan_id": "atlantex-power-luminous-36-lubbock-power-light-36-0",
+          "monthly_bill": 338.0,
+          "trustworthy_price": true
+        },
+        {
+          "plan_id": "discount-power-saver-24-lubbock-power-light-24-0",
           "monthly_bill": 340.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33200",
+          "plan_id": "cirro-energy-smart-simple-24-lubbock-power-light-24-0",
           "monthly_bill": 340.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32910",
+          "plan_id": "reliant-reliant-power-on-12-plan-lubbock-power-light-12-0",
           "monthly_bill": 344.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33184",
+          "plan_id": "reliant-reliant-power-on-24-plan-lubbock-power-light-24-0",
           "monthly_bill": 348.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32914",
+          "plan_id": "direct-energy-autopay-texas-12-lubbock-power-light-12-0",
           "monthly_bill": 350.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33202",
+          "plan_id": "cirro-energy-smart-simple-36-lubbock-power-light-36-0",
           "monthly_bill": 350.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-32905",
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-12-choice-lubbock-power-light-12-0",
           "monthly_bill": 358.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-36093",
+          "plan_id": "green-mountain-energy-company-pollution-free-e-plus-18-choice-lubbock-power-light-18-0",
           "monthly_bill": 358.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-34579",
+          "plan_id": "direct-energy-autopay-texas-24-lubbock-power-light-24-0",
           "monthly_bill": 358.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33185",
+          "plan_id": "reliant-reliant-power-on-36-plan-lubbock-power-light-36-0",
           "monthly_bill": 358.0,
           "trustworthy_price": true
         },
         {
-          "plan_id": "ptc-33177",
+          "plan_id": "direct-energy-autopay-texas-36-lubbock-power-light-36-0",
           "monthly_bill": 370.0,
           "trustworthy_price": true
         }
@@ -2477,7 +2389,7 @@
   },
   "autopsies": [
     {
-      "plan_id": "ptc-16429",
+      "plan_id": "ambit-energy-lone-star-classic-12-lubbock-power-light-12-0",
       "rep": "AMBIT ENERGY",
       "product": "Lone Star Classic 12",
       "reason_codes": [
@@ -2498,13 +2410,14 @@
       },
       "term_months": 12.0,
       "cancel_fee": 199.0,
+      "cancel_fee_per_month": false,
       "renewable": 3.0,
       "rate_type": "Fixed",
       "efl_url": "https://shopping.ambitenergy.com/PDFGenerator?formType=EnergyFactsLabel&comProdId=LPAMLSCLSC12AA&tdsp=LUBBOCK&lang=en&custClass=Residential",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-17285",
+      "plan_id": "just-energy-sustainable-living-bundle-5-lubbock-power-light-5-0",
       "rep": "JUST ENERGY",
       "product": "Sustainable Living Bundle - 5",
       "reason_codes": [
@@ -2527,13 +2440,14 @@
       },
       "term_months": 5.0,
       "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
       "renewable": 31.0,
       "rate_type": "Fixed",
       "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=V3ihOvIFqgY=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-24643",
+      "plan_id": "just-energy-smart-choice-12-lubbock-power-light-12-0",
       "rep": "JUST ENERGY",
       "product": "Smart Choice - 12",
       "reason_codes": [
@@ -2554,13 +2468,14 @@
       },
       "term_months": 12.0,
       "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
       "renewable": 31.0,
       "rate_type": "Fixed",
       "efl_url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=BHXZlePVhiw=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=",
       "is_linear": false
     },
     {
-      "plan_id": "ptc-22765",
+      "plan_id": "tara-energy-value-choice-12-lubbock-power-light-12-0",
       "rep": "TARA ENERGY",
       "product": "Value Choice - 12",
       "reason_codes": [
@@ -2581,13 +2496,14 @@
       },
       "term_months": 12.0,
       "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
       "renewable": 31.0,
       "rate_type": "Fixed",
       "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=oJ6//wWTPmg=&RCID=cacW2cvK/I0=&L=6f+Ch9flI7k=",
       "is_linear": false
     },
     {
-      "plan_id": "ptc-22775",
+      "plan_id": "amigo-energy-power-perks-12-lubbock-power-light-12-0",
       "rep": "AMIGO ENERGY",
       "product": "Power Perks - 12",
       "reason_codes": [
@@ -2608,13 +2524,14 @@
       },
       "term_months": 12.0,
       "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
       "renewable": 31.0,
       "rate_type": "Fixed",
       "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=c+WwLiGtG8g=&RCID=rv5fvOkFHh4=&L=6f+Ch9flI7k=",
       "is_linear": false
     },
     {
-      "plan_id": "ptc-22160",
+      "plan_id": "tara-energy-sustainable-home-bundle-5-lubbock-power-light-5-0",
       "rep": "TARA ENERGY",
       "product": "Sustainable Home Bundle - 5",
       "reason_codes": [
@@ -2635,13 +2552,14 @@
       },
       "term_months": 5.0,
       "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
       "renewable": 31.0,
       "rate_type": "Fixed",
       "efl_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=gEiPdnrqT7c=&RCID=cacW2cvK/I0=&L=6f+Ch9flI7k=",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-22142",
+      "plan_id": "amigo-energy-sustainable-lifestyle-5-lubbock-power-light-5-0",
       "rep": "AMIGO ENERGY",
       "product": "Sustainable Lifestyle - 5",
       "reason_codes": [
@@ -2662,100 +2580,14 @@
       },
       "term_months": 5.0,
       "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
       "renewable": 31.0,
       "rate_type": "Fixed",
       "efl_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=W2yy+RxZeV0=&RCID=rv5fvOkFHh4=&L=6f+Ch9flI7k=",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-34986",
-      "rep": "CHARIOT ENERGY",
-      "product": "Bright Nights 12",
-      "reason_codes": [
-        "TIME_OF_USE",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.13,
-        "1000": 0.12,
-        "2000": 0.115
-      },
-      "bills": {
-        "500": 65.0,
-        "1000": 120.0,
-        "2000": 230.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 15.0,
-      "renewable": 100.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46809",
-      "is_linear": true
-    },
-    {
-      "plan_id": "ptc-34989",
-      "rep": "CHARIOT ENERGY",
-      "product": "Bright Nights 24",
-      "reason_codes": [
-        "TIME_OF_USE",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.136,
-        "1000": 0.126,
-        "2000": 0.121
-      },
-      "bills": {
-        "500": 68.0,
-        "1000": 126.0,
-        "2000": 242.0
-      },
-      "term_months": 24.0,
-      "cancel_fee": 15.0,
-      "renewable": 100.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=44766",
-      "is_linear": true
-    },
-    {
-      "plan_id": "ptc-34991",
-      "rep": "CHARIOT ENERGY",
-      "product": "Bright Nights 36",
-      "reason_codes": [
-        "TIME_OF_USE",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.143,
-        "1000": 0.133,
-        "2000": 0.128
-      },
-      "bills": {
-        "500": 71.5,
-        "1000": 133.0,
-        "2000": 256.0
-      },
-      "term_months": 36.0,
-      "cancel_fee": 15.0,
-      "renewable": 100.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46158",
-      "is_linear": true
-    },
-    {
-      "plan_id": "ptc-34704",
+      "plan_id": "think-energy-think-clean-12-with-smart-thermostat-connected-lubbock-power-light-12-0",
       "rep": "Think Energy",
       "product": "Think Clean 12 with Smart Thermostat Connected",
       "reason_codes": [
@@ -2776,13 +2608,14 @@
       },
       "term_months": 12.0,
       "cancel_fee": 200.0,
+      "cancel_fee_per_month": false,
       "renewable": 100.0,
       "rate_type": "Fixed",
       "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.noap.fixed.thermostat&tdsp_id=9&doc_type=EFL&term=12&promo_code=default",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-34484",
+      "plan_id": "think-energy-think-clean-24-lubbock-power-light-24-0",
       "rep": "Think Energy",
       "product": "Think Clean 24",
       "reason_codes": [
@@ -2803,13 +2636,14 @@
       },
       "term_months": 24.0,
       "cancel_fee": 200.0,
+      "cancel_fee_per_month": false,
       "renewable": 100.0,
       "rate_type": "Fixed",
       "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.ap.fixed&tdsp_id=9&doc_type=EFL&term=24&promo_code=default",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-34474",
+      "plan_id": "think-energy-think-clean-12-lubbock-power-light-12-0",
       "rep": "Think Energy",
       "product": "Think Clean 12",
       "reason_codes": [
@@ -2830,69 +2664,14 @@
       },
       "term_months": 12.0,
       "cancel_fee": 200.0,
+      "cancel_fee_per_month": false,
       "renewable": 100.0,
       "rate_type": "Fixed",
       "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.noap.fixed&tdsp_id=9&doc_type=EFL&term=12&promo_code=default",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-33717",
-      "rep": "TXU ENERGY",
-      "product": "Simple Value 12",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.194,
-        "1000": 0.184,
-        "2000": 0.179
-      },
-      "bills": {
-        "500": 97.0,
-        "1000": 184.0,
-        "2000": 358.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 150.0,
-      "renewable": 3.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://residential.txu.com/Handlers/PDFGenerator.ashx?comProdId=LPXSIMVL1212AQ&lang=en&formType=EnergyFactsLabel&custClass=3&tdsp=LUBBOCK",
-      "is_linear": true
-    },
-    {
-      "plan_id": "ptc-33663",
-      "rep": "NEC Co-op Energy",
-      "product": "Residential Electricity... Plain and simple.",
-      "reason_codes": [
-        "VARIABLE_RATE",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Variable rate \u2014 the price can change month to month with no cap.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.184,
-        "1000": 0.177,
-        "2000": 0.173
-      },
-      "bills": {
-        "500": 92.0,
-        "1000": 177.0,
-        "2000": 346.0
-      },
-      "term_months": 0.0,
-      "cancel_fee": 0.0,
-      "renewable": 15.0,
-      "rate_type": "Variable",
-      "efl_url": "https://neccoopenergy.com/wp-content/uploads/2026/07/EFL-8-1-26-RESIDENTIAL-LUBBOCK.pdf",
-      "is_linear": true
-    },
-    {
-      "plan_id": "ptc-33309",
+      "plan_id": "chariot-energy-chariot-freedom-lubbock-power-light-0-0",
       "rep": "CHARIOT ENERGY",
       "product": "Chariot Freedom",
       "reason_codes": [
@@ -2913,15 +2692,16 @@
       },
       "term_months": 0.0,
       "cancel_fee": 0.0,
+      "cancel_fee_per_month": false,
       "renewable": 100.0,
       "rate_type": "Variable",
       "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=45887",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-33239",
-      "rep": "SOUTHERN FEDERAL POWER LLC",
-      "product": "SoFed Better Rate - 10",
+      "plan_id": "txu-energy-simple-value-12-lubbock-power-light-12-0",
+      "rep": "TXU ENERGY",
+      "product": "Simple Value 12",
       "reason_codes": [
         "BASE_CHARGE"
       ],
@@ -2929,24 +2709,83 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.126,
-        "1000": 0.121,
-        "2000": 0.119
+        "500": 0.194,
+        "1000": 0.184,
+        "2000": 0.179
       },
       "bills": {
-        "500": 63.0,
-        "1000": 121.0,
-        "2000": 238.0
+        "500": 97.0,
+        "1000": 184.0,
+        "2000": 358.0
       },
-      "term_months": 10.0,
-      "cancel_fee": 249.0,
-      "renewable": 6.0,
+      "term_months": 12.0,
+      "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
+      "renewable": 3.0,
       "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/3TEhIO0",
+      "efl_url": "https://residential.txu.com/Handlers/PDFGenerator.ashx?comProdId=LPXSIMVL1212AQ&lang=en&formType=EnergyFactsLabel&custClass=3&tdsp=LUBBOCK",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-32908",
+      "plan_id": "nec-co-op-energy-residential-electricity-plain-and-simple-lubbock-power-light-0-0",
+      "rep": "NEC Co-op Energy",
+      "product": "Residential Electricity... Plain and simple.",
+      "reason_codes": [
+        "VARIABLE_RATE",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Variable rate \u2014 the price can change month to month with no cap.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.183,
+        "1000": 0.175,
+        "2000": 0.171
+      },
+      "bills": {
+        "500": 91.5,
+        "1000": 175.0,
+        "2000": 342.0
+      },
+      "term_months": 0.0,
+      "cancel_fee": 0.0,
+      "cancel_fee_per_month": false,
+      "renewable": 15.0,
+      "rate_type": "Variable",
+      "efl_url": "https://neccoopenergy.com/wp-content/uploads/2026/06/EFL-7-1-26-RESIDENTIAL-LUBBOCK.pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "southern-federal-power-llc-sofed-better-rate-11-lubbock-power-light-11-0",
+      "rep": "SOUTHERN FEDERAL POWER LLC",
+      "product": "SoFed Better Rate - 11",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.127,
+        "1000": 0.122,
+        "2000": 0.12
+      },
+      "bills": {
+        "500": 63.5,
+        "1000": 122.0,
+        "2000": 240.0
+      },
+      "term_months": 11.0,
+      "cancel_fee": 249.0,
+      "cancel_fee_per_month": false,
+      "renewable": 6.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://bit.ly/44wwPLI",
+      "is_linear": true
+    },
+    {
+      "plan_id": "green-mountain-energy-company-pollution-free-e-plus-choice-lubbock-power-light-0-0",
       "rep": "GREEN MOUNTAIN ENERGY COMPANY",
       "product": "Pollution Free e-Plus Choice",
       "reason_codes": [
@@ -2967,13 +2806,14 @@
       },
       "term_months": 0.0,
       "cancel_fee": 0.0,
+      "cancel_fee_per_month": false,
       "renewable": 100.0,
       "rate_type": "Variable",
       "efl_url": "https://signup.greenmountain.com/defl/G1F00183201886A.pdf",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-32912",
+      "plan_id": "reliant-reliant-power-on-flex-plan-lubbock-power-light-0-0",
       "rep": "RELIANT",
       "product": "Reliant Power On Flex Plan",
       "reason_codes": [
@@ -2994,13 +2834,14 @@
       },
       "term_months": 0.0,
       "cancel_fee": 0.0,
+      "cancel_fee_per_month": false,
       "renewable": 24.0,
       "rate_type": "Variable",
       "efl_url": "https://www.reliant.com/defl/R1F00183203474A.pdf",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-32930",
+      "plan_id": "constellation-newenergy-inc-12-month-green-usage-bill-credit-lubbock-power-light-12-0",
       "rep": "CONSTELLATION NEWENERGY INC",
       "product": "12 Month GREEN Usage Bill Credit",
       "reason_codes": [
@@ -3012,24 +2853,25 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.174,
-        "1000": 0.139,
-        "2000": 0.149
+        "500": 0.177,
+        "1000": 0.142,
+        "2000": 0.152
       },
       "bills": {
-        "500": 87.0,
-        "1000": 139.0,
-        "2000": 298.0
+        "500": 88.5,
+        "1000": 142.0,
+        "2000": 304.0
       },
       "term_months": 12.0,
       "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=4997465",
+      "efl_url": "https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=4988392",
       "is_linear": false
     },
     {
-      "plan_id": "ptc-32933",
+      "plan_id": "ap-gas-electric-tx-llc-simplesaver-12-lubbock-power-light-12-0",
       "rep": "AP GAS & ELECTRIC (TX) LLC",
       "product": "SimpleSaver 12",
       "reason_codes": [
@@ -3039,24 +2881,25 @@
         "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
       ],
       "rates": {
-        "500": 0.208,
-        "1000": 0.083,
-        "2000": 0.146
+        "500": 0.243,
+        "1000": 0.118,
+        "2000": 0.181
       },
       "bills": {
-        "500": 104.0,
-        "1000": 83.0,
-        "2000": 292.0
+        "500": 121.5,
+        "1000": 118.0,
+        "2000": 362.0
       },
       "term_months": 12.0,
       "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
       "renewable": 6.0,
       "rate_type": "Fixed",
       "efl_url": "https://artemis-api.apge.com/api/v1/document?documentId=73&offerCode=SRBBUC_LPL_NA_NA_RES_F125M_SD0_T12_NEW",
       "is_linear": false
     },
     {
-      "plan_id": "ptc-32954",
+      "plan_id": "southern-federal-power-llc-sofed-better-rate-5-lubbock-power-light-5-0",
       "rep": "SOUTHERN FEDERAL POWER LLC",
       "product": "SoFed Better Rate - 5",
       "reason_codes": [
@@ -3066,24 +2909,25 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.126,
-        "1000": 0.121,
-        "2000": 0.119
+        "500": 0.13,
+        "1000": 0.125,
+        "2000": 0.123
       },
       "bills": {
-        "500": 63.0,
-        "1000": 121.0,
-        "2000": 238.0
+        "500": 65.0,
+        "1000": 125.0,
+        "2000": 246.0
       },
       "term_months": 5.0,
       "cancel_fee": 249.0,
+      "cancel_fee_per_month": false,
       "renewable": 6.0,
       "rate_type": "Fixed",
-      "efl_url": "https://bit.ly/4bZYPv9",
+      "efl_url": "https://bit.ly/4h5sPcw",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-32956",
+      "plan_id": "southern-federal-power-llc-sofed-better-rate-36-lubbock-power-light-36-0",
       "rep": "SOUTHERN FEDERAL POWER LLC",
       "product": "SoFed Better Rate - 36",
       "reason_codes": [
@@ -3104,13 +2948,14 @@
       },
       "term_months": 36.0,
       "cancel_fee": 249.0,
+      "cancel_fee_per_month": false,
       "renewable": 6.0,
       "rate_type": "Fixed",
       "efl_url": "https://bit.ly/3NQEMpW",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-32969",
+      "plan_id": "champion-energy-services-llc-free-weekends-24-lubbock-power-light-24-0",
       "rep": "CHAMPION ENERGY SERVICES LLC",
       "product": "Free Weekends-24",
       "reason_codes": [
@@ -3120,24 +2965,25 @@
         "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more."
       ],
       "rates": {
-        "500": 0.132,
-        "1000": 0.132,
-        "2000": 0.132
+        "500": 0.135,
+        "1000": 0.135,
+        "2000": 0.135
       },
       "bills": {
-        "500": 66.0,
-        "1000": 132.0,
-        "2000": 264.0
+        "500": 67.5,
+        "1000": 135.0,
+        "2000": 270.0
       },
       "term_months": 24.0,
       "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
       "renewable": 25.0,
       "rate_type": "Fixed",
       "efl_url": "https://docs.championenergyservices.com/ExternalDocs?planname=PN6176&state=TX&language=EN",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-31928",
+      "plan_id": "abundance-energy-straight-forward-12-lubbock-power-light-12-0",
       "rep": "Abundance Energy",
       "product": "Straight Forward 12",
       "reason_codes": [
@@ -3147,24 +2993,25 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.137,
-        "1000": 0.132,
-        "2000": 0.129
+        "500": 0.14,
+        "1000": 0.135,
+        "2000": 0.133
       },
       "bills": {
-        "500": 68.5,
-        "1000": 132.0,
-        "2000": 258.0
+        "500": 70.0,
+        "1000": 135.0,
+        "2000": 266.0
       },
       "term_months": 12.0,
       "cancel_fee": 200.0,
+      "cancel_fee_per_month": false,
       "renewable": 25.0,
       "rate_type": "Fixed",
       "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=straightforward.fixed&tdsp_id=9&doc_type=EFL&term=12&promo_code=PTC",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-36127",
+      "plan_id": "chariot-energy-gridplus-12-lubbock-power-light-12-0",
       "rep": "CHARIOT ENERGY",
       "product": "GridPlus 12",
       "reason_codes": [
@@ -3174,24 +3021,25 @@
         "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it."
       ],
       "rates": {
-        "500": 0.209,
-        "1000": 0.084,
-        "2000": 0.147
+        "500": 0.216,
+        "1000": 0.091,
+        "2000": 0.154
       },
       "bills": {
-        "500": 104.5,
-        "1000": 84.0,
-        "2000": 294.0
+        "500": 108.0,
+        "1000": 91.0,
+        "2000": 308.0
       },
       "term_months": 12.0,
       "cancel_fee": 15.0,
+      "cancel_fee_per_month": true,
       "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46685",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46352",
       "is_linear": false
     },
     {
-      "plan_id": "ptc-36129",
+      "plan_id": "texans-choice-power-llc-texas-instant-12-lubbock-power-light-12-0",
       "rep": "Texans Choice Power LLC",
       "product": "Texas Instant 12",
       "reason_codes": [
@@ -3203,24 +3051,25 @@
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.29,
-        "1000": 0.145,
-        "2000": 0.143
+        "500": 0.3,
+        "1000": 0.15,
+        "2000": 0.145
       },
       "bills": {
-        "500": 145.0,
-        "1000": 145.0,
-        "2000": 286.0
+        "500": 150.0,
+        "1000": 150.0,
+        "2000": 290.0
       },
       "term_months": 12.0,
       "cancel_fee": 200.0,
+      "cancel_fee_per_month": false,
       "renewable": 37.0,
       "rate_type": "Fixed",
       "efl_url": "https://signup.texanschoicepower.com/getdocument/?getproductpdf=1&productid=153968&type=EFL_TIEREDPRICING&title=153968_EFL_TIEREDPRICING&language=english",
       "is_linear": false
     },
     {
-      "plan_id": "ptc-36005",
+      "plan_id": "think-energy-think-clean-24-with-smart-thermostat-lubbock-power-light-24-0",
       "rep": "Think Energy",
       "product": "Think Clean 24 With Smart Thermostat",
       "reason_codes": [
@@ -3241,69 +3090,14 @@
       },
       "term_months": 24.0,
       "cancel_fee": 200.0,
+      "cancel_fee_per_month": false,
       "renewable": 100.0,
       "rate_type": "Fixed",
       "efl_url": "https://api.thinkenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=tx.thinkclean.noap.fixed.thermostat&tdsp_id=9&doc_type=EFL&term=24&promo_code=default",
       "is_linear": true
     },
     {
-      "plan_id": "ptc-35269",
-      "rep": "CHARIOT ENERGY",
-      "product": "Bright Nights 11",
-      "reason_codes": [
-        "TIME_OF_USE",
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.128,
-        "1000": 0.118,
-        "2000": 0.113
-      },
-      "bills": {
-        "500": 64.0,
-        "1000": 118.0,
-        "2000": 226.0
-      },
-      "term_months": 11.0,
-      "cancel_fee": 15.0,
-      "renewable": 100.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46763",
-      "is_linear": true
-    },
-    {
-      "plan_id": "ptc-35309",
-      "rep": "Abundance Energy",
-      "product": "Clean Energy 12",
-      "reason_codes": [
-        "BASE_CHARGE"
-      ],
-      "verdicts": [
-        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
-      ],
-      "rates": {
-        "500": 0.142,
-        "1000": 0.137,
-        "2000": 0.134
-      },
-      "bills": {
-        "500": 71.0,
-        "1000": 137.0,
-        "2000": 268.0
-      },
-      "term_months": 12.0,
-      "cancel_fee": 200.0,
-      "renewable": 100.0,
-      "rate_type": "Fixed",
-      "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=cleanenergy.fixed&tdsp_id=9&doc_type=EFL&term=12&promo_code=PTC",
-      "is_linear": true
-    },
-    {
-      "plan_id": "ptc-35700",
+      "plan_id": "octopus-energy-octopus-lite-12-lubbock-power-light-12-0",
       "rep": "Octopus Energy",
       "product": "Octopus Lite 12",
       "reason_codes": [
@@ -3324,39 +3118,215 @@
       },
       "term_months": 12.0,
       "cancel_fee": 150.0,
+      "cancel_fee_per_month": false,
       "renewable": 100.0,
       "rate_type": "Fixed",
       "efl_url": "https://octopusenergy.com/efl/OCTOLITE-12M-LPL-LZ_WEST-202606021130",
       "is_linear": false
     },
     {
-      "plan_id": "ptc-37109",
-      "rep": "SPARK ENERGY LLC",
-      "product": "Spark Instant 12",
+      "plan_id": "abundance-energy-clean-energy-12-lubbock-power-light-12-0",
+      "rep": "Abundance Energy",
+      "product": "Clean Energy 12",
       "reason_codes": [
-        "BILL_CREDIT",
         "BASE_CHARGE"
       ],
       "verdicts": [
-        "Has a bill credit or usage fee \u2014 the advertised price depends on hitting a specific usage, and you pay more if you miss it.",
         "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
       ],
       "rates": {
-        "500": 0.29,
-        "1000": 0.145,
-        "2000": 0.143
+        "500": 0.145,
+        "1000": 0.14,
+        "2000": 0.138
       },
       "bills": {
-        "500": 145.0,
-        "1000": 145.0,
-        "2000": 286.0
+        "500": 72.5,
+        "1000": 140.0,
+        "2000": 276.0
       },
       "term_months": 12.0,
       "cancel_fee": 200.0,
-      "renewable": 37.0,
+      "cancel_fee_per_month": false,
+      "renewable": 100.0,
       "rate_type": "Fixed",
-      "efl_url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=154448&type=EFL_TieredPricing&title=Electricity%20Facts%20Label&language=english",
-      "is_linear": false
+      "efl_url": "https://api.quextenergy.onproton.io/enrollment/get_latest_document?lang=en&product_code=cleanenergy.fixed&tdsp_id=9&doc_type=EFL&term=12&promo_code=PTC",
+      "is_linear": true
+    },
+    {
+      "plan_id": "chariot-energy-bright-nights-11-lubbock-power-light-11-0",
+      "rep": "CHARIOT ENERGY",
+      "product": "Bright Nights 11",
+      "reason_codes": [
+        "TIME_OF_USE",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.131,
+        "1000": 0.121,
+        "2000": 0.116
+      },
+      "bills": {
+        "500": 65.5,
+        "1000": 121.0,
+        "2000": 232.0
+      },
+      "term_months": 11.0,
+      "cancel_fee": 15.0,
+      "cancel_fee_per_month": true,
+      "renewable": 100.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46433",
+      "is_linear": true
+    },
+    {
+      "plan_id": "chariot-energy-bright-nights-12-lubbock-power-light-12-0",
+      "rep": "CHARIOT ENERGY",
+      "product": "Bright Nights 12",
+      "reason_codes": [
+        "TIME_OF_USE",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.131,
+        "1000": 0.121,
+        "2000": 0.116
+      },
+      "bills": {
+        "500": 65.5,
+        "1000": 121.0,
+        "2000": 232.0
+      },
+      "term_months": 12.0,
+      "cancel_fee": 15.0,
+      "cancel_fee_per_month": true,
+      "renewable": 100.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46428",
+      "is_linear": true
+    },
+    {
+      "plan_id": "chariot-energy-bright-nights-24-lubbock-power-light-24-0",
+      "rep": "CHARIOT ENERGY",
+      "product": "Bright Nights 24",
+      "reason_codes": [
+        "TIME_OF_USE",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.141,
+        "1000": 0.131,
+        "2000": 0.126
+      },
+      "bills": {
+        "500": 70.5,
+        "1000": 131.0,
+        "2000": 252.0
+      },
+      "term_months": 24.0,
+      "cancel_fee": 15.0,
+      "cancel_fee_per_month": true,
+      "renewable": 100.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=44766",
+      "is_linear": true
+    },
+    {
+      "plan_id": "chariot-energy-bright-nights-36-lubbock-power-light-36-0",
+      "rep": "CHARIOT ENERGY",
+      "product": "Bright Nights 36",
+      "reason_codes": [
+        "TIME_OF_USE",
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Time-of-use \u2014 the rate spikes during certain hours; most homes pay more.",
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.148,
+        "1000": 0.138,
+        "2000": 0.133
+      },
+      "bills": {
+        "500": 74.0,
+        "1000": 138.0,
+        "2000": 266.0
+      },
+      "term_months": 36.0,
+      "cancel_fee": 15.0,
+      "cancel_fee_per_month": true,
+      "renewable": 100.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://signup.chariotenergy.com//Home/EFl?productId=46158",
+      "is_linear": true
+    },
+    {
+      "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-14-lubbock-power-light-14-0",
+      "rep": "SFE ENERGY TEXAS INC",
+      "product": "SFE RewardsPlus - 14",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.144,
+        "1000": 0.138,
+        "2000": 0.135
+      },
+      "bills": {
+        "500": 72.0,
+        "1000": 138.0,
+        "2000": 270.0
+      },
+      "term_months": 14.0,
+      "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
+      "renewable": 35.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_14MTH_LPL_14_2516194962410097549_EFL_SFE Residential Fixed LPL 14English.pdf",
+      "is_linear": true
+    },
+    {
+      "plan_id": "sfe-energy-texas-inc-sfe-rewardsplus-24-lubbock-power-light-24-0",
+      "rep": "SFE ENERGY TEXAS INC",
+      "product": "SFE RewardsPlus - 24",
+      "reason_codes": [
+        "BASE_CHARGE"
+      ],
+      "verdicts": [
+        "Charges a flat monthly base fee on top of the rate \u2014 it quietly raises your real cost, and hits low-usage months hardest."
+      ],
+      "rates": {
+        "500": 0.149,
+        "1000": 0.143,
+        "2000": 0.14
+      },
+      "bills": {
+        "500": 74.5,
+        "1000": 143.0,
+        "2000": 280.0
+      },
+      "term_months": 24.0,
+      "cancel_fee": 175.0,
+      "cancel_fee_per_month": false,
+      "renewable": 35.0,
+      "rate_type": "Fixed",
+      "efl_url": "https://empowerdocs.blob.core.windows.net/efldocuments/SFE_REWARDSPLUS_24MTH_LPL_24_2516194962720747912_EFL_SFE Residential Fixed LPL 24English.pdf",
+      "is_linear": true
     }
   ]
 }

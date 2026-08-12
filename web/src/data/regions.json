@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T10:39:21Z",
+  "generated_at": "2026-08-12T14:47:51Z",
   "regions": [
     {
       "slug": "oncor",
@@ -7,13 +7,13 @@
       "label": "Oncor",
       "cities": "Dallas\u2013Fort Worth, Waco, Midland, Odessa, Round Rock",
       "counts": {
-        "total": 138,
+        "total": 159,
         "dropped_invalid": 0,
-        "honest": 65,
-        "rejected": 73,
-        "verified": 48
+        "honest": 69,
+        "rejected": 90,
+        "verified": 51
       },
-      "generated_at": "2026-08-01T10:39:21Z"
+      "generated_at": "2026-08-12T14:47:51Z"
     },
     {
       "slug": "centerpoint",
@@ -23,11 +23,11 @@
       "counts": {
         "total": 165,
         "dropped_invalid": 0,
-        "honest": 67,
-        "rejected": 98,
-        "verified": 52
+        "honest": 65,
+        "rejected": 100,
+        "verified": 46
       },
-      "generated_at": "2026-08-01T10:39:21Z"
+      "generated_at": "2026-08-12T14:47:51Z"
     },
     {
       "slug": "aep-central",
@@ -35,13 +35,13 @@
       "label": "AEP Texas Central",
       "cities": "Corpus Christi, McAllen, Laredo, Victoria, Harlingen",
       "counts": {
-        "total": 154,
+        "total": 156,
         "dropped_invalid": 0,
-        "honest": 67,
-        "rejected": 87,
-        "verified": 47
+        "honest": 63,
+        "rejected": 93,
+        "verified": 44
       },
-      "generated_at": "2026-08-01T10:39:21Z"
+      "generated_at": "2026-08-12T14:47:51Z"
     },
     {
       "slug": "aep-north",
@@ -49,13 +49,13 @@
       "label": "AEP Texas North",
       "cities": "Abilene, San Angelo, Vernon",
       "counts": {
-        "total": 155,
+        "total": 156,
         "dropped_invalid": 0,
-        "honest": 68,
-        "rejected": 87,
-        "verified": 50
+        "honest": 63,
+        "rejected": 93,
+        "verified": 44
       },
-      "generated_at": "2026-08-01T10:39:21Z"
+      "generated_at": "2026-08-12T14:47:51Z"
     },
     {
       "slug": "tnmp",
@@ -63,13 +63,13 @@
       "label": "Texas-New Mexico Power",
       "cities": "League City, Angleton, Pecos, Glen Rose",
       "counts": {
-        "total": 155,
+        "total": 151,
         "dropped_invalid": 0,
-        "honest": 71,
-        "rejected": 84,
-        "verified": 45
+        "honest": 66,
+        "rejected": 85,
+        "verified": 39
       },
-      "generated_at": "2026-08-01T10:39:21Z"
+      "generated_at": "2026-08-12T14:47:51Z"
     },
     {
       "slug": "lubbock",
@@ -77,13 +77,13 @@
       "label": "Lubbock Power & Light",
       "cities": "Lubbock",
       "counts": {
-        "total": 93,
+        "total": 89,
         "dropped_invalid": 0,
-        "honest": 61,
-        "rejected": 32,
-        "verified": 47
+        "honest": 56,
+        "rejected": 33,
+        "verified": 40
       },
-      "generated_at": "2026-08-01T10:39:21Z"
+      "generated_at": "2026-08-12T14:47:51Z"
     }
   ]
 }

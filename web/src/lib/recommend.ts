@@ -19,13 +19,32 @@ export function billAt(plan: HonestPlan, usageKwh: number): number | null {
   return plan.cost.base_charge + plan.cost.rate_per_kwh * usageKwh;
 }
 
+// Honest worst-case cost of leaving early. A "$20 per remaining month" fee on a
+// 12-month plan is up to ~$240, not $20 — so it must NOT sort as a cheap fee.
+export function effectiveCancelFee(plan: HonestPlan): number | null {
+  if (plan.cancel_fee == null) return null;
+  if (plan.cancel_fee_effective != null) return plan.cancel_fee_effective;
+  if (plan.cancel_fee_per_month) return plan.cancel_fee * (plan.term_months ?? 12);
+  return plan.cancel_fee;
+}
+
+// Human label: "$20/mo remaining (up to $240)" vs a flat "$100".
+export function cancelFeeLabel(plan: HonestPlan): string {
+  if (plan.cancel_fee == null) return "—";
+  if (plan.cancel_fee_per_month) {
+    const max = effectiveCancelFee(plan);
+    return `$${plan.cancel_fee.toFixed(0)}/mo left${max != null ? ` (up to $${max.toFixed(0)})` : ""}`;
+  }
+  return `$${plan.cancel_fee.toFixed(0)}`;
+}
+
 // Same ordering as the Python sort_key: cheapest, then lower cancel fee, higher
 // rating, shorter term, higher renewable.
 function compare(a: Priced, b: Priced): number {
   const round2 = (n: number) => Math.round(n * 100) / 100;
   return (
     round2(a.monthlyBill) - round2(b.monthlyBill) ||
-    (a.plan.cancel_fee ?? Infinity) - (b.plan.cancel_fee ?? Infinity) ||
+    (effectiveCancelFee(a.plan) ?? Infinity) - (effectiveCancelFee(b.plan) ?? Infinity) ||
     (b.plan.rating ?? -1) - (a.plan.rating ?? -1) ||
     (a.plan.term_months ?? Infinity) - (b.plan.term_months ?? Infinity) ||
     (b.plan.renewable ?? -1) - (a.plan.renewable ?? -1)
@@ -94,7 +113,7 @@ export function pickByPreference(
   } else if (pref === "shortest") {
     sorted = [...trustworthy].sort((a, b) => (a.plan.term_months ?? 999) - (b.plan.term_months ?? 999) || byCost(a, b));
   } else if (pref === "lowcancel") {
-    sorted = [...trustworthy].sort((a, b) => (a.plan.cancel_fee ?? Infinity) - (b.plan.cancel_fee ?? Infinity) || byCost(a, b));
+    sorted = [...trustworthy].sort((a, b) => (effectiveCancelFee(a.plan) ?? Infinity) - (effectiveCancelFee(b.plan) ?? Infinity) || byCost(a, b));
   } else if (pref === "rating") {
     sorted = [...trustworthy].sort((a, b) => (b.plan.rating ?? -1) - (a.plan.rating ?? -1) || byCost(a, b));
   }
@@ -118,7 +137,7 @@ export function pickByPreference(
   } else if (pref === "shortest") {
     why = `Shortest honest commitment (${p.term_months ?? "—"} months) at ${cents(pick)}¢/kWh.`;
   } else if (pref === "lowcancel") {
-    why = `Lowest early-exit cost (${p.cancel_fee != null ? money(p.cancel_fee) : "—"} cancel fee) among honest plans, at ${cents(pick)}¢/kWh.`;
+    why = `Lowest early-exit cost (${cancelFeeLabel(p)} cancel fee) among honest plans, at ${cents(pick)}¢/kWh.`;
   } else if (pref === "rating") {
     why = `Best-rated honest provider (${p.rating ?? "—"}/5) at ${cents(pick)}¢/kWh.`;
   } else {

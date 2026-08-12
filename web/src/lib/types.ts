@@ -16,6 +16,8 @@ export interface HonestPlan {
   rate_type: string | null;
   term_months: number | null;
   cancel_fee: number | null;
+  cancel_fee_per_month?: boolean;
+  cancel_fee_effective?: number | null;
   renewable: number | null;
   rating: number | null;
   efl_url: string | null;
@@ -35,6 +37,7 @@ export interface Autopsy {
   bills?: { "500": number | null; "1000": number | null; "2000": number | null };
   term_months?: number | null;
   cancel_fee?: number | null;
+  cancel_fee_per_month?: boolean;
   renewable?: number | null;
   rate_type?: string | null;
   efl_url?: string | null;

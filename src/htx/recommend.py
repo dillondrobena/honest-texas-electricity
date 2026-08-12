@@ -39,7 +39,7 @@ class Ranked:
         p = self.plan
         return (
             round(self.monthly_bill, 2),
-            p.cancel_fee if p.cancel_fee is not None else float("inf"),
+            p.effective_cancel_fee() if p.effective_cancel_fee() is not None else float("inf"),
             -(p.rating if p.rating is not None else -1),
             p.term_months if p.term_months is not None else float("inf"),
             -(p.renewable if p.renewable is not None else -1),
