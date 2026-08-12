@@ -143,7 +143,18 @@ const series = manifest.regions.map((r, idx) => ({
   </section>
 
   <section class="changed">
-    <h2>What changed in {CHANGE_REGION.label}</h2>
+    <div class="changed-head">
+      <h2>What changed in <span id="ch-region">{CHANGE_REGION.label}</span></h2>
+      {prev && (
+        <label class="ch-picker">Area:
+          <select id="ch-select">
+            {manifest.regions.map((r) => (
+              <option value={r.slug} selected={r.slug === CHANGE_REGION.slug}>{r.label}</option>
+            ))}
+          </select>
+        </label>
+      )}
+    </div>
     {!prev ? (
       <p class="curve-note">
         <strong>Month 1 of tracking ({monthLabel(latest)}).</strong> Once we've recorded a
@@ -151,15 +162,15 @@ const series = manifest.regions.map((r, idx) => ({
         that disappeared. We don't invent past data — check back next month.
       </p>
     ) : (
-      <>
-        <p class="curve-note">
+      <div id="ch-body">
+        <p class="curve-note" id="ch-summary">
           {monthLabel(prev)} → {monthLabel(latest)} for honest plans in {CHANGE_REGION.label}.
           {" "}<strong>{roseP.length}</strong> went up, <strong>{dropP.length}</strong> came down,
           {" "}<strong>{newPlans.length}</strong> new, <strong>{gonePlans.length}</strong> gone.
         </p>
 
         {roseP.length > 0 && (
-          <div class="change-block">
+          <div class="change-block" data-block="rose">
             <h3 class="change-h up">Prices that went up</h3>
             {roseP.slice(0, 6).map((m) => (
               <div class="change-row">
@@ -171,7 +182,7 @@ const series = manifest.regions.map((r, idx) => ({
         )}
 
         {dropP.length > 0 && (
-          <div class="change-block">
+          <div class="change-block" data-block="drop">
             <h3 class="change-h down">Prices that came down</h3>
             {dropP.slice(0, 6).map((m) => (
               <div class="change-row">
@@ -184,21 +195,102 @@ const series = manifest.regions.map((r, idx) => ({
 
         <div class="change-two">
           {newPlans.length > 0 && (
-            <div class="change-block">
+            <div class="change-block" data-block="new">
               <h3 class="change-h">New this month ({newPlans.length})</h3>
               {newPlans.slice(0, 6).map((n) => <div class="change-row"><span class="change-name">{n}</span></div>)}
               {newPlans.length > 6 && <p class="curve-note">…and {newPlans.length - 6} more</p>}
             </div>
           )}
           {gonePlans.length > 0 && (
-            <div class="change-block">
+            <div class="change-block" data-block="gone">
               <h3 class="change-h">No longer offered ({gonePlans.length})</h3>
               {gonePlans.slice(0, 6).map((n) => <div class="change-row"><span class="change-name gone">{n}</span></div>)}
               {gonePlans.length > 6 && <p class="curve-note">…and {gonePlans.length - 6} more</p>}
             </div>
           )}
         </div>
-      </>
+      </div>
     )}
   </section>
+
+  {prev && (
+    <script type="application/json" id="ch-data" set:html={JSON.stringify({
+      prev, latest,
+      prevLabel: monthLabel(prev), latestLabel: monthLabel(latest),
+      regions: manifest.regions.map((r) => ({ slug: r.slug, label: r.label })),
+      months: history.months,
+    })} />
+  )}
+
+  <script>
+    // Region-switchable "what changed" diff. Guarded so it no-ops on the
+    // single-month page (no data script / selector). Kept at template top level
+    // so Astro bundles it (module scripts inside JSX conditionals are skipped).
+    (() => {
+      interface PlanPoint { c: number; n: string }
+      const dataEl = document.getElementById("ch-data");
+      const sel = document.getElementById("ch-select") as HTMLSelectElement | null;
+      const body = document.getElementById("ch-body");
+      const regionName = document.getElementById("ch-region");
+      if (!dataEl || !sel || !body || !regionName) return;
+
+      const cfg = JSON.parse(dataEl.textContent!) as {
+        prev: string; latest: string; prevLabel: string; latestLabel: string;
+        regions: { slug: string; label: string }[];
+        months: Record<string, Record<string, { plans?: Record<string, PlanPoint> }>>;
+      };
+      const EPS = 0.15;
+      const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]!));
+
+      function rows(items: string[], gone = false) {
+          const head = items.slice(0, 6)
+            .map((n) => `<div class="change-row"><span class="change-name${gone ? " gone" : ""}">${esc(n)}</span></div>`)
+            .join("");
+          const more = items.length > 6 ? `<p class="curve-note">…and ${items.length - 6} more</p>` : "";
+          return head + more;
+        }
+        function moveRows(items: { name: string; from: number; to: number }[], cls: "up" | "down") {
+          return items.slice(0, 6).map((m) =>
+            `<div class="change-row"><span class="change-name">${esc(m.name)}</span>` +
+            `<span class="change-move mono">${m.from.toFixed(1)}¢ <span class="${cls}">→ ${m.to.toFixed(1)}¢</span></span></div>`,
+          ).join("");
+        }
+
+        function render(slug: string) {
+          const label = cfg.regions.find((r) => r.slug === slug)?.label ?? slug;
+          regionName.textContent = label;
+          const before = cfg.months[cfg.prev]?.[slug]?.plans ?? {};
+          const after = cfg.months[cfg.latest]?.[slug]?.plans ?? {};
+          const newP: string[] = [], goneP: string[] = [];
+          const rose: { name: string; from: number; to: number }[] = [];
+          const drop: { name: string; from: number; to: number }[] = [];
+          for (const [k, v] of Object.entries(after)) {
+            if (!(k in before)) newP.push(v.n);
+            else {
+              const d = v.c - before[k].c;
+              if (d > EPS) rose.push({ name: v.n, from: before[k].c, to: v.c });
+              else if (d < -EPS) drop.push({ name: v.n, from: before[k].c, to: v.c });
+            }
+          }
+          for (const [k, v] of Object.entries(before)) if (!(k in after)) goneP.push(v.n);
+          rose.sort((a, b) => b.to - b.from - (a.to - a.from));
+          drop.sort((a, b) => a.to - a.from - (b.to - b.from));
+
+          let html = `<p class="curve-note">${cfg.prevLabel} → ${cfg.latestLabel} for honest plans in ${esc(label)}. ` +
+            `<strong>${rose.length}</strong> went up, <strong>${drop.length}</strong> came down, ` +
+            `<strong>${newP.length}</strong> new, <strong>${goneP.length}</strong> gone.</p>`;
+          if (rose.length) html += `<div class="change-block"><h3 class="change-h up">Prices that went up</h3>${moveRows(rose, "up")}</div>`;
+          if (drop.length) html += `<div class="change-block"><h3 class="change-h down">Prices that came down</h3>${moveRows(drop, "down")}</div>`;
+          html += `<div class="change-two">`;
+          if (newP.length) html += `<div class="change-block"><h3 class="change-h">New this month (${newP.length})</h3>${rows(newP)}</div>`;
+          if (goneP.length) html += `<div class="change-block"><h3 class="change-h">No longer offered (${goneP.length})</h3>${rows(goneP, true)}</div>`;
+          html += `</div>`;
+          if (!rose.length && !drop.length && !newP.length && !goneP.length)
+            html += `<p class="curve-note">No changes recorded in ${esc(label)} this month.</p>`;
+          body.innerHTML = html;
+        }
+
+        sel.addEventListener("change", () => render(sel.value));
+    })();
+  </script>
 </Layout>

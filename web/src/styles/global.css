@@ -268,6 +268,13 @@ table.plans tbody tr:first-child { background: color-mix(in srgb, var(--accent) 
 /* ── Trends: "what changed" diff ── */
 .changed { margin-top: var(--s-xl); }
 .changed h2 { font-size: 20px; font-weight: 600; margin: 0 0 var(--s-xs); }
+.changed-head { display: flex; justify-content: space-between; align-items: baseline; gap: var(--s-md); flex-wrap: wrap; }
+.ch-picker { font-family: var(--font-sans); font-size: 13px; color: var(--muted); }
+.ch-picker select {
+  font: inherit; font-size: 14px; padding: 6px 8px; min-height: 44px;
+  border: 1px solid var(--ink); background: var(--surface); color: var(--ink);
+  border-radius: var(--radius-md); margin-left: var(--s-2xs);
+}
 .change-block { margin: var(--s-md) 0; }
 .change-h { font-family: var(--font-sans); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--rule); padding-bottom: var(--s-2xs); margin: 0 0 var(--s-xs); }
 .change-h.up { color: var(--strike); }
