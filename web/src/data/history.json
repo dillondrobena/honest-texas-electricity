@@ -1,869 +1,3629 @@
 {
+  "updated": "2026-08-12T14:54:14Z",
   "months": {
     "2026-07": {
       "oncor": {
-        "avg": 13.47,
-        "median": 13.4,
+        "avg": 13.53,
+        "median": 13.44,
         "cheapest": 11.8,
-        "honest": 69,
+        "honest": 73,
         "plans": {
-          "budget-power-no-gimmicks-11-oncor-11-0": 11.8,
-          "true-power-true-value-12-oncor-12-0": 11.82,
-          "express-energy-speedy-12-oncor-12-0": 11.92,
-          "veteran-energy-basic-12-oncor-12-0": 11.92,
-          "budget-power-no-gimmicks-12-oncor-12-0": 12.0,
-          "octopus-energy-octo-simple-12-oncor-12-0": 12.0,
-          "varsity-energy-llc-homerun-12-oncor-12-0": 12.0,
-          "energy-texas-no-bull-12-oncor-12-0": 12.04,
-          "rhythm-digital-choice-12-oncor-12-0": 12.04,
-          "budget-power-no-gimmicks-green-12-oncor-12-0": 12.1,
-          "texans-choice-power-llc-choose-6-oncor-6-0": 12.2,
-          "gexa-energy-gexa-eco-choice-12-oncor-12-0": 12.2,
-          "frontier-utilities-frontier-power-saver-12-oncor-12-0": 12.2,
-          "companion-energy-companion-perks-12-oncor-12-0": 12.2,
-          "texans-choice-power-llc-choose-12-oncor-12-0": 12.3,
-          "constellation-newenergy-inc-simple-switch-6-oncor-6-0": 12.4,
-          "ae-texas-smart-secure-10-oncor-10-0": 12.42,
-          "ap-gas-electric-tx-llc-trueclassic-11-oncor-11-0": 12.6,
-          "true-power-true-value-24-oncor-24-0": 12.62,
-          "ap-gas-electric-tx-llc-trueclassic-12-oncor-12-0": 12.7,
-          "budget-power-no-gimmicks-24-oncor-24-0": 12.7,
-          "abundance-energy-confident-renter-12-oncor-12-0": 12.72,
-          "chariot-energy-chariot-choice-24-oncor-24-0": 12.82,
-          "true-power-true-value-36-oncor-36-0": 12.82,
-          "spark-energy-llc-choose-12-oncor-12-0": 12.9,
-          "champion-energy-services-llc-champ-saver-12-oncor-12-0": 12.9,
-          "budget-power-no-gimmicks-36-oncor-36-0": 12.9,
-          "spark-energy-llc-choose-6-oncor-6-0": 13.0,
-          "ae-texas-smart-secure-36-oncor-36-0": 13.02,
-          "chariot-energy-chariot-choice-36-oncor-36-0": 13.12,
-          "southern-federal-power-llc-sofed-free-energy-lunch-12-oncor-12-0": 13.16,
-          "sfe-energy-texas-inc-sfe-rewardsplus-12-oncor-12-0": 13.2,
-          "ap-gas-electric-tx-llc-trueclassic-24-oncor-24-0": 13.3,
-          "bkv-energy-daisy-12-oncor-12-0": 13.4,
-          "spark-energy-llc-choose-15-oncor-15-0": 13.4,
-          "rhythm-digital-choice-24-oncor-24-0": 13.44,
-          "energy-texas-no-bull-24-oncor-24-0": 13.44,
-          "bkv-energy-daisy-11-oncor-11-0": 13.5,
-          "champion-energy-services-llc-champ-saver-24-oncor-24-0": 13.5,
-          "bkv-energy-daisy-green-12-oncor-12-0": 13.6,
-          "bkv-energy-daisy-13-oncor-13-0": 13.7,
-          "ap-gas-electric-tx-llc-trueclassic-36-oncor-36-0": 13.7,
-          "rhythm-digital-choice-36-oncor-36-0": 13.74,
-          "energy-texas-no-bull-36-oncor-36-0": 13.74,
-          "octopus-energy-octo-simple-18-oncor-18-0": 13.8,
-          "bkv-energy-daisy-24-oncor-24-0": 13.9,
-          "cleansky-energy-embrace-green-12-new-customer-special-oncor-12-0": 13.9,
-          "ironhorse-power-services-llc-giddy-up-24-oncor-24-0": 13.9,
-          "cleansky-energy-embrace-green-24-new-customer-special-oncor-24-0": 14.0,
-          "ironhorse-power-services-llc-giddy-up-18-oncor-18-0": 14.0,
-          "octopus-energy-llc-octo-simple-24-oncor-24-0": 14.0,
-          "cleansky-energy-embrace-green-36-new-customer-special-oncor-36-0": 14.19,
-          "base-power-base-energy-36-oncor-36-0": 14.2,
-          "ironhorse-power-services-llc-giddy-up-36-oncor-36-0": 14.3,
-          "atlantex-power-luminous-10-oncor-10-0": 14.42,
-          "discount-power-saver-12-oncor-12-0": 14.42,
-          "cirro-energy-smart-simple-12-oncor-12-0": 14.52,
-          "octopus-energy-llc-octo-simple-14-oncor-14-0": 14.6,
-          "discount-power-saver-24-oncor-24-0": 14.82,
-          "cirro-energy-smart-simple-24-oncor-24-0": 14.92,
-          "discount-power-saver-36-oncor-36-0": 14.92,
-          "atlantex-power-luminous-36-oncor-36-0": 15.02,
-          "cirro-energy-smart-simple-36-oncor-36-0": 15.12,
-          "tara-energy-basics-ptc-24-oncor-24-0": 15.9,
-          "tara-energy-basics-ptc-36-oncor-36-0": 15.9,
-          "amigo-energy-basics-ptc-24-oncor-24-0": 15.9,
-          "amigo-energy-basics-ptc-36-oncor-36-0": 15.9,
-          "just-energy-basics-ptc-24-oncor-24-0": 15.9,
-          "just-energy-basics-ptc-60-oncor-60-0": 15.9
+          "budget power|no gimmicks 11": {
+            "c": 11.8,
+            "n": "Budget Power \u2014 No Gimmicks 11"
+          },
+          "true power|true value 12": {
+            "c": 11.82,
+            "n": "TRUE POWER \u2014 True Value 12"
+          },
+          "express energy|speedy 12": {
+            "c": 11.92,
+            "n": "Express Energy \u2014 Speedy 12"
+          },
+          "veteran energy|basic 12": {
+            "c": 11.92,
+            "n": "Veteran Energy \u2014 Basic 12"
+          },
+          "budget power|no gimmicks 12": {
+            "c": 12.0,
+            "n": "Budget Power \u2014 No Gimmicks 12"
+          },
+          "octopus energy|octo simple 12": {
+            "c": 12.0,
+            "n": "Octopus Energy \u2014 Octo Simple 12"
+          },
+          "varsity energy llc|homerun 12": {
+            "c": 12.0,
+            "n": "VARSITY ENERGY LLC \u2014 HOMERUN 12"
+          },
+          "energy texas|no bull 12": {
+            "c": 12.04,
+            "n": "Energy Texas \u2014 No Bull 12"
+          },
+          "rhythm|digital choice 12": {
+            "c": 12.04,
+            "n": "RHYTHM \u2014 Digital Choice 12"
+          },
+          "budget power|no gimmicks green 12": {
+            "c": 12.1,
+            "n": "Budget Power \u2014 No Gimmicks Green 12"
+          },
+          "texans choice power llc|choose 6": {
+            "c": 12.2,
+            "n": "Texans Choice Power LLC \u2014 Choose 6"
+          },
+          "gexa energy|gexa eco choice 12": {
+            "c": 12.2,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 12"
+          },
+          "frontier utilities|frontier power saver 12": {
+            "c": 12.2,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 12"
+          },
+          "companion energy|companion + perks 12": {
+            "c": 12.2,
+            "n": "Companion Energy \u2014 Companion + Perks 12"
+          },
+          "texans choice power llc|choose 12": {
+            "c": 12.3,
+            "n": "Texans Choice Power LLC \u2014 Choose 12"
+          },
+          "constellation newenergy inc|simple switch 6": {
+            "c": 12.4,
+            "n": "CONSTELLATION NEWENERGY INC \u2014 Simple Switch 6"
+          },
+          "ae texas|smart secure 10": {
+            "c": 12.42,
+            "n": "AE TEXAS \u2014 Smart Secure 10"
+          },
+          "ap gas & electric (tx) llc|trueclassic 11": {
+            "c": 12.6,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 11"
+          },
+          "true power|true value 24": {
+            "c": 12.62,
+            "n": "TRUE POWER \u2014 True Value 24"
+          },
+          "ap gas & electric (tx) llc|trueclassic 12": {
+            "c": 12.7,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 12"
+          },
+          "budget power|no gimmicks 24": {
+            "c": 12.7,
+            "n": "Budget Power \u2014 No Gimmicks 24"
+          },
+          "abundance energy|confident renter 12": {
+            "c": 12.72,
+            "n": "Abundance Energy \u2014 Confident Renter 12"
+          },
+          "chariot energy|chariot choice 24": {
+            "c": 12.82,
+            "n": "CHARIOT ENERGY \u2014 Chariot Choice 24"
+          },
+          "true power|true value 36": {
+            "c": 12.82,
+            "n": "TRUE POWER \u2014 True Value 36"
+          },
+          "spark energy llc|choose 12": {
+            "c": 12.9,
+            "n": "SPARK ENERGY LLC \u2014 Choose 12"
+          },
+          "champion energy services llc|champ saver-12": {
+            "c": 12.9,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-12"
+          },
+          "budget power|no gimmicks 36": {
+            "c": 12.9,
+            "n": "Budget Power \u2014 No Gimmicks 36"
+          },
+          "spark energy llc|choose 6": {
+            "c": 13.0,
+            "n": "SPARK ENERGY LLC \u2014 Choose 6"
+          },
+          "ae texas|smart secure 36": {
+            "c": 13.02,
+            "n": "AE TEXAS \u2014 Smart Secure 36"
+          },
+          "chariot energy|chariot choice 36": {
+            "c": 13.12,
+            "n": "CHARIOT ENERGY \u2014 Chariot Choice 36"
+          },
+          "southern federal power llc|sofed free energy lunch - 12": {
+            "c": 13.16,
+            "n": "SOUTHERN FEDERAL POWER LLC \u2014 SoFed Free Energy Lunch - 12"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 12": {
+            "c": 13.2,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 24": {
+            "c": 13.3,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 24"
+          },
+          "spark energy llc|choose 15": {
+            "c": 13.4,
+            "n": "SPARK ENERGY LLC \u2014 Choose 15"
+          },
+          "bkv energy|daisy 12": {
+            "c": 13.4,
+            "n": "BKV Energy \u2014 Daisy 12"
+          },
+          "rhythm|digital choice 24": {
+            "c": 13.44,
+            "n": "RHYTHM \u2014 Digital Choice 24"
+          },
+          "energy texas|no bull 24": {
+            "c": 13.44,
+            "n": "Energy Texas \u2014 No Bull 24"
+          },
+          "bkv energy|daisy 11": {
+            "c": 13.5,
+            "n": "BKV Energy \u2014 Daisy 11"
+          },
+          "champion energy services llc|champ saver-24": {
+            "c": 13.5,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-24"
+          },
+          "bkv energy|daisy green 12": {
+            "c": 13.6,
+            "n": "BKV Energy \u2014 Daisy Green 12"
+          },
+          "bkv energy|daisy 13": {
+            "c": 13.7,
+            "n": "BKV Energy \u2014 Daisy 13"
+          },
+          "ap gas & electric (tx) llc|trueclassic 36": {
+            "c": 13.7,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 36"
+          },
+          "rhythm|digital choice 36": {
+            "c": 13.74,
+            "n": "RHYTHM \u2014 Digital Choice 36"
+          },
+          "energy texas|no bull 36": {
+            "c": 13.74,
+            "n": "Energy Texas \u2014 No Bull 36"
+          },
+          "octopus energy|octo simple 18": {
+            "c": 13.8,
+            "n": "Octopus Energy \u2014 Octo Simple 18"
+          },
+          "think energy|think clean 12 with smart thermostat connected": {
+            "c": 13.82,
+            "n": "Think Energy \u2014 Think Clean 12 with Smart Thermostat Connected"
+          },
+          "cleansky energy|embrace green 12 - new customer special": {
+            "c": 13.9,
+            "n": "CleanSky Energy \u2014 Embrace Green 12 - New Customer Special"
+          },
+          "ironhorse power services llc|giddy up 24": {
+            "c": 13.9,
+            "n": "IRONHORSE POWER SERVICES LLC \u2014 Giddy Up 24"
+          },
+          "bkv energy|daisy 24": {
+            "c": 13.9,
+            "n": "BKV Energy \u2014 Daisy 24"
+          },
+          "cleansky energy|embrace green 24 - new customer special": {
+            "c": 14.0,
+            "n": "CleanSky Energy \u2014 Embrace Green 24 - New Customer Special"
+          },
+          "ironhorse power services llc|giddy up 18": {
+            "c": 14.0,
+            "n": "IRONHORSE POWER SERVICES LLC \u2014 Giddy Up 18"
+          },
+          "octopus energy llc|octo simple 24": {
+            "c": 14.0,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 24"
+          },
+          "cleansky energy|embrace green 36 - new customer special": {
+            "c": 14.19,
+            "n": "CleanSky Energy \u2014 Embrace Green 36 - New Customer Special"
+          },
+          "base power|base energy 36": {
+            "c": 14.2,
+            "n": "Base Power \u2014 Base Energy 36"
+          },
+          "ironhorse power services llc|giddy up 36": {
+            "c": 14.3,
+            "n": "IRONHORSE POWER SERVICES LLC \u2014 Giddy Up 36"
+          },
+          "discount power|saver 12": {
+            "c": 14.42,
+            "n": "Discount Power \u2014 Saver 12"
+          },
+          "atlantex power|luminous 10": {
+            "c": 14.42,
+            "n": "Atlantex Power \u2014 Luminous 10"
+          },
+          "think energy|think clean 24 with smart thermostat": {
+            "c": 14.42,
+            "n": "Think Energy \u2014 Think Clean 24 With Smart Thermostat"
+          },
+          "cirro energy|smart simple 12": {
+            "c": 14.52,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 12"
+          },
+          "octopus energy llc|octo simple 14": {
+            "c": 14.6,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 14"
+          },
+          "discount power|saver 24": {
+            "c": 14.82,
+            "n": "Discount Power \u2014 Saver 24"
+          },
+          "cirro energy|smart simple 24": {
+            "c": 14.92,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 24"
+          },
+          "discount power|saver 36": {
+            "c": 14.92,
+            "n": "Discount Power \u2014 Saver 36"
+          },
+          "heritage power llc|bright start 12 - $25 credit on your first bill!": {
+            "c": 15.0,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 12 - $25 credit on your first bill!"
+          },
+          "heritage power llc|bright start 24 - $25 credit on your first bill!": {
+            "c": 15.0,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 24 - $25 credit on your first bill!"
+          },
+          "atlantex power|luminous 36": {
+            "c": 15.02,
+            "n": "Atlantex Power \u2014 Luminous 36"
+          },
+          "cirro energy|smart simple 36": {
+            "c": 15.12,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 36"
+          },
+          "tara energy|basics ptc - 24": {
+            "c": 15.9,
+            "n": "TARA ENERGY \u2014 Basics PTC - 24"
+          },
+          "tara energy|basics ptc - 36": {
+            "c": 15.9,
+            "n": "TARA ENERGY \u2014 Basics PTC - 36"
+          },
+          "amigo energy|basics ptc - 24": {
+            "c": 15.9,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 24"
+          },
+          "amigo energy|basics ptc - 36": {
+            "c": 15.9,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 36"
+          },
+          "just energy|basics ptc - 24": {
+            "c": 15.9,
+            "n": "JUST ENERGY \u2014 Basics PTC - 24"
+          },
+          "just energy|basics ptc - 60": {
+            "c": 15.9,
+            "n": "JUST ENERGY \u2014 Basics PTC - 60"
+          }
         }
       },
       "centerpoint": {
-        "avg": 12.58,
-        "median": 12.52,
+        "avg": 12.65,
+        "median": 12.54,
         "cheapest": 10.92,
-        "honest": 65,
+        "honest": 69,
         "plans": {
-          "budget-power-no-gimmicks-11-centerpoint-11-0": 10.92,
-          "true-power-true-value-12-centerpoint-12-0": 10.92,
-          "veteran-energy-basic-12-centerpoint-12-0": 11.02,
-          "express-energy-speedy-12-centerpoint-12-0": 11.02,
-          "octopus-energy-octo-simple-12-centerpoint-12-0": 11.02,
-          "rhythm-digital-choice-12-centerpoint-12-0": 11.04,
-          "energy-texas-no-bull-12-centerpoint-12-0": 11.04,
-          "budget-power-no-gimmicks-12-centerpoint-12-0": 11.12,
-          "budget-power-no-gimmicks-green-12-centerpoint-12-0": 11.22,
-          "varsity-energy-llc-homerun-12-centerpoint-12-0": 11.32,
-          "texans-choice-power-llc-choose-6-centerpoint-6-0": 11.42,
-          "gexa-energy-gexa-eco-choice-12-centerpoint-12-0": 11.42,
-          "companion-energy-companion-perks-12-centerpoint-12-0": 11.42,
-          "frontier-utilities-frontier-power-saver-12-centerpoint-12-0": 11.42,
-          "ae-texas-smart-secure-10-centerpoint-10-0": 11.52,
-          "constellation-newenergy-inc-simple-switch-6-centerpoint-6-0": 11.52,
-          "texans-choice-power-llc-choose-12-centerpoint-12-0": 11.52,
-          "ap-gas-electric-tx-llc-trueclassic-11-centerpoint-11-0": 11.92,
-          "true-power-true-value-24-centerpoint-24-0": 11.92,
-          "abundance-energy-confident-renter-12-centerpoint-12-0": 11.96,
-          "champion-energy-services-llc-champ-saver-12-centerpoint-12-0": 12.02,
-          "ap-gas-electric-tx-llc-trueclassic-12-centerpoint-12-0": 12.02,
-          "budget-power-no-gimmicks-24-centerpoint-24-0": 12.02,
-          "true-power-true-value-36-centerpoint-36-0": 12.02,
-          "spark-energy-llc-choose-6-centerpoint-6-0": 12.12,
-          "spark-energy-llc-choose-12-centerpoint-12-0": 12.12,
-          "budget-power-no-gimmicks-36-centerpoint-36-0": 12.12,
-          "southern-federal-power-llc-sofed-free-energy-lunch-12-centerpoint-12-0": 12.18,
-          "ae-texas-smart-secure-36-centerpoint-36-0": 12.22,
-          "bkv-energy-daisy-11-centerpoint-11-0": 12.38,
-          "bkv-energy-daisy-12-centerpoint-12-0": 12.38,
-          "sfe-energy-texas-inc-sfe-rewardsplus-12-centerpoint-12-0": 12.42,
-          "ap-gas-electric-tx-llc-trueclassic-24-centerpoint-24-0": 12.52,
-          "energy-texas-no-bull-24-centerpoint-24-0": 12.54,
-          "rhythm-digital-choice-24-centerpoint-24-0": 12.54,
-          "bkv-energy-daisy-green-12-centerpoint-12-0": 12.58,
-          "bkv-energy-daisy-13-centerpoint-13-0": 12.62,
-          "spark-energy-llc-choose-15-centerpoint-15-0": 12.62,
-          "champion-energy-services-llc-champ-saver-24-centerpoint-24-0": 12.72,
-          "bkv-energy-daisy-24-centerpoint-24-0": 12.82,
-          "octopus-energy-octo-simple-18-centerpoint-18-0": 12.82,
-          "ap-gas-electric-tx-llc-trueclassic-36-centerpoint-36-0": 12.82,
-          "energy-texas-no-bull-36-centerpoint-36-0": 12.84,
-          "rhythm-digital-choice-36-centerpoint-36-0": 12.84,
-          "cleansky-energy-embrace-green-12-new-customer-special-centerpoint-12-0": 13.02,
-          "octopus-energy-llc-octo-simple-24-centerpoint-24-0": 13.02,
-          "cleansky-energy-embrace-green-24-new-customer-special-centerpoint-24-0": 13.12,
-          "ironhorse-power-services-llc-giddy-up-24-centerpoint-24-0": 13.18,
-          "ironhorse-power-services-llc-giddy-up-18-centerpoint-18-0": 13.28,
-          "base-power-base-energy-36-centerpoint-36-0": 13.32,
-          "cleansky-energy-embrace-green-36-new-customer-special-centerpoint-36-0": 13.42,
-          "ironhorse-power-services-llc-giddy-up-36-centerpoint-36-0": 13.48,
-          "atlantex-power-luminous-10-centerpoint-10-0": 13.52,
-          "constellation-newenergy-inc-14-month-centerpoint-14-0": 13.52,
-          "octopus-energy-llc-octo-simple-14-centerpoint-14-0": 13.58,
-          "trieagle-energy-lp-simple-savings-28-centerpoint-28-0": 13.78,
-          "trieagle-energy-lp-simple-savings-12-centerpoint-12-0": 14.18,
-          "atlantex-power-luminous-36-centerpoint-36-0": 14.22,
-          "trieagle-energy-lp-simple-savings-36-centerpoint-36-0": 14.78,
-          "tara-energy-basics-ptc-24-centerpoint-24-0": 14.92,
-          "tara-energy-basics-ptc-36-centerpoint-36-0": 14.92,
-          "amigo-energy-basics-ptc-24-centerpoint-24-0": 14.92,
-          "amigo-energy-basics-ptc-36-centerpoint-36-0": 14.92,
-          "just-energy-basics-ptc-24-centerpoint-24-0": 14.92,
-          "just-energy-basics-ptc-60-centerpoint-60-0": 14.92
+          "budget power|no gimmicks 11": {
+            "c": 10.92,
+            "n": "Budget Power \u2014 No Gimmicks 11"
+          },
+          "true power|true value 12": {
+            "c": 10.92,
+            "n": "TRUE POWER \u2014 True Value 12"
+          },
+          "octopus energy|octo simple 12": {
+            "c": 11.02,
+            "n": "Octopus Energy \u2014 Octo Simple 12"
+          },
+          "veteran energy|basic 12": {
+            "c": 11.02,
+            "n": "Veteran Energy \u2014 Basic 12"
+          },
+          "express energy|speedy 12": {
+            "c": 11.02,
+            "n": "Express Energy \u2014 Speedy 12"
+          },
+          "rhythm|digital choice 12": {
+            "c": 11.04,
+            "n": "RHYTHM \u2014 Digital Choice 12"
+          },
+          "energy texas|no bull 12": {
+            "c": 11.04,
+            "n": "Energy Texas \u2014 No Bull 12"
+          },
+          "budget power|no gimmicks 12": {
+            "c": 11.12,
+            "n": "Budget Power \u2014 No Gimmicks 12"
+          },
+          "budget power|no gimmicks green 12": {
+            "c": 11.22,
+            "n": "Budget Power \u2014 No Gimmicks Green 12"
+          },
+          "varsity energy llc|homerun 12": {
+            "c": 11.32,
+            "n": "VARSITY ENERGY LLC \u2014 HOMERUN 12"
+          },
+          "texans choice power llc|choose 6": {
+            "c": 11.42,
+            "n": "Texans Choice Power LLC \u2014 Choose 6"
+          },
+          "gexa energy|gexa eco choice 12": {
+            "c": 11.42,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 12"
+          },
+          "companion energy|companion + perks 12": {
+            "c": 11.42,
+            "n": "Companion Energy \u2014 Companion + Perks 12"
+          },
+          "frontier utilities|frontier power saver 12": {
+            "c": 11.42,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 12"
+          },
+          "constellation newenergy inc|simple switch 6": {
+            "c": 11.52,
+            "n": "CONSTELLATION NEWENERGY INC \u2014 Simple Switch 6"
+          },
+          "texans choice power llc|choose 12": {
+            "c": 11.52,
+            "n": "Texans Choice Power LLC \u2014 Choose 12"
+          },
+          "ae texas|smart secure 10": {
+            "c": 11.52,
+            "n": "AE TEXAS \u2014 Smart Secure 10"
+          },
+          "ap gas & electric (tx) llc|trueclassic 11": {
+            "c": 11.92,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 11"
+          },
+          "true power|true value 24": {
+            "c": 11.92,
+            "n": "TRUE POWER \u2014 True Value 24"
+          },
+          "abundance energy|confident renter 12": {
+            "c": 11.96,
+            "n": "Abundance Energy \u2014 Confident Renter 12"
+          },
+          "champion energy services llc|champ saver-12": {
+            "c": 12.02,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 12": {
+            "c": 12.02,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 12"
+          },
+          "budget power|no gimmicks 24": {
+            "c": 12.02,
+            "n": "Budget Power \u2014 No Gimmicks 24"
+          },
+          "true power|true value 36": {
+            "c": 12.02,
+            "n": "TRUE POWER \u2014 True Value 36"
+          },
+          "spark energy llc|choose 6": {
+            "c": 12.12,
+            "n": "SPARK ENERGY LLC \u2014 Choose 6"
+          },
+          "spark energy llc|choose 12": {
+            "c": 12.12,
+            "n": "SPARK ENERGY LLC \u2014 Choose 12"
+          },
+          "budget power|no gimmicks 36": {
+            "c": 12.12,
+            "n": "Budget Power \u2014 No Gimmicks 36"
+          },
+          "southern federal power llc|sofed free energy lunch - 12": {
+            "c": 12.18,
+            "n": "SOUTHERN FEDERAL POWER LLC \u2014 SoFed Free Energy Lunch - 12"
+          },
+          "ae texas|smart secure 36": {
+            "c": 12.22,
+            "n": "AE TEXAS \u2014 Smart Secure 36"
+          },
+          "bkv energy|daisy 11": {
+            "c": 12.38,
+            "n": "BKV Energy \u2014 Daisy 11"
+          },
+          "bkv energy|daisy 12": {
+            "c": 12.38,
+            "n": "BKV Energy \u2014 Daisy 12"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 12": {
+            "c": 12.42,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 24": {
+            "c": 12.52,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 24"
+          },
+          "energy texas|no bull 24": {
+            "c": 12.54,
+            "n": "Energy Texas \u2014 No Bull 24"
+          },
+          "rhythm|digital choice 24": {
+            "c": 12.54,
+            "n": "RHYTHM \u2014 Digital Choice 24"
+          },
+          "bkv energy|daisy green 12": {
+            "c": 12.58,
+            "n": "BKV Energy \u2014 Daisy Green 12"
+          },
+          "spark energy llc|choose 15": {
+            "c": 12.62,
+            "n": "SPARK ENERGY LLC \u2014 Choose 15"
+          },
+          "bkv energy|daisy 13": {
+            "c": 12.62,
+            "n": "BKV Energy \u2014 Daisy 13"
+          },
+          "champion energy services llc|champ saver-24": {
+            "c": 12.72,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-24"
+          },
+          "octopus energy|octo simple 18": {
+            "c": 12.82,
+            "n": "Octopus Energy \u2014 Octo Simple 18"
+          },
+          "ap gas & electric (tx) llc|trueclassic 36": {
+            "c": 12.82,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 36"
+          },
+          "bkv energy|daisy 24": {
+            "c": 12.82,
+            "n": "BKV Energy \u2014 Daisy 24"
+          },
+          "energy texas|no bull 36": {
+            "c": 12.84,
+            "n": "Energy Texas \u2014 No Bull 36"
+          },
+          "rhythm|digital choice 36": {
+            "c": 12.84,
+            "n": "RHYTHM \u2014 Digital Choice 36"
+          },
+          "think energy|think clean 12 with smart thermostat connected": {
+            "c": 12.9,
+            "n": "Think Energy \u2014 Think Clean 12 with Smart Thermostat Connected"
+          },
+          "cleansky energy|embrace green 12 - new customer special": {
+            "c": 13.02,
+            "n": "CleanSky Energy \u2014 Embrace Green 12 - New Customer Special"
+          },
+          "octopus energy llc|octo simple 24": {
+            "c": 13.02,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 24"
+          },
+          "cleansky energy|embrace green 24 - new customer special": {
+            "c": 13.12,
+            "n": "CleanSky Energy \u2014 Embrace Green 24 - New Customer Special"
+          },
+          "ironhorse power services llc|giddy up 24": {
+            "c": 13.18,
+            "n": "IRONHORSE POWER SERVICES LLC \u2014 Giddy Up 24"
+          },
+          "ironhorse power services llc|giddy up 18": {
+            "c": 13.28,
+            "n": "IRONHORSE POWER SERVICES LLC \u2014 Giddy Up 18"
+          },
+          "base power|base energy 36": {
+            "c": 13.32,
+            "n": "Base Power \u2014 Base Energy 36"
+          },
+          "cleansky energy|embrace green 36 - new customer special": {
+            "c": 13.42,
+            "n": "CleanSky Energy \u2014 Embrace Green 36 - New Customer Special"
+          },
+          "ironhorse power services llc|giddy up 36": {
+            "c": 13.48,
+            "n": "IRONHORSE POWER SERVICES LLC \u2014 Giddy Up 36"
+          },
+          "think energy|think clean 24 with smart thermostat": {
+            "c": 13.5,
+            "n": "Think Energy \u2014 Think Clean 24 With Smart Thermostat"
+          },
+          "constellation newenergy inc|14 month": {
+            "c": 13.52,
+            "n": "CONSTELLATION NEWENERGY INC \u2014 14 Month"
+          },
+          "atlantex power|luminous 10": {
+            "c": 13.52,
+            "n": "Atlantex Power \u2014 Luminous 10"
+          },
+          "octopus energy llc|octo simple 14": {
+            "c": 13.58,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 14"
+          },
+          "trieagle energy lp|simple savings 28": {
+            "c": 13.78,
+            "n": "TRIEAGLE ENERGY LP \u2014 Simple Savings 28"
+          },
+          "heritage power llc|bright start 12 - $25 credit on your first bill!": {
+            "c": 14.12,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 12 - $25 credit on your first bill!"
+          },
+          "heritage power llc|bright start 24 - $25 credit on your first bill!": {
+            "c": 14.12,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 24 - $25 credit on your first bill!"
+          },
+          "trieagle energy lp|simple savings 12": {
+            "c": 14.18,
+            "n": "TRIEAGLE ENERGY LP \u2014 Simple Savings 12"
+          },
+          "atlantex power|luminous 36": {
+            "c": 14.22,
+            "n": "Atlantex Power \u2014 Luminous 36"
+          },
+          "trieagle energy lp|simple savings 36": {
+            "c": 14.78,
+            "n": "TRIEAGLE ENERGY LP \u2014 Simple Savings 36"
+          },
+          "tara energy|basics ptc - 24": {
+            "c": 14.92,
+            "n": "TARA ENERGY \u2014 Basics PTC - 24"
+          },
+          "tara energy|basics ptc - 36": {
+            "c": 14.92,
+            "n": "TARA ENERGY \u2014 Basics PTC - 36"
+          },
+          "amigo energy|basics ptc - 24": {
+            "c": 14.92,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 24"
+          },
+          "amigo energy|basics ptc - 36": {
+            "c": 14.92,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 36"
+          },
+          "just energy|basics ptc - 24": {
+            "c": 14.92,
+            "n": "JUST ENERGY \u2014 Basics PTC - 24"
+          },
+          "just energy|basics ptc - 60": {
+            "c": 14.92,
+            "n": "JUST ENERGY \u2014 Basics PTC - 60"
+          }
         }
       },
       "aep-central": {
-        "avg": 13.14,
-        "median": 13.04,
+        "avg": 13.27,
+        "median": 13.1,
         "cheapest": 11.44,
-        "honest": 63,
+        "honest": 70,
         "plans": {
-          "true-power-true-value-12-aep-texas-central-12-0": 11.44,
-          "veteran-energy-basic-12-aep-texas-central-12-0": 11.48,
-          "express-energy-speedy-12-aep-texas-central-12-0": 11.48,
-          "rhythm-digital-choice-12-aep-texas-central-12-0": 11.62,
-          "energy-texas-no-bull-12-aep-texas-central-12-0": 11.62,
-          "budget-power-no-gimmicks-11-aep-texas-central-11-0": 11.64,
-          "budget-power-no-gimmicks-12-aep-texas-central-12-0": 11.74,
-          "gexa-energy-gexa-eco-choice-12-aep-texas-central-12-0": 11.74,
-          "companion-energy-companion-perks-12-aep-texas-central-12-0": 11.74,
-          "frontier-utilities-frontier-power-saver-12-aep-texas-central-12-0": 11.74,
-          "budget-power-no-gimmicks-green-12-aep-texas-central-12-0": 11.84,
-          "texans-choice-power-llc-choose-6-aep-texas-central-6-0": 11.84,
-          "texans-choice-power-llc-choose-12-aep-texas-central-12-0": 11.84,
-          "constellation-newenergy-inc-simple-switch-6-aep-texas-central-6-0": 11.88,
-          "ap-gas-electric-tx-llc-trueclassic-11-aep-texas-central-11-0": 11.98,
-          "ap-gas-electric-tx-llc-trueclassic-12-aep-texas-central-12-0": 12.08,
-          "true-power-true-value-24-aep-texas-central-24-0": 12.12,
-          "ae-texas-smart-secure-10-aep-texas-central-10-0": 12.14,
-          "budget-power-no-gimmicks-24-aep-texas-central-24-0": 12.24,
-          "true-power-true-value-36-aep-texas-central-36-0": 12.34,
-          "budget-power-no-gimmicks-36-aep-texas-central-36-0": 12.44,
-          "abundance-energy-confident-renter-12-aep-texas-central-12-0": 12.48,
-          "ap-gas-electric-tx-llc-trueclassic-24-aep-texas-central-24-0": 12.58,
-          "ae-texas-smart-secure-36-aep-texas-central-36-0": 12.64,
-          "spark-energy-llc-choose-6-aep-texas-central-6-0": 12.64,
-          "spark-energy-llc-choose-12-aep-texas-central-12-0": 12.64,
-          "energy-texas-no-bull-24-aep-texas-central-24-0": 12.72,
-          "rhythm-digital-choice-24-aep-texas-central-24-0": 12.72,
-          "champion-energy-services-llc-champ-saver-12-aep-texas-central-12-0": 12.78,
-          "sfe-energy-texas-inc-sfe-rewardsplus-12-aep-texas-central-12-0": 12.82,
-          "bkv-energy-daisy-12-aep-texas-central-12-0": 12.98,
-          "bkv-energy-daisy-11-aep-texas-central-11-0": 13.04,
-          "spark-energy-llc-choose-15-aep-texas-central-15-0": 13.04,
-          "southern-federal-power-llc-sofed-free-energy-lunch-12-aep-texas-central-12-0": 13.08,
-          "ap-gas-electric-tx-llc-trueclassic-36-aep-texas-central-36-0": 13.08,
-          "bkv-energy-daisy-green-12-aep-texas-central-12-0": 13.14,
-          "bkv-energy-daisy-13-aep-texas-central-13-0": 13.18,
-          "champion-energy-services-llc-champ-saver-24-aep-texas-central-24-0": 13.18,
-          "energy-texas-no-bull-36-aep-texas-central-36-0": 13.32,
-          "rhythm-digital-choice-36-aep-texas-central-36-0": 13.32,
-          "bkv-energy-daisy-24-aep-texas-central-24-0": 13.34,
-          "cleansky-energy-embrace-green-12-new-customer-special-aep-texas-central-12-0": 13.68,
-          "cleansky-energy-embrace-green-24-new-customer-special-aep-texas-central-24-0": 13.68,
-          "base-power-base-energy-36-aep-texas-central-36-0": 13.88,
-          "cleansky-energy-embrace-green-36-new-customer-special-aep-texas-central-36-0": 13.88,
-          "discount-power-saver-12-aep-texas-central-12-0": 13.94,
-          "cirro-energy-smart-simple-12-aep-texas-central-12-0": 14.04,
-          "octopus-energy-octo-simple-12-aep-texas-central-12-0": 14.08,
-          "atlantex-power-luminous-10-aep-texas-central-10-0": 14.14,
-          "discount-power-saver-24-aep-texas-central-24-0": 14.34,
-          "octopus-energy-octo-simple-18-aep-texas-central-18-0": 14.38,
-          "cirro-energy-smart-simple-24-aep-texas-central-24-0": 14.44,
-          "discount-power-saver-36-aep-texas-central-36-0": 14.44,
-          "octopus-energy-llc-octo-simple-24-aep-texas-central-24-0": 14.58,
-          "atlantex-power-luminous-36-aep-texas-central-36-0": 14.64,
-          "cirro-energy-smart-simple-36-aep-texas-central-36-0": 14.64,
-          "octopus-energy-llc-octo-simple-14-aep-texas-central-14-0": 14.68,
-          "tara-energy-basics-ptc-24-aep-texas-central-24-0": 15.48,
-          "tara-energy-basics-ptc-36-aep-texas-central-36-0": 15.48,
-          "amigo-energy-basics-ptc-24-aep-texas-central-24-0": 15.48,
-          "amigo-energy-basics-ptc-36-aep-texas-central-36-0": 15.48,
-          "just-energy-basics-ptc-24-aep-texas-central-24-0": 15.48,
-          "just-energy-basics-ptc-60-aep-texas-central-60-0": 15.48
+          "true power|true value 12": {
+            "c": 11.44,
+            "n": "TRUE POWER \u2014 True Value 12"
+          },
+          "veteran energy|basic 12": {
+            "c": 11.48,
+            "n": "Veteran Energy \u2014 Basic 12"
+          },
+          "express energy|speedy 12": {
+            "c": 11.48,
+            "n": "Express Energy \u2014 Speedy 12"
+          },
+          "rhythm|digital choice 12": {
+            "c": 11.62,
+            "n": "RHYTHM \u2014 Digital Choice 12"
+          },
+          "energy texas|no bull 12": {
+            "c": 11.62,
+            "n": "Energy Texas \u2014 No Bull 12"
+          },
+          "budget power|no gimmicks 11": {
+            "c": 11.64,
+            "n": "Budget Power \u2014 No Gimmicks 11"
+          },
+          "budget power|no gimmicks 12": {
+            "c": 11.74,
+            "n": "Budget Power \u2014 No Gimmicks 12"
+          },
+          "gexa energy|gexa eco choice 12": {
+            "c": 11.74,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 12"
+          },
+          "companion energy|companion + perks 12": {
+            "c": 11.74,
+            "n": "Companion Energy \u2014 Companion + Perks 12"
+          },
+          "frontier utilities|frontier power saver 12": {
+            "c": 11.74,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 12"
+          },
+          "budget power|no gimmicks green 12": {
+            "c": 11.84,
+            "n": "Budget Power \u2014 No Gimmicks Green 12"
+          },
+          "texans choice power llc|choose 6": {
+            "c": 11.84,
+            "n": "Texans Choice Power LLC \u2014 Choose 6"
+          },
+          "texans choice power llc|choose 12": {
+            "c": 11.84,
+            "n": "Texans Choice Power LLC \u2014 Choose 12"
+          },
+          "constellation newenergy inc|simple switch 6": {
+            "c": 11.88,
+            "n": "CONSTELLATION NEWENERGY INC \u2014 Simple Switch 6"
+          },
+          "ap gas & electric (tx) llc|trueclassic 11": {
+            "c": 11.98,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 11"
+          },
+          "ap gas & electric (tx) llc|trueclassic 12": {
+            "c": 12.08,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 12"
+          },
+          "true power|true value 24": {
+            "c": 12.12,
+            "n": "TRUE POWER \u2014 True Value 24"
+          },
+          "ae texas|smart secure 10": {
+            "c": 12.14,
+            "n": "AE TEXAS \u2014 Smart Secure 10"
+          },
+          "budget power|no gimmicks 24": {
+            "c": 12.24,
+            "n": "Budget Power \u2014 No Gimmicks 24"
+          },
+          "true power|true value 36": {
+            "c": 12.34,
+            "n": "TRUE POWER \u2014 True Value 36"
+          },
+          "budget power|no gimmicks 36": {
+            "c": 12.44,
+            "n": "Budget Power \u2014 No Gimmicks 36"
+          },
+          "abundance energy|confident renter 12": {
+            "c": 12.48,
+            "n": "Abundance Energy \u2014 Confident Renter 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 24": {
+            "c": 12.58,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 24"
+          },
+          "spark energy llc|choose 6": {
+            "c": 12.64,
+            "n": "SPARK ENERGY LLC \u2014 Choose 6"
+          },
+          "spark energy llc|choose 12": {
+            "c": 12.64,
+            "n": "SPARK ENERGY LLC \u2014 Choose 12"
+          },
+          "ae texas|smart secure 36": {
+            "c": 12.64,
+            "n": "AE TEXAS \u2014 Smart Secure 36"
+          },
+          "energy texas|no bull 24": {
+            "c": 12.72,
+            "n": "Energy Texas \u2014 No Bull 24"
+          },
+          "rhythm|digital choice 24": {
+            "c": 12.72,
+            "n": "RHYTHM \u2014 Digital Choice 24"
+          },
+          "champion energy services llc|champ saver-12": {
+            "c": 12.78,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-12"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 12": {
+            "c": 12.82,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 12"
+          },
+          "bkv energy|daisy 12": {
+            "c": 12.98,
+            "n": "BKV Energy \u2014 Daisy 12"
+          },
+          "spark energy llc|choose 15": {
+            "c": 13.04,
+            "n": "SPARK ENERGY LLC \u2014 Choose 15"
+          },
+          "bkv energy|daisy 11": {
+            "c": 13.04,
+            "n": "BKV Energy \u2014 Daisy 11"
+          },
+          "southern federal power llc|sofed free energy lunch - 12": {
+            "c": 13.08,
+            "n": "SOUTHERN FEDERAL POWER LLC \u2014 SoFed Free Energy Lunch - 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 36": {
+            "c": 13.08,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 36"
+          },
+          "think energy|think clean 12 with smart thermostat connected": {
+            "c": 13.12,
+            "n": "Think Energy \u2014 Think Clean 12 with Smart Thermostat Connected"
+          },
+          "bkv energy|daisy green 12": {
+            "c": 13.14,
+            "n": "BKV Energy \u2014 Daisy Green 12"
+          },
+          "champion energy services llc|champ saver-24": {
+            "c": 13.18,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-24"
+          },
+          "bkv energy|daisy 13": {
+            "c": 13.18,
+            "n": "BKV Energy \u2014 Daisy 13"
+          },
+          "energy texas|no bull 36": {
+            "c": 13.32,
+            "n": "Energy Texas \u2014 No Bull 36"
+          },
+          "rhythm|digital choice 36": {
+            "c": 13.32,
+            "n": "RHYTHM \u2014 Digital Choice 36"
+          },
+          "bkv energy|daisy 24": {
+            "c": 13.34,
+            "n": "BKV Energy \u2014 Daisy 24"
+          },
+          "heritage power llc|bright start 12 - $25 credit on your first bill!": {
+            "c": 13.54,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 12 - $25 credit on your first bill!"
+          },
+          "cleansky energy|embrace green 12 - new customer special": {
+            "c": 13.68,
+            "n": "CleanSky Energy \u2014 Embrace Green 12 - New Customer Special"
+          },
+          "cleansky energy|embrace green 24 - new customer special": {
+            "c": 13.68,
+            "n": "CleanSky Energy \u2014 Embrace Green 24 - New Customer Special"
+          },
+          "think energy|think clean 24 with smart thermostat": {
+            "c": 13.72,
+            "n": "Think Energy \u2014 Think Clean 24 with Smart Thermostat"
+          },
+          "cleansky energy|embrace green 36 - new customer special": {
+            "c": 13.88,
+            "n": "CleanSky Energy \u2014 Embrace Green 36 - New Customer Special"
+          },
+          "base power|base energy 36": {
+            "c": 13.88,
+            "n": "Base Power \u2014 Base Energy 36"
+          },
+          "discount power|saver 12": {
+            "c": 13.94,
+            "n": "Discount Power \u2014 Saver 12"
+          },
+          "cirro energy|smart simple 12": {
+            "c": 14.04,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 12"
+          },
+          "octopus energy|octo simple 12": {
+            "c": 14.08,
+            "n": "Octopus Energy \u2014 Octo Simple 12"
+          },
+          "heritage power llc|bright start 24 - $25 credit on your first bill!": {
+            "c": 14.14,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 24 - $25 credit on your first bill!"
+          },
+          "atlantex power|luminous 10": {
+            "c": 14.14,
+            "n": "Atlantex Power \u2014 Luminous 10"
+          },
+          "discount power|saver 24": {
+            "c": 14.34,
+            "n": "Discount Power \u2014 Saver 24"
+          },
+          "heritage power llc|bright start 36 - $25 credit on your first bill!": {
+            "c": 14.38,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 36 - $25 credit on your first bill!"
+          },
+          "octopus energy|octo simple 18": {
+            "c": 14.38,
+            "n": "Octopus Energy \u2014 Octo Simple 18"
+          },
+          "cirro energy|smart simple 24": {
+            "c": 14.44,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 24"
+          },
+          "discount power|saver 36": {
+            "c": 14.44,
+            "n": "Discount Power \u2014 Saver 36"
+          },
+          "octopus energy llc|octo simple 24": {
+            "c": 14.58,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 24"
+          },
+          "cirro energy|smart simple 36": {
+            "c": 14.64,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 36"
+          },
+          "atlantex power|luminous 36": {
+            "c": 14.64,
+            "n": "Atlantex Power \u2014 Luminous 36"
+          },
+          "octopus energy llc|octo simple 14": {
+            "c": 14.68,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 14"
+          },
+          "heritage power llc|bright start 48 - $75 credit on your first bill!": {
+            "c": 15.38,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 48 - $75 credit on your first bill!"
+          },
+          "tara energy|basics ptc - 24": {
+            "c": 15.48,
+            "n": "TARA ENERGY \u2014 Basics PTC - 24"
+          },
+          "tara energy|basics ptc - 36": {
+            "c": 15.48,
+            "n": "TARA ENERGY \u2014 Basics PTC - 36"
+          },
+          "amigo energy|basics ptc - 24": {
+            "c": 15.48,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 24"
+          },
+          "amigo energy|basics ptc - 36": {
+            "c": 15.48,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 36"
+          },
+          "just energy|basics ptc - 24": {
+            "c": 15.48,
+            "n": "JUST ENERGY \u2014 Basics PTC - 24"
+          },
+          "just energy|basics ptc - 60": {
+            "c": 15.48,
+            "n": "JUST ENERGY \u2014 Basics PTC - 60"
+          },
+          "heritage power llc|bright start 60 - $75 credit on your first bill!": {
+            "c": 16.38,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 60 - $75 credit on your first bill!"
+          }
         }
       },
       "aep-north": {
-        "avg": 13.88,
-        "median": 13.44,
+        "avg": 13.92,
+        "median": 13.53,
         "cheapest": 11.44,
-        "honest": 63,
+        "honest": 70,
         "plans": {
-          "true-power-true-value-12-aep-texas-north-12-0": 11.44,
-          "express-energy-speedy-12-aep-texas-north-12-0": 11.52,
-          "veteran-energy-basic-12-aep-texas-north-12-0": 11.52,
-          "budget-power-no-gimmicks-11-aep-texas-north-11-0": 11.52,
-          "budget-power-no-gimmicks-12-aep-texas-north-12-0": 11.64,
-          "energy-texas-no-bull-12-aep-texas-north-12-0": 11.72,
-          "rhythm-digital-choice-12-aep-texas-north-12-0": 11.72,
-          "budget-power-no-gimmicks-green-12-aep-texas-north-12-0": 11.74,
-          "ap-gas-electric-tx-llc-trueclassic-11-aep-texas-north-11-0": 11.98,
-          "ap-gas-electric-tx-llc-trueclassic-12-aep-texas-north-12-0": 12.08,
-          "constellation-newenergy-inc-simple-switch-6-aep-texas-north-6-0": 12.18,
-          "gexa-energy-gexa-eco-choice-12-aep-texas-north-12-0": 12.44,
-          "frontier-utilities-frontier-power-saver-12-aep-texas-north-12-0": 12.44,
-          "companion-energy-companion-perks-12-aep-texas-north-12-0": 12.44,
-          "true-power-true-value-24-aep-texas-north-24-0": 12.54,
-          "budget-power-no-gimmicks-24-aep-texas-north-24-0": 12.64,
-          "texans-choice-power-llc-choose-12-aep-texas-north-12-0": 12.68,
-          "true-power-true-value-36-aep-texas-north-36-0": 12.68,
-          "budget-power-no-gimmicks-36-aep-texas-north-36-0": 12.84,
-          "texans-choice-power-llc-choose-6-aep-texas-north-6-0": 12.88,
-          "ap-gas-electric-tx-llc-trueclassic-24-aep-texas-north-24-0": 12.88,
-          "bkv-energy-daisy-11-aep-texas-north-11-0": 13.08,
-          "southern-federal-power-llc-sofed-free-energy-lunch-12-aep-texas-north-12-0": 13.08,
-          "bkv-energy-daisy-12-aep-texas-north-12-0": 13.12,
-          "champion-energy-services-llc-champ-saver-24-aep-texas-north-24-0": 13.18,
-          "bkv-energy-daisy-green-12-aep-texas-north-12-0": 13.28,
-          "sfe-energy-texas-inc-sfe-rewardsplus-12-aep-texas-north-12-0": 13.28,
-          "energy-texas-no-bull-24-aep-texas-north-24-0": 13.32,
-          "rhythm-digital-choice-24-aep-texas-north-24-0": 13.32,
-          "abundance-energy-confident-renter-12-aep-texas-north-12-0": 13.32,
-          "spark-energy-llc-choose-6-aep-texas-north-6-0": 13.38,
-          "bkv-energy-daisy-13-aep-texas-north-13-0": 13.44,
-          "spark-energy-llc-choose-12-aep-texas-north-12-0": 13.48,
-          "ap-gas-electric-tx-llc-trueclassic-36-aep-texas-north-36-0": 13.58,
-          "base-power-base-energy-36-aep-texas-north-36-0": 13.68,
-          "champion-energy-services-llc-champ-saver-12-aep-texas-north-12-0": 13.68,
-          "ae-texas-smart-secure-10-aep-texas-north-10-0": 13.88,
-          "bkv-energy-daisy-24-aep-texas-north-24-0": 13.98,
-          "spark-energy-llc-choose-15-aep-texas-north-15-0": 14.08,
-          "rhythm-digital-choice-36-aep-texas-north-36-0": 14.42,
-          "energy-texas-no-bull-36-aep-texas-north-36-0": 14.42,
-          "ae-texas-smart-secure-36-aep-texas-north-36-0": 14.58,
-          "cleansky-energy-embrace-green-12-new-customer-special-aep-texas-north-12-0": 14.78,
-          "cleansky-energy-embrace-green-24-new-customer-special-aep-texas-north-24-0": 14.78,
-          "cleansky-energy-embrace-green-36-new-customer-special-aep-texas-north-36-0": 15.18,
-          "octopus-energy-octo-simple-12-aep-texas-north-12-0": 15.58,
-          "discount-power-saver-12-aep-texas-north-12-0": 15.78,
-          "atlantex-power-luminous-10-aep-texas-north-10-0": 15.88,
-          "cirro-energy-smart-simple-12-aep-texas-north-12-0": 15.88,
-          "tara-energy-basics-ptc-24-aep-texas-north-24-0": 15.88,
-          "tara-energy-basics-ptc-36-aep-texas-north-36-0": 15.88,
-          "amigo-energy-basics-ptc-24-aep-texas-north-24-0": 15.88,
-          "amigo-energy-basics-ptc-36-aep-texas-north-36-0": 15.88,
-          "just-energy-basics-ptc-24-aep-texas-north-24-0": 15.88,
-          "just-energy-basics-ptc-60-aep-texas-north-60-0": 15.88,
-          "octopus-energy-octo-simple-18-aep-texas-north-18-0": 16.04,
-          "octopus-energy-llc-octo-simple-24-aep-texas-north-24-0": 16.14,
-          "discount-power-saver-24-aep-texas-north-24-0": 16.28,
-          "discount-power-saver-36-aep-texas-north-36-0": 16.28,
-          "octopus-energy-llc-octo-simple-14-aep-texas-north-14-0": 16.32,
-          "cirro-energy-smart-simple-24-aep-texas-north-24-0": 16.38,
-          "cirro-energy-smart-simple-36-aep-texas-north-36-0": 16.48,
-          "atlantex-power-luminous-36-aep-texas-north-36-0": 16.58
+          "true power|true value 12": {
+            "c": 11.44,
+            "n": "TRUE POWER \u2014 True Value 12"
+          },
+          "budget power|no gimmicks 11": {
+            "c": 11.52,
+            "n": "Budget Power \u2014 No Gimmicks 11"
+          },
+          "express energy|speedy 12": {
+            "c": 11.52,
+            "n": "Express Energy \u2014 Speedy 12"
+          },
+          "veteran energy|basic 12": {
+            "c": 11.52,
+            "n": "Veteran Energy \u2014 Basic 12"
+          },
+          "budget power|no gimmicks 12": {
+            "c": 11.64,
+            "n": "Budget Power \u2014 No Gimmicks 12"
+          },
+          "energy texas|no bull 12": {
+            "c": 11.72,
+            "n": "Energy Texas \u2014 No Bull 12"
+          },
+          "rhythm|digital choice 12": {
+            "c": 11.72,
+            "n": "RHYTHM \u2014 Digital Choice 12"
+          },
+          "budget power|no gimmicks green 12": {
+            "c": 11.74,
+            "n": "Budget Power \u2014 No Gimmicks Green 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 11": {
+            "c": 11.98,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 11"
+          },
+          "ap gas & electric (tx) llc|trueclassic 12": {
+            "c": 12.08,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 12"
+          },
+          "constellation newenergy inc|simple switch 6": {
+            "c": 12.18,
+            "n": "CONSTELLATION NEWENERGY INC \u2014 Simple Switch 6"
+          },
+          "gexa energy|gexa eco choice 12": {
+            "c": 12.44,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 12"
+          },
+          "frontier utilities|frontier power saver 12": {
+            "c": 12.44,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 12"
+          },
+          "companion energy|companion + perks 12": {
+            "c": 12.44,
+            "n": "Companion Energy \u2014 Companion + Perks 12"
+          },
+          "true power|true value 24": {
+            "c": 12.54,
+            "n": "TRUE POWER \u2014 True Value 24"
+          },
+          "budget power|no gimmicks 24": {
+            "c": 12.64,
+            "n": "Budget Power \u2014 No Gimmicks 24"
+          },
+          "texans choice power llc|choose 12": {
+            "c": 12.68,
+            "n": "Texans Choice Power LLC \u2014 Choose 12"
+          },
+          "true power|true value 36": {
+            "c": 12.68,
+            "n": "TRUE POWER \u2014 True Value 36"
+          },
+          "budget power|no gimmicks 36": {
+            "c": 12.84,
+            "n": "Budget Power \u2014 No Gimmicks 36"
+          },
+          "texans choice power llc|choose 6": {
+            "c": 12.88,
+            "n": "Texans Choice Power LLC \u2014 Choose 6"
+          },
+          "ap gas & electric (tx) llc|trueclassic 24": {
+            "c": 12.88,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 24"
+          },
+          "southern federal power llc|sofed free energy lunch - 12": {
+            "c": 13.08,
+            "n": "SOUTHERN FEDERAL POWER LLC \u2014 SoFed Free Energy Lunch - 12"
+          },
+          "bkv energy|daisy 11": {
+            "c": 13.08,
+            "n": "BKV Energy \u2014 Daisy 11"
+          },
+          "think energy|think clean 12 with smart thermostat connected": {
+            "c": 13.1,
+            "n": "Think Energy \u2014 Think Clean 12 with Smart Thermostat Connected"
+          },
+          "bkv energy|daisy 12": {
+            "c": 13.12,
+            "n": "BKV Energy \u2014 Daisy 12"
+          },
+          "champion energy services llc|champ saver-24": {
+            "c": 13.18,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-24"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 12": {
+            "c": 13.28,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 12"
+          },
+          "bkv energy|daisy green 12": {
+            "c": 13.28,
+            "n": "BKV Energy \u2014 Daisy Green 12"
+          },
+          "abundance energy|confident renter 12": {
+            "c": 13.32,
+            "n": "Abundance Energy \u2014 Confident Renter 12"
+          },
+          "energy texas|no bull 24": {
+            "c": 13.32,
+            "n": "Energy Texas \u2014 No Bull 24"
+          },
+          "rhythm|digital choice 24": {
+            "c": 13.32,
+            "n": "RHYTHM \u2014 Digital Choice 24"
+          },
+          "heritage power llc|bright start 12 - $25 credit on your first bill!": {
+            "c": 13.38,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 12 - $25 credit on your first bill!"
+          },
+          "spark energy llc|choose 6": {
+            "c": 13.38,
+            "n": "SPARK ENERGY LLC \u2014 Choose 6"
+          },
+          "bkv energy|daisy 13": {
+            "c": 13.44,
+            "n": "BKV Energy \u2014 Daisy 13"
+          },
+          "spark energy llc|choose 12": {
+            "c": 13.48,
+            "n": "SPARK ENERGY LLC \u2014 Choose 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 36": {
+            "c": 13.58,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 36"
+          },
+          "champion energy services llc|champ saver-12": {
+            "c": 13.68,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-12"
+          },
+          "base power|base energy 36": {
+            "c": 13.68,
+            "n": "Base Power \u2014 Base Energy 36"
+          },
+          "think energy|think clean 24 with smart thermostat": {
+            "c": 13.7,
+            "n": "Think Energy \u2014 Think Clean 24 with Smart Thermostat"
+          },
+          "ae texas|smart secure 10": {
+            "c": 13.88,
+            "n": "AE TEXAS \u2014 Smart Secure 10"
+          },
+          "heritage power llc|bright start 24 - $25 credit on your first bill!": {
+            "c": 13.98,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 24 - $25 credit on your first bill!"
+          },
+          "bkv energy|daisy 24": {
+            "c": 13.98,
+            "n": "BKV Energy \u2014 Daisy 24"
+          },
+          "spark energy llc|choose 15": {
+            "c": 14.08,
+            "n": "SPARK ENERGY LLC \u2014 Choose 15"
+          },
+          "heritage power llc|bright start 36 - $25 credit on your first bill!": {
+            "c": 14.18,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 36 - $25 credit on your first bill!"
+          },
+          "rhythm|digital choice 36": {
+            "c": 14.42,
+            "n": "RHYTHM \u2014 Digital Choice 36"
+          },
+          "energy texas|no bull 36": {
+            "c": 14.42,
+            "n": "Energy Texas \u2014 No Bull 36"
+          },
+          "ae texas|smart secure 36": {
+            "c": 14.58,
+            "n": "AE TEXAS \u2014 Smart Secure 36"
+          },
+          "cleansky energy|embrace green 12 - new customer special": {
+            "c": 14.78,
+            "n": "CleanSky Energy \u2014 Embrace Green 12 - New Customer Special"
+          },
+          "cleansky energy|embrace green 24 - new customer special": {
+            "c": 14.78,
+            "n": "CleanSky Energy \u2014 Embrace Green 24 - New Customer Special"
+          },
+          "heritage power llc|bright start 48 - $75 credit on your first bill!": {
+            "c": 15.18,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 48 - $75 credit on your first bill!"
+          },
+          "cleansky energy|embrace green 36 - new customer special": {
+            "c": 15.18,
+            "n": "CleanSky Energy \u2014 Embrace Green 36 - New Customer Special"
+          },
+          "octopus energy|octo simple 12": {
+            "c": 15.58,
+            "n": "Octopus Energy \u2014 Octo Simple 12"
+          },
+          "discount power|saver 12": {
+            "c": 15.78,
+            "n": "Discount Power \u2014 Saver 12"
+          },
+          "cirro energy|smart simple 12": {
+            "c": 15.88,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 12"
+          },
+          "tara energy|basics ptc - 24": {
+            "c": 15.88,
+            "n": "TARA ENERGY \u2014 Basics PTC - 24"
+          },
+          "tara energy|basics ptc - 36": {
+            "c": 15.88,
+            "n": "TARA ENERGY \u2014 Basics PTC - 36"
+          },
+          "amigo energy|basics ptc - 24": {
+            "c": 15.88,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 24"
+          },
+          "amigo energy|basics ptc - 36": {
+            "c": 15.88,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 36"
+          },
+          "just energy|basics ptc - 24": {
+            "c": 15.88,
+            "n": "JUST ENERGY \u2014 Basics PTC - 24"
+          },
+          "just energy|basics ptc - 60": {
+            "c": 15.88,
+            "n": "JUST ENERGY \u2014 Basics PTC - 60"
+          },
+          "atlantex power|luminous 10": {
+            "c": 15.88,
+            "n": "Atlantex Power \u2014 Luminous 10"
+          },
+          "octopus energy|octo simple 18": {
+            "c": 16.04,
+            "n": "Octopus Energy \u2014 Octo Simple 18"
+          },
+          "octopus energy llc|octo simple 24": {
+            "c": 16.14,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 24"
+          },
+          "heritage power llc|bright start 60 - $75 credit on your first bill!": {
+            "c": 16.18,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 60 - $75 credit on your first bill!"
+          },
+          "discount power|saver 24": {
+            "c": 16.28,
+            "n": "Discount Power \u2014 Saver 24"
+          },
+          "discount power|saver 36": {
+            "c": 16.28,
+            "n": "Discount Power \u2014 Saver 36"
+          },
+          "octopus energy llc|octo simple 14": {
+            "c": 16.32,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 14"
+          },
+          "cirro energy|smart simple 24": {
+            "c": 16.38,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 24"
+          },
+          "cirro energy|smart simple 36": {
+            "c": 16.48,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 36"
+          },
+          "atlantex power|luminous 36": {
+            "c": 16.58,
+            "n": "Atlantex Power \u2014 Luminous 36"
+          }
         }
       },
       "tnmp": {
-        "avg": 14.64,
-        "median": 14.35,
+        "avg": 14.66,
+        "median": 14.41,
         "cheapest": 12.6,
-        "honest": 66,
+        "honest": 68,
         "plans": {
-          "budget-power-no-gimmicks-11-texas-new-mexico-power-11-0": 12.6,
-          "true-power-true-value-12-texas-new-mexico-power-12-0": 12.6,
-          "rhythm-digital-choice-12-texas-new-mexico-power-12-0": 12.72,
-          "energy-texas-no-bull-12-texas-new-mexico-power-12-0": 12.72,
-          "veteran-energy-basic-12-texas-new-mexico-power-12-0": 12.8,
-          "express-energy-speedy-12-texas-new-mexico-power-12-0": 12.8,
-          "budget-power-no-gimmicks-12-texas-new-mexico-power-12-0": 12.8,
-          "budget-power-no-gimmicks-green-12-texas-new-mexico-power-12-0": 12.9,
-          "gexa-energy-gexa-eco-choice-12-texas-new-mexico-power-12-0": 13.0,
-          "companion-energy-companion-perks-12-texas-new-mexico-power-12-0": 13.0,
-          "frontier-utilities-frontier-power-saver-12-texas-new-mexico-power-12-0": 13.0,
-          "ae-texas-smart-secure-10-texas-new-mexico-power-10-0": 13.1,
-          "ap-gas-electric-tx-llc-trueclassic-11-texas-new-mexico-power-11-0": 13.4,
-          "ap-gas-electric-tx-llc-trueclassic-12-texas-new-mexico-power-12-0": 13.5,
-          "true-power-true-value-24-texas-new-mexico-power-24-0": 13.5,
-          "budget-power-no-gimmicks-24-texas-new-mexico-power-24-0": 13.6,
-          "abundance-energy-confident-renter-12-texas-new-mexico-power-12-0": 13.6,
-          "true-power-true-value-36-texas-new-mexico-power-36-0": 13.6,
-          "budget-power-no-gimmicks-36-texas-new-mexico-power-36-0": 13.7,
-          "ae-texas-smart-secure-36-texas-new-mexico-power-36-0": 13.8,
-          "constellation-newenergy-inc-simple-switch-6-texas-new-mexico-power-6-0": 13.8,
-          "texans-choice-power-llc-choose-12-texas-new-mexico-power-12-0": 13.9,
-          "rhythm-digital-choice-24-texas-new-mexico-power-24-0": 13.92,
-          "energy-texas-no-bull-24-texas-new-mexico-power-24-0": 13.92,
-          "ap-gas-electric-tx-llc-trueclassic-24-texas-new-mexico-power-24-0": 14.02,
-          "bkv-energy-daisy-12-texas-new-mexico-power-12-0": 14.04,
-          "champion-energy-services-llc-champ-saver-12-texas-new-mexico-power-12-0": 14.08,
-          "bkv-energy-daisy-11-texas-new-mexico-power-11-0": 14.1,
-          "bkv-energy-daisy-green-12-texas-new-mexico-power-12-0": 14.2,
-          "texans-choice-power-llc-choose-6-texas-new-mexico-power-6-0": 14.2,
-          "bkv-energy-daisy-13-texas-new-mexico-power-13-0": 14.3,
-          "southern-federal-power-llc-sofed-free-energy-lunch-12-texas-new-mexico-power-12-0": 14.3,
-          "sfe-energy-texas-inc-sfe-rewardsplus-12-texas-new-mexico-power-12-0": 14.3,
-          "ap-gas-electric-tx-llc-trueclassic-36-texas-new-mexico-power-36-0": 14.4,
-          "energy-texas-no-bull-36-texas-new-mexico-power-36-0": 14.42,
-          "rhythm-digital-choice-36-texas-new-mexico-power-36-0": 14.42,
-          "bkv-energy-daisy-24-texas-new-mexico-power-24-0": 14.5,
-          "spark-energy-llc-choose-6-texas-new-mexico-power-6-0": 14.6,
-          "champion-energy-services-llc-champ-saver-24-texas-new-mexico-power-24-0": 14.68,
-          "spark-energy-llc-choose-12-texas-new-mexico-power-12-0": 14.7,
-          "cleansky-energy-embrace-green-12-new-customer-special-texas-new-mexico-power-12-0": 14.78,
-          "cleansky-energy-embrace-green-24-new-customer-special-texas-new-mexico-power-24-0": 14.88,
-          "base-power-base-energy-36-texas-new-mexico-power-36-0": 14.98,
-          "atlantex-power-luminous-10-texas-new-mexico-power-10-0": 15.1,
-          "cleansky-energy-embrace-green-36-new-customer-special-texas-new-mexico-power-36-0": 15.28,
-          "spark-energy-llc-choose-15-texas-new-mexico-power-15-0": 15.3,
-          "discount-power-saver-12-texas-new-mexico-power-12-0": 15.4,
-          "cirro-energy-smart-simple-12-texas-new-mexico-power-12-0": 15.5,
-          "atlantex-power-luminous-36-texas-new-mexico-power-36-0": 15.8,
-          "discount-power-saver-24-texas-new-mexico-power-24-0": 15.8,
-          "discount-power-saver-36-texas-new-mexico-power-36-0": 15.8,
-          "cirro-energy-smart-simple-24-texas-new-mexico-power-24-0": 15.9,
-          "cirro-energy-smart-simple-36-texas-new-mexico-power-36-0": 15.9,
-          "trieagle-energy-lp-simple-savings-12-texas-new-mexico-power-12-0": 16.18,
-          "tara-energy-basics-ptc-24-texas-new-mexico-power-24-0": 16.48,
-          "tara-energy-basics-ptc-36-texas-new-mexico-power-36-0": 16.48,
-          "amigo-energy-basics-ptc-24-texas-new-mexico-power-24-0": 16.48,
-          "amigo-energy-basics-ptc-36-texas-new-mexico-power-36-0": 16.48,
-          "just-energy-basics-ptc-24-texas-new-mexico-power-24-0": 16.48,
-          "just-energy-basics-ptc-60-texas-new-mexico-power-60-0": 16.48,
-          "trieagle-energy-lp-simple-savings-36-texas-new-mexico-power-36-0": 16.78,
-          "octopus-energy-octo-simple-12-texas-new-mexico-power-12-0": 16.88,
-          "trieagle-energy-lp-simple-green-12-texas-new-mexico-power-12-0": 17.18,
-          "octopus-energy-octo-simple-18-texas-new-mexico-power-18-0": 17.3,
-          "octopus-energy-llc-octo-simple-24-texas-new-mexico-power-24-0": 17.4,
-          "octopus-energy-llc-octo-simple-14-texas-new-mexico-power-14-0": 17.5
+          "budget power|no gimmicks 11": {
+            "c": 12.6,
+            "n": "Budget Power \u2014 No Gimmicks 11"
+          },
+          "true power|true value 12": {
+            "c": 12.6,
+            "n": "TRUE POWER \u2014 True Value 12"
+          },
+          "rhythm|digital choice 12": {
+            "c": 12.72,
+            "n": "RHYTHM \u2014 Digital Choice 12"
+          },
+          "energy texas|no bull 12": {
+            "c": 12.72,
+            "n": "Energy Texas \u2014 No Bull 12"
+          },
+          "budget power|no gimmicks 12": {
+            "c": 12.8,
+            "n": "Budget Power \u2014 No Gimmicks 12"
+          },
+          "veteran energy|basic 12": {
+            "c": 12.8,
+            "n": "Veteran Energy \u2014 Basic 12"
+          },
+          "express energy|speedy 12": {
+            "c": 12.8,
+            "n": "Express Energy \u2014 Speedy 12"
+          },
+          "budget power|no gimmicks green 12": {
+            "c": 12.9,
+            "n": "Budget Power \u2014 No Gimmicks Green 12"
+          },
+          "gexa energy|gexa eco choice 12": {
+            "c": 13.0,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 12"
+          },
+          "companion energy|companion + perks 12": {
+            "c": 13.0,
+            "n": "Companion Energy \u2014 Companion + Perks 12"
+          },
+          "frontier utilities|frontier power saver 12": {
+            "c": 13.0,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 12"
+          },
+          "ae texas|smart secure 10": {
+            "c": 13.1,
+            "n": "AE TEXAS \u2014 Smart Secure 10"
+          },
+          "ap gas & electric (tx) llc|trueclassic 11": {
+            "c": 13.4,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 11"
+          },
+          "ap gas & electric (tx) llc|trueclassic 12": {
+            "c": 13.5,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 12"
+          },
+          "true power|true value 24": {
+            "c": 13.5,
+            "n": "TRUE POWER \u2014 True Value 24"
+          },
+          "budget power|no gimmicks 24": {
+            "c": 13.6,
+            "n": "Budget Power \u2014 No Gimmicks 24"
+          },
+          "abundance energy|confident renter 12": {
+            "c": 13.6,
+            "n": "Abundance Energy \u2014 Confident Renter 12"
+          },
+          "true power|true value 36": {
+            "c": 13.6,
+            "n": "TRUE POWER \u2014 True Value 36"
+          },
+          "budget power|no gimmicks 36": {
+            "c": 13.7,
+            "n": "Budget Power \u2014 No Gimmicks 36"
+          },
+          "constellation newenergy inc|simple switch 6": {
+            "c": 13.8,
+            "n": "CONSTELLATION NEWENERGY INC \u2014 Simple Switch 6"
+          },
+          "ae texas|smart secure 36": {
+            "c": 13.8,
+            "n": "AE TEXAS \u2014 Smart Secure 36"
+          },
+          "texans choice power llc|choose 12": {
+            "c": 13.9,
+            "n": "Texans Choice Power LLC \u2014 Choose 12"
+          },
+          "rhythm|digital choice 24": {
+            "c": 13.92,
+            "n": "RHYTHM \u2014 Digital Choice 24"
+          },
+          "energy texas|no bull 24": {
+            "c": 13.92,
+            "n": "Energy Texas \u2014 No Bull 24"
+          },
+          "ap gas & electric (tx) llc|trueclassic 24": {
+            "c": 14.02,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 24"
+          },
+          "bkv energy|daisy 12": {
+            "c": 14.04,
+            "n": "BKV Energy \u2014 Daisy 12"
+          },
+          "champion energy services llc|champ saver-12": {
+            "c": 14.08,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-12"
+          },
+          "bkv energy|daisy 11": {
+            "c": 14.1,
+            "n": "BKV Energy \u2014 Daisy 11"
+          },
+          "texans choice power llc|choose 6": {
+            "c": 14.2,
+            "n": "Texans Choice Power LLC \u2014 Choose 6"
+          },
+          "bkv energy|daisy green 12": {
+            "c": 14.2,
+            "n": "BKV Energy \u2014 Daisy Green 12"
+          },
+          "southern federal power llc|sofed free energy lunch - 12": {
+            "c": 14.3,
+            "n": "SOUTHERN FEDERAL POWER LLC \u2014 SoFed Free Energy Lunch - 12"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 12": {
+            "c": 14.3,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 12"
+          },
+          "bkv energy|daisy 13": {
+            "c": 14.3,
+            "n": "BKV Energy \u2014 Daisy 13"
+          },
+          "ap gas & electric (tx) llc|trueclassic 36": {
+            "c": 14.4,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 36"
+          },
+          "energy texas|no bull 36": {
+            "c": 14.42,
+            "n": "Energy Texas \u2014 No Bull 36"
+          },
+          "rhythm|digital choice 36": {
+            "c": 14.42,
+            "n": "RHYTHM \u2014 Digital Choice 36"
+          },
+          "bkv energy|daisy 24": {
+            "c": 14.5,
+            "n": "BKV Energy \u2014 Daisy 24"
+          },
+          "spark energy llc|choose 6": {
+            "c": 14.6,
+            "n": "SPARK ENERGY LLC \u2014 Choose 6"
+          },
+          "champion energy services llc|champ saver-24": {
+            "c": 14.68,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-24"
+          },
+          "spark energy llc|choose 12": {
+            "c": 14.7,
+            "n": "SPARK ENERGY LLC \u2014 Choose 12"
+          },
+          "cleansky energy|embrace green 12 - new customer special": {
+            "c": 14.78,
+            "n": "CleanSky Energy \u2014 Embrace Green 12 - New Customer Special"
+          },
+          "cleansky energy|embrace green 24 - new customer special": {
+            "c": 14.88,
+            "n": "CleanSky Energy \u2014 Embrace Green 24 - New Customer Special"
+          },
+          "base power|base energy 36": {
+            "c": 14.98,
+            "n": "Base Power \u2014 Base Energy 36"
+          },
+          "think energy|think clean 12 with smart thermostat connected": {
+            "c": 15.02,
+            "n": "Think Energy \u2014 Think Clean 12 with Smart Thermostat Connected"
+          },
+          "atlantex power|luminous 10": {
+            "c": 15.1,
+            "n": "Atlantex Power \u2014 Luminous 10"
+          },
+          "cleansky energy|embrace green 36 - new customer special": {
+            "c": 15.28,
+            "n": "CleanSky Energy \u2014 Embrace Green 36 - New Customer Special"
+          },
+          "spark energy llc|choose 15": {
+            "c": 15.3,
+            "n": "SPARK ENERGY LLC \u2014 Choose 15"
+          },
+          "discount power|saver 12": {
+            "c": 15.4,
+            "n": "Discount Power \u2014 Saver 12"
+          },
+          "cirro energy|smart simple 12": {
+            "c": 15.5,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 12"
+          },
+          "think energy|think clean 24 with smart thermostat": {
+            "c": 15.72,
+            "n": "Think Energy \u2014 Think Clean 24 With Smart Thermostat"
+          },
+          "discount power|saver 24": {
+            "c": 15.8,
+            "n": "Discount Power \u2014 Saver 24"
+          },
+          "discount power|saver 36": {
+            "c": 15.8,
+            "n": "Discount Power \u2014 Saver 36"
+          },
+          "atlantex power|luminous 36": {
+            "c": 15.8,
+            "n": "Atlantex Power \u2014 Luminous 36"
+          },
+          "cirro energy|smart simple 24": {
+            "c": 15.9,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 24"
+          },
+          "cirro energy|smart simple 36": {
+            "c": 15.9,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 36"
+          },
+          "trieagle energy lp|simple savings 12": {
+            "c": 16.18,
+            "n": "TRIEAGLE ENERGY LP \u2014 Simple Savings 12"
+          },
+          "tara energy|basics ptc - 24": {
+            "c": 16.48,
+            "n": "TARA ENERGY \u2014 Basics PTC - 24"
+          },
+          "tara energy|basics ptc - 36": {
+            "c": 16.48,
+            "n": "TARA ENERGY \u2014 Basics PTC - 36"
+          },
+          "amigo energy|basics ptc - 24": {
+            "c": 16.48,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 24"
+          },
+          "amigo energy|basics ptc - 36": {
+            "c": 16.48,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 36"
+          },
+          "just energy|basics ptc - 24": {
+            "c": 16.48,
+            "n": "JUST ENERGY \u2014 Basics PTC - 24"
+          },
+          "just energy|basics ptc - 60": {
+            "c": 16.48,
+            "n": "JUST ENERGY \u2014 Basics PTC - 60"
+          },
+          "trieagle energy lp|simple savings 36": {
+            "c": 16.78,
+            "n": "TRIEAGLE ENERGY LP \u2014 Simple Savings 36"
+          },
+          "octopus energy|octo simple 12": {
+            "c": 16.88,
+            "n": "Octopus Energy \u2014 Octo Simple 12"
+          },
+          "trieagle energy lp|simple green 12": {
+            "c": 17.18,
+            "n": "TRIEAGLE ENERGY LP \u2014 Simple Green 12"
+          },
+          "octopus energy|octo simple 18": {
+            "c": 17.3,
+            "n": "Octopus Energy \u2014 Octo Simple 18"
+          },
+          "octopus energy llc|octo simple 24": {
+            "c": 17.4,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 24"
+          },
+          "octopus energy llc|octo simple 14": {
+            "c": 17.5,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 14"
+          }
         }
       },
       "lubbock": {
-        "avg": 15.19,
-        "median": 15.15,
+        "avg": 15.15,
+        "median": 15.0,
         "cheapest": 12.4,
-        "honest": 56,
+        "honest": 58,
         "plans": {
-          "ap-gas-electric-tx-llc-trueclassic-11-lubbock-power-light-11-0": 12.4,
-          "true-power-true-value-12-lubbock-power-light-12-0": 12.4,
-          "ap-gas-electric-tx-llc-trueclassic-12-lubbock-power-light-12-0": 12.5,
-          "gexa-energy-gexa-eco-choice-12-lubbock-power-light-12-0": 12.7,
-          "frontier-utilities-frontier-power-saver-12-lubbock-power-light-12-0": 12.7,
-          "companion-energy-companion-perks-12-lubbock-power-light-12-0": 12.7,
-          "champion-energy-services-llc-champ-saver-12-lubbock-power-light-12-0": 13.0,
-          "texans-choice-power-llc-choose-6-lubbock-power-light-6-0": 13.1,
-          "southern-federal-power-llc-sofed-free-energy-lunch-12-lubbock-power-light-12-0": 13.2,
-          "texans-choice-power-llc-choose-12-lubbock-power-light-12-0": 13.2,
-          "true-power-true-value-24-lubbock-power-light-24-0": 13.2,
-          "ap-gas-electric-tx-llc-trueclassic-24-lubbock-power-light-24-0": 13.3,
-          "sfe-energy-texas-inc-sfe-rewardsplus-12-lubbock-power-light-12-0": 13.4,
-          "abundance-energy-confident-renter-12-lubbock-power-light-12-0": 13.4,
-          "bkv-energy-daisy-11-lubbock-power-light-11-0": 13.5,
-          "bkv-energy-daisy-12-lubbock-power-light-12-0": 13.5,
-          "champion-energy-services-llc-champ-saver-24-lubbock-power-light-24-0": 13.5,
-          "bkv-energy-daisy-green-12-lubbock-power-light-12-0": 13.7,
-          "spark-energy-llc-choose-6-lubbock-power-light-6-0": 13.7,
-          "spark-energy-llc-choose-12-lubbock-power-light-12-0": 13.8,
-          "bkv-energy-daisy-13-lubbock-power-light-13-0": 13.9,
-          "true-power-true-value-36-lubbock-power-light-36-0": 13.9,
-          "ap-gas-electric-tx-llc-trueclassic-36-lubbock-power-light-36-0": 14.0,
-          "ae-texas-smart-secure-10-lubbock-power-light-10-0": 14.2,
-          "spark-energy-llc-choose-15-lubbock-power-light-15-0": 14.4,
-          "bkv-energy-daisy-24-lubbock-power-light-24-0": 14.5,
-          "ae-texas-smart-secure-36-lubbock-power-light-36-0": 14.9,
-          "cleansky-energy-embrace-green-12-new-customer-special-lubbock-power-light-12-0": 15.1,
-          "cleansky-energy-embrace-green-24-new-customer-special-lubbock-power-light-24-0": 15.2,
-          "octopus-energy-octo-simple-12-lubbock-power-light-12-0": 15.9,
-          "atlantex-power-luminous-10-lubbock-power-light-10-0": 16.2,
-          "octopus-energy-octo-simple-18-lubbock-power-light-18-0": 16.4,
-          "cirro-energy-smart-simple-12-lubbock-power-light-12-0": 16.5,
-          "discount-power-saver-12-lubbock-power-light-12-0": 16.5,
-          "tara-energy-basics-ptc-24-lubbock-power-light-24-0": 16.5,
-          "tara-energy-basics-ptc-36-lubbock-power-light-36-0": 16.5,
-          "amigo-energy-basics-ptc-24-lubbock-power-light-24-0": 16.5,
-          "amigo-energy-basics-ptc-36-lubbock-power-light-36-0": 16.5,
-          "just-energy-basics-ptc-24-lubbock-power-light-24-0": 16.5,
-          "just-energy-basics-ptc-60-lubbock-power-light-60-0": 16.5,
-          "octopus-energy-llc-octo-simple-24-lubbock-power-light-24-0": 16.5,
-          "discount-power-saver-36-lubbock-power-light-36-0": 16.5,
-          "octopus-energy-llc-octo-simple-14-lubbock-power-light-14-0": 16.6,
-          "atlantex-power-luminous-36-lubbock-power-light-36-0": 16.9,
-          "reliant-reliant-power-on-18-lubbock-power-light-18-0": 16.9,
-          "discount-power-saver-24-lubbock-power-light-24-0": 17.0,
-          "cirro-energy-smart-simple-24-lubbock-power-light-24-0": 17.0,
-          "reliant-reliant-power-on-12-plan-lubbock-power-light-12-0": 17.2,
-          "reliant-reliant-power-on-24-plan-lubbock-power-light-24-0": 17.4,
-          "direct-energy-autopay-texas-12-lubbock-power-light-12-0": 17.5,
-          "cirro-energy-smart-simple-36-lubbock-power-light-36-0": 17.5,
-          "green-mountain-energy-company-pollution-free-e-plus-12-choice-lubbock-power-light-12-0": 17.9,
-          "green-mountain-energy-company-pollution-free-e-plus-18-choice-lubbock-power-light-18-0": 17.9,
-          "direct-energy-autopay-texas-24-lubbock-power-light-24-0": 17.9,
-          "reliant-reliant-power-on-36-plan-lubbock-power-light-36-0": 17.9,
-          "direct-energy-autopay-texas-36-lubbock-power-light-36-0": 18.5
+          "ap gas & electric (tx) llc|trueclassic 11": {
+            "c": 12.4,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 11"
+          },
+          "true power|true value 12": {
+            "c": 12.4,
+            "n": "TRUE POWER \u2014 True Value 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 12": {
+            "c": 12.5,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 12"
+          },
+          "gexa energy|gexa eco choice 12": {
+            "c": 12.7,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 12"
+          },
+          "frontier utilities|frontier power saver 12": {
+            "c": 12.7,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 12"
+          },
+          "companion energy|companion + perks 12": {
+            "c": 12.7,
+            "n": "Companion Energy \u2014 Companion + Perks 12"
+          },
+          "champion energy services llc|champ saver-12": {
+            "c": 13.0,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-12"
+          },
+          "texans choice power llc|choose 6": {
+            "c": 13.1,
+            "n": "Texans Choice Power LLC \u2014 Choose 6"
+          },
+          "southern federal power llc|sofed free energy lunch - 12": {
+            "c": 13.2,
+            "n": "SOUTHERN FEDERAL POWER LLC \u2014 SoFed Free Energy Lunch - 12"
+          },
+          "texans choice power llc|choose 12": {
+            "c": 13.2,
+            "n": "Texans Choice Power LLC \u2014 Choose 12"
+          },
+          "true power|true value 24": {
+            "c": 13.2,
+            "n": "TRUE POWER \u2014 True Value 24"
+          },
+          "ap gas & electric (tx) llc|trueclassic 24": {
+            "c": 13.3,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 24"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 12": {
+            "c": 13.4,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 12"
+          },
+          "abundance energy|confident renter 12": {
+            "c": 13.4,
+            "n": "Abundance Energy \u2014 Confident Renter 12"
+          },
+          "bkv energy|daisy 11": {
+            "c": 13.5,
+            "n": "BKV Energy \u2014 Daisy 11"
+          },
+          "bkv energy|daisy 12": {
+            "c": 13.5,
+            "n": "BKV Energy \u2014 Daisy 12"
+          },
+          "champion energy services llc|champ saver-24": {
+            "c": 13.5,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-24"
+          },
+          "spark energy llc|choose 6": {
+            "c": 13.7,
+            "n": "SPARK ENERGY LLC \u2014 Choose 6"
+          },
+          "bkv energy|daisy green 12": {
+            "c": 13.7,
+            "n": "BKV Energy \u2014 Daisy Green 12"
+          },
+          "spark energy llc|choose 12": {
+            "c": 13.8,
+            "n": "SPARK ENERGY LLC \u2014 Choose 12"
+          },
+          "think energy|think clean 12 with smart thermostat connected": {
+            "c": 13.82,
+            "n": "Think Energy \u2014 Think Clean 12 with Smart Thermostat Connected"
+          },
+          "bkv energy|daisy 13": {
+            "c": 13.9,
+            "n": "BKV Energy \u2014 Daisy 13"
+          },
+          "true power|true value 36": {
+            "c": 13.9,
+            "n": "TRUE POWER \u2014 True Value 36"
+          },
+          "ap gas & electric (tx) llc|trueclassic 36": {
+            "c": 14.0,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 36"
+          },
+          "ae texas|smart secure 10": {
+            "c": 14.2,
+            "n": "AE TEXAS \u2014 Smart Secure 10"
+          },
+          "spark energy llc|choose 15": {
+            "c": 14.4,
+            "n": "SPARK ENERGY LLC \u2014 Choose 15"
+          },
+          "think energy|think clean 24 with smart thermostat": {
+            "c": 14.42,
+            "n": "Think Energy \u2014 Think Clean 24 With Smart Thermostat"
+          },
+          "bkv energy|daisy 24": {
+            "c": 14.5,
+            "n": "BKV Energy \u2014 Daisy 24"
+          },
+          "ae texas|smart secure 36": {
+            "c": 14.9,
+            "n": "AE TEXAS \u2014 Smart Secure 36"
+          },
+          "cleansky energy|embrace green 12 - new customer special": {
+            "c": 15.1,
+            "n": "CleanSky Energy \u2014 Embrace Green 12 - New Customer Special"
+          },
+          "cleansky energy|embrace green 24 - new customer special": {
+            "c": 15.2,
+            "n": "CleanSky Energy \u2014 Embrace Green 24 - New Customer Special"
+          },
+          "octopus energy|octo simple 12": {
+            "c": 15.9,
+            "n": "Octopus Energy \u2014 Octo Simple 12"
+          },
+          "atlantex power|luminous 10": {
+            "c": 16.2,
+            "n": "Atlantex Power \u2014 Luminous 10"
+          },
+          "octopus energy|octo simple 18": {
+            "c": 16.4,
+            "n": "Octopus Energy \u2014 Octo Simple 18"
+          },
+          "cirro energy|smart simple 12": {
+            "c": 16.5,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 12"
+          },
+          "discount power|saver 12": {
+            "c": 16.5,
+            "n": "Discount Power \u2014 Saver 12"
+          },
+          "tara energy|basics ptc - 24": {
+            "c": 16.5,
+            "n": "TARA ENERGY \u2014 Basics PTC - 24"
+          },
+          "tara energy|basics ptc - 36": {
+            "c": 16.5,
+            "n": "TARA ENERGY \u2014 Basics PTC - 36"
+          },
+          "amigo energy|basics ptc - 24": {
+            "c": 16.5,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 24"
+          },
+          "amigo energy|basics ptc - 36": {
+            "c": 16.5,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 36"
+          },
+          "just energy|basics ptc - 24": {
+            "c": 16.5,
+            "n": "JUST ENERGY \u2014 Basics PTC - 24"
+          },
+          "just energy|basics ptc - 60": {
+            "c": 16.5,
+            "n": "JUST ENERGY \u2014 Basics PTC - 60"
+          },
+          "octopus energy llc|octo simple 24": {
+            "c": 16.5,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 24"
+          },
+          "discount power|saver 36": {
+            "c": 16.5,
+            "n": "Discount Power \u2014 Saver 36"
+          },
+          "octopus energy llc|octo simple 14": {
+            "c": 16.6,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 14"
+          },
+          "reliant|reliant power on 18": {
+            "c": 16.9,
+            "n": "RELIANT \u2014 Reliant Power On 18"
+          },
+          "atlantex power|luminous 36": {
+            "c": 16.9,
+            "n": "Atlantex Power \u2014 Luminous 36"
+          },
+          "discount power|saver 24": {
+            "c": 17.0,
+            "n": "Discount Power \u2014 Saver 24"
+          },
+          "cirro energy|smart simple 24": {
+            "c": 17.0,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 24"
+          },
+          "reliant|reliant power on 12 plan": {
+            "c": 17.2,
+            "n": "RELIANT \u2014 Reliant Power On 12 Plan"
+          },
+          "reliant|reliant power on 24 plan": {
+            "c": 17.4,
+            "n": "RELIANT \u2014 Reliant Power on 24 Plan"
+          },
+          "direct energy|autopay texas 12": {
+            "c": 17.5,
+            "n": "DIRECT ENERGY \u2014 Autopay Texas 12"
+          },
+          "cirro energy|smart simple 36": {
+            "c": 17.5,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 36"
+          },
+          "green mountain energy company|pollution free e-plus 12 choice": {
+            "c": 17.9,
+            "n": "GREEN MOUNTAIN ENERGY COMPANY \u2014 Pollution Free e-Plus 12 Choice"
+          },
+          "green mountain energy company|pollution free e-plus 18 choice": {
+            "c": 17.9,
+            "n": "GREEN MOUNTAIN ENERGY COMPANY \u2014 Pollution Free e-Plus 18 Choice"
+          },
+          "direct energy|autopay texas 24": {
+            "c": 17.9,
+            "n": "DIRECT ENERGY \u2014 Autopay Texas 24"
+          },
+          "reliant|reliant power on 36 plan": {
+            "c": 17.9,
+            "n": "RELIANT \u2014 Reliant Power on 36 Plan"
+          },
+          "direct energy|autopay texas 36": {
+            "c": 18.5,
+            "n": "DIRECT ENERGY \u2014 Autopay Texas 36"
+          }
         }
       }
     },
     "2026-08": {
       "oncor": {
-        "avg": 13.47,
-        "median": 13.4,
-        "cheapest": 11.8,
-        "honest": 69,
+        "avg": 12.55,
+        "median": 12.4,
+        "cheapest": 10.92,
+        "honest": 83,
         "plans": {
-          "budget-power-no-gimmicks-11-oncor-11-0": 11.8,
-          "true-power-true-value-12-oncor-12-0": 11.82,
-          "express-energy-speedy-12-oncor-12-0": 11.92,
-          "veteran-energy-basic-12-oncor-12-0": 11.92,
-          "budget-power-no-gimmicks-12-oncor-12-0": 12.0,
-          "octopus-energy-octo-simple-12-oncor-12-0": 12.0,
-          "varsity-energy-llc-homerun-12-oncor-12-0": 12.0,
-          "energy-texas-no-bull-12-oncor-12-0": 12.04,
-          "rhythm-digital-choice-12-oncor-12-0": 12.04,
-          "budget-power-no-gimmicks-green-12-oncor-12-0": 12.1,
-          "texans-choice-power-llc-choose-6-oncor-6-0": 12.2,
-          "gexa-energy-gexa-eco-choice-12-oncor-12-0": 12.2,
-          "frontier-utilities-frontier-power-saver-12-oncor-12-0": 12.2,
-          "companion-energy-companion-perks-12-oncor-12-0": 12.2,
-          "texans-choice-power-llc-choose-12-oncor-12-0": 12.3,
-          "constellation-newenergy-inc-simple-switch-6-oncor-6-0": 12.4,
-          "ae-texas-smart-secure-10-oncor-10-0": 12.42,
-          "ap-gas-electric-tx-llc-trueclassic-11-oncor-11-0": 12.6,
-          "true-power-true-value-24-oncor-24-0": 12.62,
-          "ap-gas-electric-tx-llc-trueclassic-12-oncor-12-0": 12.7,
-          "budget-power-no-gimmicks-24-oncor-24-0": 12.7,
-          "abundance-energy-confident-renter-12-oncor-12-0": 12.72,
-          "chariot-energy-chariot-choice-24-oncor-24-0": 12.82,
-          "true-power-true-value-36-oncor-36-0": 12.82,
-          "spark-energy-llc-choose-12-oncor-12-0": 12.9,
-          "champion-energy-services-llc-champ-saver-12-oncor-12-0": 12.9,
-          "budget-power-no-gimmicks-36-oncor-36-0": 12.9,
-          "spark-energy-llc-choose-6-oncor-6-0": 13.0,
-          "ae-texas-smart-secure-36-oncor-36-0": 13.02,
-          "chariot-energy-chariot-choice-36-oncor-36-0": 13.12,
-          "southern-federal-power-llc-sofed-free-energy-lunch-12-oncor-12-0": 13.16,
-          "sfe-energy-texas-inc-sfe-rewardsplus-12-oncor-12-0": 13.2,
-          "ap-gas-electric-tx-llc-trueclassic-24-oncor-24-0": 13.3,
-          "spark-energy-llc-choose-15-oncor-15-0": 13.4,
-          "bkv-energy-daisy-12-oncor-12-0": 13.4,
-          "rhythm-digital-choice-24-oncor-24-0": 13.44,
-          "energy-texas-no-bull-24-oncor-24-0": 13.44,
-          "bkv-energy-daisy-11-oncor-11-0": 13.5,
-          "champion-energy-services-llc-champ-saver-24-oncor-24-0": 13.5,
-          "bkv-energy-daisy-green-12-oncor-12-0": 13.6,
-          "bkv-energy-daisy-13-oncor-13-0": 13.7,
-          "ap-gas-electric-tx-llc-trueclassic-36-oncor-36-0": 13.7,
-          "rhythm-digital-choice-36-oncor-36-0": 13.74,
-          "energy-texas-no-bull-36-oncor-36-0": 13.74,
-          "octopus-energy-octo-simple-18-oncor-18-0": 13.8,
-          "cleansky-energy-embrace-green-12-new-customer-special-oncor-12-0": 13.9,
-          "ironhorse-power-services-llc-giddy-up-24-oncor-24-0": 13.9,
-          "bkv-energy-daisy-24-oncor-24-0": 13.9,
-          "cleansky-energy-embrace-green-24-new-customer-special-oncor-24-0": 14.0,
-          "ironhorse-power-services-llc-giddy-up-18-oncor-18-0": 14.0,
-          "octopus-energy-llc-octo-simple-24-oncor-24-0": 14.0,
-          "cleansky-energy-embrace-green-36-new-customer-special-oncor-36-0": 14.19,
-          "base-power-base-energy-36-oncor-36-0": 14.2,
-          "ironhorse-power-services-llc-giddy-up-36-oncor-36-0": 14.3,
-          "discount-power-saver-12-oncor-12-0": 14.42,
-          "atlantex-power-luminous-10-oncor-10-0": 14.42,
-          "cirro-energy-smart-simple-12-oncor-12-0": 14.52,
-          "octopus-energy-llc-octo-simple-14-oncor-14-0": 14.6,
-          "discount-power-saver-24-oncor-24-0": 14.82,
-          "cirro-energy-smart-simple-24-oncor-24-0": 14.92,
-          "discount-power-saver-36-oncor-36-0": 14.92,
-          "atlantex-power-luminous-36-oncor-36-0": 15.02,
-          "cirro-energy-smart-simple-36-oncor-36-0": 15.12,
-          "tara-energy-basics-ptc-24-oncor-24-0": 15.9,
-          "tara-energy-basics-ptc-36-oncor-36-0": 15.9,
-          "amigo-energy-basics-ptc-24-oncor-24-0": 15.9,
-          "amigo-energy-basics-ptc-36-oncor-36-0": 15.9,
-          "just-energy-basics-ptc-24-oncor-24-0": 15.9,
-          "just-energy-basics-ptc-60-oncor-60-0": 15.9
+          "gexa energy|gexa eco choice 10": {
+            "c": 10.92,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 10"
+          },
+          "companion energy|companion + perks 10": {
+            "c": 10.92,
+            "n": "Companion Energy \u2014 Companion + Perks 10"
+          },
+          "frontier utilities|frontier power saver 10": {
+            "c": 10.92,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 10"
+          },
+          "true power|true value 10": {
+            "c": 10.92,
+            "n": "TRUE POWER \u2014 True Value 10"
+          },
+          "true power|true value 11": {
+            "c": 10.92,
+            "n": "TRUE POWER \u2014 True Value 11"
+          },
+          "energy texas|no bull 5": {
+            "c": 10.94,
+            "n": "Energy Texas \u2014 No Bull 5"
+          },
+          "rhythm|digital choice 5": {
+            "c": 10.94,
+            "n": "RHYTHM \u2014 Digital Choice 5"
+          },
+          "budget power|no gimmicks 11": {
+            "c": 11.0,
+            "n": "Budget Power \u2014 No Gimmicks 11"
+          },
+          "octopus energy|octo simple 5": {
+            "c": 11.0,
+            "n": "Octopus Energy \u2014 Octo Simple 5"
+          },
+          "octopus energy|octo green 10": {
+            "c": 11.0,
+            "n": "Octopus Energy \u2014 Octo Green 10"
+          },
+          "true power|true value 12": {
+            "c": 11.1,
+            "n": "TRUE POWER \u2014 True Value 12"
+          },
+          "constellation newenergy inc|simple switch 5": {
+            "c": 11.2,
+            "n": "CONSTELLATION NEWENERGY INC \u2014 Simple Switch 5"
+          },
+          "budget power|no gimmicks 12": {
+            "c": 11.2,
+            "n": "Budget Power \u2014 No Gimmicks 12"
+          },
+          "express energy|speedy 12": {
+            "c": 11.2,
+            "n": "Express Energy \u2014 Speedy 12"
+          },
+          "veteran energy|basic 12": {
+            "c": 11.2,
+            "n": "Veteran Energy \u2014 Basic 12"
+          },
+          "budget power|no gimmicks green 12": {
+            "c": 11.3,
+            "n": "Budget Power \u2014 No Gimmicks Green 12"
+          },
+          "octopus energy|octo simple 12": {
+            "c": 11.3,
+            "n": "Octopus Energy \u2014 Octo Simple 12"
+          },
+          "varsity energy llc|homerun 12": {
+            "c": 11.3,
+            "n": "VARSITY ENERGY LLC \u2014 HOMERUN 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 11": {
+            "c": 11.3,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 11"
+          },
+          "ae texas|smart secure 10": {
+            "c": 11.3,
+            "n": "AE TEXAS \u2014 Smart Secure 10"
+          },
+          "rhythm|digital choice 12": {
+            "c": 11.34,
+            "n": "RHYTHM \u2014 Digital Choice 12"
+          },
+          "energy texas|no bull 12": {
+            "c": 11.34,
+            "n": "Energy Texas \u2014 No Bull 12"
+          },
+          "abundance energy|confident renter 12": {
+            "c": 11.6,
+            "n": "Abundance Energy \u2014 Confident Renter 12"
+          },
+          "gexa energy|gexa eco choice 12": {
+            "c": 11.62,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 12"
+          },
+          "companion energy|companion + perks 12": {
+            "c": 11.62,
+            "n": "Companion Energy \u2014 Companion + Perks 12"
+          },
+          "frontier utilities|frontier power saver 12": {
+            "c": 11.62,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 12"
+          },
+          "texans choice power llc|choose 6": {
+            "c": 11.7,
+            "n": "Texans Choice Power LLC \u2014 Choose 6"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 5": {
+            "c": 11.7,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 5"
+          },
+          "ap gas & electric (tx) llc|trueclassic 12": {
+            "c": 11.9,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 12"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 10": {
+            "c": 11.9,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 10"
+          },
+          "spark energy llc|choose 6": {
+            "c": 12.0,
+            "n": "SPARK ENERGY LLC \u2014 Choose 6"
+          },
+          "bkv energy|daisy 5": {
+            "c": 12.1,
+            "n": "BKV Energy \u2014 Daisy 5"
+          },
+          "chariot energy|chariot choice 24": {
+            "c": 12.12,
+            "n": "CHARIOT ENERGY \u2014 Chariot Choice 24"
+          },
+          "true power|true value 24": {
+            "c": 12.12,
+            "n": "TRUE POWER \u2014 True Value 24"
+          },
+          "texans choice power llc|choose 12": {
+            "c": 12.2,
+            "n": "Texans Choice Power LLC \u2014 Choose 12"
+          },
+          "budget power|no gimmicks 24": {
+            "c": 12.2,
+            "n": "Budget Power \u2014 No Gimmicks 24"
+          },
+          "true power|true value 36": {
+            "c": 12.2,
+            "n": "TRUE POWER \u2014 True Value 36"
+          },
+          "heritage power llc|bright start 5 \u2013 $50 first bill credit!!": {
+            "c": 12.3,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 5 \u2013 $50 First Bill Credit!!"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 12": {
+            "c": 12.3,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 12"
+          },
+          "budget power|no gimmicks 36": {
+            "c": 12.3,
+            "n": "Budget Power \u2014 No Gimmicks 36"
+          },
+          "spark energy llc|choose 12": {
+            "c": 12.4,
+            "n": "SPARK ENERGY LLC \u2014 Choose 12"
+          },
+          "ae texas|smart secure 36": {
+            "c": 12.4,
+            "n": "AE TEXAS \u2014 Smart Secure 36"
+          },
+          "bkv energy|daisy 11": {
+            "c": 12.5,
+            "n": "BKV Energy \u2014 Daisy 11"
+          },
+          "ap gas & electric (tx) llc|trueclassic 24": {
+            "c": 12.5,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 24"
+          },
+          "chariot energy|chariot choice 36": {
+            "c": 12.52,
+            "n": "CHARIOT ENERGY \u2014 Chariot Choice 36"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 23": {
+            "c": 12.6,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 23"
+          },
+          "rhythm|digital choice 24": {
+            "c": 12.64,
+            "n": "RHYTHM \u2014 Digital Choice 24"
+          },
+          "energy texas|no bull 24": {
+            "c": 12.64,
+            "n": "Energy Texas \u2014 No Bull 24"
+          },
+          "spark energy llc|choose 15": {
+            "c": 12.7,
+            "n": "SPARK ENERGY LLC \u2014 Choose 15"
+          },
+          "bkv energy|daisy 12": {
+            "c": 12.7,
+            "n": "BKV Energy \u2014 Daisy 12"
+          },
+          "southern federal power llc|sofed digital saver plus - 12": {
+            "c": 12.82,
+            "n": "SOUTHERN FEDERAL POWER LLC \u2014 SoFed Digital Saver Plus - 12"
+          },
+          "bkv energy|daisy green 12": {
+            "c": 12.82,
+            "n": "BKV Energy \u2014 Daisy Green 12"
+          },
+          "champion energy services llc|champ saver-12": {
+            "c": 12.9,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 36": {
+            "c": 13.1,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 36"
+          },
+          "discount power|saver 10": {
+            "c": 13.16,
+            "n": "Discount Power \u2014 Saver 10"
+          },
+          "discount power|saver 11": {
+            "c": 13.16,
+            "n": "Discount Power \u2014 Saver 11"
+          },
+          "discount power|saver 12": {
+            "c": 13.16,
+            "n": "Discount Power \u2014 Saver 12"
+          },
+          "cleansky energy|embrace green 12 - new customer special": {
+            "c": 13.2,
+            "n": "CleanSky Energy \u2014 Embrace Green 12 - New Customer Special"
+          },
+          "bkv energy|daisy 24": {
+            "c": 13.2,
+            "n": "BKV Energy \u2014 Daisy 24"
+          },
+          "rhythm|digital choice 36": {
+            "c": 13.24,
+            "n": "RHYTHM \u2014 Digital Choice 36"
+          },
+          "energy texas|no bull 36": {
+            "c": 13.24,
+            "n": "Energy Texas \u2014 No Bull 36"
+          },
+          "cirro energy|smart simple 10": {
+            "c": 13.26,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 10"
+          },
+          "cirro energy|smart simple 11": {
+            "c": 13.26,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 11"
+          },
+          "cirro energy|smart simple 12": {
+            "c": 13.26,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 12"
+          },
+          "heritage power llc|bright start 12 \u2013 $180 bill credit reward": {
+            "c": 13.3,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 12 \u2013 $180 Bill Credit Reward"
+          },
+          "atlantex power|luminous 10": {
+            "c": 13.3,
+            "n": "Atlantex Power \u2014 Luminous 10"
+          },
+          "champion energy services llc|champ saver-24": {
+            "c": 13.4,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-24"
+          },
+          "octopus energy llc|octo simple 24": {
+            "c": 13.4,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 24"
+          },
+          "cleansky energy|embrace green 24 - new customer special": {
+            "c": 13.5,
+            "n": "CleanSky Energy \u2014 Embrace Green 24 - New Customer Special"
+          },
+          "discount power|saver 24": {
+            "c": 13.76,
+            "n": "Discount Power \u2014 Saver 24"
+          },
+          "cleansky energy|embrace green 36 - new customer special": {
+            "c": 13.8,
+            "n": "CleanSky Energy \u2014 Embrace Green 36 - New Customer Special"
+          },
+          "cirro energy|smart simple 24": {
+            "c": 13.86,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 24"
+          },
+          "branch energy (texas) llc|branch fixed 12": {
+            "c": 14.0,
+            "n": "BRANCH ENERGY (TEXAS) LLC \u2014 Branch Fixed 12"
+          },
+          "discount power|saver 18": {
+            "c": 14.16,
+            "n": "Discount Power \u2014 Saver 18"
+          },
+          "cirro energy|smart simple 18": {
+            "c": 14.26,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 18"
+          },
+          "atlantex power|luminous 36": {
+            "c": 14.4,
+            "n": "Atlantex Power \u2014 Luminous 36"
+          },
+          "base power|base energy 36": {
+            "c": 14.4,
+            "n": "Base Power \u2014 Base Energy 36"
+          },
+          "tara energy|basics ptc - 24": {
+            "c": 15.5,
+            "n": "TARA ENERGY \u2014 Basics PTC - 24"
+          },
+          "tara energy|basics ptc - 36": {
+            "c": 15.5,
+            "n": "TARA ENERGY \u2014 Basics PTC - 36"
+          },
+          "amigo energy|basics ptc - 24": {
+            "c": 15.5,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 24"
+          },
+          "amigo energy|basics ptc - 36": {
+            "c": 15.5,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 36"
+          },
+          "just energy|basics ptc - 24": {
+            "c": 15.5,
+            "n": "JUST ENERGY \u2014 Basics PTC - 24"
+          },
+          "just energy|basics ptc - 60": {
+            "c": 15.5,
+            "n": "JUST ENERGY \u2014 Basics PTC - 60"
+          }
         }
       },
       "centerpoint": {
-        "avg": 12.58,
-        "median": 12.52,
-        "cheapest": 10.92,
-        "honest": 65,
+        "avg": 11.86,
+        "median": 11.67,
+        "cheapest": 10.02,
+        "honest": 84,
         "plans": {
-          "budget-power-no-gimmicks-11-centerpoint-11-0": 10.92,
-          "true-power-true-value-12-centerpoint-12-0": 10.92,
-          "octopus-energy-octo-simple-12-centerpoint-12-0": 11.02,
-          "veteran-energy-basic-12-centerpoint-12-0": 11.02,
-          "express-energy-speedy-12-centerpoint-12-0": 11.02,
-          "rhythm-digital-choice-12-centerpoint-12-0": 11.04,
-          "energy-texas-no-bull-12-centerpoint-12-0": 11.04,
-          "budget-power-no-gimmicks-12-centerpoint-12-0": 11.12,
-          "budget-power-no-gimmicks-green-12-centerpoint-12-0": 11.22,
-          "varsity-energy-llc-homerun-12-centerpoint-12-0": 11.32,
-          "texans-choice-power-llc-choose-6-centerpoint-6-0": 11.42,
-          "gexa-energy-gexa-eco-choice-12-centerpoint-12-0": 11.42,
-          "companion-energy-companion-perks-12-centerpoint-12-0": 11.42,
-          "frontier-utilities-frontier-power-saver-12-centerpoint-12-0": 11.42,
-          "constellation-newenergy-inc-simple-switch-6-centerpoint-6-0": 11.52,
-          "texans-choice-power-llc-choose-12-centerpoint-12-0": 11.52,
-          "ae-texas-smart-secure-10-centerpoint-10-0": 11.52,
-          "ap-gas-electric-tx-llc-trueclassic-11-centerpoint-11-0": 11.92,
-          "true-power-true-value-24-centerpoint-24-0": 11.92,
-          "abundance-energy-confident-renter-12-centerpoint-12-0": 11.96,
-          "champion-energy-services-llc-champ-saver-12-centerpoint-12-0": 12.02,
-          "ap-gas-electric-tx-llc-trueclassic-12-centerpoint-12-0": 12.02,
-          "budget-power-no-gimmicks-24-centerpoint-24-0": 12.02,
-          "true-power-true-value-36-centerpoint-36-0": 12.02,
-          "spark-energy-llc-choose-6-centerpoint-6-0": 12.12,
-          "spark-energy-llc-choose-12-centerpoint-12-0": 12.12,
-          "budget-power-no-gimmicks-36-centerpoint-36-0": 12.12,
-          "southern-federal-power-llc-sofed-free-energy-lunch-12-centerpoint-12-0": 12.18,
-          "ae-texas-smart-secure-36-centerpoint-36-0": 12.22,
-          "bkv-energy-daisy-11-centerpoint-11-0": 12.38,
-          "bkv-energy-daisy-12-centerpoint-12-0": 12.38,
-          "sfe-energy-texas-inc-sfe-rewardsplus-12-centerpoint-12-0": 12.42,
-          "ap-gas-electric-tx-llc-trueclassic-24-centerpoint-24-0": 12.52,
-          "energy-texas-no-bull-24-centerpoint-24-0": 12.54,
-          "rhythm-digital-choice-24-centerpoint-24-0": 12.54,
-          "bkv-energy-daisy-green-12-centerpoint-12-0": 12.58,
-          "spark-energy-llc-choose-15-centerpoint-15-0": 12.62,
-          "bkv-energy-daisy-13-centerpoint-13-0": 12.62,
-          "champion-energy-services-llc-champ-saver-24-centerpoint-24-0": 12.72,
-          "octopus-energy-octo-simple-18-centerpoint-18-0": 12.82,
-          "ap-gas-electric-tx-llc-trueclassic-36-centerpoint-36-0": 12.82,
-          "bkv-energy-daisy-24-centerpoint-24-0": 12.82,
-          "energy-texas-no-bull-36-centerpoint-36-0": 12.84,
-          "rhythm-digital-choice-36-centerpoint-36-0": 12.84,
-          "cleansky-energy-embrace-green-12-new-customer-special-centerpoint-12-0": 13.02,
-          "octopus-energy-llc-octo-simple-24-centerpoint-24-0": 13.02,
-          "cleansky-energy-embrace-green-24-new-customer-special-centerpoint-24-0": 13.12,
-          "ironhorse-power-services-llc-giddy-up-24-centerpoint-24-0": 13.18,
-          "ironhorse-power-services-llc-giddy-up-18-centerpoint-18-0": 13.28,
-          "base-power-base-energy-36-centerpoint-36-0": 13.32,
-          "cleansky-energy-embrace-green-36-new-customer-special-centerpoint-36-0": 13.42,
-          "ironhorse-power-services-llc-giddy-up-36-centerpoint-36-0": 13.48,
-          "constellation-newenergy-inc-14-month-centerpoint-14-0": 13.52,
-          "atlantex-power-luminous-10-centerpoint-10-0": 13.52,
-          "octopus-energy-llc-octo-simple-14-centerpoint-14-0": 13.58,
-          "trieagle-energy-lp-simple-savings-28-centerpoint-28-0": 13.78,
-          "trieagle-energy-lp-simple-savings-12-centerpoint-12-0": 14.18,
-          "atlantex-power-luminous-36-centerpoint-36-0": 14.22,
-          "trieagle-energy-lp-simple-savings-36-centerpoint-36-0": 14.78,
-          "tara-energy-basics-ptc-24-centerpoint-24-0": 14.92,
-          "tara-energy-basics-ptc-36-centerpoint-36-0": 14.92,
-          "amigo-energy-basics-ptc-24-centerpoint-24-0": 14.92,
-          "amigo-energy-basics-ptc-36-centerpoint-36-0": 14.92,
-          "just-energy-basics-ptc-24-centerpoint-24-0": 14.92,
-          "just-energy-basics-ptc-60-centerpoint-60-0": 14.92
+          "true power|true value 10": {
+            "c": 10.02,
+            "n": "TRUE POWER \u2014 True Value 10"
+          },
+          "rhythm|digital choice 5": {
+            "c": 10.04,
+            "n": "RHYTHM \u2014 Digital Choice 5"
+          },
+          "energy texas|no bull 5": {
+            "c": 10.04,
+            "n": "Energy Texas \u2014 No Bull 5"
+          },
+          "gexa energy|gexa eco choice 10": {
+            "c": 10.12,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 10"
+          },
+          "octopus energy|octo simple 5": {
+            "c": 10.12,
+            "n": "Octopus Energy \u2014 Octo Simple 5"
+          },
+          "octopus energy|octo simple 10": {
+            "c": 10.12,
+            "n": "Octopus Energy \u2014 Octo Simple 10"
+          },
+          "frontier utilities|frontier power saver 10": {
+            "c": 10.12,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 10"
+          },
+          "companion energy|companion + perks 10": {
+            "c": 10.12,
+            "n": "Companion Energy \u2014 Companion + Perks 10"
+          },
+          "budget power|no gimmicks 11": {
+            "c": 10.22,
+            "n": "Budget Power \u2014 No Gimmicks 11"
+          },
+          "true power|true value 11": {
+            "c": 10.32,
+            "n": "TRUE POWER \u2014 True Value 11"
+          },
+          "true power|true value 12": {
+            "c": 10.32,
+            "n": "TRUE POWER \u2014 True Value 12"
+          },
+          "budget power|no gimmicks 12": {
+            "c": 10.42,
+            "n": "Budget Power \u2014 No Gimmicks 12"
+          },
+          "constellation newenergy inc|simple switch 5": {
+            "c": 10.52,
+            "n": "CONSTELLATION NEWENERGY INC \u2014 Simple Switch 5"
+          },
+          "budget power|no gimmicks green 12": {
+            "c": 10.52,
+            "n": "Budget Power \u2014 No Gimmicks Green 12"
+          },
+          "octopus energy|octo simple 12": {
+            "c": 10.52,
+            "n": "Octopus Energy \u2014 Octo Simple 12"
+          },
+          "ae texas|smart secure 10": {
+            "c": 10.52,
+            "n": "AE TEXAS \u2014 Smart Secure 10"
+          },
+          "veteran energy|basic 12": {
+            "c": 10.52,
+            "n": "Veteran Energy \u2014 Basic 12"
+          },
+          "express energy|speedy 12": {
+            "c": 10.52,
+            "n": "Express Energy \u2014 Speedy 12"
+          },
+          "energy texas|no bull 12": {
+            "c": 10.54,
+            "n": "Energy Texas \u2014 No Bull 12"
+          },
+          "rhythm|digital choice 12": {
+            "c": 10.54,
+            "n": "RHYTHM \u2014 Digital Choice 12"
+          },
+          "varsity energy llc|homerun 12": {
+            "c": 10.72,
+            "n": "VARSITY ENERGY LLC \u2014 HOMERUN 12"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 5": {
+            "c": 10.72,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 5"
+          },
+          "gexa energy|gexa eco choice 12": {
+            "c": 11.02,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 12"
+          },
+          "companion energy|companion + perks 12": {
+            "c": 11.02,
+            "n": "Companion Energy \u2014 Companion + Perks 12"
+          },
+          "frontier utilities|frontier power saver 12": {
+            "c": 11.02,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 11": {
+            "c": 11.02,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 11"
+          },
+          "heritage power llc|bright start 5 \u2013 $50 first bill credit!!": {
+            "c": 11.12,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 5 \u2013 $50 First Bill Credit!!"
+          },
+          "texans choice power llc|choose 6": {
+            "c": 11.12,
+            "n": "Texans Choice Power LLC \u2014 Choose 6"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 10": {
+            "c": 11.12,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 10"
+          },
+          "true power|true value 24": {
+            "c": 11.22,
+            "n": "TRUE POWER \u2014 True Value 24"
+          },
+          "constellation newenergy inc|simple switch 11": {
+            "c": 11.32,
+            "n": "CONSTELLATION NEWENERGY INC \u2014 Simple Switch 11"
+          },
+          "ap gas & electric (tx) llc|trueclassic 12": {
+            "c": 11.32,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 12"
+          },
+          "budget power|no gimmicks 24": {
+            "c": 11.32,
+            "n": "Budget Power \u2014 No Gimmicks 24"
+          },
+          "true power|true value 36": {
+            "c": 11.32,
+            "n": "TRUE POWER \u2014 True Value 36"
+          },
+          "bkv energy|daisy 5": {
+            "c": 11.42,
+            "n": "BKV Energy \u2014 Daisy 5"
+          },
+          "spark energy llc|choose 6": {
+            "c": 11.42,
+            "n": "SPARK ENERGY LLC \u2014 Choose 6"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 12": {
+            "c": 11.42,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 12"
+          },
+          "budget power|no gimmicks 36": {
+            "c": 11.42,
+            "n": "Budget Power \u2014 No Gimmicks 36"
+          },
+          "bkv energy|daisy 11": {
+            "c": 11.56,
+            "n": "BKV Energy \u2014 Daisy 11"
+          },
+          "southern federal power llc|sofed digital saver plus - 12": {
+            "c": 11.62,
+            "n": "SOUTHERN FEDERAL POWER LLC \u2014 SoFed Digital Saver Plus - 12"
+          },
+          "texans choice power llc|choose 12": {
+            "c": 11.62,
+            "n": "Texans Choice Power LLC \u2014 Choose 12"
+          },
+          "ae texas|smart secure 36": {
+            "c": 11.62,
+            "n": "AE TEXAS \u2014 Smart Secure 36"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 23": {
+            "c": 11.72,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 23"
+          },
+          "bkv energy|daisy 12": {
+            "c": 11.78,
+            "n": "BKV Energy \u2014 Daisy 12"
+          },
+          "spark energy llc|choose 12": {
+            "c": 11.82,
+            "n": "SPARK ENERGY LLC \u2014 Choose 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 24": {
+            "c": 11.92,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 24"
+          },
+          "energy texas|no bull 24": {
+            "c": 11.94,
+            "n": "Energy Texas \u2014 No Bull 24"
+          },
+          "rhythm|digital choice 24": {
+            "c": 11.94,
+            "n": "RHYTHM \u2014 Digital Choice 24"
+          },
+          "bkv energy|daisy green 12": {
+            "c": 11.96,
+            "n": "BKV Energy \u2014 Daisy Green 12"
+          },
+          "spark energy llc|choose 15": {
+            "c": 12.12,
+            "n": "SPARK ENERGY LLC \u2014 Choose 15"
+          },
+          "bkv energy|daisy 24": {
+            "c": 12.12,
+            "n": "BKV Energy \u2014 Daisy 24"
+          },
+          "discount power|saver 10": {
+            "c": 12.18,
+            "n": "Discount Power \u2014 Saver 10"
+          },
+          "discount power|saver 11": {
+            "c": 12.18,
+            "n": "Discount Power \u2014 Saver 11"
+          },
+          "discount power|saver 12": {
+            "c": 12.18,
+            "n": "Discount Power \u2014 Saver 12"
+          },
+          "energy texas|no bull 36": {
+            "c": 12.24,
+            "n": "Energy Texas \u2014 No Bull 36"
+          },
+          "rhythm|digital choice 36": {
+            "c": 12.24,
+            "n": "RHYTHM \u2014 Digital Choice 36"
+          },
+          "cirro energy|smart simple 10": {
+            "c": 12.28,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 10"
+          },
+          "cirro energy|smart simple 11": {
+            "c": 12.28,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 11"
+          },
+          "cirro energy|smart simple 12": {
+            "c": 12.28,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 12"
+          },
+          "champion energy services llc|champ saver-12": {
+            "c": 12.32,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-12"
+          },
+          "cleansky energy|embrace green 12 - new customer special": {
+            "c": 12.42,
+            "n": "CleanSky Energy \u2014 Embrace Green 12 - New Customer Special"
+          },
+          "ap gas & electric (tx) llc|trueclassic 36": {
+            "c": 12.42,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 36"
+          },
+          "heritage power llc|bright start 12 \u2013 $180 bill credit reward": {
+            "c": 12.52,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 12 \u2013 $180 Bill Credit Reward"
+          },
+          "atlantex power|luminous 10": {
+            "c": 12.52,
+            "n": "Atlantex Power \u2014 Luminous 10"
+          },
+          "cleansky energy|embrace green 24 - new customer special": {
+            "c": 12.72,
+            "n": "CleanSky Energy \u2014 Embrace Green 24 - New Customer Special"
+          },
+          "champion energy services llc|champ saver-24": {
+            "c": 12.72,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-24"
+          },
+          "discount power|saver 18": {
+            "c": 12.78,
+            "n": "Discount Power \u2014 Saver 18"
+          },
+          "discount power|saver 24": {
+            "c": 12.78,
+            "n": "Discount Power \u2014 Saver 24"
+          },
+          "cirro energy|smart simple 18": {
+            "c": 12.88,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 18"
+          },
+          "cirro energy|smart simple 24": {
+            "c": 12.88,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 24"
+          },
+          "octopus energy llc|octo simple 24": {
+            "c": 13.02,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 24"
+          },
+          "cleansky energy|embrace green 36 - new customer special": {
+            "c": 13.02,
+            "n": "CleanSky Energy \u2014 Embrace Green 36 - New Customer Special"
+          },
+          "branch energy (texas) llc|branch fixed 12": {
+            "c": 13.22,
+            "n": "BRANCH ENERGY (TEXAS) LLC \u2014 Branch Fixed 12"
+          },
+          "atlantex power|luminous 36": {
+            "c": 13.62,
+            "n": "Atlantex Power \u2014 Luminous 36"
+          },
+          "base power|base energy 36": {
+            "c": 13.62,
+            "n": "Base Power \u2014 Base Energy 36"
+          },
+          "trieagle energy lp|simple savings 28": {
+            "c": 13.78,
+            "n": "TRIEAGLE ENERGY LP \u2014 Simple Savings 28"
+          },
+          "trieagle energy lp|simple savings 12": {
+            "c": 14.18,
+            "n": "TRIEAGLE ENERGY LP \u2014 Simple Savings 12"
+          },
+          "trieagle energy lp|simple savings 36": {
+            "c": 14.78,
+            "n": "TRIEAGLE ENERGY LP \u2014 Simple Savings 36"
+          },
+          "tara energy|basics ptc - 24": {
+            "c": 14.92,
+            "n": "TARA ENERGY \u2014 Basics PTC - 24"
+          },
+          "tara energy|basics ptc - 36": {
+            "c": 14.92,
+            "n": "TARA ENERGY \u2014 Basics PTC - 36"
+          },
+          "amigo energy|basics ptc - 24": {
+            "c": 14.92,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 24"
+          },
+          "amigo energy|basics ptc - 36": {
+            "c": 14.92,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 36"
+          },
+          "just energy|basics ptc - 24": {
+            "c": 14.92,
+            "n": "JUST ENERGY \u2014 Basics PTC - 24"
+          },
+          "just energy|basics ptc - 60": {
+            "c": 14.92,
+            "n": "JUST ENERGY \u2014 Basics PTC - 60"
+          }
         }
       },
       "aep-central": {
-        "avg": 13.14,
-        "median": 13.04,
-        "cheapest": 11.44,
-        "honest": 63,
+        "avg": 12.24,
+        "median": 12.08,
+        "cheapest": 10.68,
+        "honest": 79,
         "plans": {
-          "true-power-true-value-12-aep-texas-central-12-0": 11.44,
-          "veteran-energy-basic-12-aep-texas-central-12-0": 11.48,
-          "express-energy-speedy-12-aep-texas-central-12-0": 11.48,
-          "rhythm-digital-choice-12-aep-texas-central-12-0": 11.62,
-          "energy-texas-no-bull-12-aep-texas-central-12-0": 11.62,
-          "budget-power-no-gimmicks-11-aep-texas-central-11-0": 11.64,
-          "budget-power-no-gimmicks-12-aep-texas-central-12-0": 11.74,
-          "gexa-energy-gexa-eco-choice-12-aep-texas-central-12-0": 11.74,
-          "companion-energy-companion-perks-12-aep-texas-central-12-0": 11.74,
-          "frontier-utilities-frontier-power-saver-12-aep-texas-central-12-0": 11.74,
-          "budget-power-no-gimmicks-green-12-aep-texas-central-12-0": 11.84,
-          "texans-choice-power-llc-choose-6-aep-texas-central-6-0": 11.84,
-          "texans-choice-power-llc-choose-12-aep-texas-central-12-0": 11.84,
-          "constellation-newenergy-inc-simple-switch-6-aep-texas-central-6-0": 11.88,
-          "ap-gas-electric-tx-llc-trueclassic-11-aep-texas-central-11-0": 11.98,
-          "ap-gas-electric-tx-llc-trueclassic-12-aep-texas-central-12-0": 12.08,
-          "true-power-true-value-24-aep-texas-central-24-0": 12.12,
-          "ae-texas-smart-secure-10-aep-texas-central-10-0": 12.14,
-          "budget-power-no-gimmicks-24-aep-texas-central-24-0": 12.24,
-          "true-power-true-value-36-aep-texas-central-36-0": 12.34,
-          "budget-power-no-gimmicks-36-aep-texas-central-36-0": 12.44,
-          "abundance-energy-confident-renter-12-aep-texas-central-12-0": 12.48,
-          "ap-gas-electric-tx-llc-trueclassic-24-aep-texas-central-24-0": 12.58,
-          "spark-energy-llc-choose-6-aep-texas-central-6-0": 12.64,
-          "spark-energy-llc-choose-12-aep-texas-central-12-0": 12.64,
-          "ae-texas-smart-secure-36-aep-texas-central-36-0": 12.64,
-          "energy-texas-no-bull-24-aep-texas-central-24-0": 12.72,
-          "rhythm-digital-choice-24-aep-texas-central-24-0": 12.72,
-          "champion-energy-services-llc-champ-saver-12-aep-texas-central-12-0": 12.78,
-          "sfe-energy-texas-inc-sfe-rewardsplus-12-aep-texas-central-12-0": 12.82,
-          "bkv-energy-daisy-12-aep-texas-central-12-0": 12.98,
-          "spark-energy-llc-choose-15-aep-texas-central-15-0": 13.04,
-          "bkv-energy-daisy-11-aep-texas-central-11-0": 13.04,
-          "southern-federal-power-llc-sofed-free-energy-lunch-12-aep-texas-central-12-0": 13.08,
-          "ap-gas-electric-tx-llc-trueclassic-36-aep-texas-central-36-0": 13.08,
-          "bkv-energy-daisy-green-12-aep-texas-central-12-0": 13.14,
-          "champion-energy-services-llc-champ-saver-24-aep-texas-central-24-0": 13.18,
-          "bkv-energy-daisy-13-aep-texas-central-13-0": 13.18,
-          "energy-texas-no-bull-36-aep-texas-central-36-0": 13.32,
-          "rhythm-digital-choice-36-aep-texas-central-36-0": 13.32,
-          "bkv-energy-daisy-24-aep-texas-central-24-0": 13.34,
-          "cleansky-energy-embrace-green-12-new-customer-special-aep-texas-central-12-0": 13.68,
-          "cleansky-energy-embrace-green-24-new-customer-special-aep-texas-central-24-0": 13.68,
-          "cleansky-energy-embrace-green-36-new-customer-special-aep-texas-central-36-0": 13.88,
-          "base-power-base-energy-36-aep-texas-central-36-0": 13.88,
-          "discount-power-saver-12-aep-texas-central-12-0": 13.94,
-          "cirro-energy-smart-simple-12-aep-texas-central-12-0": 14.04,
-          "octopus-energy-octo-simple-12-aep-texas-central-12-0": 14.08,
-          "atlantex-power-luminous-10-aep-texas-central-10-0": 14.14,
-          "discount-power-saver-24-aep-texas-central-24-0": 14.34,
-          "octopus-energy-octo-simple-18-aep-texas-central-18-0": 14.38,
-          "cirro-energy-smart-simple-24-aep-texas-central-24-0": 14.44,
-          "discount-power-saver-36-aep-texas-central-36-0": 14.44,
-          "octopus-energy-llc-octo-simple-24-aep-texas-central-24-0": 14.58,
-          "cirro-energy-smart-simple-36-aep-texas-central-36-0": 14.64,
-          "atlantex-power-luminous-36-aep-texas-central-36-0": 14.64,
-          "octopus-energy-llc-octo-simple-14-aep-texas-central-14-0": 14.68,
-          "tara-energy-basics-ptc-24-aep-texas-central-24-0": 15.48,
-          "tara-energy-basics-ptc-36-aep-texas-central-36-0": 15.48,
-          "amigo-energy-basics-ptc-24-aep-texas-central-24-0": 15.48,
-          "amigo-energy-basics-ptc-36-aep-texas-central-36-0": 15.48,
-          "just-energy-basics-ptc-24-aep-texas-central-24-0": 15.48,
-          "just-energy-basics-ptc-60-aep-texas-central-60-0": 15.48
+          "gexa energy|gexa eco choice 10": {
+            "c": 10.68,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 10"
+          },
+          "frontier utilities|frontier power saver 10": {
+            "c": 10.68,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 10"
+          },
+          "companion energy|companion + perks 10": {
+            "c": 10.68,
+            "n": "Companion Energy \u2014 Companion + Perks 10"
+          },
+          "rhythm|digital choice 5": {
+            "c": 10.72,
+            "n": "RHYTHM \u2014 Digital Choice 5"
+          },
+          "energy texas|no bull 5": {
+            "c": 10.72,
+            "n": "Energy Texas \u2014 No Bull 5"
+          },
+          "octopus energy|octo simple 5": {
+            "c": 10.72,
+            "n": "Octopus Energy \u2014 Octo Simple 5"
+          },
+          "constellation newenergy inc|simple switch 5": {
+            "c": 10.78,
+            "n": "CONSTELLATION NEWENERGY INC \u2014 Simple Switch 5"
+          },
+          "true power|true value 11": {
+            "c": 10.84,
+            "n": "TRUE POWER \u2014 True Value 11"
+          },
+          "budget power|no gimmicks 11": {
+            "c": 10.94,
+            "n": "Budget Power \u2014 No Gimmicks 11"
+          },
+          "true power|true value 12": {
+            "c": 10.94,
+            "n": "TRUE POWER \u2014 True Value 12"
+          },
+          "octopus energy|octo simple 12": {
+            "c": 10.98,
+            "n": "Octopus Energy \u2014 Octo Simple 12"
+          },
+          "energy texas|no bull 12": {
+            "c": 11.02,
+            "n": "Energy Texas \u2014 No Bull 12"
+          },
+          "rhythm|digital choice 12": {
+            "c": 11.02,
+            "n": "RHYTHM \u2014 Digital Choice 12"
+          },
+          "budget power|no gimmicks 12": {
+            "c": 11.04,
+            "n": "Budget Power \u2014 No Gimmicks 12"
+          },
+          "true power|true value 10": {
+            "c": 11.04,
+            "n": "TRUE POWER \u2014 True Value 10"
+          },
+          "ap gas & electric (tx) llc|trueclassic 11": {
+            "c": 11.08,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 11"
+          },
+          "budget power|no gimmicks green 12": {
+            "c": 11.14,
+            "n": "Budget Power \u2014 No Gimmicks Green 12"
+          },
+          "ae texas|smart secure 10": {
+            "c": 11.14,
+            "n": "AE TEXAS \u2014 Smart Secure 10"
+          },
+          "octopus energy|octo simple 10": {
+            "c": 11.22,
+            "n": "Octopus Energy \u2014 Octo Simple 10"
+          },
+          "veteran energy|basic 12": {
+            "c": 11.28,
+            "n": "Veteran Energy \u2014 Basic 12"
+          },
+          "express energy|speedy 12": {
+            "c": 11.28,
+            "n": "Express Energy \u2014 Speedy 12"
+          },
+          "gexa energy|gexa eco choice 12": {
+            "c": 11.38,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 12"
+          },
+          "companion energy|companion + perks 12": {
+            "c": 11.38,
+            "n": "Companion Energy \u2014 Companion + Perks 12"
+          },
+          "frontier utilities|frontier power saver 12": {
+            "c": 11.38,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 12": {
+            "c": 11.38,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 12"
+          },
+          "abundance energy|confident renter 12": {
+            "c": 11.48,
+            "n": "Abundance Energy \u2014 Confident Renter 12"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 5": {
+            "c": 11.52,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 5"
+          },
+          "texans choice power llc|choose 6": {
+            "c": 11.54,
+            "n": "Texans Choice Power LLC \u2014 Choose 6"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 10": {
+            "c": 11.62,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 10"
+          },
+          "heritage power llc|bright start 5 \u2013 $50 first bill credit!!": {
+            "c": 11.68,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 5 \u2013 $50 First Bill Credit!!"
+          },
+          "true power|true value 24": {
+            "c": 11.84,
+            "n": "TRUE POWER \u2014 True Value 24"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 12": {
+            "c": 11.92,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 12"
+          },
+          "bkv energy|daisy 5": {
+            "c": 11.94,
+            "n": "BKV Energy \u2014 Daisy 5"
+          },
+          "spark energy llc|choose 6": {
+            "c": 11.94,
+            "n": "SPARK ENERGY LLC \u2014 Choose 6"
+          },
+          "budget power|no gimmicks 24": {
+            "c": 11.94,
+            "n": "Budget Power \u2014 No Gimmicks 24"
+          },
+          "true power|true value 36": {
+            "c": 11.94,
+            "n": "TRUE POWER \u2014 True Value 36"
+          },
+          "texans choice power llc|choose 12": {
+            "c": 12.04,
+            "n": "Texans Choice Power LLC \u2014 Choose 12"
+          },
+          "budget power|no gimmicks 36": {
+            "c": 12.04,
+            "n": "Budget Power \u2014 No Gimmicks 36"
+          },
+          "bkv energy|daisy 11": {
+            "c": 12.08,
+            "n": "BKV Energy \u2014 Daisy 11"
+          },
+          "ap gas & electric (tx) llc|trueclassic 24": {
+            "c": 12.08,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 24"
+          },
+          "ae texas|smart secure 36": {
+            "c": 12.14,
+            "n": "AE TEXAS \u2014 Smart Secure 36"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 23": {
+            "c": 12.22,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 23"
+          },
+          "bkv energy|daisy 12": {
+            "c": 12.28,
+            "n": "BKV Energy \u2014 Daisy 12"
+          },
+          "cleansky energy|embrace green 12 - new customer special": {
+            "c": 12.32,
+            "n": "CleanSky Energy \u2014 Embrace Green 12 - New Customer Special"
+          },
+          "southern federal power llc|sofed digital saver plus - 12": {
+            "c": 12.34,
+            "n": "SOUTHERN FEDERAL POWER LLC \u2014 SoFed Digital Saver Plus - 12"
+          },
+          "spark energy llc|choose 12": {
+            "c": 12.34,
+            "n": "SPARK ENERGY LLC \u2014 Choose 12"
+          },
+          "bkv energy|daisy green 12": {
+            "c": 12.48,
+            "n": "BKV Energy \u2014 Daisy Green 12"
+          },
+          "energy texas|no bull 24": {
+            "c": 12.52,
+            "n": "Energy Texas \u2014 No Bull 24"
+          },
+          "rhythm|digital choice 24": {
+            "c": 12.52,
+            "n": "RHYTHM \u2014 Digital Choice 24"
+          },
+          "spark energy llc|choose 15": {
+            "c": 12.54,
+            "n": "SPARK ENERGY LLC \u2014 Choose 15"
+          },
+          "ap gas & electric (tx) llc|trueclassic 36": {
+            "c": 12.58,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 36"
+          },
+          "cleansky energy|embrace green 24 - new customer special": {
+            "c": 12.62,
+            "n": "CleanSky Energy \u2014 Embrace Green 24 - New Customer Special"
+          },
+          "discount power|saver 10": {
+            "c": 12.68,
+            "n": "Discount Power \u2014 Saver 10"
+          },
+          "discount power|saver 11": {
+            "c": 12.68,
+            "n": "Discount Power \u2014 Saver 11"
+          },
+          "champion energy services llc|champ saver-12": {
+            "c": 12.68,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-12"
+          },
+          "discount power|saver 12": {
+            "c": 12.68,
+            "n": "Discount Power \u2014 Saver 12"
+          },
+          "bkv energy|daisy 24": {
+            "c": 12.68,
+            "n": "BKV Energy \u2014 Daisy 24"
+          },
+          "cirro energy|smart simple 10": {
+            "c": 12.78,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 10"
+          },
+          "cirro energy|smart simple 11": {
+            "c": 12.78,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 11"
+          },
+          "cirro energy|smart simple 12": {
+            "c": 12.78,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 12"
+          },
+          "cleansky energy|embrace green 36 - new customer special": {
+            "c": 12.92,
+            "n": "CleanSky Energy \u2014 Embrace Green 36 - New Customer Special"
+          },
+          "energy texas|no bull 36": {
+            "c": 12.92,
+            "n": "Energy Texas \u2014 No Bull 36"
+          },
+          "rhythm|digital choice 36": {
+            "c": 12.92,
+            "n": "RHYTHM \u2014 Digital Choice 36"
+          },
+          "heritage power llc|bright start 12 \u2013 $180 bill credit reward": {
+            "c": 13.08,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 12 \u2013 $180 Bill Credit Reward"
+          },
+          "champion energy services llc|champ saver-24": {
+            "c": 13.08,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-24"
+          },
+          "atlantex power|luminous 10": {
+            "c": 13.14,
+            "n": "Atlantex Power \u2014 Luminous 10"
+          },
+          "discount power|saver 24": {
+            "c": 13.18,
+            "n": "Discount Power \u2014 Saver 24"
+          },
+          "cirro energy|smart simple 24": {
+            "c": 13.28,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 24"
+          },
+          "discount power|saver 18": {
+            "c": 13.58,
+            "n": "Discount Power \u2014 Saver 18"
+          },
+          "octopus energy llc|octo simple 24": {
+            "c": 13.58,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 24"
+          },
+          "cirro energy|smart simple 18": {
+            "c": 13.68,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 18"
+          },
+          "atlantex power|luminous 36": {
+            "c": 14.14,
+            "n": "Atlantex Power \u2014 Luminous 36"
+          },
+          "base power|base energy 36": {
+            "c": 14.18,
+            "n": "Base Power \u2014 Base Energy 36"
+          },
+          "tara energy|basics ptc - 24": {
+            "c": 14.88,
+            "n": "TARA ENERGY \u2014 Basics PTC - 24"
+          },
+          "tara energy|basics ptc - 36": {
+            "c": 14.88,
+            "n": "TARA ENERGY \u2014 Basics PTC - 36"
+          },
+          "amigo energy|basics ptc - 24": {
+            "c": 14.88,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 24"
+          },
+          "amigo energy|basics ptc - 36": {
+            "c": 14.88,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 36"
+          },
+          "just energy|basics ptc - 24": {
+            "c": 14.88,
+            "n": "JUST ENERGY \u2014 Basics PTC - 24"
+          },
+          "just energy|basics ptc - 60": {
+            "c": 14.88,
+            "n": "JUST ENERGY \u2014 Basics PTC - 60"
+          }
         }
       },
       "aep-north": {
-        "avg": 13.88,
-        "median": 13.44,
-        "cheapest": 11.44,
-        "honest": 63,
+        "avg": 12.92,
+        "median": 12.88,
+        "cheapest": 10.68,
+        "honest": 79,
         "plans": {
-          "true-power-true-value-12-aep-texas-north-12-0": 11.44,
-          "budget-power-no-gimmicks-11-aep-texas-north-11-0": 11.52,
-          "express-energy-speedy-12-aep-texas-north-12-0": 11.52,
-          "veteran-energy-basic-12-aep-texas-north-12-0": 11.52,
-          "budget-power-no-gimmicks-12-aep-texas-north-12-0": 11.64,
-          "energy-texas-no-bull-12-aep-texas-north-12-0": 11.72,
-          "rhythm-digital-choice-12-aep-texas-north-12-0": 11.72,
-          "budget-power-no-gimmicks-green-12-aep-texas-north-12-0": 11.74,
-          "ap-gas-electric-tx-llc-trueclassic-11-aep-texas-north-11-0": 11.98,
-          "ap-gas-electric-tx-llc-trueclassic-12-aep-texas-north-12-0": 12.08,
-          "constellation-newenergy-inc-simple-switch-6-aep-texas-north-6-0": 12.18,
-          "gexa-energy-gexa-eco-choice-12-aep-texas-north-12-0": 12.44,
-          "frontier-utilities-frontier-power-saver-12-aep-texas-north-12-0": 12.44,
-          "companion-energy-companion-perks-12-aep-texas-north-12-0": 12.44,
-          "true-power-true-value-24-aep-texas-north-24-0": 12.54,
-          "budget-power-no-gimmicks-24-aep-texas-north-24-0": 12.64,
-          "texans-choice-power-llc-choose-12-aep-texas-north-12-0": 12.68,
-          "true-power-true-value-36-aep-texas-north-36-0": 12.68,
-          "budget-power-no-gimmicks-36-aep-texas-north-36-0": 12.84,
-          "texans-choice-power-llc-choose-6-aep-texas-north-6-0": 12.88,
-          "ap-gas-electric-tx-llc-trueclassic-24-aep-texas-north-24-0": 12.88,
-          "southern-federal-power-llc-sofed-free-energy-lunch-12-aep-texas-north-12-0": 13.08,
-          "bkv-energy-daisy-11-aep-texas-north-11-0": 13.08,
-          "bkv-energy-daisy-12-aep-texas-north-12-0": 13.12,
-          "champion-energy-services-llc-champ-saver-24-aep-texas-north-24-0": 13.18,
-          "sfe-energy-texas-inc-sfe-rewardsplus-12-aep-texas-north-12-0": 13.28,
-          "bkv-energy-daisy-green-12-aep-texas-north-12-0": 13.28,
-          "abundance-energy-confident-renter-12-aep-texas-north-12-0": 13.32,
-          "energy-texas-no-bull-24-aep-texas-north-24-0": 13.32,
-          "rhythm-digital-choice-24-aep-texas-north-24-0": 13.32,
-          "spark-energy-llc-choose-6-aep-texas-north-6-0": 13.38,
-          "bkv-energy-daisy-13-aep-texas-north-13-0": 13.44,
-          "spark-energy-llc-choose-12-aep-texas-north-12-0": 13.48,
-          "ap-gas-electric-tx-llc-trueclassic-36-aep-texas-north-36-0": 13.58,
-          "champion-energy-services-llc-champ-saver-12-aep-texas-north-12-0": 13.68,
-          "base-power-base-energy-36-aep-texas-north-36-0": 13.68,
-          "ae-texas-smart-secure-10-aep-texas-north-10-0": 13.88,
-          "bkv-energy-daisy-24-aep-texas-north-24-0": 13.98,
-          "spark-energy-llc-choose-15-aep-texas-north-15-0": 14.08,
-          "rhythm-digital-choice-36-aep-texas-north-36-0": 14.42,
-          "energy-texas-no-bull-36-aep-texas-north-36-0": 14.42,
-          "ae-texas-smart-secure-36-aep-texas-north-36-0": 14.58,
-          "cleansky-energy-embrace-green-12-new-customer-special-aep-texas-north-12-0": 14.78,
-          "cleansky-energy-embrace-green-24-new-customer-special-aep-texas-north-24-0": 14.78,
-          "cleansky-energy-embrace-green-36-new-customer-special-aep-texas-north-36-0": 15.18,
-          "octopus-energy-octo-simple-12-aep-texas-north-12-0": 15.58,
-          "discount-power-saver-12-aep-texas-north-12-0": 15.78,
-          "cirro-energy-smart-simple-12-aep-texas-north-12-0": 15.88,
-          "tara-energy-basics-ptc-24-aep-texas-north-24-0": 15.88,
-          "tara-energy-basics-ptc-36-aep-texas-north-36-0": 15.88,
-          "amigo-energy-basics-ptc-24-aep-texas-north-24-0": 15.88,
-          "amigo-energy-basics-ptc-36-aep-texas-north-36-0": 15.88,
-          "just-energy-basics-ptc-24-aep-texas-north-24-0": 15.88,
-          "just-energy-basics-ptc-60-aep-texas-north-60-0": 15.88,
-          "atlantex-power-luminous-10-aep-texas-north-10-0": 15.88,
-          "octopus-energy-octo-simple-18-aep-texas-north-18-0": 16.04,
-          "octopus-energy-llc-octo-simple-24-aep-texas-north-24-0": 16.14,
-          "discount-power-saver-24-aep-texas-north-24-0": 16.28,
-          "discount-power-saver-36-aep-texas-north-36-0": 16.28,
-          "octopus-energy-llc-octo-simple-14-aep-texas-north-14-0": 16.32,
-          "cirro-energy-smart-simple-24-aep-texas-north-24-0": 16.38,
-          "cirro-energy-smart-simple-36-aep-texas-north-36-0": 16.48,
-          "atlantex-power-luminous-36-aep-texas-north-36-0": 16.58
+          "gexa energy|gexa eco choice 10": {
+            "c": 10.68,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 10"
+          },
+          "companion energy|companion + perks 10": {
+            "c": 10.68,
+            "n": "Companion Energy \u2014 Companion + Perks 10"
+          },
+          "frontier utilities|frontier power saver 10": {
+            "c": 10.68,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 10"
+          },
+          "energy texas|no bull 5": {
+            "c": 10.72,
+            "n": "Energy Texas \u2014 No Bull 5"
+          },
+          "rhythm|digital choice 5": {
+            "c": 10.72,
+            "n": "RHYTHM \u2014 Digital Choice 5"
+          },
+          "ap gas & electric (tx) llc|trueclassic 11": {
+            "c": 10.88,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 11"
+          },
+          "constellation newenergy inc|simple switch 5": {
+            "c": 11.08,
+            "n": "CONSTELLATION NEWENERGY INC \u2014 Simple Switch 5"
+          },
+          "true power|true value 10": {
+            "c": 11.08,
+            "n": "TRUE POWER \u2014 True Value 10"
+          },
+          "true power|true value 12": {
+            "c": 11.08,
+            "n": "TRUE POWER \u2014 True Value 12"
+          },
+          "true power|true value 11": {
+            "c": 11.18,
+            "n": "TRUE POWER \u2014 True Value 11"
+          },
+          "rhythm|digital choice 12": {
+            "c": 11.22,
+            "n": "RHYTHM \u2014 Digital Choice 12"
+          },
+          "energy texas|no bull 12": {
+            "c": 11.22,
+            "n": "Energy Texas \u2014 No Bull 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 12": {
+            "c": 11.28,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 12"
+          },
+          "budget power|no gimmicks 11": {
+            "c": 11.32,
+            "n": "Budget Power \u2014 No Gimmicks 11"
+          },
+          "express energy|speedy 12": {
+            "c": 11.38,
+            "n": "Express Energy \u2014 Speedy 12"
+          },
+          "veteran energy|basic 12": {
+            "c": 11.38,
+            "n": "Veteran Energy \u2014 Basic 12"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 5": {
+            "c": 11.48,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 5"
+          },
+          "budget power|no gimmicks 12": {
+            "c": 11.54,
+            "n": "Budget Power \u2014 No Gimmicks 12"
+          },
+          "budget power|no gimmicks green 12": {
+            "c": 11.64,
+            "n": "Budget Power \u2014 No Gimmicks Green 12"
+          },
+          "heritage power llc|bright start 5 \u2013 $50 first bill credit!!": {
+            "c": 11.88,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 5 \u2013 $50 First Bill Credit!!"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 10": {
+            "c": 11.98,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 10"
+          },
+          "true power|true value 24": {
+            "c": 11.98,
+            "n": "TRUE POWER \u2014 True Value 24"
+          },
+          "gexa energy|gexa eco choice 12": {
+            "c": 12.08,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 12"
+          },
+          "frontier utilities|frontier power saver 12": {
+            "c": 12.08,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 12"
+          },
+          "companion energy|companion + perks 12": {
+            "c": 12.08,
+            "n": "Companion Energy \u2014 Companion + Perks 12"
+          },
+          "budget power|no gimmicks 24": {
+            "c": 12.14,
+            "n": "Budget Power \u2014 No Gimmicks 24"
+          },
+          "bkv energy|daisy 9": {
+            "c": 12.14,
+            "n": "BKV Energy \u2014 Daisy 9"
+          },
+          "abundance energy|confident renter 12": {
+            "c": 12.14,
+            "n": "Abundance Energy \u2014 Confident Renter 12"
+          },
+          "texans choice power llc|choose 6": {
+            "c": 12.18,
+            "n": "Texans Choice Power LLC \u2014 Choose 6"
+          },
+          "ap gas & electric (tx) llc|trueclassic 24": {
+            "c": 12.18,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 24"
+          },
+          "bkv energy|daisy 11": {
+            "c": 12.28,
+            "n": "BKV Energy \u2014 Daisy 11"
+          },
+          "true power|true value 36": {
+            "c": 12.28,
+            "n": "TRUE POWER \u2014 True Value 36"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 12": {
+            "c": 12.38,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 12"
+          },
+          "budget power|no gimmicks 36": {
+            "c": 12.44,
+            "n": "Budget Power \u2014 No Gimmicks 36"
+          },
+          "spark energy llc|choose 6": {
+            "c": 12.48,
+            "n": "SPARK ENERGY LLC \u2014 Choose 6"
+          },
+          "bkv energy|daisy 12": {
+            "c": 12.58,
+            "n": "BKV Energy \u2014 Daisy 12"
+          },
+          "southern federal power llc|sofed digital saver plus - 12": {
+            "c": 12.74,
+            "n": "SOUTHERN FEDERAL POWER LLC \u2014 SoFed Digital Saver Plus - 12"
+          },
+          "ae texas|smart secure 10": {
+            "c": 12.78,
+            "n": "AE TEXAS \u2014 Smart Secure 10"
+          },
+          "bkv energy|daisy green 12": {
+            "c": 12.78,
+            "n": "BKV Energy \u2014 Daisy Green 12"
+          },
+          "heritage power llc|bright start 12 \u2013 $180 bill credit reward": {
+            "c": 12.88,
+            "n": "HERITAGE POWER LLC \u2014 Bright Start 12 \u2013 $180 Bill Credit Reward"
+          },
+          "texans choice power llc|choose 12": {
+            "c": 12.88,
+            "n": "Texans Choice Power LLC \u2014 Choose 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 36": {
+            "c": 12.88,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 36"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 23": {
+            "c": 12.98,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 23"
+          },
+          "energy texas|no bull 24": {
+            "c": 13.02,
+            "n": "Energy Texas \u2014 No Bull 24"
+          },
+          "rhythm|digital choice 24": {
+            "c": 13.02,
+            "n": "RHYTHM \u2014 Digital Choice 24"
+          },
+          "spark energy llc|choose 12": {
+            "c": 13.08,
+            "n": "SPARK ENERGY LLC \u2014 Choose 12"
+          },
+          "champion energy services llc|champ saver-24": {
+            "c": 13.08,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-24"
+          },
+          "spark energy llc|choose 15": {
+            "c": 13.38,
+            "n": "SPARK ENERGY LLC \u2014 Choose 15"
+          },
+          "bkv energy|daisy 24": {
+            "c": 13.38,
+            "n": "BKV Energy \u2014 Daisy 24"
+          },
+          "cleansky energy|embrace green 12 - new customer special": {
+            "c": 13.42,
+            "n": "CleanSky Energy \u2014 Embrace Green 12 - New Customer Special"
+          },
+          "champion energy services llc|champ saver-12": {
+            "c": 13.58,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-12"
+          },
+          "discount power|saver 10": {
+            "c": 13.68,
+            "n": "Discount Power \u2014 Saver 10"
+          },
+          "discount power|saver 11": {
+            "c": 13.68,
+            "n": "Discount Power \u2014 Saver 11"
+          },
+          "discount power|saver 12": {
+            "c": 13.68,
+            "n": "Discount Power \u2014 Saver 12"
+          },
+          "cleansky energy|embrace green 24 - new customer special": {
+            "c": 13.72,
+            "n": "CleanSky Energy \u2014 Embrace Green 24 - New Customer Special"
+          },
+          "cirro energy|smart simple 10": {
+            "c": 13.78,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 10"
+          },
+          "cirro energy|smart simple 11": {
+            "c": 13.78,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 11"
+          },
+          "cirro energy|smart simple 12": {
+            "c": 13.78,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 12"
+          },
+          "rhythm|digital choice 36": {
+            "c": 13.82,
+            "n": "RHYTHM \u2014 Digital Choice 36"
+          },
+          "energy texas|no bull 36": {
+            "c": 13.82,
+            "n": "Energy Texas \u2014 No Bull 36"
+          },
+          "ae texas|smart secure 36": {
+            "c": 13.98,
+            "n": "AE TEXAS \u2014 Smart Secure 36"
+          },
+          "base power|base energy 36": {
+            "c": 13.98,
+            "n": "Base Power \u2014 Base Energy 36"
+          },
+          "cleansky energy|embrace green 36 - new customer special": {
+            "c": 14.12,
+            "n": "CleanSky Energy \u2014 Embrace Green 36 - New Customer Special"
+          },
+          "octopus energy|octo simple 5": {
+            "c": 14.18,
+            "n": "Octopus Energy \u2014 Octo Simple 5"
+          },
+          "discount power|saver 24": {
+            "c": 14.28,
+            "n": "Discount Power \u2014 Saver 24"
+          },
+          "octopus energy|octo simple 12": {
+            "c": 14.38,
+            "n": "Octopus Energy \u2014 Octo Simple 12"
+          },
+          "cirro energy|smart simple 24": {
+            "c": 14.38,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 24"
+          },
+          "octopus energy|octo green 10": {
+            "c": 14.64,
+            "n": "Octopus Energy \u2014 Octo Green 10"
+          },
+          "discount power|saver 18": {
+            "c": 14.78,
+            "n": "Discount Power \u2014 Saver 18"
+          },
+          "atlantex power|luminous 10": {
+            "c": 14.78,
+            "n": "Atlantex Power \u2014 Luminous 10"
+          },
+          "cirro energy|smart simple 18": {
+            "c": 14.88,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 18"
+          },
+          "octopus energy llc|octo simple 24": {
+            "c": 15.38,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 24"
+          },
+          "tara energy|basics ptc - 24": {
+            "c": 15.52,
+            "n": "TARA ENERGY \u2014 Basics PTC - 24"
+          },
+          "tara energy|basics ptc - 36": {
+            "c": 15.52,
+            "n": "TARA ENERGY \u2014 Basics PTC - 36"
+          },
+          "amigo energy|basics ptc - 24": {
+            "c": 15.52,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 24"
+          },
+          "amigo energy|basics ptc - 36": {
+            "c": 15.52,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 36"
+          },
+          "just energy|basics ptc - 24": {
+            "c": 15.52,
+            "n": "JUST ENERGY \u2014 Basics PTC - 24"
+          },
+          "just energy|basics ptc - 60": {
+            "c": 15.52,
+            "n": "JUST ENERGY \u2014 Basics PTC - 60"
+          },
+          "atlantex power|luminous 36": {
+            "c": 15.98,
+            "n": "Atlantex Power \u2014 Luminous 36"
+          }
         }
       },
       "tnmp": {
-        "avg": 14.64,
-        "median": 14.35,
-        "cheapest": 12.6,
-        "honest": 66,
+        "avg": 13.85,
+        "median": 13.62,
+        "cheapest": 11.82,
+        "honest": 80,
         "plans": {
-          "budget-power-no-gimmicks-11-texas-new-mexico-power-11-0": 12.6,
-          "true-power-true-value-12-texas-new-mexico-power-12-0": 12.6,
-          "rhythm-digital-choice-12-texas-new-mexico-power-12-0": 12.72,
-          "energy-texas-no-bull-12-texas-new-mexico-power-12-0": 12.72,
-          "budget-power-no-gimmicks-12-texas-new-mexico-power-12-0": 12.8,
-          "veteran-energy-basic-12-texas-new-mexico-power-12-0": 12.8,
-          "express-energy-speedy-12-texas-new-mexico-power-12-0": 12.8,
-          "budget-power-no-gimmicks-green-12-texas-new-mexico-power-12-0": 12.9,
-          "gexa-energy-gexa-eco-choice-12-texas-new-mexico-power-12-0": 13.0,
-          "companion-energy-companion-perks-12-texas-new-mexico-power-12-0": 13.0,
-          "frontier-utilities-frontier-power-saver-12-texas-new-mexico-power-12-0": 13.0,
-          "ae-texas-smart-secure-10-texas-new-mexico-power-10-0": 13.1,
-          "ap-gas-electric-tx-llc-trueclassic-11-texas-new-mexico-power-11-0": 13.4,
-          "ap-gas-electric-tx-llc-trueclassic-12-texas-new-mexico-power-12-0": 13.5,
-          "true-power-true-value-24-texas-new-mexico-power-24-0": 13.5,
-          "budget-power-no-gimmicks-24-texas-new-mexico-power-24-0": 13.6,
-          "abundance-energy-confident-renter-12-texas-new-mexico-power-12-0": 13.6,
-          "true-power-true-value-36-texas-new-mexico-power-36-0": 13.6,
-          "budget-power-no-gimmicks-36-texas-new-mexico-power-36-0": 13.7,
-          "constellation-newenergy-inc-simple-switch-6-texas-new-mexico-power-6-0": 13.8,
-          "ae-texas-smart-secure-36-texas-new-mexico-power-36-0": 13.8,
-          "texans-choice-power-llc-choose-12-texas-new-mexico-power-12-0": 13.9,
-          "rhythm-digital-choice-24-texas-new-mexico-power-24-0": 13.92,
-          "energy-texas-no-bull-24-texas-new-mexico-power-24-0": 13.92,
-          "ap-gas-electric-tx-llc-trueclassic-24-texas-new-mexico-power-24-0": 14.02,
-          "bkv-energy-daisy-12-texas-new-mexico-power-12-0": 14.04,
-          "champion-energy-services-llc-champ-saver-12-texas-new-mexico-power-12-0": 14.08,
-          "bkv-energy-daisy-11-texas-new-mexico-power-11-0": 14.1,
-          "texans-choice-power-llc-choose-6-texas-new-mexico-power-6-0": 14.2,
-          "bkv-energy-daisy-green-12-texas-new-mexico-power-12-0": 14.2,
-          "southern-federal-power-llc-sofed-free-energy-lunch-12-texas-new-mexico-power-12-0": 14.3,
-          "sfe-energy-texas-inc-sfe-rewardsplus-12-texas-new-mexico-power-12-0": 14.3,
-          "bkv-energy-daisy-13-texas-new-mexico-power-13-0": 14.3,
-          "ap-gas-electric-tx-llc-trueclassic-36-texas-new-mexico-power-36-0": 14.4,
-          "energy-texas-no-bull-36-texas-new-mexico-power-36-0": 14.42,
-          "rhythm-digital-choice-36-texas-new-mexico-power-36-0": 14.42,
-          "bkv-energy-daisy-24-texas-new-mexico-power-24-0": 14.5,
-          "spark-energy-llc-choose-6-texas-new-mexico-power-6-0": 14.6,
-          "champion-energy-services-llc-champ-saver-24-texas-new-mexico-power-24-0": 14.68,
-          "spark-energy-llc-choose-12-texas-new-mexico-power-12-0": 14.7,
-          "cleansky-energy-embrace-green-12-new-customer-special-texas-new-mexico-power-12-0": 14.78,
-          "cleansky-energy-embrace-green-24-new-customer-special-texas-new-mexico-power-24-0": 14.88,
-          "base-power-base-energy-36-texas-new-mexico-power-36-0": 14.98,
-          "atlantex-power-luminous-10-texas-new-mexico-power-10-0": 15.1,
-          "cleansky-energy-embrace-green-36-new-customer-special-texas-new-mexico-power-36-0": 15.28,
-          "spark-energy-llc-choose-15-texas-new-mexico-power-15-0": 15.3,
-          "discount-power-saver-12-texas-new-mexico-power-12-0": 15.4,
-          "cirro-energy-smart-simple-12-texas-new-mexico-power-12-0": 15.5,
-          "discount-power-saver-24-texas-new-mexico-power-24-0": 15.8,
-          "discount-power-saver-36-texas-new-mexico-power-36-0": 15.8,
-          "atlantex-power-luminous-36-texas-new-mexico-power-36-0": 15.8,
-          "cirro-energy-smart-simple-24-texas-new-mexico-power-24-0": 15.9,
-          "cirro-energy-smart-simple-36-texas-new-mexico-power-36-0": 15.9,
-          "trieagle-energy-lp-simple-savings-12-texas-new-mexico-power-12-0": 16.18,
-          "tara-energy-basics-ptc-24-texas-new-mexico-power-24-0": 16.48,
-          "tara-energy-basics-ptc-36-texas-new-mexico-power-36-0": 16.48,
-          "amigo-energy-basics-ptc-24-texas-new-mexico-power-24-0": 16.48,
-          "amigo-energy-basics-ptc-36-texas-new-mexico-power-36-0": 16.48,
-          "just-energy-basics-ptc-24-texas-new-mexico-power-24-0": 16.48,
-          "just-energy-basics-ptc-60-texas-new-mexico-power-60-0": 16.48,
-          "trieagle-energy-lp-simple-savings-36-texas-new-mexico-power-36-0": 16.78,
-          "octopus-energy-octo-simple-12-texas-new-mexico-power-12-0": 16.88,
-          "trieagle-energy-lp-simple-green-12-texas-new-mexico-power-12-0": 17.18,
-          "octopus-energy-octo-simple-18-texas-new-mexico-power-18-0": 17.3,
-          "octopus-energy-llc-octo-simple-24-texas-new-mexico-power-24-0": 17.4,
-          "octopus-energy-llc-octo-simple-14-texas-new-mexico-power-14-0": 17.5
+          "rhythm|digital choice 5": {
+            "c": 11.82,
+            "n": "RHYTHM \u2014 Digital Choice 5"
+          },
+          "energy texas|no bull 5": {
+            "c": 11.82,
+            "n": "Energy Texas \u2014 No Bull 5"
+          },
+          "true power|true value 11": {
+            "c": 11.9,
+            "n": "TRUE POWER \u2014 True Value 11"
+          },
+          "budget power|no gimmicks 11": {
+            "c": 12.0,
+            "n": "Budget Power \u2014 No Gimmicks 11"
+          },
+          "true power|true value 12": {
+            "c": 12.0,
+            "n": "TRUE POWER \u2014 True Value 12"
+          },
+          "budget power|no gimmicks 12": {
+            "c": 12.1,
+            "n": "Budget Power \u2014 No Gimmicks 12"
+          },
+          "true power|true value 10": {
+            "c": 12.1,
+            "n": "TRUE POWER \u2014 True Value 10"
+          },
+          "energy texas|no bull 12": {
+            "c": 12.12,
+            "n": "Energy Texas \u2014 No Bull 12"
+          },
+          "rhythm|digital choice 12": {
+            "c": 12.12,
+            "n": "RHYTHM \u2014 Digital Choice 12"
+          },
+          "budget power|no gimmicks green 12": {
+            "c": 12.2,
+            "n": "Budget Power \u2014 No Gimmicks Green 12"
+          },
+          "gexa energy|gexa eco choice 10": {
+            "c": 12.2,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 10"
+          },
+          "frontier utilities|frontier power saver 10": {
+            "c": 12.2,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 10"
+          },
+          "companion energy|companion + perks 10": {
+            "c": 12.2,
+            "n": "Companion Energy \u2014 Companion + Perks 10"
+          },
+          "ae texas|smart secure 10": {
+            "c": 12.2,
+            "n": "AE TEXAS \u2014 Smart Secure 10"
+          },
+          "constellation newenergy inc|simple switch 5": {
+            "c": 12.5,
+            "n": "CONSTELLATION NEWENERGY INC \u2014 Simple Switch 5"
+          },
+          "ap gas & electric (tx) llc|trueclassic 11": {
+            "c": 12.5,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 11"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 5": {
+            "c": 12.5,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 5"
+          },
+          "veteran energy|basic 12": {
+            "c": 12.5,
+            "n": "Veteran Energy \u2014 Basic 12"
+          },
+          "express energy|speedy 12": {
+            "c": 12.5,
+            "n": "Express Energy \u2014 Speedy 12"
+          },
+          "abundance energy|confident renter 12": {
+            "c": 12.6,
+            "n": "Abundance Energy \u2014 Confident Renter 12"
+          },
+          "true power|true value 24": {
+            "c": 12.8,
+            "n": "TRUE POWER \u2014 True Value 24"
+          },
+          "gexa energy|gexa eco choice 12": {
+            "c": 12.9,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 12"
+          },
+          "companion energy|companion + perks 12": {
+            "c": 12.9,
+            "n": "Companion Energy \u2014 Companion + Perks 12"
+          },
+          "frontier utilities|frontier power saver 12": {
+            "c": 12.9,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 12": {
+            "c": 12.9,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 12"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 10": {
+            "c": 12.9,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 10"
+          },
+          "budget power|no gimmicks 24": {
+            "c": 12.9,
+            "n": "Budget Power \u2014 No Gimmicks 24"
+          },
+          "bkv energy|daisy 5": {
+            "c": 13.0,
+            "n": "BKV Energy \u2014 Daisy 5"
+          },
+          "true power|true value 36": {
+            "c": 13.0,
+            "n": "TRUE POWER \u2014 True Value 36"
+          },
+          "budget power|no gimmicks 36": {
+            "c": 13.1,
+            "n": "Budget Power \u2014 No Gimmicks 36"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 12": {
+            "c": 13.2,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 12"
+          },
+          "bkv energy|daisy 11": {
+            "c": 13.2,
+            "n": "BKV Energy \u2014 Daisy 11"
+          },
+          "ae texas|smart secure 36": {
+            "c": 13.3,
+            "n": "AE TEXAS \u2014 Smart Secure 36"
+          },
+          "texans choice power llc|choose 6": {
+            "c": 13.4,
+            "n": "Texans Choice Power LLC \u2014 Choose 6"
+          },
+          "bkv energy|daisy 12": {
+            "c": 13.4,
+            "n": "BKV Energy \u2014 Daisy 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 24": {
+            "c": 13.4,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 24"
+          },
+          "southern federal power llc|sofed digital saver plus - 12": {
+            "c": 13.54,
+            "n": "SOUTHERN FEDERAL POWER LLC \u2014 SoFed Digital Saver Plus - 12"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 23": {
+            "c": 13.6,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 23"
+          },
+          "bkv energy|daisy green 12": {
+            "c": 13.6,
+            "n": "BKV Energy \u2014 Daisy Green 12"
+          },
+          "rhythm|digital choice 24": {
+            "c": 13.62,
+            "n": "RHYTHM \u2014 Digital Choice 24"
+          },
+          "energy texas|no bull 24": {
+            "c": 13.62,
+            "n": "Energy Texas \u2014 No Bull 24"
+          },
+          "spark energy llc|choose 6": {
+            "c": 13.7,
+            "n": "SPARK ENERGY LLC \u2014 Choose 6"
+          },
+          "bkv energy|daisy 24": {
+            "c": 13.8,
+            "n": "BKV Energy \u2014 Daisy 24"
+          },
+          "discount power|saver 10": {
+            "c": 13.9,
+            "n": "Discount Power \u2014 Saver 10"
+          },
+          "discount power|saver 11": {
+            "c": 13.9,
+            "n": "Discount Power \u2014 Saver 11"
+          },
+          "ap gas & electric (tx) llc|trueclassic 36": {
+            "c": 13.9,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 36"
+          },
+          "cirro energy|smart simple 10": {
+            "c": 14.0,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 10"
+          },
+          "cirro energy|smart simple 11": {
+            "c": 14.0,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 11"
+          },
+          "discount power|saver 12": {
+            "c": 14.0,
+            "n": "Discount Power \u2014 Saver 12"
+          },
+          "energy texas|no bull 36": {
+            "c": 14.02,
+            "n": "Energy Texas \u2014 No Bull 36"
+          },
+          "rhythm|digital choice 36": {
+            "c": 14.02,
+            "n": "RHYTHM \u2014 Digital Choice 36"
+          },
+          "champion energy services llc|champ saver-12": {
+            "c": 14.08,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-12"
+          },
+          "texans choice power llc|choose 12": {
+            "c": 14.1,
+            "n": "Texans Choice Power LLC \u2014 Choose 12"
+          },
+          "cirro energy|smart simple 12": {
+            "c": 14.1,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 12"
+          },
+          "atlantex power|luminous 10": {
+            "c": 14.2,
+            "n": "Atlantex Power \u2014 Luminous 10"
+          },
+          "cleansky energy|embrace green 12 - new customer special": {
+            "c": 14.21,
+            "n": "CleanSky Energy \u2014 Embrace Green 12 - New Customer Special"
+          },
+          "spark energy llc|choose 12": {
+            "c": 14.3,
+            "n": "SPARK ENERGY LLC \u2014 Choose 12"
+          },
+          "cleansky energy|embrace green 24 - new customer special": {
+            "c": 14.48,
+            "n": "CleanSky Energy \u2014 Embrace Green 24 - New Customer Special"
+          },
+          "discount power|saver 24": {
+            "c": 14.5,
+            "n": "Discount Power \u2014 Saver 24"
+          },
+          "spark energy llc|choose 15": {
+            "c": 14.6,
+            "n": "SPARK ENERGY LLC \u2014 Choose 15"
+          },
+          "cirro energy|smart simple 24": {
+            "c": 14.6,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 24"
+          },
+          "champion energy services llc|champ saver-24": {
+            "c": 14.68,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-24"
+          },
+          "cleansky energy|embrace green 36 - new customer special": {
+            "c": 14.88,
+            "n": "CleanSky Energy \u2014 Embrace Green 36 - New Customer Special"
+          },
+          "discount power|saver 18": {
+            "c": 14.9,
+            "n": "Discount Power \u2014 Saver 18"
+          },
+          "cirro energy|smart simple 18": {
+            "c": 15.0,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 18"
+          },
+          "base power|base energy 36": {
+            "c": 15.28,
+            "n": "Base Power \u2014 Base Energy 36"
+          },
+          "atlantex power|luminous 36": {
+            "c": 15.3,
+            "n": "Atlantex Power \u2014 Luminous 36"
+          },
+          "octopus energy|octo simple 5": {
+            "c": 15.58,
+            "n": "Octopus Energy \u2014 Octo Simple 5"
+          },
+          "octopus energy|octo simple 12": {
+            "c": 15.8,
+            "n": "Octopus Energy \u2014 Octo Simple 12"
+          },
+          "trieagle energy lp|simple savings 12": {
+            "c": 16.18,
+            "n": "TRIEAGLE ENERGY LP \u2014 Simple Savings 12"
+          },
+          "tara energy|basics ptc - 24": {
+            "c": 16.48,
+            "n": "TARA ENERGY \u2014 Basics PTC - 24"
+          },
+          "tara energy|basics ptc - 36": {
+            "c": 16.48,
+            "n": "TARA ENERGY \u2014 Basics PTC - 36"
+          },
+          "amigo energy|basics ptc - 24": {
+            "c": 16.48,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 24"
+          },
+          "amigo energy|basics ptc - 36": {
+            "c": 16.48,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 36"
+          },
+          "just energy|basics ptc - 24": {
+            "c": 16.48,
+            "n": "JUST ENERGY \u2014 Basics PTC - 24"
+          },
+          "just energy|basics ptc - 60": {
+            "c": 16.48,
+            "n": "JUST ENERGY \u2014 Basics PTC - 60"
+          },
+          "octopus energy llc|octo simple 24": {
+            "c": 16.78,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 24"
+          },
+          "trieagle energy lp|simple savings 36": {
+            "c": 16.78,
+            "n": "TRIEAGLE ENERGY LP \u2014 Simple Savings 36"
+          },
+          "octopus energy|octo green 10": {
+            "c": 16.8,
+            "n": "Octopus Energy \u2014 Octo Green 10"
+          },
+          "trieagle energy lp|simple green 12": {
+            "c": 17.18,
+            "n": "TRIEAGLE ENERGY LP \u2014 Simple Green 12"
+          }
         }
       },
       "lubbock": {
-        "avg": 15.19,
-        "median": 15.15,
-        "cheapest": 12.4,
-        "honest": 56,
+        "avg": 14.14,
+        "median": 13.9,
+        "cheapest": 11.1,
+        "honest": 68,
         "plans": {
-          "ap-gas-electric-tx-llc-trueclassic-11-lubbock-power-light-11-0": 12.4,
-          "true-power-true-value-12-lubbock-power-light-12-0": 12.4,
-          "ap-gas-electric-tx-llc-trueclassic-12-lubbock-power-light-12-0": 12.5,
-          "gexa-energy-gexa-eco-choice-12-lubbock-power-light-12-0": 12.7,
-          "frontier-utilities-frontier-power-saver-12-lubbock-power-light-12-0": 12.7,
-          "companion-energy-companion-perks-12-lubbock-power-light-12-0": 12.7,
-          "champion-energy-services-llc-champ-saver-12-lubbock-power-light-12-0": 13.0,
-          "texans-choice-power-llc-choose-6-lubbock-power-light-6-0": 13.1,
-          "southern-federal-power-llc-sofed-free-energy-lunch-12-lubbock-power-light-12-0": 13.2,
-          "texans-choice-power-llc-choose-12-lubbock-power-light-12-0": 13.2,
-          "true-power-true-value-24-lubbock-power-light-24-0": 13.2,
-          "ap-gas-electric-tx-llc-trueclassic-24-lubbock-power-light-24-0": 13.3,
-          "sfe-energy-texas-inc-sfe-rewardsplus-12-lubbock-power-light-12-0": 13.4,
-          "abundance-energy-confident-renter-12-lubbock-power-light-12-0": 13.4,
-          "bkv-energy-daisy-11-lubbock-power-light-11-0": 13.5,
-          "bkv-energy-daisy-12-lubbock-power-light-12-0": 13.5,
-          "champion-energy-services-llc-champ-saver-24-lubbock-power-light-24-0": 13.5,
-          "spark-energy-llc-choose-6-lubbock-power-light-6-0": 13.7,
-          "bkv-energy-daisy-green-12-lubbock-power-light-12-0": 13.7,
-          "spark-energy-llc-choose-12-lubbock-power-light-12-0": 13.8,
-          "bkv-energy-daisy-13-lubbock-power-light-13-0": 13.9,
-          "true-power-true-value-36-lubbock-power-light-36-0": 13.9,
-          "ap-gas-electric-tx-llc-trueclassic-36-lubbock-power-light-36-0": 14.0,
-          "ae-texas-smart-secure-10-lubbock-power-light-10-0": 14.2,
-          "spark-energy-llc-choose-15-lubbock-power-light-15-0": 14.4,
-          "bkv-energy-daisy-24-lubbock-power-light-24-0": 14.5,
-          "ae-texas-smart-secure-36-lubbock-power-light-36-0": 14.9,
-          "cleansky-energy-embrace-green-12-new-customer-special-lubbock-power-light-12-0": 15.1,
-          "cleansky-energy-embrace-green-24-new-customer-special-lubbock-power-light-24-0": 15.2,
-          "octopus-energy-octo-simple-12-lubbock-power-light-12-0": 15.9,
-          "atlantex-power-luminous-10-lubbock-power-light-10-0": 16.2,
-          "octopus-energy-octo-simple-18-lubbock-power-light-18-0": 16.4,
-          "cirro-energy-smart-simple-12-lubbock-power-light-12-0": 16.5,
-          "discount-power-saver-12-lubbock-power-light-12-0": 16.5,
-          "tara-energy-basics-ptc-24-lubbock-power-light-24-0": 16.5,
-          "tara-energy-basics-ptc-36-lubbock-power-light-36-0": 16.5,
-          "amigo-energy-basics-ptc-24-lubbock-power-light-24-0": 16.5,
-          "amigo-energy-basics-ptc-36-lubbock-power-light-36-0": 16.5,
-          "just-energy-basics-ptc-24-lubbock-power-light-24-0": 16.5,
-          "just-energy-basics-ptc-60-lubbock-power-light-60-0": 16.5,
-          "octopus-energy-llc-octo-simple-24-lubbock-power-light-24-0": 16.5,
-          "discount-power-saver-36-lubbock-power-light-36-0": 16.5,
-          "octopus-energy-llc-octo-simple-14-lubbock-power-light-14-0": 16.6,
-          "reliant-reliant-power-on-18-lubbock-power-light-18-0": 16.9,
-          "atlantex-power-luminous-36-lubbock-power-light-36-0": 16.9,
-          "discount-power-saver-24-lubbock-power-light-24-0": 17.0,
-          "cirro-energy-smart-simple-24-lubbock-power-light-24-0": 17.0,
-          "reliant-reliant-power-on-12-plan-lubbock-power-light-12-0": 17.2,
-          "reliant-reliant-power-on-24-plan-lubbock-power-light-24-0": 17.4,
-          "direct-energy-autopay-texas-12-lubbock-power-light-12-0": 17.5,
-          "cirro-energy-smart-simple-36-lubbock-power-light-36-0": 17.5,
-          "green-mountain-energy-company-pollution-free-e-plus-12-choice-lubbock-power-light-12-0": 17.9,
-          "green-mountain-energy-company-pollution-free-e-plus-18-choice-lubbock-power-light-18-0": 17.9,
-          "direct-energy-autopay-texas-24-lubbock-power-light-24-0": 17.9,
-          "reliant-reliant-power-on-36-plan-lubbock-power-light-36-0": 17.9,
-          "direct-energy-autopay-texas-36-lubbock-power-light-36-0": 18.5
+          "true power|true value 11": {
+            "c": 11.1,
+            "n": "TRUE POWER \u2014 True Value 11"
+          },
+          "ap gas & electric (tx) llc|trueclassic 11": {
+            "c": 11.3,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 11"
+          },
+          "true power|true value 12": {
+            "c": 11.4,
+            "n": "TRUE POWER \u2014 True Value 12"
+          },
+          "ap gas & electric (tx) llc|trueclassic 12": {
+            "c": 11.7,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 12"
+          },
+          "gexa energy|gexa eco choice 10": {
+            "c": 11.9,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 10"
+          },
+          "companion energy|companion + perks 10": {
+            "c": 11.9,
+            "n": "Companion Energy \u2014 Companion + Perks 10"
+          },
+          "frontier utilities|frontier power saver 10": {
+            "c": 11.9,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 10"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 5": {
+            "c": 12.0,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 5"
+          },
+          "true power|true value 10": {
+            "c": 12.0,
+            "n": "TRUE POWER \u2014 True Value 10"
+          },
+          "abundance energy|confident renter 12": {
+            "c": 12.3,
+            "n": "Abundance Energy \u2014 Confident Renter 12"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 10": {
+            "c": 12.4,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 10"
+          },
+          "true power|true value 24": {
+            "c": 12.4,
+            "n": "TRUE POWER \u2014 True Value 24"
+          },
+          "texans choice power llc|choose 6": {
+            "c": 12.5,
+            "n": "Texans Choice Power LLC \u2014 Choose 6"
+          },
+          "bkv energy|daisy 9": {
+            "c": 12.5,
+            "n": "BKV Energy \u2014 Daisy 9"
+          },
+          "ap gas & electric (tx) llc|trueclassic 24": {
+            "c": 12.5,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 24"
+          },
+          "southern federal power llc|sofed digital saver plus - 12": {
+            "c": 12.6,
+            "n": "SOUTHERN FEDERAL POWER LLC \u2014 SoFed Digital Saver Plus - 12"
+          },
+          "gexa energy|gexa eco choice 12": {
+            "c": 12.6,
+            "n": "GEXA ENERGY \u2014 Gexa Eco Choice 12"
+          },
+          "frontier utilities|frontier power saver 12": {
+            "c": 12.6,
+            "n": "FRONTIER UTILITIES \u2014 Frontier Power Saver 12"
+          },
+          "companion energy|companion + perks 12": {
+            "c": 12.6,
+            "n": "Companion Energy \u2014 Companion + Perks 12"
+          },
+          "champion energy services llc|champ saver-12": {
+            "c": 12.7,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-12"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 12": {
+            "c": 12.7,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 12"
+          },
+          "bkv energy|daisy 11": {
+            "c": 12.7,
+            "n": "BKV Energy \u2014 Daisy 11"
+          },
+          "spark energy llc|choose 6": {
+            "c": 12.8,
+            "n": "SPARK ENERGY LLC \u2014 Choose 6"
+          },
+          "bkv energy|daisy 12": {
+            "c": 13.0,
+            "n": "BKV Energy \u2014 Daisy 12"
+          },
+          "sfe energy texas inc|sfe rewardsplus - 23": {
+            "c": 13.1,
+            "n": "SFE ENERGY TEXAS INC \u2014 SFE RewardsPlus - 23"
+          },
+          "true power|true value 36": {
+            "c": 13.1,
+            "n": "TRUE POWER \u2014 True Value 36"
+          },
+          "texans choice power llc|choose 12": {
+            "c": 13.2,
+            "n": "Texans Choice Power LLC \u2014 Choose 12"
+          },
+          "ae texas|smart secure 10": {
+            "c": 13.2,
+            "n": "AE TEXAS \u2014 Smart Secure 10"
+          },
+          "bkv energy|daisy green 12": {
+            "c": 13.2,
+            "n": "BKV Energy \u2014 Daisy Green 12"
+          },
+          "champion energy services llc|champ saver-24": {
+            "c": 13.2,
+            "n": "CHAMPION ENERGY SERVICES LLC \u2014 Champ Saver-24"
+          },
+          "ap gas & electric (tx) llc|trueclassic 36": {
+            "c": 13.3,
+            "n": "AP GAS & ELECTRIC (TX) LLC \u2014 TrueClassic 36"
+          },
+          "spark energy llc|choose 12": {
+            "c": 13.4,
+            "n": "SPARK ENERGY LLC \u2014 Choose 12"
+          },
+          "spark energy llc|choose 15": {
+            "c": 13.7,
+            "n": "SPARK ENERGY LLC \u2014 Choose 15"
+          },
+          "bkv energy|daisy 24": {
+            "c": 13.8,
+            "n": "BKV Energy \u2014 Daisy 24"
+          },
+          "discount power|saver 10": {
+            "c": 14.0,
+            "n": "Discount Power \u2014 Saver 10"
+          },
+          "discount power|saver 11": {
+            "c": 14.0,
+            "n": "Discount Power \u2014 Saver 11"
+          },
+          "cirro energy|smart simple 10": {
+            "c": 14.1,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 10"
+          },
+          "cirro energy|smart simple 11": {
+            "c": 14.1,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 11"
+          },
+          "discount power|saver 12": {
+            "c": 14.1,
+            "n": "Discount Power \u2014 Saver 12"
+          },
+          "cirro energy|smart simple 12": {
+            "c": 14.2,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 12"
+          },
+          "cleansky energy|embrace green 12 - new customer special": {
+            "c": 14.3,
+            "n": "CleanSky Energy \u2014 Embrace Green 12 - New Customer Special"
+          },
+          "ae texas|smart secure 36": {
+            "c": 14.3,
+            "n": "AE TEXAS \u2014 Smart Secure 36"
+          },
+          "octopus energy|octo simple 5": {
+            "c": 14.6,
+            "n": "Octopus Energy \u2014 Octo Simple 5"
+          },
+          "cleansky energy|embrace green 24 - new customer special": {
+            "c": 14.6,
+            "n": "CleanSky Energy \u2014 Embrace Green 24 - New Customer Special"
+          },
+          "discount power|saver 24": {
+            "c": 14.7,
+            "n": "Discount Power \u2014 Saver 24"
+          },
+          "octopus energy|octo simple 12": {
+            "c": 14.8,
+            "n": "Octopus Energy \u2014 Octo Simple 12"
+          },
+          "cirro energy|smart simple 24": {
+            "c": 14.8,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 24"
+          },
+          "octopus energy|octo green 10": {
+            "c": 15.1,
+            "n": "Octopus Energy \u2014 Octo Green 10"
+          },
+          "discount power|saver 18": {
+            "c": 15.2,
+            "n": "Discount Power \u2014 Saver 18"
+          },
+          "atlantex power|luminous 10": {
+            "c": 15.2,
+            "n": "Atlantex Power \u2014 Luminous 10"
+          },
+          "cirro energy|smart simple 18": {
+            "c": 15.3,
+            "n": "CIRRO ENERGY \u2014 Smart Simple 18"
+          },
+          "octopus energy llc|octo simple 24": {
+            "c": 15.8,
+            "n": "Octopus Energy LLC \u2014 Octo Simple 24"
+          },
+          "tara energy|basics ptc - 24": {
+            "c": 15.9,
+            "n": "TARA ENERGY \u2014 Basics PTC - 24"
+          },
+          "tara energy|basics ptc - 36": {
+            "c": 15.9,
+            "n": "TARA ENERGY \u2014 Basics PTC - 36"
+          },
+          "amigo energy|basics ptc - 24": {
+            "c": 15.9,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 24"
+          },
+          "amigo energy|basics ptc - 36": {
+            "c": 15.9,
+            "n": "AMIGO ENERGY \u2014 Basics PTC - 36"
+          },
+          "just energy|basics ptc - 24": {
+            "c": 15.9,
+            "n": "JUST ENERGY \u2014 Basics PTC - 24"
+          },
+          "just energy|basics ptc - 60": {
+            "c": 15.9,
+            "n": "JUST ENERGY \u2014 Basics PTC - 60"
+          },
+          "atlantex power|luminous 36": {
+            "c": 16.3,
+            "n": "Atlantex Power \u2014 Luminous 36"
+          },
+          "reliant|reliant power on 18": {
+            "c": 16.9,
+            "n": "RELIANT \u2014 Reliant Power On 18"
+          },
+          "reliant|reliant power on 12 plan": {
+            "c": 17.2,
+            "n": "RELIANT \u2014 Reliant Power On 12 Plan"
+          },
+          "reliant|reliant power on 24 plan": {
+            "c": 17.4,
+            "n": "RELIANT \u2014 Reliant Power on 24 Plan"
+          },
+          "direct energy|autopay texas 12": {
+            "c": 17.5,
+            "n": "DIRECT ENERGY \u2014 Autopay Texas 12"
+          },
+          "green mountain energy company|pollution free e-plus 12 choice": {
+            "c": 17.9,
+            "n": "GREEN MOUNTAIN ENERGY COMPANY \u2014 Pollution Free e-Plus 12 Choice"
+          },
+          "green mountain energy company|pollution free e-plus 18 choice": {
+            "c": 17.9,
+            "n": "GREEN MOUNTAIN ENERGY COMPANY \u2014 Pollution Free e-Plus 18 Choice"
+          },
+          "direct energy|autopay texas 24": {
+            "c": 17.9,
+            "n": "DIRECT ENERGY \u2014 Autopay Texas 24"
+          },
+          "reliant|reliant power on 36 plan": {
+            "c": 17.9,
+            "n": "RELIANT \u2014 Reliant Power on 36 Plan"
+          },
+          "direct energy|autopay texas 36": {
+            "c": 18.5,
+            "n": "DIRECT ENERGY \u2014 Autopay Texas 36"
+          }
         }
       }
     }
-  },
-  "updated": "2026-08-12T14:47:51Z"
+  }
 }

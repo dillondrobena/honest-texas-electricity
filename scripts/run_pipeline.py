@@ -76,8 +76,11 @@ def main() -> None:
                 fh.write(out)
             c = result.data["counts"]
             if language == "English":
-                # Monthly price archive uses the canonical (English) list.
+                # Monthly price archive uses the canonical (English) list. Per
+                # plan we store its ¢/kWh at 1,000 kWh AND its name, so the
+                # "plans that changed" diff can name plans that later disappear.
                 ranked = result.data["rankings"]["1000"]["plans"]
+                hp = result.data["honest_plans"]
                 cents = sorted(round(r["monthly_bill"] / 1000 * 100, 2) for r in ranked)
                 if cents:
                     history_month[region["slug"]] = {
@@ -85,7 +88,16 @@ def main() -> None:
                         "median": round(statistics.median(cents), 2),
                         "cheapest": cents[0],
                         "honest": len(cents),
-                        "plans": {r["plan_id"]: round(r["monthly_bill"] / 1000 * 100, 2) for r in ranked},
+                        # Keyed by a source-independent name signature (rep|product)
+                        # so month-over-month diffs match plans even when the feed's
+                        # internal id changes between pulls.
+                        "plans": {
+                            f"{hp[r['plan_id']]['rep']}|{hp[r['plan_id']]['product']}".lower().strip(): {
+                                "c": round(r["monthly_bill"] / 1000 * 100, 2),
+                                "n": f"{hp[r['plan_id']]['rep']} — {hp[r['plan_id']]['product']}",
+                            }
+                            for r in ranked
+                        },
                     }
                 manifest.append({
                     "slug": region["slug"], "tdu": region["tdu"],

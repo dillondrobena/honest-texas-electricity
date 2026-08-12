@@ -4,7 +4,11 @@ import historyRaw from "../data/history.json";
 import manifestRaw from "../data/regions.json";
 
 interface RegionMeta { slug: string; label: string; cities: string }
-interface MonthSummary { avg: number; median: number; cheapest: number; honest: number }
+interface PlanPoint { c: number; n: string }
+interface MonthSummary {
+  avg: number; median: number; cheapest: number; honest: number;
+  plans?: Record<string, PlanPoint>;
+}
 
 const history = historyRaw as unknown as {
   updated: string;
@@ -15,7 +19,34 @@ const manifest = manifestRaw as unknown as { regions: RegionMeta[] };
 const base = import.meta.env.BASE_URL;
 const months = Object.keys(history.months).sort();
 const latest = months[months.length - 1];
+const prev = months.length >= 2 ? months[months.length - 2] : null;
 const latestData = history.months[latest];
+
+// "Plans that changed" — diff the two most recent months for a representative
+// region (Oncor, the largest). Plans are keyed by a name signature, so they
+// match across months even though the feed's internal ids change.
+const PRICE_EPS = 0.15; // ¢/kWh: ignore sub-rounding noise
+const CHANGE_REGION = manifest.regions.find((r) => r.slug === "oncor") ?? manifest.regions[0];
+type Move = { name: string; from: number; to: number };
+let newPlans: string[] = [];
+let gonePlans: string[] = [];
+let roseP: Move[] = [];
+let dropP: Move[] = [];
+if (prev) {
+  const before = history.months[prev]?.[CHANGE_REGION.slug]?.plans ?? {};
+  const after = latestData?.[CHANGE_REGION.slug]?.plans ?? {};
+  for (const [k, v] of Object.entries(after)) {
+    if (!(k in before)) newPlans.push(v.n);
+    else {
+      const d = v.c - before[k].c;
+      if (d > PRICE_EPS) roseP.push({ name: v.n, from: before[k].c, to: v.c });
+      else if (d < -PRICE_EPS) dropP.push({ name: v.n, from: before[k].c, to: v.c });
+    }
+  }
+  for (const [k, v] of Object.entries(before)) if (!(k in after)) gonePlans.push(v.n);
+  roseP.sort((a, b) => b.to - b.from - (a.to - a.from));   // biggest hikes first
+  dropP.sort((a, b) => a.to - a.from - (b.to - b.from));   // biggest drops first
+}
 const updated = new Date(history.updated).toLocaleDateString("en-US", {
   year: "numeric", month: "short", day: "numeric",
 });
@@ -111,12 +142,63 @@ const series = manifest.regions.map((r, idx) => ({
     </div>
   </section>
 
-  <section class="honest-alt">
-    <h2>Plans that changed</h2>
-    <p>
-      Once we've recorded two or more months, this is where we'll flag new plans, plans
-      that disappeared, and plans whose price got worse. We started tracking in
-      {" "}{monthLabel(latest)}, so there's nothing to compare yet — check back next month.
-    </p>
+  <section class="changed">
+    <h2>What changed in {CHANGE_REGION.label}</h2>
+    {!prev ? (
+      <p class="curve-note">
+        <strong>Month 1 of tracking ({monthLabel(latest)}).</strong> Once we've recorded a
+        second month, this is where we'll flag plans whose price rose, new plans, and plans
+        that disappeared. We don't invent past data — check back next month.
+      </p>
+    ) : (
+      <>
+        <p class="curve-note">
+          {monthLabel(prev)} → {monthLabel(latest)} for honest plans in {CHANGE_REGION.label}.
+          {" "}<strong>{roseP.length}</strong> went up, <strong>{dropP.length}</strong> came down,
+          {" "}<strong>{newPlans.length}</strong> new, <strong>{gonePlans.length}</strong> gone.
+        </p>
+
+        {roseP.length > 0 && (
+          <div class="change-block">
+            <h3 class="change-h up">Prices that went up</h3>
+            {roseP.slice(0, 6).map((m) => (
+              <div class="change-row">
+                <span class="change-name">{m.name}</span>
+                <span class="change-move mono">{m.from.toFixed(1)}¢ <span class="up">→ {m.to.toFixed(1)}¢</span></span>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {dropP.length > 0 && (
+          <div class="change-block">
+            <h3 class="change-h down">Prices that came down</h3>
+            {dropP.slice(0, 6).map((m) => (
+              <div class="change-row">
+                <span class="change-name">{m.name}</span>
+                <span class="change-move mono">{m.from.toFixed(1)}¢ <span class="down">→ {m.to.toFixed(1)}¢</span></span>
+              </div>
+            ))}
+          </div>
+        )}
+
+        <div class="change-two">
+          {newPlans.length > 0 && (
+            <div class="change-block">
+              <h3 class="change-h">New this month ({newPlans.length})</h3>
+              {newPlans.slice(0, 6).map((n) => <div class="change-row"><span class="change-name">{n}</span></div>)}
+              {newPlans.length > 6 && <p class="curve-note">…and {newPlans.length - 6} more</p>}
+            </div>
+          )}
+          {gonePlans.length > 0 && (
+            <div class="change-block">
+              <h3 class="change-h">No longer offered ({gonePlans.length})</h3>
+              {gonePlans.slice(0, 6).map((n) => <div class="change-row"><span class="change-name gone">{n}</span></div>)}
+              {gonePlans.length > 6 && <p class="curve-note">…and {gonePlans.length - 6} more</p>}
+            </div>
+          )}
+        </div>
+      </>
+    )}
   </section>
 </Layout>
