@@ -13,5 +13,13 @@
   "assets": {
     "binding": "ASSETS",
     "directory": "dist"
-  }
+  },
+  // Lets the contact-form Worker send email via Cloudflare Email Routing.
+  // The recipient (CONTACT_TO) must be a VERIFIED destination address on your
+  // account — i.e. the personal inbox that support@honesttexaselectricity.com
+  // already forwards to. Set CONTACT_TO in the Cloudflare dashboard (Worker →
+  // Settings → Variables), not here (keeps your address out of the repo).
+  "send_email": [
+    { "name": "SEB" }
+  ]
 }

@@ -1,0 +1,78 @@
+---
+import Layout from "../layouts/Layout.astro";
+const base = import.meta.env.BASE_URL;
+const SUPPORT = "support@honesttexaselectricity.com";
+---
+
+<Layout
+  title="Contact & feedback — Honest Texas Electricity"
+  description="Found a bug, a plan we got wrong, or have a suggestion? Tell us. We read every message."
+>
+  <p class="crumb"><a href={base}>← Honest Texas Electricity</a> · Contact</p>
+  <h1 class="autopsy-h1">Contact &amp; feedback</h1>
+  <p class="autopsy-verdict-lead">
+    Found a plan we got wrong, a bug, or a gimmick we missed? Tell us — this whole
+    site exists because of feedback like yours, and we read every message.
+  </p>
+
+  <form id="contact-form" class="contact-form" method="post" action={`${base}api/contact`}>
+    <div class="field">
+      <label for="c-name">Your name <span class="opt">(optional)</span></label>
+      <input id="c-name" name="name" type="text" autocomplete="name" maxlength="120" />
+    </div>
+    <div class="field">
+      <label for="c-email">Your email <span class="opt">(optional, so we can reply)</span></label>
+      <input id="c-email" name="email" type="email" autocomplete="email" maxlength="200" />
+    </div>
+    <div class="field">
+      <label for="c-message">Message</label>
+      <textarea id="c-message" name="message" rows="6" required maxlength="5000"
+        placeholder="What's on your mind? If it's about a specific plan, include the provider and plan name."></textarea>
+    </div>
+    <!-- honeypot: real people leave this empty; bots fill it -->
+    <div class="hp" aria-hidden="true">
+      <label>Company<input name="company" tabindex="-1" autocomplete="off" /></label>
+    </div>
+    <div class="contact-actions">
+      <button type="submit" id="c-submit">Send message</button>
+      <span id="c-status" class="c-status" role="status" aria-live="polite"></span>
+    </div>
+    <p class="contact-fallback">
+      Prefer email? Write us directly at
+      <a href={`mailto:${SUPPORT}`}>{SUPPORT}</a>.
+    </p>
+  </form>
+
+  <script is:inline define:vars={{ support: SUPPORT }}>
+    const form = document.getElementById("contact-form");
+    const status = document.getElementById("c-status");
+    const submit = document.getElementById("c-submit");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      status.className = "c-status";
+      status.textContent = "Sending…";
+      submit.disabled = true;
+      try {
+        const res = await fetch(form.action, { method: "POST", body: new FormData(form) });
+        const data = await res.json().catch(() => ({}));
+        if (res.ok && data.ok) {
+          form.reset();
+          status.className = "c-status ok";
+          status.textContent = "Thanks — your message is on its way.";
+        } else {
+          const body = encodeURIComponent(form.querySelector("#c-message").value || "");
+          status.className = "c-status err";
+          status.innerHTML =
+            'Couldn\'t send it here. Please email <a href="mailto:' + support +
+            '?body=' + body + '">' + support + "</a> instead.";
+        }
+      } catch {
+        status.className = "c-status err";
+        status.innerHTML = 'Network error. Please email <a href="mailto:' + support + '">' + support + "</a>.";
+      } finally {
+        submit.disabled = false;
+      }
+    });
+  </script>
+</Layout>

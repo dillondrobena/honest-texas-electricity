@@ -265,6 +265,36 @@ table.plans tbody tr:first-child { background: color-mix(in srgb, var(--accent) 
 .op-plan a { color: var(--accent); }
 .op-fine { font-family: var(--font-sans); font-size: 12px; color: var(--muted); margin: var(--s-xs) 0 0; }
 
+/* ── Contact form ── */
+.contact-form { margin: var(--s-lg) 0; max-width: 560px; }
+.contact-form .field { margin-bottom: var(--s-md); }
+.contact-form label {
+  display: block; font-family: var(--font-sans); font-size: 13px; font-weight: 600;
+  color: var(--ink); margin-bottom: var(--s-2xs);
+}
+.contact-form label .opt { font-weight: 400; color: var(--muted); }
+.contact-form input, .contact-form textarea {
+  font: inherit; font-size: 16px; width: 100%; padding: 10px 12px; min-height: 44px;
+  border: 1px solid var(--ink); background: var(--surface); color: var(--ink);
+  border-radius: var(--radius-md);
+}
+.contact-form textarea { resize: vertical; line-height: 1.5; }
+.contact-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.contact-actions { display: flex; align-items: center; gap: var(--s-md); flex-wrap: wrap; margin-top: var(--s-xs); }
+.contact-form button {
+  font: inherit; font-family: var(--font-sans); font-size: 15px; font-weight: 600;
+  color: var(--surface); background: var(--accent); border: 1px solid var(--accent);
+  padding: 11px 20px; min-height: 44px; border-radius: var(--radius-md); cursor: pointer;
+}
+.contact-form button:hover { background: color-mix(in srgb, var(--accent) 88%, black); }
+.contact-form button:disabled { opacity: 0.6; cursor: default; }
+.c-status { font-family: var(--font-sans); font-size: 14px; color: var(--muted); }
+.c-status.ok { color: var(--accent); font-weight: 600; }
+.c-status.err { color: var(--strike); }
+.c-status a { color: inherit; }
+.contact-fallback { font-family: var(--font-sans); font-size: 13px; color: var(--muted); margin-top: var(--s-md); }
+.contact-fallback a { color: var(--accent); }
+
 /* ── Trends: "what changed" diff ── */
 .changed { margin-top: var(--s-xl); }
 .changed h2 { font-size: 20px; font-weight: 600; margin: 0 0 var(--s-xs); }
