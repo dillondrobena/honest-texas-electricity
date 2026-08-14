@@ -42,6 +42,54 @@ const shownAutopsies = data.autopsies.slice(0, 12);
       name="description"
       content="A free, no-affiliate tool that finds the honest cheapest Texas electricity plan. No provider pays us. We filter out bill-credit gimmicks and rank by your real cost."
     />
+    <link rel="canonical" href={new URL("/", Astro.site).href} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Honest Texas Electricity" />
+    <meta property="og:title" content="Honest Texas Electricity — the honest cheapest plan" />
+    <meta property="og:description" content="Free and no-affiliate. We filter out bill-credit gimmicks and rank Texas electricity plans by your real cost." />
+    <meta property="og:url" content={new URL("/", Astro.site).href} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Honest Texas Electricity" />
+    <meta name="twitter:description" content="Free, no-affiliate Texas electricity plan finder. We expose the gimmicks and rank by true cost." />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": new URL("/#website", Astro.site).href,
+          "url": new URL("/", Astro.site).href,
+          "name": "Honest Texas Electricity",
+          "description": "Free, no-affiliate tool that finds the honest cheapest Texas electricity plan.",
+        },
+        {
+          "@type": "Organization",
+          "@id": new URL("/#org", Astro.site).href,
+          "name": "Honest Texas Electricity",
+          "url": new URL("/", Astro.site).href,
+          "description": "An independent, no-affiliate electricity shopping tool for Texas consumers.",
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the cheapest electricity plan in Texas?",
+              "acceptedAnswer": { "@type": "Answer", "text": "It depends on your utility area and how much power you use. This free tool ranks every plan on PowerToChoose by its true cost at your usage, after filtering out bill-credit gimmicks, teaser rates, and hidden base charges." },
+            },
+            {
+              "@type": "Question",
+              "name": "Is this electricity comparison site paid by providers?",
+              "acceptedAnswer": { "@type": "Answer", "text": "No. There are no affiliate links and no provider pays us. We recommend the genuinely cheapest honest plan even when it earns us nothing." },
+            },
+            {
+              "@type": "Question",
+              "name": "How do you decide which plans are honest?",
+              "acceptedAnswer": { "@type": "Answer", "text": "We exclude variable-rate, prepaid, time-of-use, and bill-credit plans, plus plans with hidden monthly base charges or fees read from the Electricity Facts Label (EFL). We rank the rest by their real cost at your usage." },
+            },
+          ],
+        },
+      ],
+    })} />
   </head>
   <body>
     <div class="wrap">
@@ -137,6 +185,8 @@ const shownAutopsies = data.autopsies.slice(0, 12);
         <a id="see-all-link" href={`${base}plans/${data.slug}`}>
           See all <span id="honest-count">{data.counts.honest}</span> honest plans, sortable →
         </a>
+        &nbsp;·&nbsp;
+        <a id="area-link" href={`${base}cheapest-electricity/${data.slug}`}>Cheapest in your area →</a>
         &nbsp;·&nbsp;
         <a href={`${base}overpaying`}>Am I overpaying? →</a>
         &nbsp;·&nbsp;
@@ -273,8 +323,10 @@ const shownAutopsies = data.autopsies.slice(0, 12);
       const honestCount = document.getElementById("honest-count")!;
       const metaFor = (slug: string) => regions.find((r) => r.slug === slug);
 
+      const areaLink = document.getElementById("area-link") as HTMLAnchorElement | null;
       function updateSeeAll() {
         seeAll.href = `${base}plans/${currentSlug}`;
+        if (areaLink) areaLink.href = `${base}cheapest-electricity/${currentSlug}`;
         honestCount.textContent = String(data.counts.honest);
       }
 

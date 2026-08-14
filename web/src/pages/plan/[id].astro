@@ -71,9 +71,25 @@ const poly = xy.map((p) => `${p.x},${p.y}`).join(" ");
 
 const money = (n: number | null) => (n == null ? "—" : `$${n.toFixed(0)}`);
 const title = `Is ${autopsy.rep} — ${autopsy.product} a good electricity plan? (No — here's why)`;
+
+// FAQ structured data: the exact question people search ("is X a good deal?")
+// with our answer, so the page is eligible for a rich result.
+const faq = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": `Is ${autopsy.rep} — ${autopsy.product} a good electricity plan?`,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": `No — we left it off our honest list for ${region.label}. ` + autopsy.verdicts.join(" "),
+    },
+  }],
+};
 ---
 
 <Layout title={title} description={autopsy.verdicts.join(" ")} updated={updated}>
+  <script type="application/ld+json" set:html={JSON.stringify(faq)} slot="head" />
   <p class="crumb"><a href={base}>← Honest Texas Electricity</a> · {region.label}</p>
 
   <h1 class="autopsy-h1">{autopsy.rep} — {autopsy.product}</h1>
