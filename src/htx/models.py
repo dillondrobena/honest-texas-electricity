@@ -156,6 +156,16 @@ def _to_bool(v) -> bool:
     return str(v).strip().lower() in {"true", "1", "yes", "y"}
 
 
+def _http_url(v) -> str | None:
+    """Only keep http(s) URLs. The feed's EFL links are rendered as clickable
+    <a href> everywhere, so this rejects any javascript:/data: scheme that a bad
+    or malformed feed entry could otherwise turn into a live link."""
+    s = _clean(v)
+    if s and s.lower().startswith(("http://", "https://")):
+        return s
+    return None
+
+
 def _to_float(v) -> float | None:
     if v is None or v == "":
         return None
@@ -294,8 +304,8 @@ def from_ptc_record(raw: dict) -> Plan:
         cancel_fee_raw=_clean(cancel_raw),
         renewable=_to_float(g("Renewable")),
         rating=_to_float(g("Rating")),
-        efl_url=_clean(g("EFL", "FactsURL")),
-        enroll_url=_clean(g("EnrollURL")),
+        efl_url=_http_url(g("EFL", "FactsURL")),
+        enroll_url=_http_url(g("EnrollURL")),
         enroll_phone=_clean(g("EnrollPhone")),
         new_customer=_to_bool(g("NewCustomer")),
         language=_clean(g("Language")),

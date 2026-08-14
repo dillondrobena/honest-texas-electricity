@@ -70,7 +70,10 @@ export const POST: APIRoute = async ({ request, locals }) => {
     await seb.send(new EmailMessage(from, to, raw));
     return json({ ok: true });
   } catch (err) {
-    return json({ ok: false, error: "send_failed", detail: String(err).slice(0, 200) }, 502);
+    // Log server-side (visible in Worker logs); never return the raw error to the
+    // client — it can contain the CONTACT_TO address.
+    console.error("contact send_failed:", err);
+    return json({ ok: false, error: "send_failed" }, 502);
   }
 };
 
