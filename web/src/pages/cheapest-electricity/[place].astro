@@ -1,0 +1,134 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import type { RegionData, HonestPlan } from "../../lib/types";
+import { pickByPreference, cancelFeeLabel } from "../../lib/recommend";
+import { CITIES } from "../../lib/cities";
+
+interface RegionMeta { slug: string; label: string; cities: string }
+
+export async function getStaticPaths() {
+  const files = import.meta.glob<RegionData>("../../data/*.json", { eager: true });
+  const manifest = (await import("../../data/regions.json")).default as { regions: RegionMeta[] };
+  const metaBySlug = new Map(manifest.regions.map((r) => [r.slug, r]));
+  const dataBySlug = new Map<string, RegionData>();
+  for (const mod of Object.values(files)) {
+    const data = mod as unknown as RegionData;
+    if (data && data.honest_plans && metaBySlug.has(data.slug)) dataBySlug.set(data.slug, data);
+  }
+
+  const paths: any[] = [];
+  // One page per region (…/oncor).
+  for (const [slug, data] of dataBySlug) {
+    paths.push({ params: { place: slug }, props: { data, meta: metaBySlug.get(slug)!, city: null } });
+  }
+  // One page per major city (…/dallas), using its region's data.
+  for (const c of CITIES) {
+    const data = dataBySlug.get(c.region);
+    const meta = metaBySlug.get(c.region);
+    if (data && meta) paths.push({ params: { place: c.slug }, props: { data, meta, city: c.name } });
+  }
+  return paths;
+}
+
+const { data, meta, city } = Astro.props as {
+  data: RegionData; meta: RegionMeta; city: string | null;
+};
+const base = import.meta.env.BASE_URL;
+const updated = new Date(data.generated_at).toLocaleDateString("en-US", {
+  year: "numeric", month: "short", day: "numeric",
+});
+
+const DEFAULT_USAGE = 1000;
+const chosen = pickByPreference(data, DEFAULT_USAGE, "cheapest");
+const pick = chosen?.pick ?? null;
+const p: HonestPlan | null = pick ? pick.plan : null;
+const regionCities = meta.cities.split(",").map((c) => c.trim());
+// "place" is the city name if this is a city page, else the region's primary city.
+const place = city ?? regionCities[0];
+const money = (n: number) => `$${n.toFixed(0)}`;
+const cents = (bill: number, u: number) => ((bill / u) * 100).toFixed(1);
+
+const title = `Cheapest Electricity in ${place}, TX — Honest, No Affiliate`;
+const description = `The honest cheapest electricity plan in ${place}, Texas (${meta.label} area). Free, no affiliate links — we filter out gimmicks and rank by real cost.`;
+
+const faq = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": `What is the cheapest electricity plan in ${place}, TX?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": p && pick
+          ? `Right now the honest cheapest plan in ${place} (${meta.label} area) for a typical 1,000 kWh home is ${p.rep} — ${p.product} at about ${cents(pick.monthlyBill, DEFAULT_USAGE)}¢/kWh (${money(pick.monthlyBill)}/month), after filtering out gimmicks and ranking by true cost.`
+          : `We rank every plan available in ${place} by true cost after removing gimmicks.`,
+      },
+    },
+    {
+      "@type": "Question",
+      "name": `Who delivers electricity in ${place}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `${place} is served by ${meta.label}. You choose your retail provider, but the wires are ${meta.label}'s, so every plan pays the same delivery charges — the difference is the energy rate and the gimmicks.`,
+      },
+    },
+  ],
+};
+---
+
+<Layout title={title} description={description} updated={updated}>
+  <script type="application/ld+json" set:html={JSON.stringify(faq)} slot="head" />
+  <p class="crumb"><a href={base}>← Honest Texas Electricity</a> · {meta.label}</p>
+  <h1 class="autopsy-h1">Cheapest electricity in {place}, TX</h1>
+  <p class="autopsy-verdict-lead">
+    {place} is in {meta.label} territory, so you can choose your retail electricity provider.
+    Here's the honest cheapest plan for a typical home right now — no affiliate links, no provider
+    pays us. Of {data.counts.total} plans in the area, we kept {data.counts.honest} honest ones and
+    <a href={`${base}rejected/${meta.slug}`}> threw out {data.counts.rejected} gimmicks</a>.
+  </p>
+
+  {p && pick ? (
+    <div class="plan-card">
+      <div class="plan-card__top">
+        <div class="plan-card__name">
+          <span>{p.rep} — {p.product}</span>
+          {p.efl_verified
+            ? <span class="badge badge--verified">EFL-verified</span>
+            : <span class="badge badge--estimate">feed estimate — verify EFL</span>}
+        </div>
+        <div class="plan-card__rate">{cents(pick.monthlyBill, DEFAULT_USAGE)}&cent;<small>/ kWh</small></div>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>{money(pick.monthlyBill)}</b><span>est. bill @ 1,000 kWh</span></div>
+        <div class="fact"><b>{p.rate_type} · {p.term_months ?? "—"} mo</b><span>rate &amp; term</span></div>
+        <div class="fact"><b>{cancelFeeLabel(p)}</b><span>cancel fee</span></div>
+        <div class="fact"><b>{p.renewable != null ? `${p.renewable}%` : "—"}</b><span>renewable</span></div>
+      </div>
+      <p class="why"><strong>Why this won:</strong> lowest true cost at a typical 1,000 kWh in {place},
+        with no bill credit, no minimum-usage fee, and a flat rate.{p.efl_url ? (<> <a href={p.efl_url} rel="nofollow noopener" target="_blank">See the official EFL →</a></>) : null}</p>
+    </div>
+  ) : (
+    <div class="empty">No honest plan is available for {place} right now.</div>
+  )}
+
+  <p class="see-all" style="margin-top:24px">
+    <a href={base}>Get the answer for your exact usage →</a>
+    &nbsp;·&nbsp;
+    <a href={`${base}plans/${meta.slug}`}>See all {data.counts.honest} honest {meta.label} plans →</a>
+    &nbsp;·&nbsp;
+    <a href={`${base}overpaying`}>Am I overpaying? →</a>
+  </p>
+
+  <section style="margin-top:32px">
+    <h2 class="curve-note" style="font-size:20px;color:var(--ink);font-family:var(--font-serif)">How we pick the honest cheapest plan in {place}</h2>
+    <p class="autopsy-verdict-lead">
+      Texas has a deregulated electricity market, so in {meta.label} territory ({meta.cities}) you
+      choose your retail provider — but PowerToChoose lists hundreds of plans, many with gimmicks.
+      We filter out variable-rate, prepaid, and time-of-use plans, plans with bill credits or hidden
+      monthly base charges, and setup or credit-card fees we read from the Electricity Facts Label.
+      Then we rank what's left by your real cost. We take no referral money, so the plan above is the
+      genuinely cheapest honest one in {place} — not the one that pays us most.
+    </p>
+  </section>
+</Layout>
