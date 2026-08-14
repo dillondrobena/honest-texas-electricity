@@ -15,6 +15,25 @@ export const prerender = false;
 const json = (data: unknown, status = 200) =>
   new Response(JSON.stringify(data), { status, headers: { "content-type": "application/json" } });
 
+// GET is a config check you can open in a browser. It never exposes any value —
+// only whether each piece is present — so you can see what still needs setting.
+export const GET: APIRoute = async ({ locals }) => {
+  const env = (locals as any)?.runtime?.env ?? {};
+  const has_CONTACT_TO = Boolean(env.CONTACT_TO);
+  const has_SEB = Boolean(env.SEB);
+  return json({
+    endpoint: "ok",
+    has_CONTACT_TO,
+    has_send_email_binding: has_SEB,
+    configured: has_CONTACT_TO && has_SEB,
+    hint: has_CONTACT_TO && has_SEB
+      ? "Ready — submit the form at /contact to test delivery."
+      : "Set what's false below in the Cloudflare dashboard, then redeploy. " +
+        "CONTACT_TO = your verified destination email (Worker → Settings → Variables). " +
+        "send_email binding named SEB (Worker → Settings → Bindings, if the wrangler.jsonc one didn't attach).",
+  });
+};
+
 export const POST: APIRoute = async ({ request, locals }) => {
   const env = (locals as any)?.runtime?.env ?? {};
   let form: FormData;
@@ -41,7 +60,8 @@ export const POST: APIRoute = async ({ request, locals }) => {
 
   if (!to || !seb) {
     // Not wired up yet — the form page shows the mailto fallback instead.
-    return json({ ok: false, error: "not_configured" }, 503);
+    const missing = [!to && "CONTACT_TO", !seb && "SEB (send_email binding)"].filter(Boolean);
+    return json({ ok: false, error: "not_configured", missing }, 503);
   }
 
   try {
